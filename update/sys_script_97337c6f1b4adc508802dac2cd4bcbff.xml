@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_os</collection>
+        <condition/>
+        <description>Sumara 15 dias a la fecha de cambio de estado y se almacenara en la variable de notificacion</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Suma 15 dias fecha OS</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    //se crea una variable GlideDateTime por cada fecha 
+    //se  suman 15 días a la variable y se setea en el campo fecha notificacion que esta oculto
+	//el add days es 16 debido a que servicenow hace el calculo desde el día que se ingresa
+	//por lo tanto en vez de sumar 15 días, suma 14 días
+	
+	
+  
+            if (current.u_slx_fecha_recibida_preparacion.changes()) {
+			
+                var fecha1 = new GlideDateTime(current.u_slx_fecha_recibida_preparacion);
+                fecha1.addDaysUTC(16);
+                current.u_slx_fecha_notif = fecha1;
+                current.u_slx_notif = false;
+			
+				
+            } else
+            if (current.u_slx_fecha_alcance_revision_codelco.changes()) {
+                var fecha2 = new GlideDateTime(current.u_slx_fecha_alcance_revision_codelco);
+                fecha2.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha2;
+                current.u_slx_notif = false;
+               
+			
+            } else
+            if (current.u_slx_fecha_recibidos_comentarios_alcance.changes()) {
+
+                var fecha3 = new GlideDateTime(current.u_slx_fecha_recibidos_comentarios_alcance);
+
+                fecha3.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha3;
+                current.u_slx_notif = false;
+                
+				
+            } else
+            if (current.u_slx_fecha_alcance_aprobado.changes()) {
+
+                var fecha4 = new GlideDateTime(current.u_slx_fecha_alcance_aprobado);
+
+                fecha4.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha4;
+                current.u_slx_notif = false;
+				
+				
+
+            } else
+            if (current.u_slx_revision_interna.changes()) {
+
+                var fecha5 = new GlideDateTime(current.u_slx_revision_interna);
+
+                fecha5.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha5;
+                current.u_slx_notif = false;
+               
+				
+            } else
+            if (current.u_slx_fecha_emitida_oficialmente.changes()) {
+
+                var fecha6 = new GlideDateTime(current.u_slx_fecha_emitida_oficialmente);
+
+                fecha6.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha6;
+                current.u_slx_notif = false;
+                
+				
+            } else
+            if (current.u_slx_fecha_preparando_nueva_revision.changes()) {
+
+                var fecha7 = new GlideDateTime(current.u_slx_fecha_preparando_nueva_revision);
+
+                fecha7.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha7;
+                current.u_slx_notif = false;
+				
+				
+            } else
+            if (current.u_slx_fecha_aprobado_planta.changes()) {
+
+                var fecha8 = new GlideDateTime(current.u_slx_fecha_aprobado_planta);
+
+                fecha8.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha8;
+                current.u_slx_notif = false;
+				
+				
+            } else
+            if (current.u_slx_fecha_aprobada_admin_codelco.changes()) {
+
+                var fecha9 = new GlideDateTime(current.u_slx_fecha_aprobada_admin_codelco);
+
+                fecha9.addDaysLocalTime(16);
+                current.u_slx_fecha_notif = fecha9;
+                current.u_slx_notif = false;
+                
+            } else
+            if (current.u_slx_fecha_bookeada.changes()||current.u_slx_estado.changesTo(10)) {
+
+                current.u_slx_notif = true;
+				
+
+            } else
+			if (current.u_slx_fecha_cancelada_codelco.changes()||current.u_slx_estado.changesTo(11)) {
+
+        
+				current.u_slx_notif = true;
+
+    } 
+
+    
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-22 18:01:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97337c6f1b4adc508802dac2cd4bcbff</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>SLX Suma 15 dias fecha OS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_97337c6f1b4adc508802dac2cd4bcbff</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 19:30:12</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=97337c6f1b4adc508802dac2cd4bcbff"/>
+</record_update>

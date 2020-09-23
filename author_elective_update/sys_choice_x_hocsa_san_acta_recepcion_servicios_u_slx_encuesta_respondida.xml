@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_encuesta_respondida" table="x_hocsa_san_acta_recepcion_servicios" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_encuesta_respondida</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fb690d21ba6d8588802dac2cd4bcb26</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:12:50</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_encuesta_respondida</element>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:12:13</sys_created_on>
+            <sys_id>beb61c921ba6d8588802dac2cd4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_encuesta_respondida</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_respondida</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:12:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_respondida</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_encuesta_respondida" table="x_hocsa_san_acta_recepcion_servicios" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_encuesta_respondida</element><hint/><inactive>false</inactive><label>No</label><language>en</language><name>x_hocsa_san_acta_recepcion_servicios</name><sequence>200</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:12:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fb690d21ba6d8588802dac2cd4bcb26</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:12:50</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_encuesta_respondida</element><name>x_hocsa_san_acta_recepcion_servicios</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:12:13</sys_created_on><sys_id>beb61c921ba6d8588802dac2cd4bcb23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_encuesta_respondida</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_respondida</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:12:13</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-119327203</payload_hash>
+        <record_name>x_hocsa_san_acta_recepcion_servicios.u_slx_encuesta_respondida</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:14</sys_created_on>
+        <sys_id>2bb130da1b2ad8588802dac2cd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e3a69f970000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:14</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>efb130da242ad85854b4c743f65daf1a</update_guid>
+        <update_guid_history>efb130da242ad85854b4c743f65daf1a:-119327203,a7b130da352ad85838c941f9b8e5ab18:-1492038034,6fb130da712ad8588d5dc20884cb0115:-1108646890,a7d6dc9298a6d858c99face4d736e08b:588718009,efd6dc9270a6d85848b5aa73c6f1e087:-822780964,3ad6dc5280a6d858db6086ca37ba3ccf:284415809,96d694d295a6d858dae28479fbade5cd:-1629196548,9ed694d2a4a6d8588cc79abd11d93e72:1715976087,81d694d282a6d858a1140670c5af5eb4:1407817884,6cd6d89297a6d85838741f22c08e5e78:354125136,a2c654d26ba6d8581cf468546006b9e2:-748875236,2ec6149254a6d8580792c137afc21354:-1212869356,d1c654d245a6d858c2292241b5a19b3e:1410581836,f8c610d232a6d858963593a7851978b3:189602481,34c610d290a6d858466ac5cfe8d687b0:-1363866675,6fb6d89242a6d858a1c8910366be431b:1860860977,feb61c9205a6d858567e8ac6e6590924:466706704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>beb61c921ba6d8588802dac2cd4bcb23</sys_id>
+        <sys_metadata>beb61c921ba6d8588802dac2cd4bcb23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_encuesta_respondida</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_respondida</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_respondida">2bb130da1b2ad8588802dac2cd4bcb1b</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

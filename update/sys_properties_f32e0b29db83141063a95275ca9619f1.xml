@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Encuesta de soporte campos de formateador de actividad</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_hocsa_san_encuesta_de_soporte_activity.fields</name>
+        <read_roles/>
+        <suffix>x_hocsa_san</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-04 17:09:41</sys_created_on>
+        <sys_id>f32e0b29db83141063a95275ca9619f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>glide.ui.x_hocsa_san_encuesta_de_soporte_activity.fields</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_properties_f32e0b29db83141063a95275ca9619f1</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-09-10 18:29:35</sys_updated_on>
+        <type>string</type>
+        <value>u_slx_notas,u_slx_requiere_ac,u_slx_cliente,u_slx_q3_s,u_slx_q4_s,u_slx_q5_s,u_slx_q6_s,u_slx_q7_s,u_slx_q8_s,u_slx_q9_s,u_slx_numero_ac</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f32e0b29db83141063a95275ca9619f1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.ui.x_hocsa_san_encuesta_de_soporte_activity.fields" tablename="sys_properties">f32e0b29db83141063a95275ca9619f1</documentkey>
+        <fieldname>description</fieldname>
+        <language>es</language>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-09-10 18:27:33</sys_created_on>
+        <sys_id>f6899e271b871494d8d6b887cc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-09-10 18:27:33</sys_updated_on>
+        <tablename>sys_properties</tablename>
+        <value>Encuesta de soporte campos de formateador de actividad</value>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_monto_entregable</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX monto total entregable</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+     //creo un glide ajax que apunte al script include llamado SLX promedio
+    var ga = new GlideAjax("SLX_monto_entregable");
+   
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_monto_entregable");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_hco", g_form.getValue('u_slx_hco'));
+    ga.getXML(callback);
+
+}
+
+
+
+function callback(response) {
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	//alert(answer);
+	var monto=Math.round(answer);
+	var montoTotal= g_form.getValue('u_slx_hco.u_slx_monto_total_venta');
+	
+	g_form.addInfoMessage('total hco: '+ montoTotal);
+	g_form.addInfoMessage('total entregable: '+ monto);
+	
+	
+// 	if(monto>montoTotal){
+// 	g_form.addInfoMessage('supera');
+// 	g_form.setValue('u_slx_monto_entregable',0);
+// 	}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 15:25:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c972c2931b1e1c188802dac2cd4bcb77</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SLX monto total entregable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_c972c2931b1e1c188802dac2cd4bcb77</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:46:24</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_c972c2931b1e1c188802dac2cd4bcb77</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_monto_entregable&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX monto total entregable&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange() {
+     //creo un glide ajax que apunte al script include llamado SLX promedio
+    var ga = new GlideAjax("SLX_monto_entregable");
+   
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_monto_entregable");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_hco", g_form.getValue('u_slx_hco'));
+    ga.getXML(callback);
+
+}
+
+
+
+function callback(response) {
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	//alert(answer);
+	var monto=Math.round(answer);
+	var montoTotal= g_form.getValue('u_slx_hco.u_slx_monto_total_venta');
+	
+	g_form.addInfoMessage('total hco: '+ montoTotal);
+	g_form.addInfoMessage('total entregable: '+ monto);
+	
+	
+// 	if(monto&gt;montoTotal){
+// 	g_form.addInfoMessage('supera');
+// 	g_form.setValue('u_slx_monto_entregable',0);
+// 	}
+	
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-03 15:25:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c972c2931b1e1c188802dac2cd4bcb77&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX monto total entregable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c972c2931b1e1c188802dac2cd4bcb77&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-03 17:46:24&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_entregable&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2086786443</payload_hash>
+        <record_name>SLX monto total entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 17:46:24</sys_created_on>
+        <sys_id>2db3aedf1b9e1c188802dac2cd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173b56e7e940000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:46:24</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d1b3aedfe99e1c1811f6112d858882cb</update_guid>
+        <update_guid_history>d1b3aedfe99e1c1811f6112d858882cb:-2086786443,f06362df3e9e1c188d41e01131e0c927:789409250,d2d1e25fe89e1c18c1e4299b480c8946:-2086786443,58045a9b4e5e1c18e1d6cefad5958201:789409250,afc3925be35e1c1808cf4d22be83d398:-1095900446,a6035ad7f85e1c184c949aeb7c132ddd:-1808037338,fe62d21b355e1c18ad00c9d46f8cb503:1221969365,d4215a571e5e1c1855a7987c3aa770a3:1125456364,950f0a936b5e1c18c7dbfbdbc2e40a4a:1690596217,a65e0693425e1c18d0c5769882241fd2:1125456364,ec2ece53825e1c18240ada226eea8e92:-958939565,405dce13ee5e1c189fdafe7408e697ea:1008515539,094cce9f6f1e1c189c0154ee0e78713c:-1161205255,0ebbc29f571e1c18c047bd876e05f024:-347365969,e24bce5f7d1e1c18b4498b932b0e82e1:295489807,e218ce5bbc1e1c18eb661928c911ba28:-643451439,af730a93a71e1c180a7cb57108d2684c:-726192883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-04 21:50:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>61964e9fc0bf4206baac2a33d04e1084</sys_id>
+        <sys_metadata>c972c2931b1e1c188802dac2cd4bcb77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX monto total entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_c972c2931b1e1c188802dac2cd4bcb77</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c972c2931b1e1c188802dac2cd4bcb77">2db3aedf1b9e1c188802dac2cd4bcbcb</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:50:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

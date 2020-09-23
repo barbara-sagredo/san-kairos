@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_os</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_os">u_slx_estadoCHANGESTO11^EQ<item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="11"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX OS cancelada monto HCO</name>
+        <order>120</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	current.u_slx_cartera.u_slx_suma_hco_os=1919191;
+	current.update();
+ 			
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 21:51:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92e1504c1b1790d4d8d6b887cc4bcb02</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>SLX OS cancelada monto HCO</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_92e1504c1b1790d4d8d6b887cc4bcb02</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:34:31</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=92e1504c1b1790d4d8d6b887cc4bcb02"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_92e1504c1b1790d4d8d6b887cc4bcb02</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_os&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_os"&gt;u_slx_estadoCHANGESTO11^EQ&lt;item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="11"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX OS cancelada monto HCO&lt;/name&gt;&lt;order&gt;120&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	current.u_slx_cartera.u_slx_suma_hco_os=1919191;
+	current.update();
+ 			
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-11 21:51:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;92e1504c1b1790d4d8d6b887cc4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX OS cancelada monto HCO&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_92e1504c1b1790d4d8d6b887cc4bcb02&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-11 22:34:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=92e1504c1b1790d4d8d6b887cc4bcb02"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-357959706</payload_hash>
+        <record_name>SLX OS cancelada monto HCO</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 22:34:31</sys_created_on>
+        <sys_id>d6abd40c1bdb90d4d8d6b887cc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747f4e4c1e0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:34:31</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>1eabd40c53db90d4f231fe83a13e1334</update_guid>
+        <update_guid_history>1eabd40c53db90d4f231fe83a13e1334:-357959706,ce5bd848dfdb90d498a3cc0d26a05bdc:-141912303,bc0b1c8c939b90d4aa602381b83a6810:-1349375712,fdeadc8068db90d413c0693602952be4:-1547054148,c19a9c805bdb90d42ac81175dd77ce8e:1976981691,d02a5808f99b90d4480654bb1c2db7a1:799887151,d7191000d69b90d4c913f9075377b0b9:-146740766,d5e850c0e79b90d495a8f7ddd57cf82e:-374503761,65c8dc4c3a5b90d49681194202ba8f7e:186793513,8598dc4c2e5b90d4bac5518de61f6162:1153326435,26789c4cf15b90d48f73e4642cd17791:141619238,6d589c4c4d5b90d4708e2da0c0a06ad6:1454290144,772850c82c5b90d4be6b582be144af2e:1657371412,d318d000b25b90d4151cf5f8da04fc75:-1191197514,7808d4c4a85b90d4f936ac98b5318d44:475820851,bd3718c0265b90d43149fed9cea61795:1185924128,2bf61c48961b90d47a22563af3631575:-918354113,09b610041c9790d4f5e0b3de3d29ffe9:-900804027,93c25888c59790d41fe8eaa95e304257:-1776172855,16e1504c2a1790d438d16d66b1d2a805:-1332066760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 22:34:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0f5f8fa261ac402b8343b50fd7e08959</sys_id>
+        <sys_metadata>92e1504c1b1790d4d8d6b887cc4bcb02</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX OS cancelada monto HCO</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha OS">cb2a6679db2dd8103f3bbe4f299619c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_92e1504c1b1790d4d8d6b887cc4bcb02</sys_update_name>
+        <sys_update_version display_value="sys_script_92e1504c1b1790d4d8d6b887cc4bcb02">d6abd40c1bdb90d4d8d6b887cc4bcb35</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 22:34:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

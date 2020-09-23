@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_iniciativa.u_slx_cartera</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 14:36:10</sys_created_on>
+        <sys_id>aeb11d821b5254188802dac2cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_iniciativa.u_slx_cartera</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_aeb11d821b5254188802dac2cd4bcba5</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 14:36:10</sys_updated_on>
+        <table>x_hocsa_san_ficha_os</table>
+        <ui_policy display_value="SLX Numero cartera oculto">cf8119421b5254188802dac2cd4bcb82</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_aeb11d821b5254188802dac2cd4bcba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_slx_iniciativa.u_slx_cartera</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-30 14:36:10</sys_created_on><sys_id>aeb11d821b5254188802dac2cd4bcba5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_iniciativa.u_slx_cartera</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_aeb11d821b5254188802dac2cd4bcba5</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-30 14:36:10</sys_updated_on><table>x_hocsa_san_ficha_os</table><ui_policy display_value="SLX Numero cartera oculto">cf8119421b5254188802dac2cd4bcb82</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1037071501</payload_hash>
+        <record_name>u_slx_iniciativa.u_slx_cartera</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 14:36:10</sys_created_on>
+        <sys_id>08d115ca1b1254188802dac2cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a026e7150000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 14:36:10</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>00d115ca0c1254180ff0943b12193693</update_guid>
+        <update_guid_history>00d115ca0c1254180ff0943b12193693:1037071501</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 17:38:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4b9070c9e36b4f5298cc7cc15ed8bc59</sys_id>
+        <sys_metadata>aeb11d821b5254188802dac2cd4bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_iniciativa.u_slx_cartera</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_aeb11d821b5254188802dac2cd4bcba5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_aeb11d821b5254188802dac2cd4bcba5">08d115ca1b1254188802dac2cd4bcb93</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 17:38:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

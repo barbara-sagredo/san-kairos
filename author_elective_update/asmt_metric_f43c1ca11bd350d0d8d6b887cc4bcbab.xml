@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="DELETE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>true</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Encuesta Anual">3c3c9c611b5350d0d8d6b887cc4bcb7b</category>
+        <cond_question/>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <datatype>numericscale</datatype>
+        <default_value_field>active</default_value_field>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox>1</displayed_when_checkbox>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <mandatory>false</mandatory>
+        <max>10</max>
+        <max_weight/>
+        <method>assessment</method>
+        <metric_type display_value="Encuesta Anual">ea021ca51b5f10d0d8d6b887cc4bcb1c</metric_type>
+        <min>0</min>
+        <name>Q1: Calidad de respuesta</name>
+        <order>100</order>
+        <plugin/>
+        <question>Q1:¿Qué tan satisfecho está usted con la Calidad Técnica de las respuestas ante las necesidades de su empresa?</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table/>
+        <scale>high</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>wide</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 14:27:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f43c1ca11bd350d0d8d6b887cc4bcbab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Q1: Calidad de respuesta</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_f43c1ca11bd350d0d8d6b887cc4bcbab</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 01:13:24</sys_updated_on>
+        <template/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="DELETE" query="documentkey=f43c1ca11bd350d0d8d6b887cc4bcbab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_metric_f43c1ca11bd350d0d8d6b887cc4bcbab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="asmt_metric"&gt;&lt;asmt_metric action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_info_label&gt;Additional Information&lt;/add_info_label&gt;&lt;allow_add_info&gt;false&lt;/allow_add_info&gt;&lt;allow_not_applicable&gt;true&lt;/allow_not_applicable&gt;&lt;auto_gen&gt;false&lt;/auto_gen&gt;&lt;category display_value="Encuesta Anual"&gt;3c3c9c611b5350d0d8d6b887cc4bcb7b&lt;/category&gt;&lt;cond_question/&gt;&lt;correct_answer/&gt;&lt;correct_answer_checkbox/&gt;&lt;correct_answer_choice/&gt;&lt;correct_answer_template/&gt;&lt;correct_answer_yesno/&gt;&lt;datatype&gt;numericscale&lt;/datatype&gt;&lt;default_value_field&gt;active&lt;/default_value_field&gt;&lt;depends_on/&gt;&lt;description/&gt;&lt;details/&gt;&lt;displayed_when/&gt;&lt;displayed_when_checkbox&gt;1&lt;/displayed_when_checkbox&gt;&lt;displayed_when_template/&gt;&lt;displayed_when_yesno/&gt;&lt;duration/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max&gt;10&lt;/max&gt;&lt;max_weight/&gt;&lt;method&gt;assessment&lt;/method&gt;&lt;metric_type display_value="Encuesta Anual"&gt;ea021ca51b5f10d0d8d6b887cc4bcb1c&lt;/metric_type&gt;&lt;min&gt;0&lt;/min&gt;&lt;name&gt;Q1: Calidad de respuesta&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;plugin/&gt;&lt;question&gt;Q1:¿Qué tan satisfecho está usted con la Calidad Técnica de las respuestas ante las necesidades de su empresa?&lt;/question&gt;&lt;randomize_answers&gt;false&lt;/randomize_answers&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;reference_table/&gt;&lt;scale&gt;high&lt;/scale&gt;&lt;scored&gt;false&lt;/scored&gt;&lt;script&gt;&lt;![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &amp;gt; 100) scaled_result = 5; // else scaled_result = 1;]]&gt;&lt;/script&gt;&lt;source_field/&gt;&lt;string_option&gt;wide&lt;/string_option&gt;&lt;sys_class_name&gt;asmt_metric&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-16 14:27:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f43c1ca11bd350d0d8d6b887cc4bcbab&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q1: Calidad de respuesta&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;asmt_metric_f43c1ca11bd350d0d8d6b887cc4bcbab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-17 01:13:24&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;weight&gt;10&lt;/weight&gt;&lt;/asmt_metric&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f43c1ca11bd350d0d8d6b887cc4bcbab"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>823281074</payload_hash>
+        <record_name>Q1: Calidad de respuesta</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 01:13:24</sys_created_on>
+        <sys_id>d2ffe6ed1b5f54d0d8d6b887cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174999f8b8e0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 01:13:24</sys_updated_on>
+        <type>Assessment Metric</type>
+        <update_guid>9affe6ed955f54d0c8b4f757763591c8</update_guid>
+        <update_guid_history>9affe6ed955f54d0c8b4f757763591c8:823281074,b66c582527d350d0589ddca5784c69df:-2117243602,6b3c54e175d350d017791ad10fa41313:-1083737003,493c5ca1bad350d0e054416370c1c2dc:1301209892,8d3c5ca194d350d07cc4be2a6c39a8d7:1115526468,c13c5ca1dfd350d0b150deb33b12d7d3:327832899,413c5ca112d350d07e2433c1562f1ec2:-459860670,853c5ca192d350d0a4a2f83593204cbd:-1247554239,c93c5ca11dd350d07a01338f0a25e6b8:-2035247808,c93c5ca152d350d00c0aa3fd8baf238e:1472025919,013c5ca192d350d0887269d33296d68a:684332350,813c5ca1d0d350d0fb83d7f311cd9d47:-103361219,c53c5ca186d350d0644cca2f0fd4a242:-891054788,493c5ca106d350d02cbd99d725ec8a3d:-1678748357,f03c1ca152d350d042dad2733fb96eb1:1301209892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Q1: Calidad de respuesta">0b2f66711b5b9cd0d8d6b887cc4bcb76</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 19:48:23</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric">asmt_metric</sys_db_object>
+        <sys_id>372144feb7984c33aea867d6d90dbbc1</sys_id>
+        <sys_metadata>f43c1ca11bd350d0d8d6b887cc4bcbab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Q1: Calidad de respuesta</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_metric_f43c1ca11bd350d0d8d6b887cc4bcbab</sys_update_name>
+        <sys_update_version display_value="asmt_metric_f43c1ca11bd350d0d8d6b887cc4bcbab">d2ffe6ed1b5f54d0d8d6b887cc4bcbc9</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 19:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_slx_ent" table="x_hocsa_san_nen_ent_m2m">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Entregable</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_slx_ent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_hocsa_san_nen_ent_m2m</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_hocsa_san_entregable">x_hocsa_san_entregable</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>javascript:'u_slx_hco='+current.u_slx_nen.u_slx_hco&#13;
+</reference_qual>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-24 20:41:19</sys_created_on>
+        <sys_id>e54c0f861bb29010d8d6b887cc4bcb28</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_dictionary_x_hocsa_san_nen_ent_m2m_u_slx_ent</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-25 13:42:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_dictionary_x_hocsa_san_nen_ent_m2m_u_slx_ent</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_slx_ent" table="x_hocsa_san_nen_ent_m2m"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Entregable&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_slx_ent&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_hocsa_san_nen_ent_m2m&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_hocsa_san_entregable"&gt;x_hocsa_san_entregable&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;javascript:'u_slx_hco='+current.u_slx_nen.u_slx_hco&amp;#13;
+&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-24 20:41:19&lt;/sys_created_on&gt;&lt;sys_id&gt;e54c0f861bb29010d8d6b887cc4bcb28&lt;/sys_id&gt;&lt;sys_mod_count&gt;43&lt;/sys_mod_count&gt;&lt;sys_name&gt;Entregable&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_hocsa_san_nen_ent_m2m_u_slx_ent&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-25 13:42:06&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1887278178</payload_hash>
+        <record_name>Versión de Entregables NEN.Entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-25 13:42:06</sys_created_on>
+        <sys_id>29cebe9e1bb6d010d8d6b887cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17425dabe4f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-25 13:42:06</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>edcebe9ed1b6d0108eb636956b372fa2</update_guid>
+        <update_guid_history>edcebe9ed1b6d0108eb636956b372fa2:1887278178,ffae3e9e27b6d010d26a55b58555001d:1480151255,5d4eb29e1cb6d010a18adb817bee9b8e:518502786,790efa5eb4b6d0103416b8426538eaf4:-1181644137,3f03378eb7b69010fb0360cf5f25ae84:-2107321417,ebb27f4e70b69010eb558a7656e0df6c:-1623000968,2c32734e34b69010ea6d645d34fcc117:1421269505,8522bf0e8ab69010401ca5b7d5eb61e4:446419309,5871bfca71b6901069af832b96ff84e1:-333083289,5641fbca8bb690106bd0a106697bcc12:351732971,c121ff8a72b69010a7f5d6d78a386bbc:-344461643,13e0bb0a05b690109bda0baaf65f8f6d:-1270929585,16d0bb8a85b690109b833440071561c6:1375561501,2790bf0ab9b690106422676690c38072:-1955593895,144f670af4b69010daf3d65573f32dcf:-461907629,a83feb0ab1b6901080467b339574cbac:-1800666314,a02f630abdb69010d161b1190b870ba3:-88967838,ec5ee3c6bbb69010646969c2d95865d2:-2118994392,352ea3865bb6901097fcf14abc8e6489:-461907629,c28aa3828ab6901082006f0726d63dcf:1823545895,3a6aef42a7b69010184ee347dfdcd590:1703690503,87a9ef0281b69010ea5a163471c5e0dd:1968736244,4669abce84769010e7826e7a35bc1223:-66632955,dc17eb0e5d76901010eb3352337f6df0:-1244741951,51f66b0e6d7690100d17cdf6152ece51:128732184,61b6a30e24769010500a849ffb514cce:1044745852,2474a34a0b7690102470e5e01085dba3:-1526516733,5454634a3a769010b78bed69cef1b283:1180815835,54e8970a10369010776707c73053ed76:351732971,10985b0adb36901071784dcdaa1139f9:2080262579,e3189fc6c0369010177449a8bb1132c4:-1812268142,5ff71bc657369010607daac8882e5993:351732971,68e7d3c6f6369010fb8c13515a14dad8:-1041085957,fec793c60a369010a596f3f2ef5994ae:21258838,5eb75f46be369010d7352f8056f466ce:-419623413,85b65f4606369010e275f6919f388101:1118324798,9576d7463036901040e409da0e86f137:1944439533,de56d34664369010eca376e72f03a6b8:351732971,7a365306ea3690105a0905199edacba9:427391653,13f59fc226369010c2a253d736b130cc:351732971,d0e59fc22636901010e5553714fe4df0:-1501319835,58a55306e0369010a74325af11794701:2039430549,f86593c255369010bbf326b01e7961d9:-1159607306,ac2593c226369010e13b4e96545e7dc4:-2068479174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-25 13:42:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0d5b372bddee4f02814c5c9e60a5e764</sys_id>
+        <sys_metadata>e54c0f861bb29010d8d6b887cc4bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Versión de Entregables NEN">ac485d1e1bead8588802dac2cd4bcba1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_hocsa_san_nen_ent_m2m_u_slx_ent</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_hocsa_san_nen_ent_m2m_u_slx_ent">29cebe9e1bb6d010d8d6b887cc4bcba3</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-25 13:42:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

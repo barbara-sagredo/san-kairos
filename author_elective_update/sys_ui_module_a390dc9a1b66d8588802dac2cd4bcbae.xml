@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Emisión de Entregables">f0c48fc2db655c103f3bbe4f2996198c</application>
+        <filter/>
+        <name>Acta Recepción Servicios</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_hocsa_san.acta_recepci_n_servicios_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 14:45:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a390dc9a1b66d8588802dac2cd4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Acta Recepción Servicios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_module_a390dc9a1b66d8588802dac2cd4bcbae</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 14:45:31</sys_updated_on>
+        <table>x_hocsa_san_acta_recepcion_servicios</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_module_a390dc9a1b66d8588802dac2cd4bcbae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Emisión de Entregables">f0c48fc2db655c103f3bbe4f2996198c</application><filter/><name>Acta Recepción Servicios</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_hocsa_san.acta_recepci_n_servicios_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 14:45:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a390dc9a1b66d8588802dac2cd4bcbae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Acta Recepción Servicios</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_module_a390dc9a1b66d8588802dac2cd4bcbae</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 14:45:31</sys_updated_on><table>x_hocsa_san_acta_recepcion_servicios</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>616755745</payload_hash>
+        <record_name>Acta Recepción Servicios</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 14:45:31</sys_created_on>
+        <sys_id>6b90dc9a1b66d8588802dac2cd4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e322223d0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 14:45:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6390dc9a9766d8581b7c813497885fb0</update_guid>
+        <update_guid_history>6390dc9a9766d8581b7c813497885fb0:616755745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>43aa5d7ed88a4d2cb489460697057310</sys_id>
+        <sys_metadata>a390dc9a1b66d8588802dac2cd4bcbae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Acta Recepción Servicios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a390dc9a1b66d8588802dac2cd4bcbae</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a390dc9a1b66d8588802dac2cd4bcbae">6b90dc9a1b66d8588802dac2cd4bcbb0</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

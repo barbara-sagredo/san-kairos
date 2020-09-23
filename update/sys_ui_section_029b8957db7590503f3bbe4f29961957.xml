@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Acción Correctiva" section_id="029b8957db7590503f3bbe4f29961957" sys_domain="global" table="x_hocsa_san_encuesta_de_proyecto" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_requiere_ac</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>26142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_ac</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>a6142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_responsable_ac</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>2a142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>aa142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_compromiso_ac</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>2e142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_cierre_ac</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>ae142af51b179cd0d8d6b887cc4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>22142af51b179cd0d8d6b887cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_planes_accion</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>a2142af51b179cd0d8d6b887cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_observaciones_ac</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 19:00:01</sys_created_on>
+            <sys_id>26142af51b179cd0d8d6b887cc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Acción Correctiva</caption>
+            <header>false</header>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>029b8957db7590503f3bbe4f29961957</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Acción Correctiva</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_029b8957db7590503f3bbe4f29961957</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 16:08:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

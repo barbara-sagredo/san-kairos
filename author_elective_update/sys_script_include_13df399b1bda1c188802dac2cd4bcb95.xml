@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_hocsa_san.SLX_monto_entregable</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLX_monto_entregable</name>
+        <script><![CDATA[var SLX_monto_entregable = Class.create();
+SLX_monto_entregable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+SLX_monto_entregable: function() {
+		
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var montoTotal=0;
+
+	var gr= new GlideRecord('x_hocsa_san_entregable'); 
+	
+	gr.query();
+	
+	while (gr.next()) {
+
+    suma += parseInt(gr.u_slx_monto_entregable);
+
+}
+
+	return suma;
+	
+		
+
+    },
+	
+	
+    type: 'SLX_monto_entregable'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 15:20:47</sys_created_on>
+        <sys_id>13df399b1bda1c188802dac2cd4bcb95</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>SLX_monto_entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_13df399b1bda1c188802dac2cd4bcb95</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 16:49:40</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_include_13df399b1bda1c188802dac2cd4bcb95</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_hocsa_san.SLX_monto_entregable&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SLX_monto_entregable&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SLX_monto_entregable = Class.create();
+SLX_monto_entregable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+SLX_monto_entregable: function() {
+		
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var montoTotal=0;
+
+	var gr= new GlideRecord('x_hocsa_san_entregable'); 
+	
+	gr.query();
+	
+	while (gr.next()) {
+
+    suma += parseInt(gr.u_slx_monto_entregable);
+
+}
+
+	return suma;
+	
+		
+
+    },
+	
+	
+    type: 'SLX_monto_entregable'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-03 15:20:47&lt;/sys_created_on&gt;&lt;sys_id&gt;13df399b1bda1c188802dac2cd4bcb95&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_monto_entregable&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_13df399b1bda1c188802dac2cd4bcb95&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-03 16:49:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-481218147</payload_hash>
+        <record_name>SLX_monto_entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 16:49:40</sys_created_on>
+        <sys_id>56b6d69f1b5e1c188802dac2cd4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173b53a8dfe0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 16:49:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1eb6d69f3f5e1c18effb68c133d6c565</update_guid>
+        <update_guid_history>1eb6d69f3f5e1c18effb68c133d6c565:-481218147,51665a1bc75e1c185f82582fd72783a9:-1760459892,260516db535e1c189549d53ae840df7d:-1434070141,80055a9bd85e1c18e7ed19a94e0d2609:-1075295676,43a21ed7c75e1c1819681fab7379a1ee:-657801649,2712d697a55e1c18e54d885cb4ab05fa:1356174821,ac319697985e1c18a64e8860c89fdf80:-1355146896,140f0a93525e1c18341b1d31bc7cac46:1536221439,5c0e8213615e1c182e017c2bbf5986a1:241670907,93bc4213dd5e1c18a75bae1dd9f3501d:716535943,517ccadf3a1e1c18389a54c23ca6d03b:1267241353,5b0c82df001e1c1886afedf49a8ab46e:1439729114,14fbca1f2c1e1c18e17b7ee5122cace3:433004030,514bce5ffc1e1c18776031cae39b26dd:37505271,024a061fa51e1c18c16d4c3f4e4596d9:-61041687,920a061fe91e1c18d890f585b1f2c1d0:-1657757623,7dc6ced79e1e1c186aae9bd966d0a84b:-1758828561,a1964e97001e1c181390dd20bd2d6fae:-1850233453,63668ad7951e1c18ef02cdc65051ed6d:-1345286527,05560ad7331e1c18648d18c1551cd83d:-720358980,ea544e171b1e1c18d107d29b9dff37c8:1855791072,49d34293c61e1c186a14ee5190ac36e3:-1904495131,a0620293241e1c1839211363ffc91c95:-728739212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-04 21:50:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>12cd3482a386461081f09b8b8b16b7b1</sys_id>
+        <sys_metadata>13df399b1bda1c188802dac2cd4bcb95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_monto_entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_include_13df399b1bda1c188802dac2cd4bcb95</sys_update_name>
+        <sys_update_version display_value="sys_script_include_13df399b1bda1c188802dac2cd4bcb95">56b6d69f1b5e1c188802dac2cd4bcb66</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:50:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

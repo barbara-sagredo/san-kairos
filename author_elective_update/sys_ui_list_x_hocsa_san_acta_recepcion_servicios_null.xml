@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_hocsa_san_acta_recepcion_servicios" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_acr</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>b3279cd21ba6d8588802dac2cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_encuesta_firmada</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>3b279cd21ba6d8588802dac2cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_encuesta_respondida</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>bb279cd21ba6d8588802dac2cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_estado_acta</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>3f279cd21ba6d8588802dac2cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_estado_encuesta</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>bf279cd21ba6d8588802dac2cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha_aceptacion_servicios</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>33279cd21ba6d8588802dac2cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha_cambio_estado_encuesta</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>b3279cd21ba6d8588802dac2cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha_devolucion_encuesta_cd_jp</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>37279cd21ba6d8588802dac2cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha_emision_acta</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>b7279cd21ba6d8588802dac2cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha_entrega_admin_contrato_kairos</element>
+            <list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_id>3b279cd21ba6d8588802dac2cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f279cd21ba6d8588802dac2cd4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_san_acta_recepcion_servicios</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_list_x_hocsa_san_acta_recepcion_servicios_null</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_list_x_hocsa_san_acta_recepcion_servicios_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_hocsa_san_acta_recepcion_servicios" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_acr</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>b3279cd21ba6d8588802dac2cd4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_encuesta_firmada</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>3b279cd21ba6d8588802dac2cd4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_encuesta_respondida</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>bb279cd21ba6d8588802dac2cd4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_estado_acta</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>3f279cd21ba6d8588802dac2cd4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_estado_encuesta</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>bf279cd21ba6d8588802dac2cd4bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_fecha_aceptacion_servicios</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>33279cd21ba6d8588802dac2cd4bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_fecha_cambio_estado_encuesta</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>b3279cd21ba6d8588802dac2cd4bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_fecha_devolucion_encuesta_cd_jp</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>37279cd21ba6d8588802dac2cd4bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_fecha_emision_acta</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>b7279cd21ba6d8588802dac2cd4bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_slx_fecha_entrega_admin_contrato_kairos</element><list_id display_value="x_hocsa_san_acta_recepcion_servicios" element="NULL" name="x_hocsa_san_acta_recepcion_servicios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3f279cd21ba6d8588802dac2cd4bcbe9</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_id>3b279cd21ba6d8588802dac2cd4bcbec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_hocsa_san_acta_recepcion_servicios</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:14:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f279cd21ba6d8588802dac2cd4bcbe9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_hocsa_san_acta_recepcion_servicios</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_list_x_hocsa_san_acta_recepcion_servicios_null</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:14:12</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>170238698</payload_hash>
+        <record_name>Acta Recepción Servicios</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 15:14:12</sys_created_on>
+        <sys_id>bb279cd21ba6d8588802dac2cd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e33c63af0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 15:14:12</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>7b279cd227a6d858d95996cf19581fee</update_guid>
+        <update_guid_history>7b279cd227a6d858d95996cf19581fee:170238698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>1e68239ee5ea4e529b72ec2354251cd1</sys_id>
+        <sys_metadata>3f279cd21ba6d8588802dac2cd4bcbe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san_acta_recepcion_servicios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="">8c701c9a1b66d8588802dac2cd4bcb69</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_hocsa_san_acta_recepcion_servicios_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_hocsa_san_acta_recepcion_servicios_null">bb279cd21ba6d8588802dac2cd4bcbee</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

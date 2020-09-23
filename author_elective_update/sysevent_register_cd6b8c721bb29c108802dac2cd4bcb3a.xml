@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description/>
+        <event_name>x_hocsa_san.fecha.estado.os</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>fecha.estado.os</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-26 13:55:48</sys_created_on>
+        <sys_id>cd6b8c721bb29c108802dac2cd4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.fecha.estado.os</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_register_cd6b8c721bb29c108802dac2cd4bcb3a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-26 13:55:48</sys_updated_on>
+        <table/>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sysevent_register_cd6b8c721bb29c108802dac2cd4bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>x_hocsa_san.fecha.estado.os</event_name><fired_by/><queue/><suffix>fecha.estado.os</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-26 13:55:48</sys_created_on><sys_id>cd6b8c721bb29c108802dac2cd4bcb3a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_hocsa_san.fecha.estado.os</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sysevent_register_cd6b8c721bb29c108802dac2cd4bcb3a</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-26 13:55:48</sys_updated_on><table/></sysevent_register></record_update>]]></payload>
+        <payload_hash>2096127156</payload_hash>
+        <record_name>x_hocsa_san.fecha.estado.os</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-26 13:55:49</sys_created_on>
+        <sys_id>888bc8fe1b729c108802dac2cd4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1742b0da6a70000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-26 13:55:49</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>808bc8fe55729c10a199bb3c7bef969c</update_guid>
+        <update_guid_history>808bc8fe55729c10a199bb3c7bef969c:2096127156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-26 15:11:47</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>2094ed3b63244f69987006735efc7d31</sys_id>
+        <sys_metadata>cd6b8c721bb29c108802dac2cd4bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.fecha.estado.os</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sysevent_register_cd6b8c721bb29c108802dac2cd4bcb3a</sys_update_name>
+        <sys_update_version display_value="sysevent_register_cd6b8c721bb29c108802dac2cd4bcb3a">888bc8fe1b729c108802dac2cd4bcb9c</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-26 15:11:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

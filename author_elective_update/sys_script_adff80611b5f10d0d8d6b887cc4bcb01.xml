@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>asmt_assessment_instance</collection>
+        <condition/>
+        <description>Se calcula el promedio, se debe ignorar las preguntas con respuesta NA</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="asmt_assessment_instance">stateINready,wip^trigger_id!=^EQ<item display_value="ready,wip" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="ready,wip"/>
+            <item endquery="false" field="trigger_id" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Promedio Encuesta Soporte-1</name>
+        <order>110</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	
+	
+	gs.info('entra br');
+	
+	    //Se crean las variables
+//     var cont = 0;
+//     var q1 = 0;
+//     var q2 = 0;
+//     var q3 = 0;
+//     var q4 = 0;
+//     var q5 = 0;
+//     var q6 = 0;
+//     var q7 = 0;
+//     var q8 = 0;
+//     var q9 = 0;
+	
+// 	var asm= new GlideRecord('asmt_metric_result');
+// // 	asm.addQuery('instance.trigger_id',current.trigger_id);
+// 	asm.query();
+// 	var value=asm.getValue(instance);
+// 	gs.info(value);
+	
+// 	if(asm.next()){
+// 		gs.info('entro asm');
+    
+// 			if(asm.metric.order==100)
+// 		{
+// 			q1=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==200)
+// 		{
+// 			q2=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==300)
+// 		{
+// 			q3=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==400)
+// 		{
+// 			q4=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==500)
+// 		{
+// 			q5=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==600)
+// 		{
+// 			q6=asm.metric_definition.value;
+// 		}
+// 	if(asm.metric.order==700)
+// 		{
+// 			q7=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==800)
+// 		{
+// 			q8=asm.metric_definition.value;
+// 		}
+// 	if(asm.metric.order==900)
+// 		{
+// 			q9=asm.metric_definition.value;
+// 		}
+		
+	
+//     var cont = 0;
+//     var suma = 0;
+//     var gr = new GlideRecord('x_hocsa_san_encuesta_de_soporte');
+//     gr.addQuery('u_slx_encuesta', current.sys_id);
+//     gr.query();
+//     if (gr.next()) {
+
+//         //Se crea un arreglo que contenga todas las variables	
+//         var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+// 		gs.addInfoMessage('questions: '+questions);
+//         //se debe inicializar la variable suma en 0
+//         var suma = 0;
+
+//         //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+//         questions.forEach(function(value) {
+//             if (value != -1) {
+//                 //Por cada valor se ira sumando un contador
+//                 cont++;
+//                 //se van sumando los valores de las variables	
+//                 suma += value;
+
+
+
+//             }
+
+//         });
+
+//         if (cont > 0) {
+//             //se crea una variable promedio y con el metodo math round multiplicado y dividido por 10 el resultado
+//             //se redondea en 2 decimales
+//            gs.addInfoMessage('suma: '+suma);
+// 			gs.addInfoMessage('cont: '+cont);
+//             var prom = (suma / cont);
+
+//             //Se setea el campo promedio por la variable promedio
+//             gr.u_slx_promedio_obtenido = prom;
+//             gr.update();
+
+
+
+//         } else {
+//             gr.u_slx_promedio_obtenido = 0;
+//             gr.update();
+
+//         }
+	
+// 	}
+
+//      }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 13:34:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adff80611b5f10d0d8d6b887cc4bcb01</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>SLX Promedio Encuesta Soporte-1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_adff80611b5f10d0d8d6b887cc4bcb01</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 02:31:24</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=adff80611b5f10d0d8d6b887cc4bcb01"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_adff80611b5f10d0d8d6b887cc4bcb01</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;asmt_assessment_instance&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Se calcula el promedio, se debe ignorar las preguntas con respuesta NA&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="asmt_assessment_instance"&gt;stateINready,wip^trigger_id!=^EQ&lt;item display_value="ready,wip" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="ready,wip"/&gt;&lt;item endquery="false" field="trigger_id" goto="false" newquery="false" operator="!=" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX Promedio Encuesta Soporte-1&lt;/name&gt;&lt;order&gt;110&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	
+	
+	gs.info('entra br');
+	
+	    //Se crean las variables
+//     var cont = 0;
+//     var q1 = 0;
+//     var q2 = 0;
+//     var q3 = 0;
+//     var q4 = 0;
+//     var q5 = 0;
+//     var q6 = 0;
+//     var q7 = 0;
+//     var q8 = 0;
+//     var q9 = 0;
+	
+// 	var asm= new GlideRecord('asmt_metric_result');
+// // 	asm.addQuery('instance.trigger_id',current.trigger_id);
+// 	asm.query();
+// 	var value=asm.getValue(instance);
+// 	gs.info(value);
+	
+// 	if(asm.next()){
+// 		gs.info('entro asm');
+    
+// 			if(asm.metric.order==100)
+// 		{
+// 			q1=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==200)
+// 		{
+// 			q2=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==300)
+// 		{
+// 			q3=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==400)
+// 		{
+// 			q4=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==500)
+// 		{
+// 			q5=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==600)
+// 		{
+// 			q6=asm.metric_definition.value;
+// 		}
+// 	if(asm.metric.order==700)
+// 		{
+// 			q7=asm.metric_definition.value;
+// 		}
+		
+// 	if(asm.metric.order==800)
+// 		{
+// 			q8=asm.metric_definition.value;
+// 		}
+// 	if(asm.metric.order==900)
+// 		{
+// 			q9=asm.metric_definition.value;
+// 		}
+		
+	
+//     var cont = 0;
+//     var suma = 0;
+//     var gr = new GlideRecord('x_hocsa_san_encuesta_de_soporte');
+//     gr.addQuery('u_slx_encuesta', current.sys_id);
+//     gr.query();
+//     if (gr.next()) {
+
+//         //Se crea un arreglo que contenga todas las variables	
+//         var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+// 		gs.addInfoMessage('questions: '+questions);
+//         //se debe inicializar la variable suma en 0
+//         var suma = 0;
+
+//         //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+//         questions.forEach(function(value) {
+//             if (value != -1) {
+//                 //Por cada valor se ira sumando un contador
+//                 cont++;
+//                 //se van sumando los valores de las variables	
+//                 suma += value;
+
+
+
+//             }
+
+//         });
+
+//         if (cont &gt; 0) {
+//             //se crea una variable promedio y con el metodo math round multiplicado y dividido por 10 el resultado
+//             //se redondea en 2 decimales
+//            gs.addInfoMessage('suma: '+suma);
+// 			gs.addInfoMessage('cont: '+cont);
+//             var prom = (suma / cont);
+
+//             //Se setea el campo promedio por la variable promedio
+//             gr.u_slx_promedio_obtenido = prom;
+//             gr.update();
+
+
+
+//         } else {
+//             gr.u_slx_promedio_obtenido = 0;
+//             gr.update();
+
+//         }
+	
+// 	}
+
+//      }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-16 13:34:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;adff80611b5f10d0d8d6b887cc4bcb01&lt;/sys_id&gt;&lt;sys_mod_count&gt;61&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Promedio Encuesta Soporte-1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_adff80611b5f10d0d8d6b887cc4bcb01&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-17 02:31:24&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=adff80611b5f10d0d8d6b887cc4bcb01"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1509885731</payload_hash>
+        <record_name>SLX Promedio Encuesta Soporte-1</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 02:31:24</sys_created_on>
+        <sys_id>30d1872d1b9b94d0d8d6b887cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17499e6f6010000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 02:31:24</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>74d1872d999b94d019e6a228a644bd9f</update_guid>
+        <update_guid_history>74d1872d999b94d019e6a228a644bd9f:1509885731,28904f6d099b94d014f5848824d6fef6:1150891501,7960072db19b94d0120c8ae17b3846be:-824545037,e9ef7ee5269b94d06e0f280b587a9fdc:-1363182170,891eb261015b94d0e61354fb1e57f383:-614672641,8a9b7621b61b94d016bdc9077cb9c31b:-941208192,c44bf26d4cd794d0d11fc42855a0c1d7:-1526014227,ff5abe65dad794d07d275985f7fe745c:1430758390,a60a3a29de9794d01108ee1d2df48db9:-1680201662,60b8f6a5aa9794d0fb2930cf54432538:1552565792,f9487661189794d065a9ac300a007083:-2136266091,9c18b2a9075794d084bd9544b9d5539a:-954534806,aea7f629595794d04c4986bfe480fdd7:75076028,a8277a6d2a1794d041bd019648434e0e:1511300066,06f5f265931794d07d491387fbf4ac66:2135725809,6da5b6258fd394d01d1b35879d2d2b23:-1319612295,f43a66ad675f54d00f0e1fc74bf21e6a:760886566,ccc9226d3d5f54d09c63145f8b83c303:1857854581,3168ea21015f54d0899ed01fbe8500af:-1551646492,f338a629f51f54d04f469f1c236b6dca:1559173131,7567eae5a81f54d0fa6a97338efabbe1:-865643667,7527aea1d51f54d0f270daa5e9213d08:2110047664,adc62aa1411f54d0af6d64a01cc4cd67:-864145411,54866aadf4db54d05bbd59b9e30871dd:1878145308,eb46ea2dc8db54d064ae769e689fc7c6:-1444859372,b21666e9abdb54d0e6fbd17b42248853:1101653557,2be562a518db54d01ec2891aecd6acf5:-171368227,69c4a661189b54d067e9fbd3a21511af:536604415,f064ea29d79b54d0f19efcfa21d959ce:530522146,a6e32a692d5b54d0123b7b6136897b12:-1553957437,fb832665339b54d0b6101c8d3d38e327:1979315057,c3f26a69e25b54d0777bad7c38b8a2b8:2019148666,b3c22aadda5b54d084abd1ad32fb77c9:1212304623,a0a12ee1765b54d06d789d0d7f807941:-772439502,c461ea61af5b54d083258848ad182c86:-2048940950,9eff9a25a61b54d04df3806ad7440b8d:481455563,7aaf16ed86d754d0d7c94def6c809874:695833741,1c5f9a2d15d754d0707bd5341cc717cd:-1155752388,2ffe922d95d754d0bf0d2f9ee52bb00b:-1789727194,f99d1aad119754d0a2b40697c6cc45c5:-184397222,5d1d1a69df9754d0ee8d22e7f09f4d73:1419268210,a67c96e1829754d079737eadaf442f39:359298042,00fa96eddd1754d01289465b16d7115b:225066908,325a5e65ca1754d0d8e6a11e9b80cc00:-246215749,37991ae1a4d354d06030be67a1e6a7b7:-1842850638,47399aa15e1754d078c081f3a84750d7:-328194257,1109526d8bd354d0190915e89e89abbd:-732736614,f2e7d2252cd354d0e90bf55b5abb1156:1318050275,6947da61ccd354d085c7d86c423d2abf:-834104017,ec271aad0c9354d0b22b21e01a48598d:1821008645,20d69a6df15354d0ee023c91a1b22954:1999632233,ea869ae9869354d0e99b2f6377237aa6:-932228703,f5361a65569354d0d4dcef16ceee567c:-1831019898,2cf592a5ef9354d0774269040eda7db7:1245740649,cfd59665b79354d007ba545a975cb1d1:526927090,db73dead461354d0039e0ea414946db3:1245740649,df5356adec1354d03a35466c39adea03:777802987,08039e29421354d00d9d71daa953a133:-350172162,3d821aad14df14d0d22500c8402834d3:-1720550720,a821166dcfdf14d0c98c2afd749810ae:-1739438058,12901e69f49f14d0ff014976dc4c50c2:1683083223,8c70dee9059f14d055684a56272d2aeb:-750051219,244012e9b19f14d0df8c0e84659151d1:406873371,65ff80617f5f10d04858621628be6406:1193201765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 19:26:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1cc734b48cb64f25840223153ebe3f61</sys_id>
+        <sys_metadata>adff80611b5f10d0d8d6b887cc4bcb01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Promedio Encuesta Soporte-1</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Asmt Assessment Instance">7b9beee31ba223004b360d03cd4bcb6b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_adff80611b5f10d0d8d6b887cc4bcb01</sys_update_name>
+        <sys_update_version display_value="sys_script_adff80611b5f10d0d8d6b887cc4bcb01">30d1872d1b9b94d0d8d6b887cc4bcba0</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 19:26:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

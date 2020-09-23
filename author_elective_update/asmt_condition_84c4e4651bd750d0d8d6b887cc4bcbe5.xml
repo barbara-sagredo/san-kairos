@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_condition">
+    <asmt_condition action="DELETE">
+        <active>true</active>
+        <assessment display_value="Encuesta Término de proyecto">695dd02d1bd350d0d8d6b887cc4bcbc2</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">ec3560291bd750d0d8d6b887cc4bcbaf</business_rule>
+        <condition table="x_hocsa_san_encuesta_de_proyecto">u_slx_fecha_envio_respuesta_clienteVALCHANGES^EQ<item endquery="false" field="u_slx_fecha_envio_respuesta_cliente" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration/>
+        <percent_random>100</percent_random>
+        <related_field_1>u_slx_hco</related_field_1>
+        <related_field_2>u_slx_cliente_firma_encuesta</related_field_2>
+        <related_field_3>u_slx_division_sitio</related_field_3>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 15:07:04</sys_created_on>
+        <sys_id>84c4e4651bd750d0d8d6b887cc4bcbe5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_condition_84c4e4651bd750d0d8d6b887cc4bcbe5</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 19:13:42</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <trigger_random>false</trigger_random>
+        <user_field>u_slx_responsable_gestion</user_field>
+    </asmt_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_condition_84c4e4651bd750d0d8d6b887cc4bcbe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_condition"><asmt_condition action="INSERT_OR_UPDATE"><active>true</active><assessment display_value="Encuesta Término de proyecto">695dd02d1bd350d0d8d6b887cc4bcbc2</assessment><assessment_record/><assessment_record_field/><business_rule display_value="Auto assessment business rule">ec3560291bd750d0d8d6b887cc4bcbaf</business_rule><condition table="x_hocsa_san_encuesta_de_proyecto">u_slx_fecha_envio_respuesta_clienteVALCHANGES^EQ<item endquery="false" field="u_slx_fecha_envio_respuesta_cliente" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><duration/><percent_random>100</percent_random><related_field_1>u_slx_hco</related_field_1><related_field_2>u_slx_cliente_firma_encuesta</related_field_2><related_field_3>u_slx_division_sitio</related_field_3><related_field_4/><sys_class_name>asmt_condition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-16 15:07:04</sys_created_on><sys_id>84c4e4651bd750d0d8d6b887cc4bcbe5</sys_id><sys_mod_count>10</sys_mod_count><sys_name/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>asmt_condition_84c4e4651bd750d0d8d6b887cc4bcbe5</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-17 19:13:42</sys_updated_on><table>x_hocsa_san_encuesta_de_proyecto</table><trigger_random>false</trigger_random><user_field>u_slx_responsable_gestion</user_field></asmt_condition></record_update>]]></payload>
+        <payload_hash>437183636</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 19:13:42</sys_created_on>
+        <sys_id>c737623d1b579cd0d8d6b887cc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749d7c9a530000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 19:13:42</sys_updated_on>
+        <type>Trigger Condition</type>
+        <update_guid>8f37623d43579cd0fe46ae5d778ee18c</update_guid>
+        <update_guid_history>8f37623d43579cd0fe46ae5d778ee18c:437183636,cf07e6b994579cd08fd1ba8333401dd8:-239130598,dc162af120579cd08810efb966a27c1f:-1836926984,21c5a6b18b579cd04c7e5dcd5e93b1bb:-559124140,6865ea3d97179cd0ae6a2c9bdfa6f7a5:-1836926984,ceb6e4255d1b50d087a2e20525909d75:-559124140,7b96a4254d1b50d01e9a9b96dbf22735:1336924022,e146a461e61b50d04d2bf41c86627be4:-1836926984,b136e061771b50d01c6bf0ff1bb2cc68:1614249794,ac3560293fd750d07d3f51c8f82dfab4:381817702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">564efa351bdf9cd0d8d6b887cc4bcbf9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 20:54:25</sys_created_on>
+        <sys_db_object display_value="" name="asmt_condition">asmt_condition</sys_db_object>
+        <sys_id>a2504f203897463bb319169b1bedd451</sys_id>
+        <sys_metadata>84c4e4651bd750d0d8d6b887cc4bcbe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_condition_84c4e4651bd750d0d8d6b887cc4bcbe5</sys_update_name>
+        <sys_update_version display_value="asmt_condition_84c4e4651bd750d0d8d6b887cc4bcbe5">c737623d1b579cd0d8d6b887cc4bcb8d</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 20:54:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

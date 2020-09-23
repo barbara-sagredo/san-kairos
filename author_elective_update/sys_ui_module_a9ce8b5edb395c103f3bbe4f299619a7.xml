@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Encuesta">cbd5338adb695c103f3bbe4f299619a0</application>
+        <filter/>
+        <name>Encuestas anuales</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_hocsa_san.encuesta_anual_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 21:49:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9ce8b5edb395c103f3bbe4f299619a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Encuestas anuales</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_module_a9ce8b5edb395c103f3bbe4f299619a7</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 21:52:32</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_module_a9ce8b5edb395c103f3bbe4f299619a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Encuesta">cbd5338adb695c103f3bbe4f299619a0</application><filter/><name>Encuestas anuales</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_hocsa_san.encuesta_anual_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-06 21:49:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a9ce8b5edb395c103f3bbe4f299619a7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Encuestas anuales</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_module_a9ce8b5edb395c103f3bbe4f299619a7</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-06 21:52:32</sys_updated_on><table>x_hocsa_san_encuesta_anual</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>436241711</payload_hash>
+        <record_name>Encuestas anuales</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 21:52:32</sys_created_on>
+        <sys_id>0e8f83dedb395c103f3bbe4f29961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173261dc68c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 21:52:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c28f83de71395c1036f33c2bad945765</update_guid>
+        <update_guid_history>c28f83de71395c1036f33c2bad945765:436241711,e9ce8b5e8d395c10f32204371eb9dca8:155528071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 13:43:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>19e3e8d612e14aae84c3d4af07936551</sys_id>
+        <sys_metadata>a9ce8b5edb395c103f3bbe4f299619a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encuestas anuales</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a9ce8b5edb395c103f3bbe4f299619a7</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a9ce8b5edb395c103f3bbe4f299619a7">0e8f83dedb395c103f3bbe4f29961965</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 13:43:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

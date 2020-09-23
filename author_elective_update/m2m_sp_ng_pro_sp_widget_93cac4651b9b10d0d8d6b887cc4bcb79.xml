@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spSurveyForm">aaf3cd03c3602200943974e1c1d3ae87</sp_angular_provider>
+        <sp_widget display_value="Copy of Take Survey">d7cac4a91b1b10d0d8d6b887cc4bcb26</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 13:11:45</sys_created_on>
+        <sys_id>93cac4651b9b10d0d8d6b887cc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spSurveyForm.Copy of Take Survey</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_93cac4651b9b10d0d8d6b887cc4bcb79</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:11:45</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_93cac4651b9b10d0d8d6b887cc4bcb79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spSurveyForm">aaf3cd03c3602200943974e1c1d3ae87</sp_angular_provider><sp_widget display_value="Copy of Take Survey">d7cac4a91b1b10d0d8d6b887cc4bcb26</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-16 13:11:45</sys_created_on><sys_id>93cac4651b9b10d0d8d6b887cc4bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spSurveyForm.Copy of Take Survey</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_93cac4651b9b10d0d8d6b887cc4bcb79</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-16 13:11:45</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>1899352927</payload_hash>
+        <record_name>spSurveyForm.Copy of Take Survey</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 13:11:45</sys_created_on>
+        <sys_id>93cac4651b9b10d0d8d6b887cc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174970ade240000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:11:45</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>9bcac4651c9b10d0839ff215cf8be07a</update_guid>
+        <update_guid_history>9bcac4651c9b10d0839ff215cf8be07a:1899352927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spSurveyForm.Copy of Take Survey">f14bc0691b9b10d0d8d6b887cc4bcb2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 13:13:50</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>46c5105e624145b79e4f3eea36aecbe9</sys_id>
+        <sys_metadata>93cac4651b9b10d0d8d6b887cc4bcb79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spSurveyForm.Copy of Take Survey</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_93cac4651b9b10d0d8d6b887cc4bcb79</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_93cac4651b9b10d0d8d6b887cc4bcb79">93cac4651b9b10d0d8d6b887cc4bcb7b</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:13:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

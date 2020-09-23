@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description>Esta br es para verificar si la fecha actual corresponde al envio de la notificación</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX_Notifica_EP_30_dias</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//gliderecord de ep donde la fecha de notificación no este vacia y el estado del ep sea 'Emitido', osea valor 1
+	var ent = new GlideRecord('x_hocsa_san_ficha_ep');
+    ent.addQuery('u_slx_fecha_notif','!=','');
+	ent.addQuery('u_slx_estado','=','1');
+    ent.query();
+    while (ent.next()) {
+		
+		
+		// Instanciar la comparacion de fechas del script include
+        var niutils = new SLX_Comparacion_fechas();
+
+        // Llamar al metodo isDateToday otorgando el valor de fecha notificación 2
+        var isToday = niutils.isDateTodayState(ent.u_slx_fecha_notif);
+		
+        // Si el metodo isToday retorna true, la fecha es hoy
+        if (isToday == true && !ent.u_slx_notif) {
+            
+            ent.u_slx_notif = true;
+            ent.update();
+            gs.eventQueue('x_hocsa_san.venc.estado.ep', ent, ent.sys_id);
+        }
+
+    }
+    
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-23 17:55:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6abaf1f3db469c503f3bbe4f29961930</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>SLX_Notifica_EP_30_dias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_6abaf1f3db469c503f3bbe4f29961930</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-07 11:54:11</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6abaf1f3db469c503f3bbe4f29961930"/>
+</record_update>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition/>
+        <description>Al eliminar un entregable, se descontará los montos asociados y se quitará de la lista en Ficha  EP</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Eliminar Entregable-EP</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+	//GlideRecord a ficha EP
+    var ep = new GlideRecord('x_hocsa_san_ficha_ep');
+    ep.addQuery('sys_id', current.u_slx_ep);
+    ep.query();
+
+    if (ep.next()) {
+		//se crea un arreglo de la lista de entregables
+        var lista = ep.u_slx_nro_entregable.split(',');
+        var listaNueva = '';
+		//recorrera los entregables que esten, y el que se elimine se quitará de la lista
+        for (var i = 0; i < lista.length; i++) {
+		
+            var ent = new GlideRecord('x_hocsa_san_entregable');
+            ent.addQuery('sys_id', lista[i]);
+            ent.query();
+
+
+            if (ent.next()) {
+
+                listaNueva += ent.sys_id.toString() + ',';
+
+
+            }
+		}
+            ep.u_slx_nro_entregable = listaNueva;
+            ep.u_slx_suma_entregables = ep.u_slx_suma_entregables - current.u_slx_monto_entregable;
+            ep.update();
+
+        }
+
+    
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-15 13:51:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29d90781dbdb909063a95275ca961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX Eliminar Entregable-EP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_29d90781dbdb909063a95275ca961983</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 16:01:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=29d90781dbdb909063a95275ca961983"/>
+</record_update>

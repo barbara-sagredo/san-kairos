@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hocsa_san.SLX_Reference_en_ficha_EP</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script include para realizar el filtro en el campo reference " Entregable" de la tabla Ficha EP, en donde ambas pertenezcan a la misma Ficha de proyecto (HCO) y un entregable no tenga asociada otra Ficha EP</description>
+        <name>SLX_Reference_en_ficha_EP</name>
+        <script><![CDATA[var SLX_Reference_en_ficha_EP = Class.create();
+SLX_Reference_en_ficha_EP.prototype = {
+    initialize: function() {
+    },
+	//funcion para obtener los datos
+	obtenerDataEntregable: function(entregable)
+	{
+		var id = '';
+		var ep= new GlideRecord('x_hocsa_san_ficha_ep');
+		ep.get(entregable.sys_id);
+		//que muestre el sys id cuando los entregables y la ep sean de la misma ficha de proyecto
+		//y que el n° ep de entregable este vacio
+		var gr= new GlideRecord('x_hocsa_san_entregable');
+		gr.addQuery("u_slx_hco="+ep.u_slx_hco +"^u_slx_epISEMPTY");
+		gr.query();
+		while(gr.next())
+			{
+				id += (',' + gr.sys_id);
+			}
+		
+		return 'sys_idIN' + id;
+	}, 
+	
+
+    type: 'SLX_Reference_en_ficha_EP'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-13 19:53:21</sys_created_on>
+        <sys_id>19706a221ba65c588802dac2cd4bcbc8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX_Reference_en_ficha_EP</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_19706a221ba65c588802dac2cd4bcbc8</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 20:47:44</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_include_19706a221ba65c588802dac2cd4bcbc8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_hocsa_san.SLX_Reference_en_ficha_EP&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Script include para realizar el filtro en el campo reference " Entregable" de la tabla Ficha EP, en donde ambas pertenezcan a la misma Ficha de proyecto (HCO) y un entregable no tenga asociada otra Ficha EP&lt;/description&gt;&lt;name&gt;SLX_Reference_en_ficha_EP&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SLX_Reference_en_ficha_EP = Class.create();
+SLX_Reference_en_ficha_EP.prototype = {
+    initialize: function() {
+    },
+	//funcion para obtener los datos
+	obtenerDataEntregable: function(entregable)
+	{
+		var id = '';
+		var ep= new GlideRecord('x_hocsa_san_ficha_ep');
+		ep.get(entregable.sys_id);
+		//que muestre el sys id cuando los entregables y la ep sean de la misma ficha de proyecto
+		//y que el n° ep de entregable este vacio
+		var gr= new GlideRecord('x_hocsa_san_entregable');
+		gr.addQuery("u_slx_hco="+ep.u_slx_hco +"^u_slx_epISEMPTY");
+		gr.query();
+		while(gr.next())
+			{
+				id += (',' + gr.sys_id);
+			}
+		
+		return 'sys_idIN' + id;
+	}, 
+	
+
+    type: 'SLX_Reference_en_ficha_EP'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-13 19:53:21&lt;/sys_created_on&gt;&lt;sys_id&gt;19706a221ba65c588802dac2cd4bcbc8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_Reference_en_ficha_EP&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_19706a221ba65c588802dac2cd4bcbc8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-14 20:47:44&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1378784203</payload_hash>
+        <record_name>SLX_Reference_en_ficha_EP</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 20:47:44</sys_created_on>
+        <sys_id>c5b677b61b62dc588802dac2cd4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173eeba77a40000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 20:47:44</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8db677b6e262dc58fbba7b8a57999bfc</update_guid>
+        <update_guid_history>8db677b6e262dc58fbba7b8a57999bfc:1378784203,4e90b26af0e65c58f06c6eeed1786341:-830066553,4ca36a221ba65c5886fe37124f9034eb:-1807404416,bea0ae222ba65c582ce2e2c2a0cbe691:1550336689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-25 13:23:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1f6d2d448dbf4fea9607ce21f03b0f04</sys_id>
+        <sys_metadata>19706a221ba65c588802dac2cd4bcbc8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_Reference_en_ficha_EP</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_include_19706a221ba65c588802dac2cd4bcbc8</sys_update_name>
+        <sys_update_version display_value="sys_script_include_19706a221ba65c588802dac2cd4bcbc8">c5b677b61b62dc588802dac2cd4bcbfd</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-25 13:23:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

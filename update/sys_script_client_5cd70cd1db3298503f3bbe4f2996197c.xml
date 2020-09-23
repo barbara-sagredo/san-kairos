@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Según el promedio, se pintará la celda de promedio</description>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Color Promedio Soporte</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+	var isc = g_form.getElement('u_slx_promedio_obtenido');
+	var prom=g_form.getDecimalValue('u_slx_promedio_obtenido');
+	//dependiendo del valor del promedio se seteara el color del campo ISC
+		if(prom){
+        if (prom >= 0 && prom <= 4.9) {
+            isc.style.backgroundColor = "OrangeRed";
+        } else if (prom >= 5.0 && prom <= 6.9) {
+            isc.style.backgroundColor = "yellow";
+        } else if (prom >= 7.0 && prom <= 10) {
+            isc.style.backgroundColor = "GreenYellow";
+        } else {
+            isc.style.backgroundColor = "white";
+        }
+		} else {
+		isc.style.backgroundColor = "white";}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-21 21:49:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5cd70cd1db3298503f3bbe4f2996197c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX Color Promedio Soporte</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_5cd70cd1db3298503f3bbe4f2996197c</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:28:00</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_soporte</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

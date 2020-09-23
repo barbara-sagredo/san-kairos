@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>true</disabled>
+        <field>u_slx_nombre</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 16:22:45</sys_created_on>
+        <sys_data_policy display_value="SLX Entregable solo lectura">1022b89b1b0f9454d8d6b887cc4bcb25</sys_data_policy>
+        <sys_id>d95338571b4f9454d8d6b887cc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_nombre</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_data_policy_rule_d95338571b4f9454d8d6b887cc4bcbf0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:22:45</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_data_policy_rule_d95338571b4f9454d8d6b887cc4bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>true</disabled><field>u_slx_nombre</field><mandatory>ignore</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-09 16:22:45</sys_created_on><sys_data_policy display_value="SLX Entregable solo lectura">1022b89b1b0f9454d8d6b887cc4bcb25</sys_data_policy><sys_id>d95338571b4f9454d8d6b887cc4bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_nombre</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_data_policy_rule_d95338571b4f9454d8d6b887cc4bcbf0</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-09 16:22:45</sys_updated_on><table>x_hocsa_san_entregable</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>560233744</payload_hash>
+        <record_name>u_slx_nombre</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 16:22:45</sys_created_on>
+        <sys_id>8d63b4171b4f9454d8d6b887cc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17473ad35a50000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:22:45</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>8563b417504f945443e287be18899145</update_guid>
+        <update_guid_history>8563b417504f945443e287be18899145:560233744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 16:23:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>7925eb1ce62d4233b426053095adc799</sys_id>
+        <sys_metadata>d95338571b4f9454d8d6b887cc4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_nombre</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_d95338571b4f9454d8d6b887cc4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_d95338571b4f9454d8d6b887cc4bcbf0">8d63b4171b4f9454d8d6b887cc4bcb45</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:23:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

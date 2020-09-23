@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description>Esta br es para verificar si la fecha actual corresponde al envio de la notificación</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX_Notifica_ficha_os_15_dias</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+    //gliderecord de ficha os
+	gs.info('entro BR');
+    var os = new GlideRecord('x_hocsa_san_ficha_os');
+	
+    os.addQuery('u_slx_fecha_notif', '!=', '');
+    os.query();
+    while (os.next()) {
+		 gs.info('entro QUERY');
+       // Instanciar la clase Utils.
+        var niutils = new SLX_Comparacion_fechas();
+
+        // Llamar al metodo isDateToday otorgando el valor de u_glide_date_time_1
+        var isToday = niutils.isDateTodayState(os.u_slx_fecha_notif);
+		
+        // Si el metodo isToday retorna true, la fecha es hoy
+        if (isToday == true && !os.u_slx_notif) {
+            gs.info('entro en if');
+            os.u_slx_notif = true;
+            os.update();
+            gs.eventQueue('x_hocsa_san.venc.estado.os', os, os.sys_id);
+        } 
+		
+		
+		
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-20 14:15:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43bca976dbc2dc103f3bbe4f29961925</sys_id>
+        <sys_mod_count>136</sys_mod_count>
+        <sys_name>SLX_Notifica_ficha_os_15_dias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_43bca976dbc2dc103f3bbe4f29961925</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:55:26</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=43bca976dbc2dc103f3bbe4f29961925"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>43bca976dbc2dc103f3bbe4f29961925</documentkey>
+        <fieldname>message</fieldname>
+        <language>es</language>
+        <sys_created_by>slx.dv</sys_created_by>
+        <sys_created_on>2020-07-20 18:01:40</sys_created_on>
+        <sys_id>f4f0ae7a1b0e9c108802dac2cd4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.dv</sys_updated_by>
+        <sys_updated_on>2020-07-20 18:01:40</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_43bca976dbc2dc103f3bbe4f29961925</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection/&gt;&lt;condition/&gt;&lt;description&gt;Esta br es para verificar si la fecha actual corresponde al envio de la notificación&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX_Notifica_ficha_os_15_dias&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+    //gliderecord de ficha os
+	gs.info('entro BR');
+    var os = new GlideRecord('x_hocsa_san_ficha_os');
+	
+    os.addQuery('u_slx_fecha_notif', '!=', '');
+    os.query();
+    while (os.next()) {
+		 gs.info('entro QUERY');
+       // Instanciar la clase Utils.
+        var niutils = new SLX_Comparacion_fechas();
+
+        // Llamar al metodo isDateToday otorgando el valor de u_glide_date_time_1
+        var isToday = niutils.isDateTodayState(os.u_slx_fecha_notif);
+		
+        // Si el metodo isToday retorna true, la fecha es hoy
+        if (isToday == true &amp;&amp; !os.u_slx_notif) {
+            gs.info('entro en if');
+            os.u_slx_notif = true;
+            os.update();
+            gs.eventQueue('x_hocsa_san.venc.estado.os', os, os.sys_id);
+        } 
+		
+		
+		
+    }
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-20 14:15:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;43bca976dbc2dc103f3bbe4f29961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;136&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_Notifica_ficha_os_15_dias&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_43bca976dbc2dc103f3bbe4f29961925&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-28 18:55:26&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=43bca976dbc2dc103f3bbe4f29961925"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;43bca976dbc2dc103f3bbe4f29961925&lt;/documentkey&gt;&lt;fieldname&gt;message&lt;/fieldname&gt;&lt;language&gt;es&lt;/language&gt;&lt;sys_created_by&gt;slx.dv&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-20 18:01:40&lt;/sys_created_on&gt;&lt;sys_id&gt;f4f0ae7a1b0e9c108802dac2cd4bcb46&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;slx.dv&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-20 18:01:40&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_script&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1604994530</payload_hash>
+        <record_name>SLX_Notifica_ficha_os_15_dias</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-28 18:55:26</sys_created_on>
+        <sys_id>e44363971bb690508802dac2cd4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174366caf0c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:55:26</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>2c436397b0b690502941ed5ab95e934d</update_guid>
+        <update_guid_history>2c436397b0b690502941ed5ab95e934d:-1604994530,7e33af57d6b69050b55a6a4db12a70ba:1466377129,770363171db690504b38dcad1510094f:965043010,b142abdf0f769050b6ef64d4c64b5216:1742337377,99e02f5bfb76905040b62a0681bb8d25:1713197210,c7502f972276905086759a21fae6a6d2:1743635717,e07e1f5f73369050a4d5b6a582d53b4b:1488433484,964e9f1f9c369050ebbf8bb5a02d1833:123706604,691e57dbf0369050ba6d7df2deed2b8a:-960933773,84fd579b593690509b5174e36c464dd8:770137649,c7cd939bc9369050c1a6447dfc5bc94b:-1602474448,118d1b93ff3690503eb2aa6e94bcce46:1611997668,143c1bdfc5f290503c9767459ad04f76:1365188650,481c1f13813690500d71b94725d2aa70:-1921345495,52cbd79f79f290500d687954e4260a4e:-1927089587,1cabd79f1ef29050ab4011097287ef46:1596926552,a06b571f0af29050765634ed15d266c7:-1346174613,b72b93dbabf29050dec0f2aec5137b3c:919021564,6fc7db5325f2905065c1278cd2334c5d:-2130754374,bab5df5f82b2905063fce81bdcd656a5:1889396658,2c45179bb5b29050fb03fb8a9ad65407:-1493871481,41b2e4fe4e769c104a0e71f979f32e1e:1967464,4b63786a643214101207f0b0de89bcd2:-823074078,090a5077825ad4d48336a179810823d0:-394754355,2ab1ea4e2c5a9418d886e929634e090e:-870833687,32016646fe5a94189c1cc2819f986d81:-1648212492,c98f9602a35a9418de9b15560c805158:-870833687,307f794a5e1694187dc57bbf1d050ca8:-1606305577,931db982ca169418ec83e02b0fe6b409:-1981715470,bff8fdc25cd29418dc1de9a0c1156018:79325758,b6fb36082952989076ac20554815854a:-209750861,401435b7c0829c505d1612d1854ef94b:75739572,069f217b6a029c50312f06ecdaf565a7:1776217637,9de159b7a2465c5003d6fea8375baa32:-1035182011,51b1dd7770465c50193cfc2af73df49d:-1822204223,d4c095b3ea465c500cf213601ffcd4fa:-975509952,dd68e963a7065090b19dd1cde9582431:28534201,71b51d273d8a109013bb052e080e693a:352986616,e62519273e4a1090c3e943d913daf4ed:1366801327,15f4ddaf434a10900220fecea61ac8fa:922247372,99c4912fda4a10908ebd6e9a6b1cc4c6:1342277868,8f94512ffc4a1090c6d888392c43d59d:909534151,7e64d9ab854a1090e1b3e4d9590ab4b7:286653785,5a14512b694a1090e0c065ac9865acbe:1761885369,3ac31163104a10901b3b25f7d09e1b20:-2088670795,faa351634a4a1090a6c85123ccfc787a:1458315111,6d431defcf0a1090923bbfa6058db732:1585413893,3613d1ef930a10908afe963536e59462:1636047818,8f89f8e35c0edc507ef2e5f17a4b022c:2074813330,a4c7fc2fc28adc5059ba10bc8cccb712:-1803760030,2de6fc2f878adc505e892e2adafb7385:2146844216,7945fc2f968adc5064a324fcc19d897e:-362717142,48a61fb2ee861050f324b8d44cd61cf8:879051191,489653f6f086105001543917e5ebf97c:1518097337,b6769bb6578610502989285a7e4d864e:805591081,546697b6a786105042c547664fbd5738:-1623795415,d2269f7289861050ea0d26ddcf489deb:1518097337,fa069376b48610505ec0c71e48876996:-948909384,ccd357fe8d4edc10a05d755675aaebc9:-71649910,7e0317f68b4edc10cc9a8ef7cd5dcb96:946694441,1bb29b76134edc10de81c2412cdc93ba:-324555267,37c1db323e4edc1069d12ac039c6ae7c:1748963960,0ab11f32a14edc10d5511f3aa0d6d7f5:1219974487,f3811f326d4edc1032545c482ad2cdee:97299213,8ba09bbad60edc109bc42544a99125fa:-959933318,93601ff6e70edc10a3d62727b3b721e6:764135537,07301ff6070edc1069c2db9923a54d56:-602565340,be10dbb6160edc105190ed88aa38169d:1475236798,d100d3b6fd0edc102f8e2995b5670a05:-1624640213,cddf0f363c0edc10ca1351f61f0b9dcf:523351013,093f0ffe35cadc1091fbe6c83759b57b:357775018,bd6ec7f6fdcadc10bd7d3fb6ea5631bf:-455187520,c8bdc7f6b8cadc10732984655ea56c8b:-1988631348,916d4736c7cadc10193b870a0947ce79:-1090629484,113d833669cadc1093f47388f0f71a6b:1023341898,ec0dc3f218cadc10eb1a0ae3a48ad78a:650170055,a7fb473619061050b89fb5793bca511b:211250186,03950bb6728210507b13884d575b4074:-918438936,7f35cfb253821050fbbe7c7b8b6e61ac:1075817396,8fd4cf72f2821050414086471ddade8f:579494675,4c948fb21f8210507d00302e0da3430e:1075817396,1f644b722182105077bb27600698659d:895067359,cc448f72a68210501394b39c20633cb1:-617118445,0df38bfe374210507407051114381ab6:-1704379469,5ec34bfe694210503fac1ba447b0c74e:937963434,a0a343fa03421050befb8b28c37de683:-976624708,e573cfbe5b421050bfe2787c9908c578:1021667348,e032477afb42105041ab903f11abba6b:1438170716,a5128b7a9642105020b946a88b6fa4f6:1151413821,e1018776f4421050610ecfefc5282138:-1097635254,2f7087b2154210502c6f4ced92d1b9c9:-1930735274,e7308bf2844210501ba7dc387e2fc144:-905978369,3d00473e6302105019c0680ec67dc658:2135382444,9b8ff2b212421050674dc337788afc13:-766385313,0a6f3e723b4210505c967db02b721023:-2104675947,399e363e8e0210502efc31ef3bd88d9d:-1157160683,cd5e3e7efd0210507adfbb28c36ba11b:1078713397,d01e3afa5102105047aebcee0eca1081:447451925,b0ed363ed30210507b771df1617e8b1c:-781936834,41adfe766f0210500bc4d6f9d54a5243:970978421,029d36faed021050609a1f0042199b4e:92161630,9b5db2ba7f021050571f59b5425aff58:-1494392586,c14df6362f021050d5074ac42beaa98d:1688367459,715bf2f28902105073c9c550869b7de3:-2076770714,861bf2f220021050c83309693ac80aa9:1387217771,19f87676f0cedc1059ccf864925d7615:965074200,f0c8baf210cedc105ad7348fdab03138:1387217771,f688feba0acedc103c81ee4e2d46bd09:1854922653,0278febaaecedc103c23e02b7fb3106d:2108465272,ad5322b6b24e9c10a0126048f4878c82:1854922653,28e26ef2554e9c10ef4cb663c812895a:54109794,53422a72be4e9c1099630317e95b9a9d:389750596,01226e32514e9c10052e0df544a25ad2:-590073705,adb1a6beae0e9c101ce5ba42203e2ad2:-834124449,4991627ebb0e9c107b222ddc1caf2b67:-883335745,d3616e3ef50e9c107f201ee512292afd:2109742395,5c2162bac40e9c107ad7d3de5c9d6598:859046048,fcf0ae7a360e9c10e88bd44dceb2cc47:1358821429,d5cf527abe8adc10aee79672f1b2df1f:-2664199,478f9672718adc10488985ae43cd8c9b:-491578151,786d923e984adc10c40fcfe68f3e93af:831634063,5f0d967e214adc104d1fc65adca48d3c:-974350290,5e5bda7a4f4adc102ecd7e9840022434:882058138,7a3b563ad44adc10548a84bcee1ebd46:-1499453226,f3499672354adc10bc1d0f066b871816:-553611089,df585672084adc109cfee78f7e2ecdaa:-840391904,19f7d63e740adc1086074caf8842a645:-171569505,09e4dab69f0adc105dc36ffa63ff88e2:-685043298,59f2d636090adc10294463674c24f791:2118492816,0aef4afa54c6dc101829f269903cca53:850557446,fc8ece36d4c6dc109fbdec9e9fa9ad9e:922605284,9cbccafe2186dc10a87af38b9689b43c:424769684,67d6ca76f286dc10c909852b183d5217:499010719,84a44232a786dc10df33f44997f2fa71:769373143,496d79727846dc10632ecfd0e622f093:2015479214,d39cf9320146dc108c5760b5a66355aa:-552382160,dd4d25f640c2dc103ae8e723507a4766:299204937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-28 18:55:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>bc46c86146874e588d0ee445824d6690</sys_id>
+        <sys_metadata>43bca976dbc2dc103f3bbe4f29961925</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_Notifica_ficha_os_15_dias</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_43bca976dbc2dc103f3bbe4f29961925</sys_update_name>
+        <sys_update_version display_value="sys_script_43bca976dbc2dc103f3bbe4f29961925">e44363971bb690508802dac2cd4bcb4e</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 18:55:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

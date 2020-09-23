@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_hocsa_san.venc.estado.ep</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>venc.estado.ep</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-23 17:55:40</sys_created_on>
+        <sys_id>123cf173db869c503f3bbe4f299619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.venc.estado.ep</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_register_123cf173db869c503f3bbe4f299619e4</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-23 17:55:40</sys_updated_on>
+        <table>x_hocsa_san_ficha_ep</table>
+    </sysevent_register>
+</record_update>

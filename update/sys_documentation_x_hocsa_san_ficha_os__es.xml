@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Ficha OS" language="es" table="x_hocsa_san_ficha_os">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Ficha OS</label>
+            <language>es</language>
+            <name>x_hocsa_san_ficha_os</name>
+            <plural>Fichas OS</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:41:46</sys_created_on>
+            <sys_id>7bc64ff1dbedd8103f3bbe4f299619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ficha OS</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_ficha_os__es</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:41:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

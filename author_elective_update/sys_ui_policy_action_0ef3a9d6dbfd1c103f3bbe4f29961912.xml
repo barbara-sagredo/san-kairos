@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_fecha_aceptacion_ars</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 14:02:36</sys_created_on>
+        <sys_id>0ef3a9d6dbfd1c103f3bbe4f29961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_aceptacion_ars</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0ef3a9d6dbfd1c103f3bbe4f29961912</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 14:02:36</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <ui_policy display_value="SLX Mostrar acta si es check">ec13e196dbfd1c103f3bbe4f299619aa</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_0ef3a9d6dbfd1c103f3bbe4f29961912</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_slx_fecha_aceptacion_ars</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-06 14:02:36</sys_created_on><sys_id>0ef3a9d6dbfd1c103f3bbe4f29961912</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_fecha_aceptacion_ars</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_0ef3a9d6dbfd1c103f3bbe4f29961912</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-06 14:02:36</sys_updated_on><table>x_hocsa_san_entregable</table><ui_policy display_value="SLX Mostrar acta si es check">ec13e196dbfd1c103f3bbe4f299619aa</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1900662096</payload_hash>
+        <record_name>u_slx_fecha_aceptacion_ars</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 14:02:36</sys_created_on>
+        <sys_id>caf3a9d6dbfd1c103f3bbe4f29961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173246f88b90000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 14:02:36</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c2f3a9d6c8fd1c109a52f149ca86db14</update_guid>
+        <update_guid_history>c2f3a9d6c8fd1c109a52f149ca86db14:1900662096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 20:42:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>9b90ff66ba2d4d9e8ac1d3a6d1a422c9</sys_id>
+        <sys_metadata>0ef3a9d6dbfd1c103f3bbe4f29961912</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_aceptacion_ars</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="SLX Mostrar acta y encuesta si el tipo es Acta de recepcion">ec13e196dbfd1c103f3bbe4f299619aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_0ef3a9d6dbfd1c103f3bbe4f29961912</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_0ef3a9d6dbfd1c103f3bbe4f29961912">caf3a9d6dbfd1c103f3bbe4f29961914</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 20:42:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

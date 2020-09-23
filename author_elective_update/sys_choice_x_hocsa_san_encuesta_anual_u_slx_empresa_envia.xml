@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_empresa_envia" table="x_hocsa_san_encuesta_anual" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Honeywell</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:41:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>351135111bca94108802dac2cd4bcb49</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Honeywell</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:41:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cf0bd111bca94108802dac2cd4bcb3b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kairos</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>202135111bca94108802dac2cd4bcb4d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kairos</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e21b5111bca94108802dac2cd4bcb55</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Honeywell y Kairos</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:42:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b931b5111bca94108802dac2cd4bcb59</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_empresa_envia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Honeywell y Kairos</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:42:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf3131dd1b8a94108802dac2cd4bcb53</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 14:58:03</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_empresa_envia</element>
+            <name>x_hocsa_san_encuesta_anual</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-15 22:41:37</sys_created_on>
+            <sys_id>ec117d111bca94108802dac2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_empresa_envia</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_encuesta_anual_u_slx_empresa_envia</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-15 22:41:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition/>
+        <description>Cuando cambie de estado, la fecha se completara automaticamente</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_entregable">u_slx_estado_acta_recepcion_servicios=1^u_slx_estado_envio_entregable=1^EQ<item display_value="Solicitada por PCO" endquery="false" field="u_slx_estado_acta_recepcion_servicios" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="En proceso por CD" endquery="false" field="u_slx_estado_envio_entregable" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Fecha solicitud emision automatica</name>
+        <order>3000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.u_slx_fecha_solicitud_emision = new GlideDateTime();
+	
+	//Se apunta a la tabla ficha de proyecto
+	var gr = new GlideRecord('x_hocsa_san_ficha_de_proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	if (gr.next()) {
+			//Se setea la fecha de cambio de estado 
+			gr.u_slx_fecha_cambio_estado = current.u_slx_fecha_solicitud_emision;
+			gr.update(); 
+			
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-02 15:38:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d11bc1c1db3194103f3bbe4f299619e0</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>SLX Fecha solicitud emision automatica</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_d11bc1c1db3194103f3bbe4f299619e0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-27 17:13:21</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=d11bc1c1db3194103f3bbe4f299619e0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_d11bc1c1db3194103f3bbe4f299619e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_entregable&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Cuando cambie de estado, la fecha se completara automaticamente&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_entregable"&gt;u_slx_estado_acta_recepcion_servicios=1^u_slx_estado_envio_entregable=1^EQ&lt;item display_value="Solicitada por PCO" endquery="false" field="u_slx_estado_acta_recepcion_servicios" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item display_value="En proceso por CD" endquery="false" field="u_slx_estado_envio_entregable" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX Fecha solicitud emision automatica&lt;/name&gt;&lt;order&gt;3000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.u_slx_fecha_solicitud_emision = new GlideDateTime();
+	
+	//Se apunta a la tabla ficha de proyecto
+	var gr = new GlideRecord('x_hocsa_san_ficha_de_proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	if (gr.next()) {
+			//Se setea la fecha de cambio de estado 
+			gr.u_slx_fecha_cambio_estado = current.u_slx_fecha_solicitud_emision;
+			gr.update(); 
+			
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-02 15:38:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d11bc1c1db3194103f3bbe4f299619e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Fecha solicitud emision automatica&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d11bc1c1db3194103f3bbe4f299619e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-27 17:13:21&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d11bc1c1db3194103f3bbe4f299619e0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1216380966</payload_hash>
+        <record_name>SLX Fecha solicitud emision automatica</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-27 17:13:22</sys_created_on>
+        <sys_id>d5091ec51b9adc548802dac2cd4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739143bbce0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-27 17:13:22</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>1d091ec5cf9adc54fe92db1d1e52b241</update_guid>
+        <update_guid_history>1d091ec5cf9adc54fe92db1d1e52b241:1216380966,7807a16bb58250908eb2992cd567ed5f:1005407746,bff5905bf706d450c4cb0dcb75a26154:312664366,fabe9f4b1f8e54504a6b5d3976d4b93b:549470191,b27e9bcf234e545008730d42d285a57e:-1460892209,3e4e9703618e5450bc089880cb328496:549470191,0b3e1b87688e5450e4526aae93a5881e:-1460892209,bd1787c3d186545031e7314d75df2634:-1106380978,15068783e046545051fd473616cfd539:312664366,c9c73dc1da359410341bd000079563d1:1674044830,5e62350d26f194108790de8ce33d6032:292022471,82c315411f7194107465ade516980f54:1132778427,6593d9cda2319410a6a149b4cd835460:-1734358908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-13 21:15:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>310797a906c34b649ccff1a1a3281010</sys_id>
+        <sys_metadata>d11bc1c1db3194103f3bbe4f299619e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Fecha solicitud emision automatica</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_d11bc1c1db3194103f3bbe4f299619e0</sys_update_name>
+        <sys_update_version display_value="sys_script_d11bc1c1db3194103f3bbe4f299619e0">d5091ec51b9adc548802dac2cd4bcb42</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-13 21:15:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

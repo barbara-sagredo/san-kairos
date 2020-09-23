@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_hocsa_san_encuesta" label="Encuesta Término de Proyecto" max_length="40" name="x_hocsa_san_encuesta_de_proyecto" type="collection">
+        <element label="N° Acta Recepción de Servicios" max_length="40" name="u_slx_acta_recepcion_servicios" read_only="true" type="string"/>
+        <element label="Cliente que firma la encuesta" mandatory="true" max_length="100" name="u_slx_cliente_firma_encuesta" reference="sys_user" reference_qual="nameSTARTSWITHCliente^EQ" reference_qual_condition="nameSTARTSWITHCliente^EQ" type="reference"/>
+        <element label="N° Entregable" max_length="32" name="u_slx_entregable" reference="x_hocsa_san_entregable" type="reference"/>
+        <element choice="1" default="1" label="Estado" max_length="40" name="u_slx_estado_gestion" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="En Proceso" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="En Proceso" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Recepcionada" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Recepcionada" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Analizada" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Analizada" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Cerrada" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Cerrada" language="es" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element label="Fecha de cierre AC" max_length="40" name="u_slx_fecha_cierre_ac" type="glide_date"/>
+        <element label="Fecha compromiso AC" max_length="40" name="u_slx_fecha_compromiso_ac" type="glide_date"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element label="N° Planes de acción" max_length="400" name="u_slx_numero_planes_accion" type="string"/>
+        <element label="Responsable de la AC" max_length="100" name="u_slx_responsable_ac" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="u_slx_entregable"/>
+        </index>
+    </element>
+</database>

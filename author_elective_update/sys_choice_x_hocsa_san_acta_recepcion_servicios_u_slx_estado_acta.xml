@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_estado_acta" table="x_hocsa_san_acta_recepcion_servicios" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_acta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enviada a publicación</label>
+            <language>es</language>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba645cde1b66d8588802dac2cd4bcb16</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:02:36</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_acta</element>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 14:59:14</sys_created_on>
+            <sys_id>68c3d0de1b66d8588802dac2cd4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado_acta</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_estado_acta</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 14:59:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_estado_acta</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado_acta" table="x_hocsa_san_acta_recepcion_servicios" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_estado_acta</element><hint/><inactive>false</inactive><label>Enviada a publicación</label><language>es</language><name>x_hocsa_san_acta_recepcion_servicios</name><sequence>600</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:02:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ba645cde1b66d8588802dac2cd4bcb16</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:02:36</sys_updated_on><value>6</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_estado_acta</element><name>x_hocsa_san_acta_recepcion_servicios</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 14:59:14</sys_created_on><sys_id>68c3d0de1b66d8588802dac2cd4bcbb3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_estado_acta</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_estado_acta</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 14:59:14</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1762610303</payload_hash>
+        <record_name>x_hocsa_san_acta_recepcion_servicios.u_slx_estado_acta</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:15</sys_created_on>
+        <sys_id>6fb130da1b2ad8588802dac2cd4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e3a6a1880000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:15</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>27b130da5e2ad858affe47df9badf160</update_guid>
+        <update_guid_history>27b130da5e2ad858affe47df9badf160:-1762610303,ebb130dabf2ad858ccd42c1d485d955d:-888960184,a3b130dad52ad858d6e45a1f0f7d155b:1732814135,6bb130daec2ad858f795f6c167661958:1172372897,23b130da6b2ad85850e2971d45606556:2046026568,e7b130da712ad8587e96c93e5c8a0153:-438742924,afb130dabb2ad858171a8bc1c2877e50:-355012109,67b130dae02ad8583d60f21f0651334e:998884717,2fb130dad72ad8581a1a9634275e104b:724756067,e3b130dad62ad8582561f47368a93949:362807700,67b130da762ad8582cdf2d514a4aed21:1574955351,fd8454127ca6d8584d1d0ff218f48102:-469924961,3984141205a6d858c1802c43398e9bff:776469240,9c8450123fa6d8581e32cae7720167c4:-620481095,6b74d4de5c66d858e3536cb4ef7454ac:-1029676428,da74d01225a6d85857fd77cf2f4545e4:-479983143,1674d012fda6d858a73fedf8af3086e1:781021026,bf6454dea266d858d9a276bd1ec3b146:10708587,7e64d8dab766d8589f0a3aad5b724e6e:1101812560,c3545012eea6d8583dd3a617fdefa9bf:-593889355,cf5494deff66d85800dc0ed332084c50:-1842829873,4e5498de5a66d85847c58074a746930b:-1844103199,865498deb766d85842b374a63e42a708:-810167815,e05498de1666d858f34c89f98d2185b6:807481569,2b4410121aa6d8583d7b011749d793d2:545896397,b4345cde6b66d858fc7d6132c9186bf4:-940371103,7034149e6f66d858625e80fca4c63ef8:-782345148,af241cdea366d858997ac671920c7185:856658771,7a241cde7b66d858eb64654b6c107158:-849590514,b2241cdef966d858fb5e696c58903155:-1257999961,f12458deca66d8588f7e1c8fea34b2ce:-1907290002,7424101e7866d858199d278c52c32b30:-1090167777,b3041c5ee566d85877076cda15e0d47a:-667173682,fb041c5e4666d858cef7f7e5bba1e276:1994911758,7204149edd66d858cbdbf43f1acb4526:-1496928272,060458de8a66d858fe2dd98836db48ca:-1109666987,4e0458deda66d858cc6d74d4ba512dc6:-802901777,b00450dae466d858cb2ffad792e35c2e:2082299797,3ff318de4f66d858c14f6a338968b1e7:592698229,00f314de3766d858ff5866f90ea816fe:428272533,48f314de3366d8586db547820c1b39fa:-621701334,d7e3d4de8766d858dbe2c1d137d195a5:-1420893175,e2e394de2c66d858584062edbe4f1fcd:-370932498,2ee394ded066d858cd7025f4d62e38c9:-168064375,61e3d45e1866d858454cb9e7ace175b1:-218415986,24e3149ef866d8584af5dfd34c2c3de9:-1198923399,8ad394dec766d8586603584137181148:-1210990546,82d3149ebf66d858e6c63b07cb3977d4:1611152450,d9d3149ef266d858159a027cfe1517f3:1191962504,c8d3d45e0a66d858d06ca3dbc396a2a8:225003331,c0d3d45ef966d858245a49d4f5cf28a5:1398468703,ebc354de2566d8581d765469e762b00f:-1649665341,ecc3d0dee266d858e38dac3c877dafb4:357410590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>68c3d0de1b66d8588802dac2cd4bcbb3</sys_id>
+        <sys_metadata>68c3d0de1b66d8588802dac2cd4bcbb3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_estado_acta</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_estado_acta</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_estado_acta">6fb130da1b2ad8588802dac2cd4bcb60</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

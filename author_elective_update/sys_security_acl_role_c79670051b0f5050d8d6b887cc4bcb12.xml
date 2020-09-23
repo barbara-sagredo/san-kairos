@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 16:50:29</sys_created_on>
+        <sys_id>c79670051b0f5050d8d6b887cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_hocsa_san.proyecto_admin</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_security_acl display_value="">079670051b0f5050d8d6b887cc4bcb0f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c79670051b0f5050d8d6b887cc4bcb12</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:50:29</sys_updated_on>
+        <sys_user_role display_value="x_hocsa_san.proyecto_admin" name="x_hocsa_san.proyecto_admin">5590a405dbcb101063a95275ca961977</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_security_acl_role_c79670051b0f5050d8d6b887cc4bcb12</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-02 16:50:29</sys_created_on><sys_id>c79670051b0f5050d8d6b887cc4bcb12</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_hocsa_san.proyecto_admin</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_security_acl display_value="">079670051b0f5050d8d6b887cc4bcb0f</sys_security_acl><sys_update_name>sys_security_acl_role_c79670051b0f5050d8d6b887cc4bcb12</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-02 16:50:29</sys_updated_on><sys_user_role display_value="x_hocsa_san.proyecto_admin" name="x_hocsa_san.proyecto_admin">5590a405dbcb101063a95275ca961977</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1551053563</payload_hash>
+        <record_name>.x_hocsa_san.proyecto_admin</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 16:50:29</sys_created_on>
+        <sys_id>cf9670051b0f5050d8d6b887cc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744fba179f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:50:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c7967005150f50508bf6576b7e233e14</update_guid>
+        <update_guid_history>c7967005150f50508bf6576b7e233e14:1551053563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_hocsa_san.proyecto_admin">5b47f0c11b0f5050d8d6b887cc4bcb54</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 16:53:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>096cabed021648a5a0b66439545faa21</sys_id>
+        <sys_metadata>c79670051b0f5050d8d6b887cc4bcb12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_hocsa_san.proyecto_admin</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="x_hocsa_san_ficha_de_proyecto.u_slx_avance_planificado">079670051b0f5050d8d6b887cc4bcb0f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c79670051b0f5050d8d6b887cc4bcb12</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c79670051b0f5050d8d6b887cc4bcb12">cf9670051b0f5050d8d6b887cc4bcb14</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:53:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_requiere_ac" table="x_hocsa_san_encuesta_de_proyecto" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_requiere_ac</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-08 21:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5f8d9c31b7ddc108802dac2cd4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-08 21:09:55</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_requiere_ac</element>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-08 21:09:32</sys_created_on>
+            <sys_id>b3d8d9c31b7ddc108802dac2cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_requiere_ac</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_requiere_ac</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-08 21:09:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_requiere_ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_requiere_ac" table="x_hocsa_san_encuesta_de_proyecto" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_requiere_ac</element><hint/><inactive>false</inactive><label>No</label><language>en</language><name>x_hocsa_san_encuesta_de_proyecto</name><sequence>200</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-08 21:09:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d5f8d9c31b7ddc108802dac2cd4bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-08 21:09:55</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_requiere_ac</element><name>x_hocsa_san_encuesta_de_proyecto</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-08 21:09:32</sys_created_on><sys_id>b3d8d9c31b7ddc108802dac2cd4bcb83</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_requiere_ac</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_requiere_ac</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-08 21:09:32</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1572944169</payload_hash>
+        <record_name>x_hocsa_san_encuesta_de_proyecto.u_slx_requiere_ac</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 14:15:38</sys_created_on>
+        <sys_id>deb3c95bdb3590503f3bbe4f29961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17333ee8cf20000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 14:15:38</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>96b3c95b4a3590500961cadf3cb74994</update_guid>
+        <update_guid_history>96b3c95b4a3590500961cadf3cb74994:1572944169,dab3c95bbf359050f74208b7a5190191:-2039584913,12b3c95bcc3590501de76688fcc73b8f:-491560057,19f8d9c3167ddc10268de1622e4b0a8c:1722051364,bbe8d9c36f7ddc10748b26893da0d088:-1896998045,bce81dc3dd7ddc10665890d2f5f57a3b:12764125,33d8d9c3e97ddc10b0e2fa0c6ee13185:-2080408640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 14:15:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>b3d8d9c31b7ddc108802dac2cd4bcb83</sys_id>
+        <sys_metadata>b3d8d9c31b7ddc108802dac2cd4bcb83</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_requiere_ac</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_requiere_ac</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_requiere_ac">deb3c95bdb3590503f3bbe4f29961994</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 14:15:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

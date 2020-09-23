@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado_entregable" table="x_hocsa_san_entregable" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d7ed7fadbc610503f3bbe4f2996195f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:30:55</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:31:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>238e17b6db0a10503f3bbe4f299619c4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:31:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Por Vencer</label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:31:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b9e1ff6db0a10503f3bbe4f299619df</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:31:34</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Por Vencer</label>
+            <language>es</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acbe1772db0a10503f3bbe4f299619e3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:31:51</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fuera de Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28cedb3adb0a10503f3bbe4f2996197c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:52:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fuera de Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c736ffadb0a10503f3bbe4f2996195b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:53:21</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debe tramitar SC por plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:54:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07732772db0a10503f3bbe4f299619e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:54:24</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debe tramitar SC por plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_entregable</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:54:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7e3ebbadb4a10503f3bbe4f29961905</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:54:34</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_entregable</element>
+            <name>x_hocsa_san_entregable</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-20 22:30:49</sys_created_on>
+            <sys_id>2b8e577edbc610503f3bbe4f299619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado_entregable</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_entregable_u_slx_estado_entregable</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-20 22:30:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

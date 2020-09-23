@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Segun la calificacion de las preguntas se pintaran el cuadro</description>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Cambiar color proyecto</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //definir las variables de las preguntas
+var q1a = g_form.getValue('u_slx_q1');
+var q1 = g_form.getElement('u_slx_q1');
+var q2a = g_form.getValue('u_slx_q2');
+var q2 = g_form.getElement('u_slx_q2');
+var q3a = g_form.getValue('u_slx_q3');
+var q3 = g_form.getElement('u_slx_q3');
+var q4a = g_form.getValue('u_slx_q4');
+var q4 = g_form.getElement('u_slx_q4');
+var q5a = g_form.getValue('u_slx_q5');
+var q5 = g_form.getElement('u_slx_q5');
+var q6a = g_form.getValue('u_slx_q6');
+var q6 = g_form.getElement('u_slx_q6');
+var q7a = g_form.getValue('u_slx_q7');
+var q7 = g_form.getElement('u_slx_q7');
+var q8a = g_form.getValue('u_slx_q8');
+var q8 = g_form.getElement('u_slx_q8');
+var q9a = g_form.getValue('u_slx_q9');
+var q9 = g_form.getElement('u_slx_q9');
+
+	
+var nps= g_form.getValue('u_slx_nps');
+	Math.round(nps);
+var npsa = g_form.getElement('u_slx_nps');
+
+
+var eleform = g_form.getFormElement();
+
+//cambia los colores según el valor de la pregunta 1
+	if(q1a){
+	if(q1a>=0 && q1a<=4){
+		q1.style.backgroundColor = "OrangeRed";
+	}else if(q1a==5 || q1a==6){
+		q1.style.backgroundColor = "yellow";
+	}else if(q1a>=7 && q1a<=10){
+		q1.style.backgroundColor = "GreenYellow";
+	}else  {
+		q1.style.backgroundColor = "white";
+	}}else {
+		q1.style.backgroundColor = "white";
+	}
+	
+//cambia los colores según el valor de la pregunta 2
+	if(q2a){
+	if(q2a>=0 && q2a<=4){
+		q2.style.backgroundColor = "OrangeRed";
+	}else if(q2a==5 || q2a==6){
+		q2.style.backgroundColor = "yellow";
+	}else if(q2a>=7 && q2a<=10){
+		q2.style.backgroundColor = "GreenYellow";
+	}else {
+		q2.style.backgroundColor = "white";
+	}}else {
+		q2.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 3
+	if(q3a){
+	if(q3a>=0 && q3a<=4){
+		q3.style.backgroundColor = "OrangeRed";
+	}else if(q3a==5 || q3a==6){
+		q3.style.backgroundColor = "yellow";
+	}else if(q3a>=7 && q3a<=10){
+		q3.style.backgroundColor = "GreenYellow";
+	}else {
+		q3.style.backgroundColor = "white";
+	}
+	}else {
+		q3.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 4
+	if(q4a){
+	if(q4a>=0 && q4a<=4){
+		q4.style.backgroundColor = "OrangeRed";
+	}else if(q4a==5 || q4a==6){
+		q4.style.backgroundColor = "yellow";
+	}else if(q4a>=7 && q4a<=10){
+		q4.style.backgroundColor = "GreenYellow";
+	}else {
+		q4.style.backgroundColor = "white";
+	}
+	}else {
+		q4.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 5
+	if(q5a){
+	if(q5a>=0 && q5a<=4){
+		q5.style.backgroundColor = "OrangeRed";
+	}else if(q5a==5 || q5a==6){
+		q5.style.backgroundColor = "yellow";
+	}else if(q5a>=7 && q5a<=10){
+		q5.style.backgroundColor = "GreenYellow";
+	}else {
+		q5.style.backgroundColor = "white";
+	}
+	}else {
+		q5.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 6
+	if(q6a){
+	if(q6a>=0 && q6a<=4){
+		q6.style.backgroundColor = "OrangeRed";
+	}else if(q6a==5 || q6a==6){
+		q6.style.backgroundColor = "yellow";
+	}else if(q6a>=7 && q6a<=10){
+		q6.style.backgroundColor = "GreenYellow";
+	}else {
+		q6.style.backgroundColor = "white";
+	}
+	}else {
+		q6.style.backgroundColor = "white";
+	}
+	
+	
+	//cambia los colores según el valor de la pregunta 7
+	if(q7a){
+	if(q7a>=0 && q7a<=4){
+		q7.style.backgroundColor = "OrangeRed";
+	}else if(q7a==5 || q7a==6){
+		q7.style.backgroundColor = "yellow";
+	}else if(q7a>=7 && q7a<=10){
+		q7.style.backgroundColor = "GreenYellow";
+	}else {
+		q7.style.backgroundColor = "white";
+	}
+	}else {
+		q7.style.backgroundColor = "white";
+	}
+	//cambia los colores según el valor de la pregunta 8
+	if(q8a){
+	if(q8a>=0 && q8a<=4){
+		q8.style.backgroundColor = "OrangeRed";
+	}else if(q8a==5 || q8a==6){
+		q8.style.backgroundColor = "yellow";
+	}else if(q8a>=7 && q8a<=10){
+		q8.style.backgroundColor = "GreenYellow";
+	}else {
+		q8.style.backgroundColor = "white";
+	}
+	}else {
+		q8.style.backgroundColor = "white";
+	}
+		
+	
+	//cambia los colores según el valor de la pregunta 9
+	if(q9a){
+	if(q9a>=0 && q9a<=4){
+		q9.style.backgroundColor = "OrangeRed";
+	}else if(q9a==5 || q9a==6){
+		q9.style.backgroundColor = "yellow";
+	}else if(q9a>=7 && q9a<=10){
+		q9.style.backgroundColor = "GreenYellow";
+	}else {
+		q9.style.backgroundColor = "white";
+	}
+	}else {
+		q9.style.backgroundColor = "white";
+	}
+	
+	
+	if (nps) {
+        if (nps >= 0 && nps <= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if (nps == 5 || nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if (nps >= 7 && nps <= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-17 16:22:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>562d6eb11b0a58108802dac2cd4bcbcb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX Cambiar color proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_562d6eb11b0a58108802dac2cd4bcbcb</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:10:07</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_562d6eb11b0a58108802dac2cd4bcbcb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Segun la calificacion de las preguntas se pintaran el cuadro&lt;/description&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Cambiar color proyecto&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //definir las variables de las preguntas
+var q1a = g_form.getValue('u_slx_q1');
+var q1 = g_form.getElement('u_slx_q1');
+var q2a = g_form.getValue('u_slx_q2');
+var q2 = g_form.getElement('u_slx_q2');
+var q3a = g_form.getValue('u_slx_q3');
+var q3 = g_form.getElement('u_slx_q3');
+var q4a = g_form.getValue('u_slx_q4');
+var q4 = g_form.getElement('u_slx_q4');
+var q5a = g_form.getValue('u_slx_q5');
+var q5 = g_form.getElement('u_slx_q5');
+var q6a = g_form.getValue('u_slx_q6');
+var q6 = g_form.getElement('u_slx_q6');
+var q7a = g_form.getValue('u_slx_q7');
+var q7 = g_form.getElement('u_slx_q7');
+var q8a = g_form.getValue('u_slx_q8');
+var q8 = g_form.getElement('u_slx_q8');
+var q9a = g_form.getValue('u_slx_q9');
+var q9 = g_form.getElement('u_slx_q9');
+
+	
+var nps= g_form.getValue('u_slx_nps');
+	Math.round(nps);
+var npsa = g_form.getElement('u_slx_nps');
+
+
+var eleform = g_form.getFormElement();
+
+//cambia los colores según el valor de la pregunta 1
+	if(q1a){
+	if(q1a&gt;=0 &amp;&amp; q1a&lt;=4){
+		q1.style.backgroundColor = "OrangeRed";
+	}else if(q1a==5 || q1a==6){
+		q1.style.backgroundColor = "yellow";
+	}else if(q1a&gt;=7 &amp;&amp; q1a&lt;=10){
+		q1.style.backgroundColor = "GreenYellow";
+	}else  {
+		q1.style.backgroundColor = "white";
+	}}else {
+		q1.style.backgroundColor = "white";
+	}
+	
+//cambia los colores según el valor de la pregunta 2
+	if(q2a){
+	if(q2a&gt;=0 &amp;&amp; q2a&lt;=4){
+		q2.style.backgroundColor = "OrangeRed";
+	}else if(q2a==5 || q2a==6){
+		q2.style.backgroundColor = "yellow";
+	}else if(q2a&gt;=7 &amp;&amp; q2a&lt;=10){
+		q2.style.backgroundColor = "GreenYellow";
+	}else {
+		q2.style.backgroundColor = "white";
+	}}else {
+		q2.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 3
+	if(q3a){
+	if(q3a&gt;=0 &amp;&amp; q3a&lt;=4){
+		q3.style.backgroundColor = "OrangeRed";
+	}else if(q3a==5 || q3a==6){
+		q3.style.backgroundColor = "yellow";
+	}else if(q3a&gt;=7 &amp;&amp; q3a&lt;=10){
+		q3.style.backgroundColor = "GreenYellow";
+	}else {
+		q3.style.backgroundColor = "white";
+	}
+	}else {
+		q3.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 4
+	if(q4a){
+	if(q4a&gt;=0 &amp;&amp; q4a&lt;=4){
+		q4.style.backgroundColor = "OrangeRed";
+	}else if(q4a==5 || q4a==6){
+		q4.style.backgroundColor = "yellow";
+	}else if(q4a&gt;=7 &amp;&amp; q4a&lt;=10){
+		q4.style.backgroundColor = "GreenYellow";
+	}else {
+		q4.style.backgroundColor = "white";
+	}
+	}else {
+		q4.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 5
+	if(q5a){
+	if(q5a&gt;=0 &amp;&amp; q5a&lt;=4){
+		q5.style.backgroundColor = "OrangeRed";
+	}else if(q5a==5 || q5a==6){
+		q5.style.backgroundColor = "yellow";
+	}else if(q5a&gt;=7 &amp;&amp; q5a&lt;=10){
+		q5.style.backgroundColor = "GreenYellow";
+	}else {
+		q5.style.backgroundColor = "white";
+	}
+	}else {
+		q5.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 6
+	if(q6a){
+	if(q6a&gt;=0 &amp;&amp; q6a&lt;=4){
+		q6.style.backgroundColor = "OrangeRed";
+	}else if(q6a==5 || q6a==6){
+		q6.style.backgroundColor = "yellow";
+	}else if(q6a&gt;=7 &amp;&amp; q6a&lt;=10){
+		q6.style.backgroundColor = "GreenYellow";
+	}else {
+		q6.style.backgroundColor = "white";
+	}
+	}else {
+		q6.style.backgroundColor = "white";
+	}
+	
+	
+	//cambia los colores según el valor de la pregunta 7
+	if(q7a){
+	if(q7a&gt;=0 &amp;&amp; q7a&lt;=4){
+		q7.style.backgroundColor = "OrangeRed";
+	}else if(q7a==5 || q7a==6){
+		q7.style.backgroundColor = "yellow";
+	}else if(q7a&gt;=7 &amp;&amp; q7a&lt;=10){
+		q7.style.backgroundColor = "GreenYellow";
+	}else {
+		q7.style.backgroundColor = "white";
+	}
+	}else {
+		q7.style.backgroundColor = "white";
+	}
+	//cambia los colores según el valor de la pregunta 8
+	if(q8a){
+	if(q8a&gt;=0 &amp;&amp; q8a&lt;=4){
+		q8.style.backgroundColor = "OrangeRed";
+	}else if(q8a==5 || q8a==6){
+		q8.style.backgroundColor = "yellow";
+	}else if(q8a&gt;=7 &amp;&amp; q8a&lt;=10){
+		q8.style.backgroundColor = "GreenYellow";
+	}else {
+		q8.style.backgroundColor = "white";
+	}
+	}else {
+		q8.style.backgroundColor = "white";
+	}
+		
+	
+	//cambia los colores según el valor de la pregunta 9
+	if(q9a){
+	if(q9a&gt;=0 &amp;&amp; q9a&lt;=4){
+		q9.style.backgroundColor = "OrangeRed";
+	}else if(q9a==5 || q9a==6){
+		q9.style.backgroundColor = "yellow";
+	}else if(q9a&gt;=7 &amp;&amp; q9a&lt;=10){
+		q9.style.backgroundColor = "GreenYellow";
+	}else {
+		q9.style.backgroundColor = "white";
+	}
+	}else {
+		q9.style.backgroundColor = "white";
+	}
+	
+	
+	if (nps) {
+        if (nps &gt;= 0 &amp;&amp; nps &lt;= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if (nps == 5 || nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if (nps &gt;= 7 &amp;&amp; nps &lt;= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-17 16:22:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;562d6eb11b0a58108802dac2cd4bcbcb&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Cambiar color proyecto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_562d6eb11b0a58108802dac2cd4bcbcb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-21 22:10:07&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_proyecto&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-736375773</payload_hash>
+        <record_name>SLX Cambiar color proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-21 22:10:07</sys_created_on>
+        <sys_id>0cbc48d9db3298503f3bbe4f2996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174131268db0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:10:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c0bc48d9393298500c21bea169799b6a</update_guid>
+        <update_guid_history>c0bc48d9393298500c21bea169799b6a:-736375773,ad3d560e9e1a94183089e3379a384652:1611617424,417cd46900da9c942c40972b58ec55de:-1330060322,6954ee8105521094aeef22b188ae51c1:-1116477446,603e52fb2a0adc50602c6e9819c384e1:1047339652,81ada235f50a58107c876df8ddb0dce6:-1327556747,089d2e352d0a58108bfe33fbff6e92d9:1576087229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:29:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>09cebac440de421191c3e30f2cb6efb1</sys_id>
+        <sys_metadata>562d6eb11b0a58108802dac2cd4bcbcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Cambiar color proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_562d6eb11b0a58108802dac2cd4bcbcb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_562d6eb11b0a58108802dac2cd4bcbcb">0cbc48d9db3298503f3bbe4f2996196a</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:29:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

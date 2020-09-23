@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Entregable" max_length="40" name="x_hocsa_san_entregable" type="collection">
+        <element label="Comentarios del Cliente" max_length="400" name="u_slx_comentarios_acta" type="string"/>
+        <element label="Fecha emisión del acta" max_length="40" name="u_slx_emision_acta" type="glide_date"/>
+        <element choice="1" label="Encuesta Firmada" max_length="40" name="u_slx_encuesta_firmada" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Encuesta Respondida" max_length="40" name="u_slx_encuesta_respondida" type="choice">
+            <choice/>
+        </element>
+        <element label="Entregable mayor" max_length="40" name="u_slx_entregable_mayor" type="boolean"/>
+        <element label="Entregado" max_length="40" name="u_slx_entregado" type="boolean"/>
+        <element label="N° EP" max_length="32" name="u_slx_ep" reference="x_hocsa_san_ficha_ep" type="reference"/>
+        <element choice="1" default="1" label="Estado del Acta de Recepción de Servicios" max_length="40" name="u_slx_estado_acta_recepcion_servicios" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Creada" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Solicitud de Emisión" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Enviada a JP" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Entregada por JP a CD" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Enviada a administrador de contrato Kairos" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Recibida con firma" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Creada" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Solicitada por PCO" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Enviada a JP" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Entregada por JP a CD" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Enviada a administrador de contrato Kairos" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Recibida con firma" language="es" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Enviada a Secretaria Kairos" language="es" sequence="700" value="7"/>
+                <element inactive="true" inactive_on_update="true" label="Enviada a Secretaria Kairos" sequence="700" value="7"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Estado Encuesta de Término de Proyecto" max_length="40" name="u_slx_estado_encuesta_proyecto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Creada" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Creada" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Recibida, completada y firmada" sequence="400" value="2"/>
+                <element inactive_on_update="false" label="Recibida, completada y firmada" language="es" sequence="400" value="2"/>
+                <element inactive_on_update="false" label="Recibida y no completada" language="es" sequence="500" value="3"/>
+                <element inactive_on_update="false" label="Recibida y no completada" sequence="500" value="3"/>
+                <element inactive_on_update="false" label="Recibida y completada sin firma" sequence="600" value="4"/>
+                <element inactive_on_update="false" label="Recibida y completada sin firma" language="es" sequence="600" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Estado de envío del entregable" max_length="40" name="u_slx_estado_envio_entregable" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="En plazo" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="En plazo" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Por vencer" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Por vencer" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Fuera de plazo" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Fuera de plazo" sequence="300" value="3"/>
+            </choice>
+        </element>
+        <element label="Fecha de aceptación del servicio" max_length="40" name="u_slx_fecha_aceptacion_servicio" type="glide_date"/>
+        <element label="Fecha Devolución Encuesta JP a CD" max_length="40" name="u_slx_fecha_devolucion_encuesta" type="glide_date"/>
+        <element label="Fecha de entrega de JP a CD" max_length="40" name="u_slx_fecha_entrega_jp_cd" type="glide_date"/>
+        <element label="Fecha Entrega a admin. contrato Kairos" max_length="40" name="u_slx_fecha_envio_adm_contrato_kairos" type="glide_date"/>
+        <element label="Fecha envio a secretaria Kairos" max_length="40" name="u_slx_fecha_envio_secretaria_kairos" type="glide_date"/>
+        <element label="Fecha cambio de estado encuesta" max_length="40" name="u_slx_fecha_estado_encuesta" type="glide_date"/>
+        <element label="Fecha notificacion" max_length="40" name="u_slx_fecha_notif" type="glide_date_time"/>
+        <element label="Fecha Planificación de emisión" max_length="40" name="u_slx_fecha_planificacion" type="glide_date"/>
+        <element label="Fecha publicación acta" max_length="40" name="u_slx_fecha_publicacion_acta" type="glide_date"/>
+        <element label="Fecha publicación encuesta" max_length="40" name="u_slx_fecha_publicacion_encuesta" type="glide_date"/>
+        <element label="Fecha Recepción ACR Firmada" max_length="40" name="u_slx_fecha_recepcion_acr_firmada" type="glide_date"/>
+        <element label="Fecha Solicitud de emisión" max_length="40" name="u_slx_fecha_solicitud_emision" type="glide_date"/>
+        <element label="N° HCO" max_length="32" name="u_slx_hco" read_only="true" reference="x_hocsa_san_ficha_de_proyecto" type="reference"/>
+        <element label="Monto entregable" max_length="40" name="u_slx_monto_entregable" type="integer"/>
+        <element label="NEN asociada" max_length="32" name="u_slx_nen_asociada" read_only="true" reference="x_hocsa_san_nen" reference_qual="javascript:'u_slx_hco='+current.u_slx_hco" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Nombre del Entregable" mandatory="true" max_length="100" name="u_slx_nombre" type="string"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element label="Notificacion" max_length="40" name="u_slx_notif" type="boolean"/>
+        <element label="Notificacion 2" max_length="40" name="u_slx_notif_2" type="boolean"/>
+        <element label="N° Acta Recepción de Servicios" max_length="40" name="u_slx_nro_acta_recepcion_servicios" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Número" max_length="40" name="u_slx_numero" read_only="true" type="string"/>
+        <element label="Porcentaje del entregable" max_length="40" name="u_slx_porcentaje_entregable" read_only="true" type="decimal"/>
+        <element label="Representante Codelco" max_length="32" name="u_slx_representante_codelco" reference="sys_user" type="reference"/>
+        <element label="Representante División" max_length="32" name="u_slx_representante_division" reference="sys_user" type="reference"/>
+        <element label="Tiempo Gestión de Encuesta (TGE)" max_length="40" name="u_slx_tiempo_gestion_encuesta" type="integer"/>
+        <element choice="1" label="Tipo" mandatory="true" max_length="40" name="u_slx_tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Documentos" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Documentos" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Planos" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Planos" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Actas de Recepción de Servicios" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Actas de Recepción de Servicios" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Anexo" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Anexo" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Otros" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Otros" language="es" sequence="500" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_slx_representante_codelco"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_ep"/>
+        </index>
+        <index name="index3">
+            <element name="u_slx_hco"/>
+        </index>
+        <index name="index4">
+            <element name="u_slx_representante_division"/>
+        </index>
+        <index name="index5">
+            <element name="u_slx_nen_asociada"/>
+        </index>
+    </element>
+</database>

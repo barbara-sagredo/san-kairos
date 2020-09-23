@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Se calcula el promedio, se debe ignorar las preguntas con respuesta NA&#13;
+Tambien ingresa el valor de promedio a ISC y lo pinta segun el resultado</description>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Promedio encuesta soporte</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    //Se crean las variables
+    var cont = 0;
+    var q1 = g_form.getDecimalValue('u_slx_q1_s');
+    var q2 = g_form.getDecimalValue('u_slx_q2_s');
+    var q3 = g_form.getDecimalValue('u_slx_q3_s');
+    var q4 = g_form.getDecimalValue('u_slx_q4_s');
+    var q5 = g_form.getDecimalValue('u_slx_q5_s');
+    var q6 = g_form.getDecimalValue('u_slx_q6_s');
+    var q7 = g_form.getDecimalValue('u_slx_q7_s');
+    var q8 = g_form.getDecimalValue('u_slx_q8_s');
+    var q9 = g_form.getDecimalValue('u_slx_q9_s');
+    var isc = g_form.getElement('u_slx_isc');
+    //Se crea un arreglo que contenga todas las variables	
+    var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+
+    //se debe inicializar la variable suma en 0
+    var suma = 0;
+
+    //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+    questions.forEach(function(value) {
+        if (value != 11) {
+            //Por cada valor se ira sumando un contador
+            cont++;
+            //se van sumando los valores de las variables	
+            suma += value;
+        }
+    });
+
+
+    if (cont > 0) {
+        //se crea una variable promedio y con el metodo math round multiplicado y dividido por 100 el resultado
+        //se redondea en 2 decimales
+        var prom = Math.round((suma / cont) * 10) / 10;
+        //Se setea el campo promedio por la variable promedio
+        g_form.setValue('u_slx_promedio', prom);
+       
+		
+		
+	}else{
+	g_form.setValue('u_slx_promedio', 0);
+	isc.style.backgroundColor = "white";
+	g_form.setValue('u_slx_isc', 0);
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-27 18:06:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cda4ea851b5210948802dac2cd4bcb19</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>SLX Promedio encuesta soporte</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_cda4ea851b5210948802dac2cd4bcb19</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 17:47:30</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_soporte</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_cda4ea851b5210948802dac2cd4bcb19</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Se calcula el promedio, se debe ignorar las preguntas con respuesta NA&amp;#13;
+Tambien ingresa el valor de promedio a ISC y lo pinta segun el resultado&lt;/description&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Promedio encuesta soporte&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    //Se crean las variables
+    var cont = 0;
+    var q1 = g_form.getDecimalValue('u_slx_q1_s');
+    var q2 = g_form.getDecimalValue('u_slx_q2_s');
+    var q3 = g_form.getDecimalValue('u_slx_q3_s');
+    var q4 = g_form.getDecimalValue('u_slx_q4_s');
+    var q5 = g_form.getDecimalValue('u_slx_q5_s');
+    var q6 = g_form.getDecimalValue('u_slx_q6_s');
+    var q7 = g_form.getDecimalValue('u_slx_q7_s');
+    var q8 = g_form.getDecimalValue('u_slx_q8_s');
+    var q9 = g_form.getDecimalValue('u_slx_q9_s');
+    var isc = g_form.getElement('u_slx_isc');
+    //Se crea un arreglo que contenga todas las variables	
+    var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+
+    //se debe inicializar la variable suma en 0
+    var suma = 0;
+
+    //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+    questions.forEach(function(value) {
+        if (value != 11) {
+            //Por cada valor se ira sumando un contador
+            cont++;
+            //se van sumando los valores de las variables	
+            suma += value;
+        }
+    });
+
+
+    if (cont &gt; 0) {
+        //se crea una variable promedio y con el metodo math round multiplicado y dividido por 100 el resultado
+        //se redondea en 2 decimales
+        var prom = Math.round((suma / cont) * 10) / 10;
+        //Se setea el campo promedio por la variable promedio
+        g_form.setValue('u_slx_promedio', prom);
+       
+		
+		
+	}else{
+	g_form.setValue('u_slx_promedio', 0);
+	isc.style.backgroundColor = "white";
+	g_form.setValue('u_slx_isc', 0);
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-27 18:06:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cda4ea851b5210948802dac2cd4bcb19&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Promedio encuesta soporte&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cda4ea851b5210948802dac2cd4bcb19&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-01 17:47:30&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_soporte&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>427902989</payload_hash>
+        <record_name>SLX Promedio encuesta soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 17:47:30</sys_created_on>
+        <sys_id>101a3b2c1b431050d8d6b887cc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744ac7ec470000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 17:47:30</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d41a3b2cd6431050f2b275e2a6fda86a</update_guid>
+        <update_guid_history>d41a3b2cd6431050f2b275e2a6fda86a:427902989,715bcfa8af4fdc10a31fcd35c4272889:-1494928702,6764fb4961be5850d19da870a850aa19:2031272514,ea618c07e4a2dc5887f90134c7301bb9:-647670450,c809d825855a9c94e601d125a7b29d60:839238574,36f2c341121650947da0f35dd8a9e376:-291925149,ce20870d77925094a92ef47df10992d5:-1472380707,48108781f95250943367cfcd78adf14c:-467593378,86ed7e4995125094223adaedcc66b996:-1284420997,f87df64d7c125094c30e0be47a44b5b2:-1079333424,a4ecb60d3d125094089d315ff4fd65d1:1084766939,3cbc3a89741250946e96a551dfc96e10:-914753379,81ac32c148125094c07238e4a8a580f7:1456938299,177c768536125094d852479e8491b76c:-155061660,065c76856612509420032445334f6168:166866197,cc45664d14521094215f8da97fd9f1fc:-2100738801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:26:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>132cdbbc29e1450099e1272673624000</sys_id>
+        <sys_metadata>cda4ea851b5210948802dac2cd4bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Promedio encuesta soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Servicio de Soporte">dfeb4957db7590503f3bbe4f299619b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_cda4ea851b5210948802dac2cd4bcb19</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cda4ea851b5210948802dac2cd4bcb19">101a3b2c1b431050d8d6b887cc4bcb6b</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:26:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

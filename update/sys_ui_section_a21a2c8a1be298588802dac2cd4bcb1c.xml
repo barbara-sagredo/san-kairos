@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fechas" section_id="a21a2c8a1be298588802dac2cd4bcb1c" sys_domain="global" table="x_hocsa_san_nen" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_solicitud_emision</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>093ae92fdb0b1c1463a95275ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_devolucion_jefe_proyecto</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>8d3ae92fdb0b1c1463a95275ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_anulacion</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>013ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_envio_cliente</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>813ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_firma_cliente</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>053ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_publicacion</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>853ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>093ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_master_publicacion</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>893ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_envio_kairos</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>0d3ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_expeditor</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>8d3ae92fdb0b1c1463a95275ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_entrega_cd_jp</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>013ae92fdb0b1c1463a95275ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_entrega_cliente</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 15:00:43</sys_created_on>
+            <sys_id>813ae92fdb0b1c1463a95275ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_san_nen" sys_domain="global" view="Default view">a21a2c8a1be298588802dac2cd4bcb1c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 15:00:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fechas</caption>
+            <header>false</header>
+            <name>x_hocsa_san_nen</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-11 21:58:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a21a2c8a1be298588802dac2cd4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fechas</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_a21a2c8a1be298588802dac2cd4bcb1c</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-11 21:58:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

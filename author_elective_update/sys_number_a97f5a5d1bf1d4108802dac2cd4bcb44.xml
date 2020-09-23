@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_hocsa_san_ficha_de_proyecto">x_hocsa_san_ficha_de_proyecto</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>HCO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 15:48:51</sys_created_on>
+        <sys_id>a97f5a5d1bf1d4108802dac2cd4bcb44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HCO</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_number_a97f5a5d1bf1d4108802dac2cd4bcb44</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 17:31:30</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_number_a97f5a5d1bf1d4108802dac2cd4bcb44</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_hocsa_san_ficha_de_proyecto">x_hocsa_san_ficha_de_proyecto</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>HCO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 15:48:51</sys_created_on><sys_id>a97f5a5d1bf1d4108802dac2cd4bcb44</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HCO</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_number_a97f5a5d1bf1d4108802dac2cd4bcb44</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:31:30</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1641248194</payload_hash>
+        <record_name>HCO</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 17:31:30</sys_created_on>
+        <sys_id>8d073a9d1b75d4108802dac2cd4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17315bbb56f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 17:31:30</sys_updated_on>
+        <type>Number</type>
+        <update_guid>45073a9dbf75d410394fb6c4ec7427c8</update_guid>
+        <update_guid_history>45073a9dbf75d410394fb6c4ec7427c8:1641248194,e58f9a5d09f1d410d01ba81c995b2956:720140674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 15:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>0480b6a26a0c49008046ab5dd1210000</sys_id>
+        <sys_metadata>a97f5a5d1bf1d4108802dac2cd4bcb44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HCO</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_number_a97f5a5d1bf1d4108802dac2cd4bcb44</sys_update_name>
+        <sys_update_version display_value="sys_number_a97f5a5d1bf1d4108802dac2cd4bcb44">8d073a9d1b75d4108802dac2cd4bcbc8</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 15:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

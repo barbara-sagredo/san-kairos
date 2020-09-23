@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.dv</sys_created_by>
+        <sys_created_on>2020-06-22 16:56:42</sys_created_on>
+        <sys_id>f7850e351ba598108802dac2cd4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san_iniciativa.x_hocsa_san.iniciativa_user</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_security_acl display_value="x_hocsa_san_iniciativa">33850e351ba598108802dac2cd4bcbed</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f7850e351ba598108802dac2cd4bcbfc</sys_update_name>
+        <sys_updated_by>slx.dv</sys_updated_by>
+        <sys_updated_on>2020-06-22 16:56:42</sys_updated_on>
+        <sys_user_role display_value="x_hocsa_san.iniciativa_user" name="x_hocsa_san.iniciativa_user">b7858af11ba598108802dac2cd4bcb39</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

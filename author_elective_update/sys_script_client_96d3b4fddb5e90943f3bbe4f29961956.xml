@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_ano_ars</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Peso porcentual del entregable auto</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var peso= 0;
+	var montoEntregable = g_form.getIntValue('u_slx_monto_entregable');
+	var montoTotalVenta = g_form.getIntValue('u_slx_hco.u_slx_monto_total_venta');
+	
+	//peso = (montoEntregable/montoTotalVenta);
+	g_form.addInfoMessage('monto total:'+montoTotalVenta);
+	//g_form.setValue('u_slx_porcentaje_entregable', peso);
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 17:58:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96d3b4fddb5e90943f3bbe4f29961956</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX Peso porcentual del entregable auto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_96d3b4fddb5e90943f3bbe4f29961956</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:01:02</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_96d3b4fddb5e90943f3bbe4f29961956</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_ano_ars&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Peso porcentual del entregable auto&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	
+	var peso= 0;
+	var montoEntregable = g_form.getIntValue('u_slx_monto_entregable');
+	var montoTotalVenta = g_form.getIntValue('u_slx_hco.u_slx_monto_total_venta');
+	
+	//peso = (montoEntregable/montoTotalVenta);
+	g_form.addInfoMessage('monto total:'+montoTotalVenta);
+	//g_form.setValue('u_slx_porcentaje_entregable', peso);
+	
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-29 17:58:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;96d3b4fddb5e90943f3bbe4f29961956&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Peso porcentual del entregable auto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_96d3b4fddb5e90943f3bbe4f29961956&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-03 17:01:02&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_entregable&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1415074459</payload_hash>
+        <record_name>SLX Peso porcentual del entregable auto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 17:01:02</sys_created_on>
+        <sys_id>c959de531b9e1c188802dac2cd4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173b544f8520000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:01:02</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8159de53089e1c18e685ae3a1afdaa11</update_guid>
+        <update_guid_history>8159de53089e1c18e685ae3a1afdaa11:-1415074459,9e68d69f545e1c18390677098410b96d:-160246894,1e485a9fa55e1c18da01e6a762bbc383:278601976,5407747505de90949a843e02fbaff56e:1772425445,e8f634753cde9094b7273e62b401c212:-406140821,a6b6f87587de909434c8ee7e1ad81fb1:2090825754,9486b4fda85e9094b2677e8c6faa9df7:1943720342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-03 17:13:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1af7ca83423645ceb56710042b359659</sys_id>
+        <sys_metadata>96d3b4fddb5e90943f3bbe4f29961956</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Peso porcentual del entregable auto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_96d3b4fddb5e90943f3bbe4f29961956</sys_update_name>
+        <sys_update_version display_value="sys_script_client_96d3b4fddb5e90943f3bbe4f29961956">c959de531b9e1c188802dac2cd4bcb11</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-03 17:13:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

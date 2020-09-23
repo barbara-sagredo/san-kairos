@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Fechas de entrega y firma" section_id="f51e3ed51bb5d4108802dac2cd4bcba0" sys_domain="global" table="x_hocsa_san_entregable" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_hco.u_slx_fecha_inicio</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>50b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_enviada_cliente</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>d0b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_devolucion_jefe_proyecto</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>54b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_recibida_kairos</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>d4b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_entrega_expeditor</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>58b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>d8b715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_hco.u_slx_fecha_termino</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>5cb715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_envio_jp</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>dcb715f4dbbad4503f3bbe4f29961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_entrega_jp_cd</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>50b715f4dbbad4503f3bbe4f29961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_entrega_mano_cliente</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>d0b715f4dbbad4503f3bbe4f29961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>54b715f4dbbad4503f3bbe4f29961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_notas_fechas_firmas</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+            <sys_id>d4b715f4dbbad4503f3bbe4f29961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Fechas de entrega y firma</caption>
+            <header>false</header>
+            <name>x_hocsa_san_entregable</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 18:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f51e3ed51bb5d4108802dac2cd4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fechas de entrega y firma</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_f51e3ed51bb5d4108802dac2cd4bcba0</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 18:02:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_section_f51e3ed51bb5d4108802dac2cd4bcba0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Fechas de entrega y firma" section_id="f51e3ed51bb5d4108802dac2cd4bcba0" sys_domain="global" table="x_hocsa_san_entregable" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_hco.u_slx_fecha_inicio</element><position>0</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>50b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_enviada_cliente</element><position>1</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>d0b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_devolucion_jefe_proyecto</element><position>2</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>54b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_recibida_kairos</element><position>3</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>d4b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_entrega_expeditor</element><position>4</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>58b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>d8b715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_hco.u_slx_fecha_termino</element><position>6</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>5cb715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_envio_jp</element><position>7</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>dcb715f4dbbad4503f3bbe4f29961957</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_entrega_jp_cd</element><position>8</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>50b715f4dbbad4503f3bbe4f29961958</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_entrega_mano_cliente</element><position>9</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>d0b715f4dbbad4503f3bbe4f29961958</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>54b715f4dbbad4503f3bbe4f29961958</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_notas_fechas_firmas</element><position>11</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-20 14:20:51</sys_created_on><sys_id>d4b715f4dbbad4503f3bbe4f29961958</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Fechas de entrega y firma" display_value="Fechas de entrega y firma" name="x_hocsa_san_entregable" sys_domain="global" view="Default view">f51e3ed51bb5d4108802dac2cd4bcba0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-20 14:20:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Fechas de entrega y firma</caption><header>false</header><name>x_hocsa_san_entregable</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 18:02:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f51e3ed51bb5d4108802dac2cd4bcba0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fechas de entrega y firma</sys_name><sys_overrides/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_section_f51e3ed51bb5d4108802dac2cd4bcba0</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 18:02:25</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1217357257</payload_hash>
+        <record_name>Entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 14:20:51</sys_created_on>
+        <sys_id>d8b715f4dbbad4503f3bbe4f2996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1740c3e6b8f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 14:20:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>90b715f48bbad4506ebf6c8f119dfe5a</update_guid>
+        <update_guid_history>90b715f48bbad4506ebf6c8f119dfe5a:1217357257,e6b6997472bad450ddb3294e5ebbb476:148675419,85e7b4d26d6ad858965cccfde1aa3af8:1217357257,8ff7ff1e881a10d4a96afa11c8b4ec1f:795985031,99e6b7da221a10d4cf2a8be9c0efb59f:23049093,74f373d6c31a10d407b0fb0dbd723573:795985031,7bc37f96541a10d4c7629f2bd3c2fb3e:1594335908,efe23b56ef1a10d4100d3b3de0269bed:-1840110239,f0de2bde42d610d4df67838580b8d96e:248080209,a20e679eb7d610d47c046a763181c013:667534356,cfdaeb5a7dd610d4ca05116f1f2233a2:-1214297623,903aab1ab2d610d423f6125204f20b7d:1291538810,2c896bd6ccd610d4c409560fcfa821d3:260987239,8c939971f69ed0941308fd04da8ad57f:579083210,921db8796e92d09462f7b631e242f010:-620950836,6ef18351edd6d894c5aeae9d230c2922:-489901302,ce6b217382ce5c50f97bba56051dbaa0:-865654573,4e1e7ed59eb5d41096bc875831023f9f:-582846839</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 19:57:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2a3e3e8a23ac48f0a1cd464afac7c100</sys_id>
+        <sys_metadata>f51e3ed51bb5d4108802dac2cd4bcba0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fechas de entrega y firma</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f51e3ed51bb5d4108802dac2cd4bcba0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f51e3ed51bb5d4108802dac2cd4bcba0">d8b715f4dbbad4503f3bbe4f2996195a</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 19:57:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

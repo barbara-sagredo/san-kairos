@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_revision" table="x_hocsa_san_solicitud_de_cambio" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev.0</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>50</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-21 15:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e5e4f8b1bc654508802dac2cd4bcb99</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-21 15:59:00</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev.0</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>50</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-21 15:59:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c36e8b4f1bc654508802dac2cd4bcb09</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-21 15:59:11</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 1</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e3e72f5dbadd8103f3bbe4f299619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:04:31</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 1</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:04:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d74e32b5dbadd8103f3bbe4f2996191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:04:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 2</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:04:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a5eb2f1dbadd8103f3bbe4f29961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:04:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 2</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:04:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>975ebab5dbadd8103f3bbe4f299619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:04:52</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 3</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:05:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>158e72f5dbadd8103f3bbe4f2996195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:05:33</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_revision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 3</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d6e3eb5dbadd8103f3bbe4f2996195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:05:01</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_revision</element>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:04:31</sys_created_on>
+            <sys_id>5e4e32f1dbadd8103f3bbe4f299619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_revision</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_solicitud_de_cambio_u_slx_revision</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:04:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

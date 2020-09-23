@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_version_entregable" table="x_hocsa_san_nen_ent_m2m" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. B</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:02:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b619911e1bead8588802dac2cd4bcb28</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:47</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. B</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eed8d19e1bead8588802dac2cd4bcba7</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:43</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. C</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:03:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4979dd9e1bead8588802dac2cd4bcb4f</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:56</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. C</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:03:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7319551e1bead8588802dac2cd4bcba5</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:56</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. D</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:04:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4679991e1bead8588802dac2cd4bcb20</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:09</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. D</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:04:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>799911de1bead8588802dac2cd4bcbf8</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:09</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 0</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:32:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00b543e9db43141063a95275ca961992</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:15</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 0</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:32:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f450fa9db43141063a95275ca96191d</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:15</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 1</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:33:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cd5cfe9db43141063a95275ca9619a7</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:25</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 1</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5b587e9db43141063a95275ca961912</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:25</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 2</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:33:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56e58be9db43141063a95275ca9619f5</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:33</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. 2</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:33:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70d543e9db43141063a95275ca961971</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:38:33</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. As-build</label>
+            <language>en</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>700</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:36:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9aa6cfe9db43141063a95275ca9619aa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:11</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_version_entregable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rev. As-build</label>
+            <language>es</language>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sequence>700</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-04 16:36:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abe587e9db43141063a95275ca9619df</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-04 16:37:16</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_version_entregable</element>
+            <name>x_hocsa_san_nen_ent_m2m</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 20:02:13</sys_created_on>
+            <sys_id>3a19919e1bead8588802dac2cd4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_version_entregable</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_nen_ent_m2m_u_slx_version_entregable</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 20:02:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

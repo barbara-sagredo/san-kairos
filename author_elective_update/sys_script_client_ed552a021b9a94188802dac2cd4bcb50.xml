@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_fecha_devolucion_encuesta</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Cambiar color NPS</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var nps= g_form.getIntValue('u_slx_nps');
+	g_form.addInfoMessage('NPS:'+nps);
+	var npsa= g_form.getElement('u_slx_nps');
+	
+	
+  if (nps) {
+        if (nps >= 0 && nps <= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if (nps == 5 || nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if (nps >= 7 && nps <= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 20:43:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed552a021b9a94188802dac2cd4bcb50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SLX Cambiar color NPS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_ed552a021b9a94188802dac2cd4bcb50</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 20:45:32</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_ed552a021b9a94188802dac2cd4bcb50</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_fecha_devolucion_encuesta&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Cambiar color NPS&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	
+	var nps= g_form.getIntValue('u_slx_nps');
+	g_form.addInfoMessage('NPS:'+nps);
+	var npsa= g_form.getElement('u_slx_nps');
+	
+	
+  if (nps) {
+        if (nps &gt;= 0 &amp;&amp; nps &lt;= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if (nps == 5 || nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if (nps &gt;= 7 &amp;&amp; nps &lt;= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-30 20:43:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ed552a021b9a94188802dac2cd4bcb50&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Cambiar color NPS&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ed552a021b9a94188802dac2cd4bcb50&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-30 20:45:32&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_proyecto&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1499607586</payload_hash>
+        <record_name>SLX Cambiar color NPS</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 20:45:32</sys_created_on>
+        <sys_id>6e56aec21b9a94188802dac2cd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a1790ef80000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 20:45:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2656aec28c9a9418b952eb2721a5c631</update_guid>
+        <update_guid_history>2656aec28c9a9418b952eb2721a5c631:-1499607586,650662c2b69a941833080f18b6bd28bb:-1573729525,bcd562c2889a94188930023ead741083:1483838487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-13 21:16:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>9f348dc1b901421e8a97ced67ab726f9</sys_id>
+        <sys_metadata>ed552a021b9a94188802dac2cd4bcb50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Cambiar color NPS</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_ed552a021b9a94188802dac2cd4bcb50</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ed552a021b9a94188802dac2cd4bcb50">6e56aec21b9a94188802dac2cd4bcb31</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-13 21:16:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0a9b8957db7590503f3bbe4f29961936" sys_domain="global" table="x_hocsa_san_encuesta_de_proyecto" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca9b8957db7590503f3bbe4f29961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_encuesta_de_proyecto" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961936</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">ca9b8957db7590503f3bbe4f29961940</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 14:50:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a9b8957db7590503f3bbe4f2996193c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_encuesta_de_proyecto" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961936</sys_ui_form>
+            <sys_ui_section caption="Fechas Asociadas" display_value="Fechas Asociadas" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961938</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c69b8957db7590503f3bbe4f29961940</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_encuesta_de_proyecto" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961936</sys_ui_form>
+            <sys_ui_section caption="Indicadores" display_value="Indicadores" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">8e9b8957db7590503f3bbe4f2996193c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>129b8957db7590503f3bbe4f29961967</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_encuesta_de_proyecto" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961936</sys_ui_form>
+            <sys_ui_section caption="Acción Correctiva" display_value="Acción Correctiva" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">029b8957db7590503f3bbe4f29961957</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 18:25:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67e2c9521baad8588802dac2cd4bcbc9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_encuesta_de_proyecto" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">0a9b8957db7590503f3bbe4f29961936</sys_ui_form>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_encuesta_de_proyecto" sys_domain="global" view="Default view">63e2c9521baad8588802dac2cd4bcbc5</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 19:00:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 14:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a9b8957db7590503f3bbe4f29961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_san_encuesta_de_proyecto</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0a9b8957db7590503f3bbe4f29961936</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 14:50:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

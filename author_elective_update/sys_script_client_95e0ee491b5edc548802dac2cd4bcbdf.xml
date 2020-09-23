@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Se calcula el promedio, se debe ignorar las preguntas con respuesta NA&#13;
+Tambien ingresa el valor de promedio a ISC y lo pinta segun el resultado</description>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Promedio encuesta anual</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    //Se crean las variables
+    var cont = 0;
+    var q1 = g_form.getDecimalValue('u_slx_q1');
+    var q2 = g_form.getDecimalValue('u_slx_q2');
+    var q3 = g_form.getDecimalValue('u_slx_q3');
+    var q4 = g_form.getDecimalValue('u_slx_q4');
+    var q5 = g_form.getDecimalValue('u_slx_q5');
+    var q6 = g_form.getDecimalValue('u_slx_q6');
+    var q7 = g_form.getDecimalValue('u_slx_q7');
+    var q8 = g_form.getDecimalValue('u_slx_q8');
+    var q9 = g_form.getDecimalValue('u_slx_q9');
+  
+    //Se crea un arreglo que contenga todas las variables	
+    var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+
+    //se debe inicializar la variable suma en 0
+    var suma = 0;
+
+    //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+    questions.forEach(function(value) {
+        if (value != 11) {
+            //Por cada valor se ira sumando un contador
+            cont++;
+            //se van sumando los valores de las variables	
+            suma += value;
+        }
+    });
+
+
+    if (cont > 0) {
+        //se crea una variable promedio y con el metodo math round multiplicado y dividido por 10 el resultado
+        //se redondea en 2 decimales
+        var prom =Math.round((suma / cont)*10)/10 ;
+		
+        //Se setea el campo promedio por la variable promedio
+        g_form.setValue('u_slx_promedio', prom);
+     
+      
+
+    } else {
+        g_form.setValue('u_slx_promedio', ' ');
+        
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-27 17:51:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95e0ee491b5edc548802dac2cd4bcbdf</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>SLX Promedio encuesta anual</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_95e0ee491b5edc548802dac2cd4bcbdf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 15:40:46</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_95e0ee491b5edc548802dac2cd4bcbdf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Se calcula el promedio, se debe ignorar las preguntas con respuesta NA&amp;#13;
+Tambien ingresa el valor de promedio a ISC y lo pinta segun el resultado&lt;/description&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Promedio encuesta anual&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    //Se crean las variables
+    var cont = 0;
+    var q1 = g_form.getDecimalValue('u_slx_q1');
+    var q2 = g_form.getDecimalValue('u_slx_q2');
+    var q3 = g_form.getDecimalValue('u_slx_q3');
+    var q4 = g_form.getDecimalValue('u_slx_q4');
+    var q5 = g_form.getDecimalValue('u_slx_q5');
+    var q6 = g_form.getDecimalValue('u_slx_q6');
+    var q7 = g_form.getDecimalValue('u_slx_q7');
+    var q8 = g_form.getDecimalValue('u_slx_q8');
+    var q9 = g_form.getDecimalValue('u_slx_q9');
+  
+    //Se crea un arreglo que contenga todas las variables	
+    var questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9];
+
+
+    //se debe inicializar la variable suma en 0
+    var suma = 0;
+
+    //Por cada variable del arreglo se verificara que sea distinto del valor NA=11
+    questions.forEach(function(value) {
+        if (value != 11) {
+            //Por cada valor se ira sumando un contador
+            cont++;
+            //se van sumando los valores de las variables	
+            suma += value;
+        }
+    });
+
+
+    if (cont &gt; 0) {
+        //se crea una variable promedio y con el metodo math round multiplicado y dividido por 10 el resultado
+        //se redondea en 2 decimales
+        var prom =Math.round((suma / cont)*10)/10 ;
+		
+        //Se setea el campo promedio por la variable promedio
+        g_form.setValue('u_slx_promedio', prom);
+     
+      
+
+    } else {
+        g_form.setValue('u_slx_promedio', ' ');
+        
+
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-27 17:51:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;95e0ee491b5edc548802dac2cd4bcbdf&lt;/sys_id&gt;&lt;sys_mod_count&gt;37&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Promedio encuesta anual&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_95e0ee491b5edc548802dac2cd4bcbdf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-01 15:40:46&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_anual&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1654476977</payload_hash>
+        <record_name>SLX Promedio encuesta anual</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 15:40:46</sys_created_on>
+        <sys_id>481dd3641bcfdc10d8d6b887cc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744a53e6bf0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 15:40:46</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>001dd3642ccfdc10340724864627a7fb</update_guid>
+        <update_guid_history>001dd3642ccfdc10340724864627a7fb:-1654476977,c1bb17ec698fdc10838ab93550ff9d73:-1901457604,b18bd3e01ecfdc10a6bc1985406935cf:-600674472,263e07acc94fdc10327fed1b306cd20a:-1901457604,54ea0728c24fdc104bbb1cf377306e12:-600674472,536a0728934fdc1047b3762f56fa5ecc:-1901457604,01780fa4c84fdc1024d9560b211a9fc6:-740345986,97284b64524fdc10760ca64f06cd095a:-1923839864,b7e78324304fdc10b39815b895fc55d5:1067472966,39c70f246e4fdc10be177740a53328d6:-312672558,a9074ba0164fdc103c28e2b67cfa68da:-1506848229,cbd607e0d74fdc10a38b77093049f23e:-765058316,47864be0c44fdc105b2bca5e496e73d3:-648386160,105547a00a4fdc10f34cf741cb2e3882:2037663184,bc848becf90fdc10551f7763385b7932:1570216643,564ebadb7b3290506297b017ace07350:-1090646741,ac93fbc5f6be585077f3d90c664c2b52:-2107442035,a2113b05edbe5850d43b01e652a18025:-872509664,8ec07b8177be58500d95d73aab1b5e17:-954268396,194f6b41fabe5850d84176c5bbcd28f0:-111505845,3abc2f8dc97e585067ab8c18cac217d5:1216883320,d8df063878fed4506e4e32192a54ca6d:-1100968460,e8cf0638f6fed450e3f711527f4d6269:1271649095,277f0ef45bfed45077fd45d77e85e7e2:-1234620125,114fc6f474fed45056134fca31258471:-60308501,cf0fceb4f9fed450db4e7f8a83473282:-2116193824,b1fe8eb497fed4503b42e9e55c446cfc:-927824173,634e8270a1fed4503580b6c4a5389521:1449467450,e2dd0e7049fed450a8b8ee9a11d6d181:1509568331,acadcaf0dbfed4509431ec2c1c35efcf:1850913379,2fdcca3060fed45049c6a0a82b77ddf4:1632107966,9bfaca301dfed45067d05bd0aa7d6912:-1486305577,63d986bc05bed45090edf0cbbc116d03:1928053355,521342b02abed450fcf882c1ff9206af:1314940152,686104079ea2dc5817397273b523a7a2:1928053355,87a303cdca165094461d32a362ad86ca:-1937708853,cd03264d66dedc546ea831c91d89ed9f:-2124525855,ecb1e60d299edc549265f863e50d7982:-461962980</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:26:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>384789f43a2b47128cf44eaef67f4784</sys_id>
+        <sys_metadata>95e0ee491b5edc548802dac2cd4bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Promedio encuesta anual</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta anual">5e6cf01fdbf190503f3bbe4f29961948</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_95e0ee491b5edc548802dac2cd4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_script_client_95e0ee491b5edc548802dac2cd4bcbdf">481dd3641bcfdc10d8d6b887cc4bcbfb</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:26:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

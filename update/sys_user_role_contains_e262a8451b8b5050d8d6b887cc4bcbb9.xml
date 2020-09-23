@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_hocsa_san.cartera_read" name="x_hocsa_san.cartera_read">6ea750851b4b5050d8d6b887cc4bcb29</contains>
+        <role display_value="x_hocsa_san.gestor_sc" name="x_hocsa_san.gestor_sc">4ac1ac051b8b5050d8d6b887cc4bcba3</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 15:22:15</sys_created_on>
+        <sys_id>e262a8451b8b5050d8d6b887cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.cartera_read.x_hocsa_san.gestor_sc</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_user_role_contains_e262a8451b8b5050d8d6b887cc4bcbb9</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 15:22:15</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

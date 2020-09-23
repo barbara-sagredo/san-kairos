@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_encuesta_de_proyecto</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_encuesta_de_proyecto">u_slx_fecha_aceptacion_servicioISNOTEMPTY^u_slx_fecha_recepcion_encuestaISNOTEMPTY^EQ<item endquery="false" field="u_slx_fecha_aceptacion_servicio" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_slx_fecha_recepcion_encuesta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Días transcurridos de encuesta</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_hocsa_san_encuesta_de_proyecto');
+	gr.addQuery('u_slx_dias_transcurridos_recepcion_acta', current.u_slx_dias_transcurridos_recepcion_acta);
+	gr.query();
+	
+	if(gr.next()){
+		//se crea una variable glidetime para restar y obtener los dias transcurridos
+		
+		var dte= GlideDateTime.subtract(new GlideDateTime(current.u_slx_fecha_aceptacion_servicio), new GlideDateTime(current.u_slx_fecha_recepcion_encuesta));
+
+
+     
+		//se setea la variable 
+		gr.u_slx_dias_transcurridos_recepcion_acta=dte.getDayPart();
+gr.update();	
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 21:06:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ea7a35d1b79d4108802dac2cd4bcb36</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>SLX Días transcurridos de encuesta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_1ea7a35d1b79d4108802dac2cd4bcb36</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 21:57:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=1ea7a35d1b79d4108802dac2cd4bcb36"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_1ea7a35d1b79d4108802dac2cd4bcb36</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_encuesta_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_encuesta_de_proyecto"&gt;u_slx_fecha_aceptacion_servicioISNOTEMPTY^u_slx_fecha_recepcion_encuestaISNOTEMPTY^EQ&lt;item endquery="false" field="u_slx_fecha_aceptacion_servicio" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="u_slx_fecha_recepcion_encuesta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX Días transcurridos de encuesta&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_hocsa_san_encuesta_de_proyecto');
+	gr.addQuery('u_slx_dias_transcurridos_recepcion_acta', current.u_slx_dias_transcurridos_recepcion_acta);
+	gr.query();
+	
+	if(gr.next()){
+		//se crea una variable glidetime para restar y obtener los dias transcurridos
+		
+		var dte= GlideDateTime.subtract(new GlideDateTime(current.u_slx_fecha_aceptacion_servicio), new GlideDateTime(current.u_slx_fecha_recepcion_encuesta));
+
+
+     
+		//se setea la variable 
+		gr.u_slx_dias_transcurridos_recepcion_acta=dte.getDayPart();
+gr.update();	
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-03 21:06:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ea7a35d1b79d4108802dac2cd4bcb36&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Días transcurridos de encuesta&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1ea7a35d1b79d4108802dac2cd4bcb36&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-28 21:57:25&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ea7a35d1b79d4108802dac2cd4bcb36"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1382330681</payload_hash>
+        <record_name>SLX Días transcurridos de encuesta</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 21:57:25</sys_created_on>
+        <sys_id>c0a3a0a91b12dc948802dac2cd4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173976e27020000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 21:57:25</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>88a3a0a90e12dc947d78424e378b6ace</update_guid>
+        <update_guid_history>88a3a0a90e12dc947d78424e378b6ace:-1382330681,0fcb3d1f7679905034c1090e2f98fc4c:-2079646316,ed4bfd5700799050144a660fdddb7b73:-1382330681,9ecaf1db98799050e0ac890d0b43b15e:-1641137050,6bc8f51bb1799050f4612b29e9bb4d5a:-1038620766,4407b917a67990500b24ce548f10fafc:1764909258,8a811d4ba03ddc104f519e119fe7dcb1:137625626,bc914cad65f9d410294d9ef69c1d7aee:1431496365,b10cb7d594f9d41021921ecfe781c20d:-343903710,309b3b95def9d410734ac43843e2ee34:-93399486,f7fab795acf9d4107e7feda10f1e3d6d:1476370030,48b93bd1faf9d410b59677e0df33b397:-1703817777,af597315e6f9d410ee539b38b5b04181:-1253621997,9022b399e6b9d410499f5c85e0c3509a:-1833140316,6e2137597cb9d4105cb4ecbdcfde8a73:-501052714,c5707719f0b9d410f1d36fbf3254214b:-2081771992,5f1073d535b9d410579198411fb8e924:1820434088,8d58239d0979d4102210c2a86819dc8c:906596867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 22:00:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>7780a37247f84efe8f06ac12f0210559</sys_id>
+        <sys_metadata>1ea7a35d1b79d4108802dac2cd4bcb36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Días transcurridos de encuesta</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_1ea7a35d1b79d4108802dac2cd4bcb36</sys_update_name>
+        <sys_update_version display_value="sys_script_1ea7a35d1b79d4108802dac2cd4bcb36">c0a3a0a91b12dc948802dac2cd4bcbcf</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 22:00:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

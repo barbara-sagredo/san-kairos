@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>pinta el campo isc de los colores correspondientes</description>
+        <field>u_slx_isc</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX ISC Encuesta de proyecto</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  //Declarar variables de promedio e isc
+var prom=g_form.getValue('u_slx_promedio');
+var isc = g_form.getElement('u_slx_isc');
+//Dependiendo del valor del promedio, se pintara el color del campo isc
+	if(prom){
+	if(prom>=0 && prom<=4){
+		isc.style.backgroundColor = "OrangeRed";
+	}else if(prom==5 || prom==6){
+		isc.style.backgroundColor = "yellow";
+	}else if(prom>=7 && prom<=10){
+		isc.style.backgroundColor = "GreenYellow";
+	}else  {
+		isc.style.backgroundColor = "white";
+	}}else {
+		isc.style.backgroundColor = "white";
+	}
+	
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-27 17:33:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2fbde811b1edc548802dac2cd4bcb99</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX ISC Encuesta de proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_c2fbde811b1edc548802dac2cd4bcb99</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:21:03</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_c2fbde811b1edc548802dac2cd4bcb99</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;pinta el campo isc de los colores correspondientes&lt;/description&gt;&lt;field&gt;u_slx_isc&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX ISC Encuesta de proyecto&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+  //Declarar variables de promedio e isc
+var prom=g_form.getValue('u_slx_promedio');
+var isc = g_form.getElement('u_slx_isc');
+//Dependiendo del valor del promedio, se pintara el color del campo isc
+	if(prom){
+	if(prom&gt;=0 &amp;&amp; prom&lt;=4){
+		isc.style.backgroundColor = "OrangeRed";
+	}else if(prom==5 || prom==6){
+		isc.style.backgroundColor = "yellow";
+	}else if(prom&gt;=7 &amp;&amp; prom&lt;=10){
+		isc.style.backgroundColor = "GreenYellow";
+	}else  {
+		isc.style.backgroundColor = "white";
+	}}else {
+		isc.style.backgroundColor = "white";
+	}
+	
+	
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-27 17:33:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c2fbde811b1edc548802dac2cd4bcb99&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX ISC Encuesta de proyecto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c2fbde811b1edc548802dac2cd4bcb99&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-27 20:21:03&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_proyecto&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>664197762</payload_hash>
+        <record_name>SLX ISC Encuesta de proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-27 20:21:03</sys_created_on>
+        <sys_id>b2f34b4d1b1650948802dac2cd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17391ef93760000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:21:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7af34b4dd9165094d5781dcc3a7585bc</update_guid>
+        <update_guid_history>7af34b4dd9165094d5781dcc3a7585bc:664197762,9624ee4d49121094a04a87b226c609d5:-472814539,efa3aa4dcc1210942b638f1288bf8a78:-1110638282,4da22601e4dedc54ca9bd48e1bd1311a:1456228054,12fd1a45a15edc5455fc1e25b0b02659:-587675422,24ed9a05c95edc5458b20ce7a790b143:-1403363896,48ad1289f31edc54e74eaf6174a7eb6c:1389852397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 21:14:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>76f0448bde1b4212824688882d527419</sys_id>
+        <sys_metadata>c2fbde811b1edc548802dac2cd4bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX ISC Encuesta de proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_c2fbde811b1edc548802dac2cd4bcb99</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c2fbde811b1edc548802dac2cd4bcb99">b2f34b4d1b1650948802dac2cd4bcbbd</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 21:14:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>200</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-22 15:31:14</sys_created_on>
+        <sys_id>8124eb93db97189463a95275ca961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asmt_assessment_instance</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_db_view_table_8124eb93db97189463a95275ca961967</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-22 15:31:14</sys_updated_on>
+        <table>asmt_assessment_instance</table>
+        <variable_prefix>asmtins</variable_prefix>
+        <view display_value="x_hocsa_san_respuestas_enc_anual">be83efdfdb57189463a95275ca961928</view>
+        <where_clause>asmttype_sys_id = asmtins_metric_type</where_clause>
+    </sys_db_view_table>
+</record_update>

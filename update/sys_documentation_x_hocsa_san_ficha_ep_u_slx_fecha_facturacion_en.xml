@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_fecha_facturacion" label="Fecha Facturación" language="en" table="x_hocsa_san_ficha_ep">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_facturacion</element>
+            <help/>
+            <hint/>
+            <label>Fecha Facturación</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_ep</name>
+            <plural>Fecha Facturacións</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-23 18:33:12</sys_created_on>
+            <sys_id>133523c2db295c103f3bbe4f29961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fecha Facturación</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_ficha_ep_u_slx_fecha_facturacion_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-23 18:33:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

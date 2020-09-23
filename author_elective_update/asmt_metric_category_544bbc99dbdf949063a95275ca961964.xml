@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=4c4b3051db9f949063a95275ca961975^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="4c4b3051db9f949063a95275ca961975"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Encuesta Servicio de Soporte">4c4b3051db9f949063a95275ca961975</metric_type>
+        <name>Encuesta Servicio de Soporte</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-15 22:04:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>544bbc99dbdf949063a95275ca961964</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Encuesta Servicio de Soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_category_544bbc99dbdf949063a95275ca961964</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 22:05:05</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>10</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=544bbc99dbdf949063a95275ca961964"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_metric_category_544bbc99dbdf949063a95275ca961964</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=4c4b3051db9f949063a95275ca961975^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="4c4b3051db9f949063a95275ca961975"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="Encuesta Servicio de Soporte">4c4b3051db9f949063a95275ca961975</metric_type><name>Encuesta Servicio de Soporte</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-15 22:04:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>544bbc99dbdf949063a95275ca961964</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Encuesta Servicio de Soporte</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>asmt_metric_category_544bbc99dbdf949063a95275ca961964</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-15 22:05:05</sys_updated_on><table>asmt_metric_type</table><total_metrics>10</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=544bbc99dbdf949063a95275ca961964"/></record_update>]]></payload>
+        <payload_hash>-117037379</payload_hash>
+        <record_name>Encuesta Servicio de Soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-15 22:05:05</sys_created_on>
+        <sys_id>0a4bf4d9dbdf949063a95275ca961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17493ccc7f00000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 22:05:05</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>ce4bf4d971df9490678d5204af324f45</update_guid>
+        <update_guid_history>ce4bf4d971df9490678d5204af324f45:-117037379,424bb4d9bddf9490d5b18c4fd9fb5538:-814247883,714b74d93adf9490520c7456396a7e43:-1681300108,214bf0d916df9490d25c84c49a3b80f7:1746614963,9d4bb0d9bcdf9490ad21609dc7bec753:879562738,414b70d9eadf9490323b4e2b8f6c6e9d:12510513,3c4b30d949df94906af287d8be396a82:-854541712,e84bfc997edf949023bad44701f29afd:-1721593937,e44bfc99a9df94907fe7f7ab2e55993a:1706321134,dc4bbc990fdf94902db5046c112ab669:839268909,944bbc9980df94902f5c91945c112b66:45911552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Encuesta Servicio de Soporte">7efacee11b1f14d0d8d6b887cc4bcbcf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 22:31:47</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>895c51551c0443d5b4011518a1ef8191</sys_id>
+        <sys_metadata>544bbc99dbdf949063a95275ca961964</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encuesta Servicio de Soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_544bbc99dbdf949063a95275ca961964</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_544bbc99dbdf949063a95275ca961964">0a4bf4d9dbdf949063a95275ca961946</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 22:31:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

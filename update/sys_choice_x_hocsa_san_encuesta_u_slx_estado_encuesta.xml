@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado_encuesta" table="x_hocsa_san_encuesta" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida, completada y firmada</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:40:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>743736d31b7950508802dac2cd4bcb41</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:05</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida, completada y firmada</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:40:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e377ad31b7950508802dac2cd4bcbfb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:05</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida y no completada</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:40:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b4736d31b7950508802dac2cd4bcb4a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida y no completada</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:40:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74573ed31b7950508802dac2cd4bcba8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida y completada sin firma</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b773edf1b3950508802dac2cd4bcb5f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:15</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_encuesta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recibida y completada sin firma</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:41:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9877bed31b7950508802dac2cd4bcbb2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-23 19:43:15</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_encuesta</element>
+            <name>x_hocsa_san_encuesta</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:37:11</sys_created_on>
+            <sys_id>55867e931b7950508802dac2cd4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado_encuesta</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_encuesta_u_slx_estado_encuesta</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 22:37:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

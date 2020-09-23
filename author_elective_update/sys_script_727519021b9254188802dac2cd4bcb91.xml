@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_encuesta_de_proyecto</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_encuesta_de_proyecto">u_slx_q9VALCHANGES^EQ<item display_value="-- None --" endquery="false" field="u_slx_q9" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX NPS Encuesta proyecto</name>
+        <order>1910</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var suma=0;
+	var prom=0;
+	var cont=0;
+	var gr= new GlideRecord('x_hocsa_san_encuesta_de_proyecto'); 
+	gr.addQuery('u_slx_cliente_firma_encuesta',current.u_slx_cliente_firma_encuesta );
+	gr.query();
+	//var q9= gr.u_slx_q9;
+	
+	while (gr.next()) {
+		gs.addInfoMessage('entro a next');
+		gs.addInfoMessage('q9: '+gr.u_slx_q9);
+		suma += Number(gr.u_slx_q9);
+		cont++;
+		
+		gs.addInfoMessage('cont: ' + cont);
+		gs.addInfoMessage('suma: ' + suma);
+	
+		
+		
+            
+	}
+	prom = Math.round(suma / cont);
+		gs.addInfoMessage('prom' + prom);
+		current.u_slx_nps = prom;
+		current.update();
+
+	
+	
+// 	gr.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 15:04:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>727519021b9254188802dac2cd4bcb91</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SLX NPS Encuesta proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_727519021b9254188802dac2cd4bcb91</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 16:20:11</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=727519021b9254188802dac2cd4bcb91"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_727519021b9254188802dac2cd4bcb91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_encuesta_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_encuesta_de_proyecto"&gt;u_slx_q9VALCHANGES^EQ&lt;item display_value="-- None --" endquery="false" field="u_slx_q9" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX NPS Encuesta proyecto&lt;/name&gt;&lt;order&gt;1910&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var suma=0;
+	var prom=0;
+	var cont=0;
+	var gr= new GlideRecord('x_hocsa_san_encuesta_de_proyecto'); 
+	gr.addQuery('u_slx_cliente_firma_encuesta',current.u_slx_cliente_firma_encuesta );
+	gr.query();
+	//var q9= gr.u_slx_q9;
+	
+	while (gr.next()) {
+		gs.addInfoMessage('entro a next');
+		gs.addInfoMessage('q9: '+gr.u_slx_q9);
+		suma += Number(gr.u_slx_q9);
+		cont++;
+		
+		gs.addInfoMessage('cont: ' + cont);
+		gs.addInfoMessage('suma: ' + suma);
+	
+		
+		
+            
+	}
+	prom = Math.round(suma / cont);
+		gs.addInfoMessage('prom' + prom);
+		current.u_slx_nps = prom;
+		current.update();
+
+	
+	
+// 	gr.update();
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-30 15:04:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;727519021b9254188802dac2cd4bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX NPS Encuesta proyecto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_727519021b9254188802dac2cd4bcb91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-30 16:20:11&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=727519021b9254188802dac2cd4bcb91"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1362123776</payload_hash>
+        <record_name>SLX NPS Encuesta proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 16:20:11</sys_created_on>
+        <sys_id>2b992d0a1b1e54188802dac2cd4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a0861f6f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 16:20:11</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>6f992d0ad71e5418ef04c5cf1a1b8c62</update_guid>
+        <update_guid_history>6f992d0ad71e5418ef04c5cf1a1b8c62:-1362123776,a332e1461c5a54189dfaf892cc0c1e12:-2081717741,c7d12d424a5a5418b3f35ace07f1aeb5:2102442421,6d51694e861a54184414579c741e099c:-500556268,b41025422e1a5418fed58703d1408222:-293072106,57cf95ce8ed654185ad595012ddd31e2:1022144728,ccaf9d86fbd6541841ddbda4b165bd2b:-293072106,d33ed1c2fa965418f11db6f53f6249cf:1363468271,841ed58225d654184f19ec8b3ff34992:-1606703031,954d11c2c696541891cffa1faca2f75c:1754047680,457c15468c96541805af353fa4cfcea9:-553756520,ab3c1982209654183985e9cde3682d2c:-1662086877,fdeb51ce0156541862b09e6594265919:1603028403,dfabd1c2af565418cb3cb263a843256b:-827569611,ad2b99c626565418814ae44d688d8010:125764246,b5cad546b5565418dfa09f8bd1772a9c:-724528247,7a8ad546435654180d53a11c0d3a1795:-2087764298,e0e8d1823b165418bf71127e9af862e5:-2138398730,fca85542ff16541826ee0988ce1e1728:729735177,e678554a1fd254185912bd2d83e76489:-430097929,5868d98e61d25418157c38a92e2011a8:291637724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 18:17:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>49ccd783bc48480cab5cee930b507349</sys_id>
+        <sys_metadata>727519021b9254188802dac2cd4bcb91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX NPS Encuesta proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_727519021b9254188802dac2cd4bcb91</sys_update_name>
+        <sys_update_version display_value="sys_script_727519021b9254188802dac2cd4bcb91">2b992d0a1b1e54188802dac2cd4bcb63</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 18:17:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

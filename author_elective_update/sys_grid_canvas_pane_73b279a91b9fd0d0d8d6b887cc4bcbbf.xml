@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA encuesta - New Tab">a18275e51b1fd0d0d8d6b887cc4bcbc0</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 16/09/2020 17:45:53">73b279a91b9fd0d0d8d6b887cc4bcbbc</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 20:45:54</sys_created_on>
+        <sys_id>73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a18275e51b1fd0d0d8d6b887cc4bcbc0</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 20:45:54</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_grid_canvas_pane_73b279a91b9fd0d0d8d6b887cc4bcbbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA encuesta - New Tab">a18275e51b1fd0d0d8d6b887cc4bcbc0</grid_canvas><height>10</height><portal_widget display_value="Created 16/09/2020 17:45:53">73b279a91b9fd0d0d8d6b887cc4bcbbc</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-16 20:45:54</sys_created_on><sys_id>73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>a18275e51b1fd0d0d8d6b887cc4bcbc0</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_grid_canvas_pane_73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-16 20:45:54</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-1122347326</payload_hash>
+        <record_name>a18275e51b1fd0d0d8d6b887cc4bcbc0</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 20:45:54</sys_created_on>
+        <sys_id>f3b279a91b9fd0d0d8d6b887cc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17498aaa3ff0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 20:45:54</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>fbb279a9439fd0d062b413ff736552c0</update_guid>
+        <update_guid_history>fbb279a9439fd0d062b413ff736552c0:-1122347326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 01:18:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>02b41b9a150442e8855edea3e5027510</sys_id>
+        <sys_metadata>73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a18275e51b1fd0d0d8d6b887cc4bcbc0</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_73b279a91b9fd0d0d8d6b887cc4bcbbf</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_73b279a91b9fd0d0d8d6b887cc4bcbbf">f3b279a91b9fd0d0d8d6b887cc4bcbc1</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 01:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

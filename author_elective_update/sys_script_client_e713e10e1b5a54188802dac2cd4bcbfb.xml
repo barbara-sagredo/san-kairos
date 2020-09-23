@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Según el resultado del script include "SLX_promedio", se seteara el campo NPS y se pintara la celda según el valor</description>
+        <field>u_slx_fecha_devolucion_encuesta</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX NPS Encuesta proyecto</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+		
+    //creo un glide ajax que apunte al script include llamado SLX promedio
+    var ga = new GlideAjax("SLX_promedio");
+   
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_promedio");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_cliente", g_form.getValue("u_slx_cliente_firma_encuesta"));
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	
+	var nps =  Math.round(answer);
+	
+	if(!nps){
+		g_form.setValue('u_slx_nps', 0);
+	}else{
+	g_form.setValue('u_slx_nps', nps);
+	}
+	
+	var npsa= g_form.getElement('u_slx_nps');
+	
+//Segun el valor de NPS se pintara el valor del campo
+  if ( nps) {
+        if ( nps >= 0 &&  nps <= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if ( nps == 5 ||  nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if ( nps >= 7 &&  nps <= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.cj</sys_created_by>
+        <sys_created_on>2020-07-30 15:53:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e713e10e1b5a54188802dac2cd4bcbfb</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>SLX NPS Encuesta proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_e713e10e1b5a54188802dac2cd4bcbfb</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:40:11</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_e713e10e1b5a54188802dac2cd4bcbfb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Según el resultado del script include "SLX_promedio", se seteara el campo NPS y se pintara la celda según el valor&lt;/description&gt;&lt;field&gt;u_slx_fecha_devolucion_encuesta&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX NPS Encuesta proyecto&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+		
+    //creo un glide ajax que apunte al script include llamado SLX promedio
+    var ga = new GlideAjax("SLX_promedio");
+   
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_promedio");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_cliente", g_form.getValue("u_slx_cliente_firma_encuesta"));
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	
+	var nps =  Math.round(answer);
+	
+	if(!nps){
+		g_form.setValue('u_slx_nps', 0);
+	}else{
+	g_form.setValue('u_slx_nps', nps);
+	}
+	
+	var npsa= g_form.getElement('u_slx_nps');
+	
+//Segun el valor de NPS se pintara el valor del campo
+  if ( nps) {
+        if ( nps &gt;= 0 &amp;&amp;  nps &lt;= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if ( nps == 5 ||  nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if ( nps &gt;= 7 &amp;&amp;  nps &lt;= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.cj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-30 15:53:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e713e10e1b5a54188802dac2cd4bcbfb&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX NPS Encuesta proyecto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e713e10e1b5a54188802dac2cd4bcbfb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-28 16:40:11&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_proyecto&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1910486662</payload_hash>
+        <record_name>SLX NPS Encuesta proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-28 16:40:11</sys_created_on>
+        <sys_id>a74443171b7290508802dac2cd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17435f0ddc20000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:40:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6f444317ce729050b33655a079cfae34</update_guid>
+        <update_guid_history>6f444317ce729050b33655a079cfae34:1910486662,8d010c8301a2dc58d4da6805394790b2:-162436365,17047d1bc79a1c18fe92a32e3b61830a:-996471194,66a3fd9b359a1c18cd0eaea6f55a1580:-1169374986,7343bd5b229a1c18cc411d80373065a7:466010983,5d03fd57b99a1c18d5d1f9dc65585005:1810253300,4e7271578d9a1c18c76372a2562cbf2f:1442023705,4a1f224ecc9a94184d00d753ebc4a76b:-933286612,c3276ec2dd9a941863141d5714bd710f:-1837402377,a996aa029b9a94188bfe2c328f17bbf6:-1279883355,5f46a2c2ec9a9418dc9aac0b7d5f7cbb:-612950472,9c6d560e151a94187cd749d3858ab248:1238158141,f15d560ef01a94186032a079d7dccea1:-441050049,277cdec6e11a941872466c5d744b4471:836172949,c96c568a7e1a9418b500735d5679afb5:-2062184531,633cdec6d11a941887e06289d37cfb6c:-1179948566,e90cd28a041a941890de9aafe4fa13bf:1459211036,81099a42fd1a9418d761c95f68480238:-944915664,35881ace1ad69418714e040db26cf5ae:456539290,2068928e24d694182330cb1be2460891:1389340720,cde6964e59d69418c87b679c7aa165ca:228442339,9f96da0e19d694180478f1e8a4157d5d:-484331576,eee55e4ae5d694188dc373f71a9075e4:-1783015171,31d41e0a01d69418d1ba77353f30c2a6:592980844,95c239c2be5294184a62009844b43b2a:1747463199,6e51350ef6de541852cffb071dad92d1:-386544471,b67ee142b6de54187501668046302e37:-1425634875,cc9be9ca485e541882a254322314387a:1016256568,5496e186b9da541871bf99b9e49febf4:1170907598,dc86618a6b9a5418353a553553391d52:1107290378,3566a102bbda54188f0060570a2faddf:-2119991022,0673250e055a54182c9123b32f75e401:-1119892635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:29:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>22f5b88e9e514210888bf1cc9f229640</sys_id>
+        <sys_metadata>e713e10e1b5a54188802dac2cd4bcbfb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX NPS Encuesta proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_e713e10e1b5a54188802dac2cd4bcbfb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e713e10e1b5a54188802dac2cd4bcbfb">a74443171b7290508802dac2cd4bcb35</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:29:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

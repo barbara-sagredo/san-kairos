@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Ficha de Proyecto" max_length="40" name="x_hocsa_san_ficha_de_proyecto" type="collection">
+        <element label="Administrador de Contrato Divisional" mandatory="true" max_length="32" name="u_slx_administrador_contrato_divisional" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="% Avance financiero acumulado" max_length="40" name="u_slx_avance_financiero_acumulado" read_only="true" type="string"/>
+        <element default="0" label="% Avance físico planificado" mandatory="true" max_length="40" name="u_slx_avance_planificado" type="integer"/>
+        <element default="0" label="% Avance físico real" mandatory="true" max_length="40" name="u_slx_avance_real" type="integer"/>
+        <element label="Comentario avance semanal" max_length="400" name="u_slx_comentario_avance_semanal" type="journal_input"/>
+        <element default="0" label="Costo incurrido acumulado" mandatory="true" max_length="40" name="u_slx_costo_incurrido_acumulado" type="integer"/>
+        <element label="%  Desviación avance real vs planificado" max_length="40" name="u_slx_desviacion_avance_real" read_only="true" type="integer"/>
+        <element choice="1" label="División/Sitio" mandatory="true" max_length="40" name="u_slx_division" reference="core_company" type="reference">
+            <choice/>
+        </element>
+        <element default="0" label="Monto Facturado" mandatory="true" max_length="40" name="u_slx_faturacion_acumulada" type="integer"/>
+        <element label="Fecha de Inicio" mandatory="true" max_length="40" name="u_slx_fecha_inicio" type="glide_date"/>
+        <element label="Fecha Notificación" max_length="40" name="u_slx_fecha_notif" type="glide_date_time"/>
+        <element label="Fecha término" mandatory="true" max_length="40" name="u_slx_fecha_termino" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" display="true" label="N° HCO" mandatory="true" max_length="40" name="u_slx_hco" type="string"/>
+        <element label="hco mayor" max_length="40" name="u_slx_hco_mayor" type="boolean"/>
+        <element label="Jefe de Proyecto" mandatory="true" max_length="40" name="u_slx_jefe_proyecto" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Monto devengado" max_length="40" name="u_slx_monto_devengado" read_only="true" type="integer"/>
+        <element label="% facturado total" max_length="20" name="u_slx_monto_facturado_acumulado" read_only="true" type="decimal"/>
+        <element label="Costo total planificado" mandatory="true" max_length="40" name="u_slx_monto_total_planificado" type="integer"/>
+        <element label="Monto total venta" mandatory="true" max_length="40" name="u_slx_monto_total_venta" type="integer"/>
+        <element label="Nombre proyecto" mandatory="true" max_length="40" name="u_slx_nombre_proyecto" type="string"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element label="Notificacion" max_length="40" name="u_slx_notif" type="boolean"/>
+        <element label="Notificacion 3" max_length="40" name="u_slx_notif_3" type="boolean"/>
+        <element label="N° OS" max_length="32" name="u_slx_os" read_only="true" reference="x_hocsa_san_ficha_os" type="reference"/>
+        <element label="Controlador de proyecto" mandatory="true" max_length="40" name="u_slx_pco" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="PM" mandatory="true" max_length="100" name="u_slx_pm" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="porcentaje" max_length="40" name="u_slx_porcentaje" type="integer"/>
+        <element label="% total devengado" max_length="20" name="u_slx_porcentaje_devengado" read_only="true" type="decimal"/>
+        <element label="URL Carta Gantt" mandatory="true" max_length="1024" name="u_slx_url_carta_gantt" type="url"/>
+        <index name="index">
+            <element name="u_slx_os"/>
+        </index>
+    </element>
+</database>

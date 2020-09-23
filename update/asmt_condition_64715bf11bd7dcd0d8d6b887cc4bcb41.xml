@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assessment/>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule/>
+        <condition table="x_hocsa_san_encuesta_anual">u_slx_estado_encuesta_anualCHANGESTO4^EQ<item display_value="Recepcionada" endquery="false" field="u_slx_estado_encuesta_anual" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration/>
+        <percent_random>100</percent_random>
+        <related_field_1>u_slx_division_sitio</related_field_1>
+        <related_field_2>u_slx_cliente</related_field_2>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:18:42</sys_created_on>
+        <sys_id>64715bf11bd7dcd0d8d6b887cc4bcb41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_condition_64715bf11bd7dcd0d8d6b887cc4bcb41</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:18:51</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <trigger_random>false</trigger_random>
+        <user_field>u_slx_persona_realizara_encuesta</user_field>
+    </asmt_condition>
+</record_update>

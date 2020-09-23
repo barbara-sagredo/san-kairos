@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Encuesta" max_length="40" name="x_hocsa_san_encuesta" type="collection">
+        <element label="Año" max_length="40" name="u_slx_ano" type="integer"/>
+        <element label="Contador" max_length="40" name="u_slx_cont" type="integer"/>
+        <element choice="1" label="División/Sitio" max_length="40" name="u_slx_division_sitio" read_only="true" reference="core_company" type="reference">
+            <choice/>
+        </element>
+        <element label="Encuesta" max_length="32" name="u_slx_encuesta" read_only="true" reference="asmt_assessment_instance" type="reference"/>
+        <element label="Escala" max_length="40" name="u_slx_escala" type="string"/>
+        <element label="Fecha Envío de Respuesta a Cliente" max_length="40" name="u_slx_fecha_envio_respuesta_cliente" type="glide_date"/>
+        <element label="Fecha de Recepción de Encuesta" max_length="40" name="u_slx_fecha_recepcion_encuesta" type="glide_date"/>
+        <element label="N° HCO" max_length="32" name="u_slx_hco" read_only="true" reference="x_hocsa_san_ficha_de_proyecto" type="reference"/>
+        <element choice="1" label="Meta" max_length="40" name="u_slx_meta" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4" sequence="100" value="4"/>
+                <element inactive_on_update="false" label="4" language="es" sequence="100" value="4"/>
+                <element inactive_on_update="false" label="5" language="es" sequence="200" value="5"/>
+                <element inactive_on_update="false" label="5" sequence="200" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="300" value="6"/>
+                <element inactive_on_update="false" label="6" language="es" sequence="300" value="6"/>
+                <element inactive_on_update="false" label="7" language="es" sequence="400" value="7"/>
+                <element inactive_on_update="false" label="7" sequence="400" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="500" value="8"/>
+                <element inactive_on_update="false" label="8" language="es" sequence="500" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="9" language="es" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="10" language="es" sequence="1000" value="10"/>
+                <element inactive_on_update="false" label="10" sequence="1000" value="10"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Encuesta N°" max_length="40" name="u_slx_numero" read_only="true" type="string"/>
+        <element label="N° AC" max_length="40" name="u_slx_numero_ac" type="string"/>
+        <element label="Observaciones de AC" max_length="400" name="u_slx_observaciones_ac" type="string"/>
+        <element label="ISC" max_length="20" name="u_slx_promedio_obtenido" type="decimal"/>
+        <element choice="1" label="Requiere AC" max_length="40" name="u_slx_requiere_ac" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sí" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Sí" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="No" language="es" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Responsable Gestión Encuesta" mandatory="true" max_length="32" name="u_slx_responsable_gestion" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Rol/Cargo Cliente" max_length="100" name="u_slx_rol_cargo_cliente" type="string"/>
+        <element label="Sumatoria" max_length="40" name="u_slx_suma" type="integer"/>
+        <index name="index">
+            <element name="u_slx_encuesta"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_hco"/>
+        </index>
+        <index name="index3">
+            <element name="u_slx_responsable_gestion"/>
+        </index>
+        <index name="index4">
+            <element name="u_slx_ano"/>
+        </index>
+    </element>
+</database>

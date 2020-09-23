@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hocsa_san_ficha_os</collection>
+        <condition table="x_hocsa_san_ficha_os">u_slx_estadoCHANGESTO9^EQ<item display_value="Aprobada por Admin.Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="9"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Estimado Gestor cartera:</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">&nbsp;</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Le informamos que la OS ${u_slx_numero_os} , nombre OS ${u_slx_numero_os} , Divisi&oacute;n ${u_slx_division} , &aacute;rea ${u_slx_area} , monto OS ${u_slx_monto_clp}&nbsp; CLP , se encuentra en estado ${u_slx_estado}.</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">&nbsp;</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Atte.</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Gesti&oacute;n cartera Kairos&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX OS aprobada por codelco</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups>82a7b8451b0f5050d8d6b887cc4bcba8,48e969591b87d050d8d6b887cc4bcb91</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>OS ${u_slx_numero_os} - División ${u_slx_division} Aprobada por Administrador Codelco</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-13 20:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e348b28db46d0103f3bbe4f299619c0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>SLX OS aprobada por codelco</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_email_action_4e348b28db46d0103f3bbe4f299619c0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 20:54:04</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sysevent_email_action_4e348b28db46d0103f3bbe4f299619c0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_hocsa_san_ficha_os&lt;/collection&gt;&lt;condition table="x_hocsa_san_ficha_os"&gt;u_slx_estadoCHANGESTO9^EQ&lt;item display_value="Aprobada por Admin.Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="9"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;antivirus.infected&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Estimado Gestor cartera:&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Le informamos que la OS ${u_slx_numero_os} , nombre OS ${u_slx_numero_os} , Divisi&amp;oacute;n ${u_slx_division} , &amp;aacute;rea ${u_slx_area} , monto OS ${u_slx_monto_clp}&amp;nbsp; CLP , se encuentra en estado ${u_slx_estado}.&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Atte.&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Gesti&amp;oacute;n cartera Kairos&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;SLX OS aprobada por codelco&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups&gt;82a7b8451b0f5050d8d6b887cc4bcba8,48e969591b87d050d8d6b887cc4bcb91&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;OS ${u_slx_numero_os} - División ${u_slx_division} Aprobada por Administrador Codelco&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-13 20:53:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e348b28db46d0103f3bbe4f299619c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX OS aprobada por codelco&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_4e348b28db46d0103f3bbe4f299619c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-09 20:54:04&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1498845321</payload_hash>
+        <record_name>SLX OS aprobada por codelco</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 20:54:04</sys_created_on>
+        <sys_id>1b71bd1f1b035854d8d6b887cc4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17474a59bfa0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 20:54:04</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>df71bd1f7a035854f31a79bd43d77ee9</update_guid>
+        <update_guid_history>df71bd1f7a035854f31a79bd43d77ee9:1498845321,a3bc4626c40bd490daf13c31f1537f44:654810171,496f946850fe545048c3911a3bebb15e:1435026693,591f9464c3fe5450117e4e2ec912fd75:-1700421073,5660eb35d10e5810c581146a60789e7c:1144740662,0db08ffdd84a58100df39e76d34ff19a:-1706877580,b28083fdab4a581030e1ebeb0a37a7df:-1890867809,6eebc724f286d01064c84dc944eec3d8:364805408,234bc3ec7646d010c8adbc11354c4ba6:428635318,d73b47209a86d01009bad38941925390:351243366,4eea4fe87646d010a5c206a98f713992:-395353069,4b8947205586d010398ae9daf41a13b3:351243366,45294720fd86d0105089a1b969e01788:428635318,91e88be87a46d0101916cb3acad94f04:-644356179,8708cf6ca446d010d87501c449579bbd:-1655203038,6ee64be84f46d01013ac7048e52da694:1133592993,2926432c5e46d010712eb26bad076b46:-73525891,e2b587e8e746d0103f5b79554d3c9389:-59189076,c84507a8a146d010befac9e74e1bffec:1663402216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-10 16:19:06</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>14e1bd84a00e48b88d8c7dbb45c75410</sys_id>
+        <sys_metadata>4e348b28db46d0103f3bbe4f299619c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX OS aprobada por codelco</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha OS">cb2a6679db2dd8103f3bbe4f299619c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_4e348b28db46d0103f3bbe4f299619c0</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_4e348b28db46d0103f3bbe4f299619c0">1b71bd1f1b035854d8d6b887cc4bcbea</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 16:19:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

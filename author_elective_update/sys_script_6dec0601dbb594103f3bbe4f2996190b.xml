@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_de_proyecto</collection>
+        <condition/>
+        <description>Ingresa la fecha del inicio del proyecto // probablemente ya no se necesite, este campo se usaba para el cambio de estado nen automatico</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_de_proyecto">u_slx_fecha_inicioISNOTEMPTY^EQ<item endquery="false" field="u_slx_fecha_inicio" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX fecha inicio Entregable</name>
+        <order>10500</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//Se apunta a la tabla entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('sys_id', current.u_slx_numero_entregable);
+	gr.query();
+	if (gr.next()) {
+	
+		//Se setea la fecha de inicio
+			gr.u_slx_fecha_inicio=current.u_slx_fecha_inicio ;
+			gr.update(); 
+		
+		} 
+	
+		
+		
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-02 19:56:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dec0601dbb594103f3bbe4f2996190b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SLX fecha inicio Entregable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_6dec0601dbb594103f3bbe4f2996190b</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 18:16:01</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=6dec0601dbb594103f3bbe4f2996190b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_6dec0601dbb594103f3bbe4f2996190b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Ingresa la fecha del inicio del proyecto // probablemente ya no se necesite, este campo se usaba para el cambio de estado nen automatico&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_de_proyecto"&gt;u_slx_fecha_inicioISNOTEMPTY^EQ&lt;item endquery="false" field="u_slx_fecha_inicio" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX fecha inicio Entregable&lt;/name&gt;&lt;order&gt;10500&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//Se apunta a la tabla entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('sys_id', current.u_slx_numero_entregable);
+	gr.query();
+	if (gr.next()) {
+	
+		//Se setea la fecha de inicio
+			gr.u_slx_fecha_inicio=current.u_slx_fecha_inicio ;
+			gr.update(); 
+		
+		} 
+	
+		
+		
+	
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-02 19:56:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6dec0601dbb594103f3bbe4f2996190b&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX fecha inicio Entregable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6dec0601dbb594103f3bbe4f2996190b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-14 18:16:01&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6dec0601dbb594103f3bbe4f2996190b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1208821346</payload_hash>
+        <record_name>SLX fecha inicio Entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 18:16:01</sys_created_on>
+        <sys_id>eaf313fa1bae9c588802dac2cd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173ee2f8fb20000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 18:16:01</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>22f313fad9ae9c58104e7e253a044092</update_guid>
+        <update_guid_history>22f313fad9ae9c58104e7e253a044092:-1208821346,eef6238b64429450e88c8635f72e63ab:-970807653,c79c1b47024e54502ff7c03c340d72e4:603920529,361c5f47b34e54503c05006a1df7ffe4:-1655098587,6f9a17cbcd0e545057d7136af1dd1a3f:1835757708,ca7a178fdd0e5450e05ecb674ce8f9f3:-1655098587,84e99f4b2f0e5450efd8ab865483334a:774640259,70995f4bec0e5450333e53917431ad93:48125743,f6495b472d0e54504cb52529c3bdcfd3:52057601,d1871f4f29ca54507ade08d5092fef12:48125743,af07d3c774ca545091aadfc06e310c65:-1679215602,73b69347a4ca545017f01597dfb07bb5:971079285,7c8613c7fcca54507928720067a92e5d:765123340,4246d747d7ca54509a605fedaeb77daf:-1873389305,bdf55b8358ca54504b1475e5db9bf94e:441323335,25126c72a6b5dc100b0873afcc5bd33e:997625095,84c12c322eb5dc10716378931b6396d4:1516888373,ab9f42456db59410fad23c42381b14ea:-40018123,776f0a054eb594104258a9f6b9dcacc1:406352727,113f42c123b59410f205aa7405d12f5a:1818145690,4aae4ec184b594102d7e53f7e96df861:-228672000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-21 12:47:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>13a0216ab4fd4088a8eb72dd406be040</sys_id>
+        <sys_metadata>6dec0601dbb594103f3bbe4f2996190b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX fecha inicio Entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_6dec0601dbb594103f3bbe4f2996190b</sys_update_name>
+        <sys_update_version display_value="sys_script_6dec0601dbb594103f3bbe4f2996190b">eaf313fa1bae9c588802dac2cd4bcb92</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-21 12:47:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

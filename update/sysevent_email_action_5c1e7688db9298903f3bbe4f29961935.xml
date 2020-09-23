@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hocsa_san_encuesta_anual</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_hocsa_san.venc.anual.en</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Gestión Kairos</from>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Estimado ${u_slx_persona_realizara_encuesta}:</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">&nbsp;</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Se le recuerda gestionar la respuesta de la Encuesta de Satisfacci&oacute;n de Cliente Anual, en ${u_slx_division_sitio}, con cliente ${u_slx_cliente.first_name} ${u_slx_cliente.last_name} , la fecha de entrega vence el ${u_slx_fecha_limite}.</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">&nbsp;</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Atte. Gesti&oacute;n de calidad</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX 15 dias antes encuesta anual</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Gestor Encuesta SAN">500ba1991b87d050d8d6b887cc4bcb0f</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Recordatorio para gestionar Encuesta de Satisfacción de Cliente</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 17:25:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c1e7688db9298903f3bbe4f29961935</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SLX 15 dias antes encuesta anual</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_email_action_5c1e7688db9298903f3bbe4f29961935</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 19:11:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

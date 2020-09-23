@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Cuando el monto  venta total de la HCO supere el monto de la OS , se mostrará un mensaje</description>
+        <field>u_slx_desviacion_avance_real</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX HCO mayor</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+	var hcoMayor = g_form.getValue('u_slx_hco_mayor');
+	 
+	//Si el check invisible iniciativa mayor es verdadero, mostrara el mensaje
+	if(hcoMayor=='true')
+		{
+			g_form.showFieldMsg('u_slx_monto_total_venta','Esta HCO supera el monto de la OS','error');
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-18 15:57:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a4a5bc81b3e10108802dac2cd4bcb7a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX HCO mayor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_4a4a5bc81b3e10108802dac2cd4bcb7a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-19 13:26:10</sys_updated_on>
+        <table>x_hocsa_san_ficha_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

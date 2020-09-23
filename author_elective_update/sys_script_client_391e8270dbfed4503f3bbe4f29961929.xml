@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX ISC Color</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+		//dependiendo del valor del promedio se seteara ek color del campo ISC
+	var isc = g_form.getElement('u_slx_isc');
+	var prom =g_form.getDecimalValue('u_slx_promedio');
+	g_form.addInfoMessage('promedio: '+g_form.getDecimalValue('u_slx_promedio'));
+	
+	if(prom){
+        if (prom >= 0 && prom <= 4.9) {
+            isc.style.backgroundColor = "OrangeRed";
+        } else if (prom >= 5.0 && prom <= 6.9) {
+            isc.style.backgroundColor = "yellow";
+        } else if (prom >= 7.0 && prom <= 10) {
+            isc.style.backgroundColor = "GreenYellow";
+        } else {
+            isc.style.backgroundColor = "white";
+        }
+		} else {
+		isc.style.backgroundColor = "white";}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 18:20:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>391e8270dbfed4503f3bbe4f29961929</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX ISC Color</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_391e8270dbfed4503f3bbe4f29961929</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 18:21:36</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_391e8270dbfed4503f3bbe4f29961929</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX ISC Color&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+		//dependiendo del valor del promedio se seteara ek color del campo ISC
+	var isc = g_form.getElement('u_slx_isc');
+	var prom =g_form.getDecimalValue('u_slx_promedio');
+	g_form.addInfoMessage('promedio: '+g_form.getDecimalValue('u_slx_promedio'));
+	
+	if(prom){
+        if (prom &gt;= 0 &amp;&amp; prom &lt;= 4.9) {
+            isc.style.backgroundColor = "OrangeRed";
+        } else if (prom &gt;= 5.0 &amp;&amp; prom &lt;= 6.9) {
+            isc.style.backgroundColor = "yellow";
+        } else if (prom &gt;= 7.0 &amp;&amp; prom &lt;= 10) {
+            isc.style.backgroundColor = "GreenYellow";
+        } else {
+            isc.style.backgroundColor = "white";
+        }
+		} else {
+		isc.style.backgroundColor = "white";}
+	
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-20 18:20:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;391e8270dbfed4503f3bbe4f29961929&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX ISC Color&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_391e8270dbfed4503f3bbe4f29961929&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-20 18:21:36&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_anual&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1119104081</payload_hash>
+        <record_name>SLX ISC Color</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 18:21:36</sys_created_on>
+        <sys_id>4fce8ab4dbfed4503f3bbe4f29961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1740d1ad75a0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 18:21:36</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>07ce8ab475fed4509361de4c9802f853</update_guid>
+        <update_guid_history>07ce8ab475fed4509361de4c9802f853:1119104081,cb8ece7405fed45099192e3305f7d878:-1214513152</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 18:23:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3cc352d1ebe941e097e572f7fe54e240</sys_id>
+        <sys_metadata>391e8270dbfed4503f3bbe4f29961929</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX ISC Color</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta anual">5e6cf01fdbf190503f3bbe4f29961948</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_391e8270dbfed4503f3bbe4f29961929</sys_update_name>
+        <sys_update_version display_value="sys_script_client_391e8270dbfed4503f3bbe4f29961929">4fce8ab4dbfed4503f3bbe4f29961953</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 18:23:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

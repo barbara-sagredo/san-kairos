@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>asmt_assessment_instance</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="asmt_assessment_instance">trigger_id!=^EQ<item endquery="false" field="trigger_id" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX - Nueva instancia de Tarea Encuesta</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_hocsa_san_encuesta_de_soporte');
+	gr.addQuery('sys_id',current.trigger_id);
+	gr.query();
+	
+	if(gr.next())
+		{
+			gr.u_slx_encuesta=current.sys_id;
+			gr.update();
+		}
+	
+	var anual = new GlideRecord('x_hocsa_san_encuesta_anual');
+	anual.addQuery('sys_id',current.trigger_id);
+	anual.query();
+	
+	if(anual.next())
+		{
+			anual.u_slx_encuesta=current.sys_id;
+			anual.update();
+		}
+	
+	var proyecto = new GlideRecord('x_hocsa_san_encuesta_de_proyecto');
+	proyecto.addQuery('sys_id',current.trigger_id);
+	proyecto.query();
+	
+	if(proyecto.next())
+		{
+			proyecto.u_slx_encuesta=current.sys_id;
+			proyecto.update();
+		}
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-15 22:24:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be4e3899db53d49063a95275ca9619d1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLX - Nueva instancia de Tarea Encuesta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_be4e3899db53d49063a95275ca9619d1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 15:08:48</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=be4e3899db53d49063a95275ca9619d1"/>
+</record_update>

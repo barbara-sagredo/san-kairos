@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_division" table="x_hocsa_san_ficha_os" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_division</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCH DET</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_os</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 20:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef607eb1db6dd8103f3bbe4f2996190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 20:04:00</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_division</element>
+            <name>x_hocsa_san_ficha_os</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 20:01:00</sys_created_on>
+            <sys_id>7fbf26fddb2dd8103f3bbe4f29961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_division</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_ficha_os_u_slx_division</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 20:01:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_ficha_os_u_slx_division</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_division" table="x_hocsa_san_ficha_os" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_division</element><hint/><inactive>false</inactive><label>DCH DET</label><language>en</language><name>x_hocsa_san_ficha_os</name><sequence>100</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-06-22 20:04:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ef607eb1db6dd8103f3bbe4f2996190d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-06-22 20:04:00</sys_updated_on><value>1</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_division</element><name>x_hocsa_san_ficha_os</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-06-22 20:01:00</sys_created_on><sys_id>7fbf26fddb2dd8103f3bbe4f29961960</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_division</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_ficha_os_u_slx_division</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-06-22 20:01:00</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1735558506</payload_hash>
+        <record_name>Ficha OS.División</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 14:38:44</sys_created_on>
+        <sys_id>7d1cba4b1b8254508802dac2cd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17371d004d60000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-21 14:38:44</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>351cba4b26825450cfdeb4d534dc96e9</update_guid>
+        <update_guid_history>351cba4b26825450cfdeb4d534dc96e9:1735558506,b91cba4b9182545044653d5a719e15e6:542307401,311cba4bc38254507935482d66c20ae4:-2024680421,b51cba4bb18254503e5148be6249c6e1:1034160869,3d1cba4b9b825450d7aa7feacb5a68de:2033821897,b11cba4be3825450c93ca846cc1ededc:-268523880,391cba4b3b825450ddf0ae0c623185d9:900865391,bd1cba4b19825450fb12c49dbdcbfad6:1819949575,751cba4b85825450727e6e620fcd09d4:623873444,9ca0f6b1156dd8103bb3f0c76d3d7c43:1988655653,9290f2f1766dd8107f513c78e2634eaa:688508552,1180b2f1616dd8106eebfc5d43593129:-1950852624,2f607eb1b86dd810c14767504206780f:-1537516762,0640f6b1546dd810a031c9583520cc7e:-2106962518,5620f6b1bd6dd810b6d3d197658f657a:694489030,2b00f6b1da6dd810e5c110117e8f8039:-1291331621,1d003a31d66dd81059f14d21c1aafbfd:1906113015,1befa2b1ec6dd81095e4b67e399dc700:-1177371880,a5ef2271d56dd81072ca03fc67c3da92:-1847694522,eacf2271b16dd81005db7ee4665a118e:-898055057,37bf26fd552dd810af67b57eef7dae62:1735558506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 14:38:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>7fbf26fddb2dd8103f3bbe4f29961960</sys_id>
+        <sys_metadata>7fbf26fddb2dd8103f3bbe4f29961960</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_division</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_ficha_os_u_slx_division</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_ficha_os_u_slx_division">7d1cba4b1b8254508802dac2cd4bcbe9</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-21 14:38:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

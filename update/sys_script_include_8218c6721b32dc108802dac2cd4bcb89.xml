@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hocsa_san.SLX_Comparacion_fechas</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SLX_Comparacion_fechas</name>
+        <script><![CDATA[var SLX_Comparacion_fechas = Class.create();
+SLX_Comparacion_fechas.prototype = {
+    initialize: function() {},
+   
+    isDateToday: function(strDate) {
+        // Se crean GlideDateTime para la fecha actual y para el campo ingresado
+        var rightnow = new GlideDateTime();
+        var fieldDate = new GlideDateTime(strDate);
+        // Se obtiene la porcion de fecha (sin hora) de las variables
+        var today = rightnow.getDate();
+        var istoday = fieldDate.getDate();
+        // se realiza la comparacion de fechas
+        // si la comparacion es igual a 0, significa que los datos son iguales
+        if (today.compareTo(istoday) == 0) {
+            return true;
+			
+        } else {
+            return false;
+        }
+    },
+	isDateTodayState: function(strDate) {
+        // Se crean GlideDateTime para la fecha actual y para el campo ingresado
+        var rightnow = new GlideDateTime();
+        var fieldDate = new GlideDateTime(strDate);
+        // Se obtiene la porcion de fecha (sin hora) de las variables
+        var today = rightnow.getLocalDate();
+        var istoday = fieldDate.getLocalDate();
+		
+		
+        // se realiza la comparacion de fechas
+        // si la comparacion es igual a 0, significa que los datos son iguales
+        if (today.compareTo(istoday) == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    type: 'SLX_Comparacion_fechas'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-26 23:00:38</sys_created_on>
+        <sys_id>8218c6721b32dc108802dac2cd4bcb89</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>SLX_Comparacion_fechas</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_8218c6721b32dc108802dac2cd4bcb89</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-05 02:23:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

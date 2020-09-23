@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_solicitud_de_cambio</collection>
+        <condition/>
+        <description>El campo venta final proyecto modifica el monto de la HCO</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_solicitud_de_cambio">u_slx_venta_final_proyectoVALCHANGES^EQ<item endquery="false" field="u_slx_venta_final_proyecto" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX SC modifica monto HCO</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//Gliderecord de ficha OS
+	var gr = new GlideRecord('x_hocsa_san_ficha_de proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	
+	if(gr.next())
+		{
+			//se modifica el monto de la os por el monto SC
+			gr.u_slx_notas='Cambio realizado al monto total venta, el monto anterior era: $'+gr.u_slx_monto_total_venta+'\n Cambio generado por la SC N°'+current.u_slx_sc;
+			gr.u_slx_monto_total_venta=current.u_slx_venta_final_proyecto;
+			gr.update();
+			gs.addInfoMessage('Se ha modificado el monto de la OS N° '+ gr.u_slx_numero_os);
+		}
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-06 23:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f100f1cdbe2d8d43f3bbe4f29961950</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>SLX SC modifica monto HCO</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_4f100f1cdbe2d8d43f3bbe4f29961950</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 14:29:38</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=4f100f1cdbe2d8d43f3bbe4f29961950"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_4f100f1cdbe2d8d43f3bbe4f29961950</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_solicitud_de_cambio&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;El campo venta final proyecto modifica el monto de la HCO&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_solicitud_de_cambio"&gt;u_slx_venta_final_proyectoVALCHANGES^EQ&lt;item endquery="false" field="u_slx_venta_final_proyecto" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX SC modifica monto HCO&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//Gliderecord de ficha OS
+	var gr = new GlideRecord('x_hocsa_san_ficha_de proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	
+	if(gr.next())
+		{
+			//se modifica el monto de la os por el monto SC
+			gr.u_slx_notas='Cambio realizado al monto total venta, el monto anterior era: $'+gr.u_slx_monto_total_venta+'\n Cambio generado por la SC N°'+current.u_slx_sc;
+			gr.u_slx_monto_total_venta=current.u_slx_venta_final_proyecto;
+			gr.update();
+			gs.addInfoMessage('Se ha modificado el monto de la OS N° '+ gr.u_slx_numero_os);
+		}
+	
+	
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 23:02:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4f100f1cdbe2d8d43f3bbe4f29961950&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX SC modifica monto HCO&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4f100f1cdbe2d8d43f3bbe4f29961950&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-11 14:29:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4f100f1cdbe2d8d43f3bbe4f29961950"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>67211615</payload_hash>
+        <record_name>SLX SC modifica monto HCO</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 14:29:38</sys_created_on>
+        <sys_id>ebac26331b8f9c94d8d6b887cc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747d925d8f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 14:29:38</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>afac2633de8f9c94d37a16b2833e3842</update_guid>
+        <update_guid_history>afac2633de8f9c94d37a16b2833e3842:67211615,0debee77628b1854a509c555c97f36e7:-948875470,029ba67b504b18548bbe15d9248303ec:-792218148,248a4c35334754104adcbc636c2e5164:1979002328,b672c3b00636185045e9370db3266419:-1046029572,1d3207709a361850563c432cacdf21c8:-33161435,010043bc53f21850dc35d55d401f4b33:1318317907,064b917cbdbad4501a0d58619877a95b:-1017919149,66dad53c27bad450d4c20f7284e42685:-409940302,0e9388ec473e5450d02850482a881a35:1164253496,ccd25090a5725010aec3a7d49b61019a:940329183,36bdebfa6122dc582bb5dc4ca097a6fe:-1585462049,65ade7fa0622dc586503a1fabf8c945f:-1037983366,096d27fa0922dc582b22e7aa2b254a72:-1281429252,df9b96e1b2a294103e7c1337a2dd9906:1693254140,b69392294262941047545c6eea3093b4:516852831,ac331ae50c629410dbadad6218f93096:819075807,611356e5fe62941016de5cc2c7fdd672:-1271912964,25a21a6571629410aee52ad60393c7b4:-420680976,82825aa5a3629410ab6393afd74dcb88:-1407970247,6052d2a526629410daa5c4bf35a47bfe:819075807,57d11a65db6294102d7f04808712a288:-1552541625,fcd843981726d8d44fdd2ab9f62efa5a:977992627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 14:43:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>42334fc3bc8540f09d332b265002b610</sys_id>
+        <sys_metadata>4f100f1cdbe2d8d43f3bbe4f29961950</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX SC modifica monto HCO</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha SC">ebf872f9db6dd8103f3bbe4f29961968</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_4f100f1cdbe2d8d43f3bbe4f29961950</sys_update_name>
+        <sys_update_version display_value="sys_script_4f100f1cdbe2d8d43f3bbe4f29961950">ebac26331b8f9c94d8d6b887cc4bcb43</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 14:43:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

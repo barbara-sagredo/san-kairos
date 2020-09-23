@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Acta Recepción Servicios</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_hocsa_san_acta_recepcion_servicios</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 14:45:31</sys_created_on>
+        <sys_id>8c701c9a1b66d8588802dac2cd4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Acta Recepción Servicios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_db_object_8c701c9a1b66d8588802dac2cd4bcb69</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 15:26:41</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_hocsa_san.acta_recepci_n_servicios_user" name="x_hocsa_san.acta_recepci_n_servicios_user">6f9090521b66d8588802dac2cd4bcbfc</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_db_object_8c701c9a1b66d8588802dac2cd4bcb69</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Acta Recepción Servicios</label><live_feed_enabled>false</live_feed_enabled><name>x_hocsa_san_acta_recepcion_servicios</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 14:45:31</sys_created_on><sys_id>8c701c9a1b66d8588802dac2cd4bcb69</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Acta Recepción Servicios</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_db_object_8c701c9a1b66d8588802dac2cd4bcb69</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:26:41</sys_updated_on><update_access>false</update_access><user_role display_value="x_hocsa_san.acta_recepci_n_servicios_user" name="x_hocsa_san.acta_recepci_n_servicios_user">6f9090521b66d8588802dac2cd4bcbfc</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1569708380</payload_hash>
+        <record_name>Acta Recepción Servicios</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:09:42</sys_created_on>
+        <sys_id>ef91f89a1b2ad8588802dac2cd4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e3a6222a0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:09:42</sys_updated_on>
+        <type>Table</type>
+        <update_guid>a60a501ad7a6d85837b51e7b2e0992e2</update_guid>
+        <update_guid_history>a60a501ad7a6d85837b51e7b2e0992e2:-1056578111,a60a501ad7a6d85837b51e7b2e0992e2:-1056578111,f790dc9aaf66d858e468de0f2d89d8f2:1569708380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>3267a75e70f3450e96e43ee14053dae9</sys_id>
+        <sys_metadata>8c701c9a1b66d8588802dac2cd4bcb69</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Acta Recepción Servicios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_db_object_8c701c9a1b66d8588802dac2cd4bcb69</sys_update_name>
+        <sys_update_version display_value="sys_db_object_8c701c9a1b66d8588802dac2cd4bcb69">ef91f89a1b2ad8588802dac2cd4bcbab</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

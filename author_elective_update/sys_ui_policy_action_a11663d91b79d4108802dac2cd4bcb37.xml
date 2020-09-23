@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_planes_accion</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 20:57:30</sys_created_on>
+        <sys_id>a11663d91b79d4108802dac2cd4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_planes_accion</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a11663d91b79d4108802dac2cd4bcb37</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 20:57:30</sys_updated_on>
+        <table>x_hocsa_san_encuesta</table>
+        <ui_policy display_value="SLX Mostrar  AC si es check ">89b423591b79d4108802dac2cd4bcb9e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_a11663d91b79d4108802dac2cd4bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_slx_planes_accion</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 20:57:30</sys_created_on><sys_id>a11663d91b79d4108802dac2cd4bcb37</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_planes_accion</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_a11663d91b79d4108802dac2cd4bcb37</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 20:57:30</sys_updated_on><table>x_hocsa_san_encuesta</table><ui_policy display_value="SLX Mostrar  AC si es check ">89b423591b79d4108802dac2cd4bcb9e</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1979079391</payload_hash>
+        <record_name>u_slx_planes_accion</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 20:57:30</sys_created_on>
+        <sys_id>22266b991b79d4108802dac2cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17316784f9b0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 20:57:30</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2a266b99fc79d410cd0f5dacd343fb9e</update_guid>
+        <update_guid_history>2a266b99fc79d410cd0f5dacd343fb9e:-1979079391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 22:44:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>326d40f73b564fa4a6a57a50aa1e31c4</sys_id>
+        <sys_metadata>a11663d91b79d4108802dac2cd4bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_planes_accion</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="SLX Mostrar  AC si es encuesta anual es si">89b423591b79d4108802dac2cd4bcb9e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a11663d91b79d4108802dac2cd4bcb37</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a11663d91b79d4108802dac2cd4bcb37">22266b991b79d4108802dac2cd4bcb9f</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 22:44:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

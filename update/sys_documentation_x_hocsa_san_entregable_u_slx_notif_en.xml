@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_notif" label="Notificacion " language="en" table="x_hocsa_san_entregable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_notif</element>
+            <help/>
+            <hint/>
+            <label>Notificacion </label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <plural>Notificacion s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-05 00:18:30</sys_created_on>
+            <sys_id>555078f9db8b941063a95275ca961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notificacion</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_entregable_u_slx_notif_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-05 00:18:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

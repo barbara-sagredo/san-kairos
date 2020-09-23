@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hocsa_san.SLX_promedio_soporte</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Se realiza el calculo de NPS, que consiste en sacar el promedio de todas las preguntas Q9 Con el mismo cliente</description>
+        <name>SLX_promedio_soporte</name>
+        <script><![CDATA[var SLX_promedio_soporte = Class.create();
+SLX_promedio_soporte.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+SLX_promedio_soporte : function() {
+		
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var prom=0;
+	var cont=0;
+	//creo Glide record apuntando a encuesta de soporte
+	var gr= new GlideRecord('x_hocsa_san_encuesta_de_soporte'); 
+	//creo la variable cliente que viene desde el client script
+	var cliente = this.getParameter('sysparm_cliente');
+	//valido que sea el mismo cliente
+	gr.addQuery('u_slx_cliente', cliente);	
+	gr.query();
+	
+	//mientras sea el mismo cliente, debe realizar la suma 
+	//según la cantidad de encuestas asociadas al cliente, se irá sumando el contador
+	while (gr.next()) {
+		
+		suma += parseInt(gr.u_slx_q9_s);
+		cont++;   
+	}
+	//se hace el promedio	
+	prom = suma / cont;
+	
+	return prom;
+		
+
+    },
+    
+	
+	
+	
+	type: 'SLX_promedio_soporte'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 21:01:34</sys_created_on>
+        <sys_id>ab59aa861b9a94188802dac2cd4bcbd6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SLX_promedio_soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_ab59aa861b9a94188802dac2cd4bcbd6</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 21:22:34</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_include_ab59aa861b9a94188802dac2cd4bcbd6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_hocsa_san.SLX_promedio_soporte&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Se realiza el calculo de NPS, que consiste en sacar el promedio de todas las preguntas Q9 Con el mismo cliente&lt;/description&gt;&lt;name&gt;SLX_promedio_soporte&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SLX_promedio_soporte = Class.create();
+SLX_promedio_soporte.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+SLX_promedio_soporte : function() {
+		
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var prom=0;
+	var cont=0;
+	//creo Glide record apuntando a encuesta de soporte
+	var gr= new GlideRecord('x_hocsa_san_encuesta_de_soporte'); 
+	//creo la variable cliente que viene desde el client script
+	var cliente = this.getParameter('sysparm_cliente');
+	//valido que sea el mismo cliente
+	gr.addQuery('u_slx_cliente', cliente);	
+	gr.query();
+	
+	//mientras sea el mismo cliente, debe realizar la suma 
+	//según la cantidad de encuestas asociadas al cliente, se irá sumando el contador
+	while (gr.next()) {
+		
+		suma += parseInt(gr.u_slx_q9_s);
+		cont++;   
+	}
+	//se hace el promedio	
+	prom = suma / cont;
+	
+	return prom;
+		
+
+    },
+    
+	
+	
+	
+	type: 'SLX_promedio_soporte'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-30 21:01:34&lt;/sys_created_on&gt;&lt;sys_id&gt;ab59aa861b9a94188802dac2cd4bcbd6&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_promedio_soporte&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ab59aa861b9a94188802dac2cd4bcbd6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-30 21:22:34&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1798517481</payload_hash>
+        <record_name>SLX_promedio_soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 21:22:34</sys_created_on>
+        <sys_id>c1de66ce1b9a94188802dac2cd4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a19af8c50000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-30 21:22:34</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>89de66ce2b9a9418bf23852543502329</update_guid>
+        <update_guid_history>89de66ce2b9a9418bf23852543502329:-1798517481,b35ce6ca6c9a94182560668196da8fea:-1606185293,0bea6a4ae39a9418f15e8ce97f06aad6:-1365290753,fe7a264a059a94189b9716738bd39731:599836988,d10aaac6b09a9418cd7a02cbdbd7e22a:-738795401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:30:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>463e4aa0caf640d1bad1105d2bc91369</sys_id>
+        <sys_metadata>ab59aa861b9a94188802dac2cd4bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_promedio_soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_include_ab59aa861b9a94188802dac2cd4bcbd6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ab59aa861b9a94188802dac2cd4bcbd6">c1de66ce1b9a94188802dac2cd4bcb2a</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:30:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

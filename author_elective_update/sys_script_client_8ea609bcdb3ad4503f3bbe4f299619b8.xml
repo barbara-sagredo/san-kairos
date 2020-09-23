@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Si la fecha de aceptación es mayor que la  fecha de devolución, mostrará un mensaje</description>
+        <field>u_slx_fecha_aceptacion_servicio</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX fecha aceptación servicio mayor </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+var fechaAceptacion= g_form.getValue('u_slx_fecha_aceptacion_servicio');
+var fechaDevolucion= g_form.getValue('u_slx_fecha_devolucion_encuesta');
+	
+	g_form.hideAllFieldMsgs('error');
+	if(fechaAceptacion>fechaDevolucion)
+		{
+			
+			g_form.setValue('u_slx_fecha_aceptacion_servicio',' ');
+			g_form.showFieldMsg('u_slx_fecha_aceptacion_servicio','Esta fecha no puede ser mayor a Fecha Devolución Encuesta CD por JP','error');
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 13:14:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ea609bcdb3ad4503f3bbe4f299619b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX fecha aceptación servicio mayor </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_8ea609bcdb3ad4503f3bbe4f299619b8</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 13:29:48</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_8ea609bcdb3ad4503f3bbe4f299619b8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Si la fecha de aceptación es mayor que la  fecha de devolución, mostrará un mensaje&lt;/description&gt;&lt;field&gt;u_slx_fecha_aceptacion_servicio&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX fecha aceptación servicio mayor &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+var fechaAceptacion= g_form.getValue('u_slx_fecha_aceptacion_servicio');
+var fechaDevolucion= g_form.getValue('u_slx_fecha_devolucion_encuesta');
+	
+	g_form.hideAllFieldMsgs('error');
+	if(fechaAceptacion&gt;fechaDevolucion)
+		{
+			
+			g_form.setValue('u_slx_fecha_aceptacion_servicio',' ');
+			g_form.showFieldMsg('u_slx_fecha_aceptacion_servicio','Esta fecha no puede ser mayor a Fecha Devolución Encuesta CD por JP','error');
+		}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-20 13:14:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ea609bcdb3ad4503f3bbe4f299619b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX fecha aceptación servicio mayor &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8ea609bcdb3ad4503f3bbe4f299619b8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-20 13:29:48&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_entregable&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-568536439</payload_hash>
+        <record_name>SLX fecha aceptación servicio mayor </record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 13:29:48</sys_created_on>
+        <sys_id>a80c0174db7ad4503f3bbe4f2996196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1740c0fb0980000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 13:29:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>600c0174067ad450ab844033fb51166c</update_guid>
+        <update_guid_history>600c0174067ad450ab844033fb51166c:-568536439,d98b8574f67ad4508d493b5bda7b065f:1575096340,feca85304f7ad45047db535013780532:-1186830283,e668cd309b7ad450c804bb368e34dc8c:1378346162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 13:42:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0555a247ef124b54832fa0b0bea95429</sys_id>
+        <sys_metadata>8ea609bcdb3ad4503f3bbe4f299619b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX fecha aceptación servicio mayor </sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_8ea609bcdb3ad4503f3bbe4f299619b8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8ea609bcdb3ad4503f3bbe4f299619b8">a80c0174db7ad4503f3bbe4f2996196c</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 13:42:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

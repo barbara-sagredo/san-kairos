@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_hocsa_san.SLX_Iniciativa_supera_cartera</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLX_Iniciativa_supera_cartera</name>
+        <script><![CDATA[var SLX_Iniciativa_supera_cartera = Class.create();
+SLX_Iniciativa_supera_cartera.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    SLX_Iniciativa_supera_cartera: function() {
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var cartera= this.getParameter('sysparm_cartera');
+	var presupuesto= this.getParameter('sysparm_presupuesto');
+	//creo Glide record apuntando a entregable
+	var gr= new GlideRecord('x_hocsa_san_iniciativa'); 
+	gr.addQuery('u_slx_cartera',cartera);
+	gr.query();
+	gr.getEncodedQuery();
+	
+	while (gr.next()) {
+
+    suma += gr.u_slx_presupuestado;
+	
+}
+		
+	return suma;
+	
+	
+	},
+    type: 'SLX_Iniciativa_supera_cartera'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 18:36:22</sys_created_on>
+        <sys_id>18e453641b2ad0588802dac2cd4bcb25</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>SLX_Iniciativa_supera_cartera</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_18e453641b2ad0588802dac2cd4bcb25</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 20:52:10</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_include_18e453641b2ad0588802dac2cd4bcb25</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_hocsa_san.SLX_Iniciativa_supera_cartera&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SLX_Iniciativa_supera_cartera&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SLX_Iniciativa_supera_cartera = Class.create();
+SLX_Iniciativa_supera_cartera.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    SLX_Iniciativa_supera_cartera: function() {
+	//creo las variables suma promedio y contador	
+	var suma=0;
+	var cartera= this.getParameter('sysparm_cartera');
+	var presupuesto= this.getParameter('sysparm_presupuesto');
+	//creo Glide record apuntando a entregable
+	var gr= new GlideRecord('x_hocsa_san_iniciativa'); 
+	gr.addQuery('u_slx_cartera',cartera);
+	gr.query();
+	gr.getEncodedQuery();
+	
+	while (gr.next()) {
+
+    suma += gr.u_slx_presupuestado;
+	
+}
+		
+	return suma;
+	
+	
+	},
+    type: 'SLX_Iniciativa_supera_cartera'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-07 18:36:22&lt;/sys_created_on&gt;&lt;sys_id&gt;18e453641b2ad0588802dac2cd4bcb25&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_Iniciativa_supera_cartera&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_18e453641b2ad0588802dac2cd4bcb25&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-07 20:52:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2077561701</payload_hash>
+        <record_name>SLX_Iniciativa_supera_cartera</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 20:52:11</sys_created_on>
+        <sys_id>f9947f201bead0588802dac2cd4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173cab2047f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 20:52:11</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b1947f20aeead058a8cd9d463484a167</update_guid>
+        <update_guid_history>b1947f20aeead058a8cd9d463484a167:2077561701,d683f7ec28aad058afebd4966f96c394:646898006,1d033bac8eaad058a185229d16bef9c7:-2085999030,fc41b7a892aad0585db17cef46cf53a0:-1817499987,09f0776411aad058ce17cb677a2cc1bc:-47716964,006cabe08caad05800f6bef98fc2e588:-1817499987,0b0c6fa016aad058c9d6ced5beb61eb1:-47716964,f46be3e057aad058359c789adf1a228f:1574095924,832b6fa0e5aad05848fac6e06c778c4a:-1126907468,380befa001aad05825cdabda0916b424:-191443878,8009e3ec9c6ad0583d0efafbf3671738:1367088491,aed8afacd16ad058be7e962b92496717:-191443878,a6a8e76cbc6ad058998d2394d634dd1c:380148706,398827ac3f6ad058f151bc2048c8c544:-1795045797,ff28e3aca56ad058ca9f9228797db023:-541015892,4cf6afa88f6ad05824d8f2b1135f50b1:36875669,85d6efe8766ad058f0229a0a952dc92e:1890581698,4f46ab68356ad058483f74e06b47aeae:-1981466270,e3b5afa8ab6ad05804251153e5f3067c:-678862357,d885dbe0782ad058ffbff9511899b968:-37387019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 20:59:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>52c9a96b278f4368bd64f6a417302589</sys_id>
+        <sys_metadata>18e453641b2ad0588802dac2cd4bcb25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_Iniciativa_supera_cartera</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_include_18e453641b2ad0588802dac2cd4bcb25</sys_update_name>
+        <sys_update_version display_value="sys_script_include_18e453641b2ad0588802dac2cd4bcb25">f9947f201bead0588802dac2cd4bcb67</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 20:59:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

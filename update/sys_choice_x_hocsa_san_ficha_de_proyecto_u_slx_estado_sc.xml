@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado_sc" table="x_hocsa_san_ficha_de_proyecto" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En preparación</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>0</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f64b2d91b75d4108802dac2cd4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:20:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En revisión interna</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>1</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4364b2d91b75d4108802dac2cd4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:20:10</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emitida Oficialmente</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>2</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf64b2d91b75d4108802dac2cd4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:20:10</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preparando nueva Revisión</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>3</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f64b2d91b75d4108802dac2cd4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:20:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aprobada por planta</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>4</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb64b2d91b75d4108802dac2cd4bcba5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 22:26:27</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aprobada por Codelco</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>5</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b64b2d91b75d4108802dac2cd4bcba6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 22:26:27</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bookeada</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>6</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-07 22:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8e06c32dbb5dc103f3bbe4f299619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 22:26:27</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_sc</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelada por Codelco</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>7</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-07 22:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68e06c32dbb5dc103f3bbe4f299619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 22:26:27</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_sc</element>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:20:10</sys_created_on>
+            <sys_id>8764b2d91b75d4108802dac2cd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado_sc</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_sc</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:20:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

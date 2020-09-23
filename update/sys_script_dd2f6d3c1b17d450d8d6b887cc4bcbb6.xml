@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition/>
+        <description>Al eliminar un entregable, se descontaran los montos asociados del entregable en ficha de proyectos &#13;
+También se eliminaran los registros asociados al entregable</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name> SLX Eliminar entregable</name>
+        <order>170</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	
+	//GlideRecord de ficha de Proyecto
+    var gr = new GlideRecord('x_hocsa_san_ficha_de_proyecto');
+    gr.addQuery('sys_id', current.u_slx_hco);
+    gr.query();
+	
+	//Al eliminar el entregable, se descontaran los montos asociados en la ficha de proyecto
+    if (gr.next()) {
+        if (current.u_slx_entregado) {
+            gr.u_slx_monto_devengado = gr.u_slx_monto_devengado - current.u_slx_monto_entregable;
+            gr.u_slx_avance_financiero_acumulado = gr.u_slx_avance_financiero_acumulado - current.u_slx_porcentaje_entregable;
+            gr.update();
+        }
+    }
+
+    //Glide record a tabla intermedia   
+	var ver= new GlideRecord('x_hocsa_san_nen_ent_m2m');
+	ver.addQuery('u_slx_entregable', current.sys_id);
+	ver.query();
+	//se eliminaran los registros asociados al entregable
+	if(ver.next())
+		{
+			ver.deleteMultiple();
+		}
+	//GlideRecord a encuesta de proyecto
+    var en = new GlideRecord('x_hocsa_san_encuesta_de_proyecto');
+    en.addQuery('u_slx_entregable', current.sys_id);
+    en.query();
+	//se eliminaran los registros asociados al entregable
+    if (en.next()) {
+        en.deleteMultiple();
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-14 12:41:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd2f6d3c1b17d450d8d6b887cc4bcbb6</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name> SLX Eliminar entregable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_dd2f6d3c1b17d450d8d6b887cc4bcbb6</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 16:10:07</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd2f6d3c1b17d450d8d6b887cc4bcbb6"/>
+</record_update>

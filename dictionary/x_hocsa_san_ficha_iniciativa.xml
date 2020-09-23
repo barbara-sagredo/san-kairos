@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Ficha Iniciativa" max_length="40" name="x_hocsa_san_ficha_iniciativa" type="collection">
+        <element choice="1" default="1" label="Estado Ficha" max_length="40" name="u_slx_estado_ficha" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pendiente" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Firmada" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Firmada" language="es" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Fecha Ficha" max_length="40" name="u_slx_fecha_ficha" type="glide_date"/>
+        <element label="Iniciativa" max_length="32" name="u_slx_iniciativa" read_only="true" reference="x_hocsa_san_iniciativa" type="reference"/>
+        <element display="true" label="Nombre ficha" mandatory="true" max_length="100" name="u_slx_nombre_ficha" type="string"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="N° Ficha Iniciativa" max_length="40" name="u_slx_numero" read_only="true" type="string"/>
+        <element label="Ficha OS" max_length="32" name="u_slx_os" reference="x_hocsa_san_ficha_os" type="reference"/>
+        <index name="index">
+            <element name="u_slx_iniciativa"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_os"/>
+        </index>
+    </element>
+</database>

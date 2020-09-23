@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Versión de Entregables NEN" max_length="40" name="x_hocsa_san_nen_ent_m2m" type="collection">
+        <element label="N° Entregable" mandatory="true" max_length="32" name="u_slx_entregable" reference="x_hocsa_san_entregable" reference_qual="javascript:'u_slx_hco='+current.u_slx_nen.u_slx_hco" type="reference" use_reference_qualifier="advanced"/>
+        <element label="N° NEN" max_length="32" name="u_slx_nen" read_only="true" reference="x_hocsa_san_nen" type="reference"/>
+        <element choice="1" label="Versión del entregable" mandatory="true" max_length="40" name="u_slx_version_entregable" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rev. B" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev. B" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev. C" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev. C" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev. D" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev. D" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev. 0" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Rev. 0" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Rev. 1" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Rev. 1" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Rev. 2" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Rev. 2" language="es" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Rev. As-build" sequence="700" value="7"/>
+                <element inactive_on_update="false" label="Rev. As-build" language="es" sequence="700" value="7"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_slx_entregable"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_nen"/>
+        </index>
+    </element>
+</database>

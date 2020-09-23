@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_fecha_recepcion_acr_firmada" label="Fecha Recepción ACR Firmada" language="en" table="x_hocsa_san_entregable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_recepcion_acr_firmada</element>
+            <help/>
+            <hint/>
+            <label>Fecha Recepción ACR Firmada</label>
+            <language>en</language>
+            <name>x_hocsa_san_entregable</name>
+            <plural>Fecha Recepción ACR Firmadas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-03 16:09:40</sys_created_on>
+            <sys_id>3ed6791d1bc7d050d8d6b887cc4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fecha Recepción ACR Firmada</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_entregable_u_slx_fecha_recepcion_acr_firmada_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-03 16:09:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="DELETE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>true</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Encuesta Anual">3c3c9c611b5350d0d8d6b887cc4bcb7b</category>
+        <cond_question/>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <datatype>numericscale</datatype>
+        <default_value_field>active</default_value_field>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox>1</displayed_when_checkbox>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <mandatory>false</mandatory>
+        <max>10</max>
+        <max_weight/>
+        <method>assessment</method>
+        <metric_type display_value="Encuesta Anual">ea021ca51b5f10d0d8d6b887cc4bcb1c</metric_type>
+        <min>0</min>
+        <name>Q9: Satisfacción general</name>
+        <order>900</order>
+        <plugin/>
+        <question>Q9:¿Qué tan satisfecho está usted con el desempeño global del Programa de Automatización?, ¿por qué?</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table/>
+        <scale>high</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>wide</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 14:27:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>873cd0e11bd350d0d8d6b887cc4bcb44</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Q9: Satisfacción general</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_873cd0e11bd350d0d8d6b887cc4bcb44</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 01:19:40</sys_updated_on>
+        <template/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="DELETE" query="documentkey=873cd0e11bd350d0d8d6b887cc4bcb44"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_metric_873cd0e11bd350d0d8d6b887cc4bcb44</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="asmt_metric"&gt;&lt;asmt_metric action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_info_label&gt;Additional Information&lt;/add_info_label&gt;&lt;allow_add_info&gt;false&lt;/allow_add_info&gt;&lt;allow_not_applicable&gt;true&lt;/allow_not_applicable&gt;&lt;auto_gen&gt;false&lt;/auto_gen&gt;&lt;category display_value="Encuesta Anual"&gt;3c3c9c611b5350d0d8d6b887cc4bcb7b&lt;/category&gt;&lt;cond_question/&gt;&lt;correct_answer/&gt;&lt;correct_answer_checkbox/&gt;&lt;correct_answer_choice/&gt;&lt;correct_answer_template/&gt;&lt;correct_answer_yesno/&gt;&lt;datatype&gt;numericscale&lt;/datatype&gt;&lt;default_value_field&gt;active&lt;/default_value_field&gt;&lt;depends_on/&gt;&lt;description/&gt;&lt;details/&gt;&lt;displayed_when/&gt;&lt;displayed_when_checkbox&gt;1&lt;/displayed_when_checkbox&gt;&lt;displayed_when_template/&gt;&lt;displayed_when_yesno/&gt;&lt;duration/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max&gt;10&lt;/max&gt;&lt;max_weight/&gt;&lt;method&gt;assessment&lt;/method&gt;&lt;metric_type display_value="Encuesta Anual"&gt;ea021ca51b5f10d0d8d6b887cc4bcb1c&lt;/metric_type&gt;&lt;min&gt;0&lt;/min&gt;&lt;name&gt;Q9: Satisfacción general&lt;/name&gt;&lt;order&gt;900&lt;/order&gt;&lt;plugin/&gt;&lt;question&gt;Q9:¿Qué tan satisfecho está usted con el desempeño global del Programa de Automatización?, ¿por qué?&lt;/question&gt;&lt;randomize_answers&gt;false&lt;/randomize_answers&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;reference_table/&gt;&lt;scale&gt;high&lt;/scale&gt;&lt;scored&gt;false&lt;/scored&gt;&lt;script&gt;&lt;![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &amp;gt; 100) scaled_result = 5; // else scaled_result = 1;]]&gt;&lt;/script&gt;&lt;source_field/&gt;&lt;string_option&gt;wide&lt;/string_option&gt;&lt;sys_class_name&gt;asmt_metric&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-16 14:27:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;873cd0e11bd350d0d8d6b887cc4bcb44&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Q9: Satisfacción general&lt;/sys_name&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;asmt_metric_873cd0e11bd350d0d8d6b887cc4bcb44&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-17 01:19:40&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;weight&gt;10&lt;/weight&gt;&lt;/asmt_metric&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=873cd0e11bd350d0d8d6b887cc4bcb44"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>312943864</payload_hash>
+        <record_name>Q9: Satisfacción general</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 01:19:40</sys_created_on>
+        <sys_id>4e6136611b9394d0d8d6b887cc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17499a548b60000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 01:19:40</sys_updated_on>
+        <type>Assessment Metric</type>
+        <update_guid>066136613e9394d0811404b6f1713973</update_guid>
+        <update_guid_history>066136613e9394d0811404b6f1713973:312943864,db6c506596d350d0d2a91291450c8165:-3524748,673c14e1ded350d093810adc63e6bdd8:9354075,173c14e1b9d350d0fe55729446b9c834:-409827094,5b3c14e12fd350d0cb2fdfd947006b2f:666067722,9f3c14e154d350d047fcca069ad79d2a:-1399765559,d33c14e11fd350d01fd2bc20b8ebda26:829368456,9f3cd0e16fd350d090482f94a0baced6:-1236464825,c33cd0e14cd350d0d9f33673246f0cd2:992669190,0b3cd0e1ffd350d0a4ff9a7195b3f2cd:-1073164091,433cd0e1dad350d00b0a54fccdd9d397:1155969924,873cd0e1f2d350d08a6efc8bcb034a92:-909863357,cb3cd0e1c3d350d0b0840e20173ea18d:1319270658,4f3cd0e12ad350d0eafee00b77a0954a:-746562623,4f3cd0e1ded350d0e964cc60a4620a47:-409827094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Q9: Satisfacción general">432f66711b5b9cd0d8d6b887cc4bcb10</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 19:48:23</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric">asmt_metric</sys_db_object>
+        <sys_id>00706a9171cd4bfea0601f4cabdcba11</sys_id>
+        <sys_metadata>873cd0e11bd350d0d8d6b887cc4bcb44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Q9: Satisfacción general</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_metric_873cd0e11bd350d0d8d6b887cc4bcb44</sys_update_name>
+        <sys_update_version display_value="asmt_metric_873cd0e11bd350d0d8d6b887cc4bcb44">4e6136611b9394d0d8d6b887cc4bcb73</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 19:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

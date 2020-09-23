@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Cartera" max_length="40" name="x_hocsa_san_cartera" type="collection">
+        <element label="Año" mandatory="true" max_length="40" name="u_slx_ano" type="integer"/>
+        <element label="Cliente/División" mandatory="true" max_length="40" name="u_slx_cliente" reference="core_company" type="reference"/>
+        <element label="Descripción" mandatory="true" max_length="4000" name="u_slx_descripcion" type="string"/>
+        <element choice="1" default="1" label="Estado" mandatory="true" max_length="40" name="u_slx_estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abierta" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Abierta" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Cerrada" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Cerrada" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Fecha cambio de estado" max_length="40" name="u_slx_fecha_cambio_estado" read_only="true" type="glide_date"/>
+        <element label="Monto Presupuestado" mandatory="true" max_length="40" name="u_slx_monto_presupuestado" type="integer"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Número " max_length="40" name="u_slx_numero" read_only="true" type="string"/>
+        <element label="Suma HCO" max_length="40" name="u_slx_suma_hco_os" read_only="true" type="integer"/>
+        <element label="Suma iniciativas cartera" max_length="40" name="u_slx_suma_iniciativas" read_only="true" type="integer"/>
+        <element label="Suma OS cartera" max_length="40" name="u_slx_suma_os" read_only="true" type="integer"/>
+    </element>
+</database>

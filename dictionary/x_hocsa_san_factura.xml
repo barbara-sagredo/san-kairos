@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Factura" max_length="40" name="x_hocsa_san_factura" type="collection">
+        <element label="N° EP" max_length="32" name="u_slx_ep" read_only="true" reference="x_hocsa_san_ficha_ep" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="N° Factura" max_length="40" name="u_slx_factura" read_only="true" type="string"/>
+        <element label="Monto" mandatory="true" max_length="40" name="u_slx_monto" type="integer"/>
+        <element choice="1" label="Tipo Factura" mandatory="true" max_length="40" name="u_slx_tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Honeywell" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Honeywell" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Kairos" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Kairos" language="es" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_slx_ep"/>
+        </index>
+    </element>
+</database>

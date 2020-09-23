@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_hocsa_san_encuesta_soporte</description>
+        <name>x_hocsa_san_encuesta_soporte</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 22:16:59</sys_created_on>
+        <sys_id>5425971adb795c103f3bbe4f299619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san_encuesta_soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_security_acl_5425971adb795c103f3bbe4f299619ae</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 22:16:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_security_acl_5425971adb795c103f3bbe4f299619ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_hocsa_san_encuesta_soporte</description><name>x_hocsa_san_encuesta_soporte</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-06 22:16:59</sys_created_on><sys_id>5425971adb795c103f3bbe4f299619ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_hocsa_san_encuesta_soporte</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_security_acl_5425971adb795c103f3bbe4f299619ae</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-06 22:16:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>777425078</payload_hash>
+        <record_name>x_hocsa_san_encuesta_soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-06 22:16:59</sys_created_on>
+        <sys_id>5c25971adb795c103f3bbe4f299619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17326342a8e0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-06 22:16:59</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5425971a31795c1056e318bb8bc340b0</update_guid>
+        <update_guid_history>5425971a31795c1056e318bb8bc340b0:777425078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 14:51:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0ccd6dd31ac74fbc9c604094cb600410</sys_id>
+        <sys_metadata>5425971adb795c103f3bbe4f299619ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san_encuesta_soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="">5c25971adb795c103f3bbe4f299619bf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_security_acl_5425971adb795c103f3bbe4f299619ae</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_5425971adb795c103f3bbe4f299619ae">5c25971adb795c103f3bbe4f299619b0</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 14:51:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

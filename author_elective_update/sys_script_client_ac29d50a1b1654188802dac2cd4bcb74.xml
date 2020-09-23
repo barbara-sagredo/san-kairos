@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Según el resultado del script include "SLX_promedio", se seteara el campo NPS y se pintara la celda según el valor</description>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX NPS encuesta soporte</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    //creo un glide ajax que apunte al script include llamado SLX promedio soporte
+    var ga = new GlideAjax("SLX_promedio_soporte");
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_promedio_soporte");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_cliente", g_form.getValue("u_slx_cliente"));
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	var nps =  Math.round(answer);
+	g_form.setValue('u_slx_nps', nps);
+	
+
+	var npsa= g_form.getElement('u_slx_nps');
+	
+//segun el valor de NPS se pintara el campo	
+  if ( nps) {
+        if ( nps >= 0 &&  nps <= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if ( nps == 5 ||  nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if ( nps >= 7 &&  nps <= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-30 15:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac29d50a1b1654188802dac2cd4bcb74</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>SLX NPS encuesta soporte</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_ac29d50a1b1654188802dac2cd4bcb74</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:44:57</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_soporte</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_ac29d50a1b1654188802dac2cd4bcb74</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Según el resultado del script include "SLX_promedio", se seteara el campo NPS y se pintara la celda según el valor&lt;/description&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX NPS encuesta soporte&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    //creo un glide ajax que apunte al script include llamado SLX promedio soporte
+    var ga = new GlideAjax("SLX_promedio_soporte");
+    //llamo a la funcion del script include	
+    ga.addParam("sysparm_name", "SLX_promedio_soporte");
+    //creo una variable que traiga el campo de cliente, esta se usará en el script include
+    ga.addParam("sysparm_cliente", g_form.getValue("u_slx_cliente"));
+    ga.getXML(callback);
+
+}
+
+function callback(response) {
+
+	//creo la variable answer que trae el valor prom del script include
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //seteo la variable answer en el campo nps
+	
+	var nps =  Math.round(answer);
+	g_form.setValue('u_slx_nps', nps);
+	
+
+	var npsa= g_form.getElement('u_slx_nps');
+	
+//segun el valor de NPS se pintara el campo	
+  if ( nps) {
+        if ( nps &gt;= 0 &amp;&amp;  nps &lt;= 4) {
+            npsa.style.backgroundColor = "OrangeRed";
+        } else if ( nps == 5 ||  nps == 6) {
+            npsa.style.backgroundColor = "yellow";
+        } else if ( nps &gt;= 7 &amp;&amp;  nps &lt;= 10) {
+            npsa.style.backgroundColor = "GreenYellow";
+        } else {
+            npsa.style.backgroundColor = "white";
+        }
+    } else {
+        npsa.style.backgroundColor = "white";
+    }
+
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-30 15:11:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ac29d50a1b1654188802dac2cd4bcb74&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX NPS encuesta soporte&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ac29d50a1b1654188802dac2cd4bcb74&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-28 16:44:57&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_soporte&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-568083569</payload_hash>
+        <record_name>SLX NPS encuesta soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-28 16:44:57</sys_created_on>
+        <sys_id>dd650f971b7290508802dac2cd4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17435f53a980000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-28 16:44:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>95650f977872905073c39a1966bee2a0</update_guid>
+        <update_guid_history>95650f977872905073c39a1966bee2a0:-568083569,51e00407dea2dc585f67488c6f54dd9e:-407927236,3e946037969ad4d4c9619ee65bfdf800:1481831509,ab9bf6ce06da94180065225a3bc1867b:792668185,0f1f228ebe9a94182eaa986484d17762:910965957,bccb628ac39a9418c245ab5498a9b8db:1576979152,2a7b224a3f9a9418da2decb960ab5d78:151411628,015be68a3f9a94183e920c52eab5daeb:1890676601,4acaae86c59a9418b626a89fe14470b6:-254776815,739a6ec6d99a9418ab216b9a0fdb97ec:1717803305,566a2ec6319a94188c6503d9ba320676:-1494890006,e20a6e0adb9a94184756a6f9f5fb2822:2118455960,374e9a8e651a94180b876470e234663f:655327289,6f20f5c233de541808347fe23d04494b:-1389647071,b3bf690ab8de54186c97acc9304248ec:-659146156,8b6f6d86e7de5418a35080eb476e504f:-590877015,891fe986b15e54189de09f46cf9b4141:237420113,7c0a5d86a01654182d65882ae5359bf9:-615033354,9ec9150aa8165418c67fcfb639218a98:-1492676125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:29:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>076f7c6404ee47b0a039877488cbbc40</sys_id>
+        <sys_metadata>ac29d50a1b1654188802dac2cd4bcb74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX NPS encuesta soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Servicio de Soporte">dfeb4957db7590503f3bbe4f299619b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_ac29d50a1b1654188802dac2cd4bcb74</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ac29d50a1b1654188802dac2cd4bcb74">dd650f971b7290508802dac2cd4bcba0</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:29:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

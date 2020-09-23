@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_slx_fecha_completa_sin_firma</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-23 15:44:28</sys_created_on>
+        <sys_id>985e5d3bdb4a5c503f3bbe4f29961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_completa_sin_firma</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_985e5d3bdb4a5c503f3bbe4f29961952</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-23 15:44:28</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <ui_policy display_value="SLX Bloquear en estado fuera de plazo">3969d36edbfd9c103f3bbe4f29961993</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_985e5d3bdb4a5c503f3bbe4f29961952</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_slx_fecha_completa_sin_firma</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-23 15:44:28</sys_created_on><sys_id>985e5d3bdb4a5c503f3bbe4f29961952</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_fecha_completa_sin_firma</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_985e5d3bdb4a5c503f3bbe4f29961952</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-23 15:44:28</sys_updated_on><table>x_hocsa_san_entregable</table><ui_policy display_value="SLX Bloquear en estado fuera de plazo">3969d36edbfd9c103f3bbe4f29961993</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1697680146</payload_hash>
+        <record_name>u_slx_fecha_completa_sin_firma</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-23 15:44:28</sys_created_on>
+        <sys_id>585e5d3bdb4a5c503f3bbe4f29961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737c58e87d0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-23 15:44:28</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>505e5d3bcb4a5c50e7689cedc1925a54</update_guid>
+        <update_guid_history>505e5d3bcb4a5c50e7689cedc1925a54:1697680146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 21:29:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>49a186a5abf9416099a8bd2800b98601</sys_id>
+        <sys_metadata>985e5d3bdb4a5c503f3bbe4f29961952</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_completa_sin_firma</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="">3969d36edbfd9c103f3bbe4f29961993</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_985e5d3bdb4a5c503f3bbe4f29961952</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_985e5d3bdb4a5c503f3bbe4f29961952">585e5d3bdb4a5c503f3bbe4f29961954</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-24 21:29:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_ep</collection>
+        <condition/>
+        <description>Se realiza el cálculo de los entregables asociados a la ficha ep</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Sumatoria entregables EP</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//se inicializa la variable suma en 0
+	var suma=0;
+	//se crea un glide record hacia los entregables asociados a la ficha EP
+	var gr= new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('u_slx_ep', current.sys_id);
+	gr.query();
+	//por cada entregable asociado, hará la sumatoria
+	while(gr.next())
+		{
+			
+			suma+=gr.u_slx_monto_entregable;
+		}
+	//se crea un gliderecord a la ficha ep
+	var ep= new GlideRecord('x_hocsa_san_ficha_ep');
+	ep.addQuery('sys_id', current.sys_id);
+	ep.query();
+	//se asigna al campo suma entregables la variable suma
+	if(ep.next())
+	{
+	ep.u_slx_suma_entregables=suma;
+	ep.update();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-14 20:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27a9173c1b17d850d8d6b887cc4bcb96</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SLX Sumatoria entregables EP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_27a9173c1b17d850d8d6b887cc4bcb96</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-23 11:52:35</sys_updated_on>
+        <template>undefined=^EQ</template>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=27a9173c1b17d850d8d6b887cc4bcb96"/>
+</record_update>

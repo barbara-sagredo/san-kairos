@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_fecha_compromiso</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 17:17:19</sys_created_on>
+        <sys_id>6a736f551b5a1c948802dac2cd4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_compromiso</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6a736f551b5a1c948802dac2cd4bcba6</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 17:17:19</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <ui_policy display_value="SLX campo invisble para el formato correcto encuesta anual">474e1bd11b961c948802dac2cd4bcb3c</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_6a736f551b5a1c948802dac2cd4bcba6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_slx_fecha_compromiso</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-28 17:17:19</sys_created_on><sys_id>6a736f551b5a1c948802dac2cd4bcba6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_fecha_compromiso</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_6a736f551b5a1c948802dac2cd4bcba6</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-28 17:17:19</sys_updated_on><table>x_hocsa_san_encuesta_anual</table><ui_policy display_value="SLX campo invisble para el formato correcto encuesta anual">474e1bd11b961c948802dac2cd4bcb3c</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>829439295</payload_hash>
+        <record_name>u_slx_fecha_compromiso</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 17:17:19</sys_created_on>
+        <sys_id>4983eb1d1bd61c948802dac2cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173966db7ca0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 17:17:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4183eb1d73d61c948d2badac4f0c8154</update_guid>
+        <update_guid_history>4183eb1d73d61c948d2badac4f0c8154:829439295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-31 20:32:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>171eb4a1b7db455c82bb16b0562d6b51</sys_id>
+        <sys_metadata>6a736f551b5a1c948802dac2cd4bcba6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_fecha_compromiso</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_6a736f551b5a1c948802dac2cd4bcba6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_6a736f551b5a1c948802dac2cd4bcba6">4983eb1d1bd61c948802dac2cd4bcb54</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-31 20:32:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

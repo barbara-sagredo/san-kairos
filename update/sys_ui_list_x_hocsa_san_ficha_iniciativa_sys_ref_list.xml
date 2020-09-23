@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_hocsa_san_ficha_iniciativa" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_numero</element>
+            <list_id display_value="x_hocsa_san_ficha_iniciativa" element="NULL" name="x_hocsa_san_ficha_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="088922631b2223004b360d03cd4bcb53">7522cc741b2ed0588802dac2cd4bcb44</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-07 21:51:25</sys_created_on>
+            <sys_id>b122cc741b2ed0588802dac2cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-07 21:51:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_nombre_ficha</element>
+            <list_id display_value="x_hocsa_san_ficha_iniciativa" element="NULL" name="x_hocsa_san_ficha_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="088922631b2223004b360d03cd4bcb53">7522cc741b2ed0588802dac2cd4bcb44</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-07 21:51:25</sys_created_on>
+            <sys_id>3922cc741b2ed0588802dac2cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-07 21:51:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_hocsa_san_ficha_iniciativa</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-07 21:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7522cc741b2ed0588802dac2cd4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_san_ficha_iniciativa</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_list_x_hocsa_san_ficha_iniciativa_sys_ref_list</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-07 21:51:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">088922631b2223004b360d03cd4bcb53</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

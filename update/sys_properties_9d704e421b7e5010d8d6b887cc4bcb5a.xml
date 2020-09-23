@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ficha SC activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_hocsa_san_solicitud_de_cambio_activity.fields</name>
+        <read_roles/>
+        <suffix>x_hocsa_san</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-24 14:31:22</sys_created_on>
+        <sys_id>9d704e421b7e5010d8d6b887cc4bcb5a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_hocsa_san_solicitud_de_cambio_activity.fields</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_properties_9d704e421b7e5010d8d6b887cc4bcb5a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 22:02:17</sys_updated_on>
+        <type>string</type>
+        <value>u_slx_notas,u_slx_correlativo,u_slx_estado,u_slx_fecha_aprobado_planta,u_slx_fecha_aprobado_codelco,u_slx_fecha_bookeada,u_slx_fecha_cancelada_codelco,u_slx_fecha_emitida_oficialmente,u_slx_fecha_revision_interna,u_slx_fecha_preparacion,u_slx_fecha_preparando_nueva_rev,u_slx_requisitor,u_slx_preparado,u_slx_numero_siebel,u_slx_numero_sales_force,u_slx_motivo</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d704e421b7e5010d8d6b887cc4bcb5a"/>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_de_proyecto</collection>
+        <condition/>
+        <description>Se calcula el avance financiero, actualmente ya no existe el campo  monto total acumulado.&#13;
+cambiaron monto total acumulado por % facturado, quizas el campo avance ya no es necesario.</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_de_proyecto">u_slx_monto_total_ventaISNOTEMPTY^EQ<item endquery="false" field="u_slx_monto_total_venta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX avance financiero acumulado</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+current.u_slx_avance_financiero_acumulado=current.u_slx_monto_total_acumulado/current.u_slx_monto_total_venta;
+	
+	
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-22 21:13:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>679ed9e31b8e10908802dac2cd4bcb24</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SLX avance financiero acumulado</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_679ed9e31b8e10908802dac2cd4bcb24</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 17:56:05</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=679ed9e31b8e10908802dac2cd4bcb24"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_679ed9e31b8e10908802dac2cd4bcb24</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Se calcula el avance financiero, actualmente ya no existe el campo  monto total acumulado.&amp;#13;
+cambiaron monto total acumulado por % facturado, quizas el campo avance ya no es necesario.&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_de_proyecto"&gt;u_slx_monto_total_ventaISNOTEMPTY^EQ&lt;item endquery="false" field="u_slx_monto_total_venta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX avance financiero acumulado&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+current.u_slx_avance_financiero_acumulado=current.u_slx_monto_total_acumulado/current.u_slx_monto_total_venta;
+	
+	
+	
+	
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 21:13:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;679ed9e31b8e10908802dac2cd4bcb24&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX avance financiero acumulado&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_679ed9e31b8e10908802dac2cd4bcb24&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-14 17:56:05&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=679ed9e31b8e10908802dac2cd4bcb24"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-624129946</payload_hash>
+        <record_name>SLX avance financiero acumulado</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 17:56:05</sys_created_on>
+        <sys_id>a26f07f21bae9c588802dac2cd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173ee1d51760000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 17:56:05</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>e66f07f2f5ae9c580eba234f8fdda6b0</update_guid>
+        <update_guid_history>e66f07f2f5ae9c580eba234f8fdda6b0:-624129946,4e96c72023e6d058afcc9a9532be8fc3:-160349581,e1b33a57a9125c184933bdf6c2976424:290984966,7b237e177f125c189a66564dc80a59e2:-1953140948,70f27217c9125c182a930b298ede9385:-140601405,dcd276d346125c18c5ad70f309d1dab4:160292646,1a92be13bd125c18ce323de95e887de7:-1315438138,2172f29303125c183ff865a961319368:423851592,161236d3b0125c18e5910a522d01b82f:-989261793,c860adebbdce1090561c3ea05f72cc56:-1773630130,46102dafd98e10907eedc6863ffd1c59:-750433948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 13:38:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>459339e14ac5464aad9832577b464084</sys_id>
+        <sys_metadata>679ed9e31b8e10908802dac2cd4bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX avance financiero acumulado</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_679ed9e31b8e10908802dac2cd4bcb24</sys_update_name>
+        <sys_update_version display_value="sys_script_679ed9e31b8e10908802dac2cd4bcb24">a26f07f21bae9c588802dac2cd4bcbb1</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 13:38:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

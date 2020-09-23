@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Ficha OS" max_length="40" name="x_hocsa_san_ficha_os" type="collection">
+        <element choice="1" label="Área" max_length="40" name="u_slx_area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DCS" language="es" sequence="100" value="DCS"/>
+                <element inactive_on_update="false" label="DCS" sequence="100" value="DCS"/>
+                <element inactive_on_update="false" label="INSTR" sequence="200" value="INSTR"/>
+                <element inactive_on_update="false" label="INSTR" language="es" sequence="200" value="INSTR"/>
+                <element inactive_on_update="false" label="INF" language="es" sequence="300" value="INF"/>
+                <element inactive_on_update="false" label="INF" sequence="300" value="INF"/>
+                <element inactive_on_update="false" label="CTLAPPS" language="es" sequence="400" value="CTLAPPS"/>
+                <element inactive_on_update="false" label="CTLAPPS" sequence="400" value="CTLAPPS"/>
+                <element inactive_on_update="false" label="INFOAPPS" sequence="500" value="INFOAPPS"/>
+                <element inactive_on_update="false" label="INFOAPPS" language="es" sequence="500" value="INFOAPPS"/>
+                <element inactive_on_update="false" label="SERV" language="es" sequence="600" value="SERV"/>
+                <element inactive_on_update="false" label="SERV" sequence="600" value="SERV"/>
+                <element inactive_on_update="false" label="FEL" sequence="700" value="FEL"/>
+                <element inactive_on_update="false" label="FEL" language="es" sequence="700" value="FEL"/>
+                <element inactive_on_update="false" label="CORE" language="es" sequence="800" value="CORE"/>
+                <element inactive_on_update="false" label="CORE" sequence="800" value="CORE"/>
+                <element inactive_on_update="false" label="OTRA" language="es" sequence="900" value="OTRA"/>
+                <element inactive_on_update="false" label="OTRA" sequence="900" value="OTRA"/>
+            </choice>
+        </element>
+        <element label="Cartera" max_length="32" name="u_slx_cartera" read_only="true" reference="x_hocsa_san_cartera" type="reference"/>
+        <element label="Contrato" mandatory="true" max_length="40" name="u_slx_contrato" type="string"/>
+        <element label="División" mandatory="true" max_length="4000" name="u_slx_division" type="glide_list"/>
+        <element label="Duración Meses" max_length="20" name="u_slx_duracion_meses" type="decimal"/>
+        <element choice="1" default="1" label="Estado" max_length="40" name="u_slx_estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ficha recibida / en preparación" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Ficha recibida / en preparación" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Alcance enviado para revisión Codelco" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Alcance enviado para revisión Codelco" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Recibidos comentarios Alcance" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Recibidos comentarios Alcance" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Alcance aprobado / Valorizando OS" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Alcance aprobado / Valorizando OS" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="En revisión interna" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="En revisión interna" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Emitida Oficialmente" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Emitida Oficialmente" language="es" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Preparando nueva Revisión" language="es" sequence="700" value="7"/>
+                <element inactive_on_update="false" label="Preparando nueva Revisión" sequence="700" value="7"/>
+                <element inactive_on_update="false" label="Aprobado por planta" sequence="800" value="8"/>
+                <element inactive_on_update="false" label="Aprobado por planta" language="es" sequence="800" value="8"/>
+                <element inactive_on_update="false" label="Aprobada por Admin.Codelco" language="es" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="Aprobada por Admin.Codelco" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="Bookeada" language="es" sequence="1000" value="10"/>
+                <element inactive_on_update="false" label="Bookeada" sequence="1000" value="10"/>
+                <element inactive_on_update="false" label="Cancelada por Codelco" language="es" sequence="1100" value="11"/>
+                <element inactive_on_update="false" label="Cancelada por Codelco" sequence="1100" value="11"/>
+            </choice>
+        </element>
+        <element label="Fecha Alcance aprobado / Valorizando OS" max_length="40" name="u_slx_fecha_alcance_aprobado" read_only="true" type="glide_date"/>
+        <element label="Fecha Alcance enviado para revisión Codelco" max_length="40" name="u_slx_fecha_alcance_revision_codelco" read_only="true" type="glide_date"/>
+        <element label="Fecha Aprobada por Admin. Codelco" max_length="40" name="u_slx_fecha_aprobada_admin_codelco" read_only="true" type="glide_date"/>
+        <element label="Fecha Aprobado por planta" max_length="40" name="u_slx_fecha_aprobado_planta" read_only="true" type="glide_date"/>
+        <element label="Fecha Bookeada" max_length="40" name="u_slx_fecha_bookeada" read_only="true" type="glide_date"/>
+        <element label="Fecha Cancelada por Codelco" max_length="40" name="u_slx_fecha_cancelada_codelco" read_only="true" type="glide_date"/>
+        <element label="Fecha Emitida Oficialmente" max_length="40" name="u_slx_fecha_emitida_oficialmente" read_only="true" type="glide_date"/>
+        <element label="Fecha Estado" max_length="40" name="u_slx_fecha_estado" type="glide_date"/>
+        <element label="Fecha Notificacion" max_length="40" name="u_slx_fecha_notif" type="glide_date_time"/>
+        <element label="Fecha Preparando nueva Revisión" max_length="40" name="u_slx_fecha_preparando_nueva_revision" read_only="true" type="glide_date"/>
+        <element label="Fecha Ficha recibida / en preparación" max_length="40" name="u_slx_fecha_recibida_preparacion" read_only="true" type="glide_date"/>
+        <element label="Fecha Recibidos comentarios Alcance" max_length="40" name="u_slx_fecha_recibidos_comentarios_alcance" read_only="true" type="glide_date"/>
+        <element label="Fecha de revisión de la OS" max_length="40" name="u_slx_fecha_revision_os" type="glide_date"/>
+        <element label="Mes de Booking" max_length="40" name="u_slx_mes_booking" type="string"/>
+        <element label="Monto CLP" max_length="20" name="u_slx_monto_clp" type="decimal"/>
+        <element label="Nombre Contrato" mandatory="true" max_length="100" name="u_slx_nombre_contrato" type="string"/>
+        <element label="Nombre Ficha Iniciativa" max_length="32" name="u_slx_nombre_ficha" reference="x_hocsa_san_ficha_iniciativa" reference_qual="javascript:&quot;u_slx_iniciativa.u_slx_cartera=&quot;+current.u_slx_cartera+&quot;^u_slx_osISEMPTY&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Nombre OS" mandatory="true" max_length="40" name="u_slx_nombre_os" type="string"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element label="Notificado" max_length="40" name="u_slx_notif" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" display="true" label="Número OS" mandatory="true" max_length="40" name="u_slx_numero_os" type="string"/>
+        <element label="Número Sales Force" mandatory="true" max_length="40" name="u_slx_numero_sales_force" type="string"/>
+        <element label="Número Siebel" mandatory="true" max_length="40" name="u_slx_numero_siebel" type="string"/>
+        <element label="OS mayor" max_length="40" name="u_slx_os_mayor" type="boolean"/>
+        <element label="Requisitor OS" max_length="40" name="u_slx_requisitor_os" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Fecha En Revisión interna" max_length="40" name="u_slx_revision_interna" read_only="true" type="glide_date"/>
+        <element choice="1" label="Revisión OS" mandatory="true" max_length="40" name="u_slx_revision_os" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rev.B" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="Rev.B" language="es" sequence="50" value="5"/>
+                <element inactive_on_update="false" label="Rev.0" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev.0" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev.1" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev.1" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev.2" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev.2" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev.3" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Rev.3" language="es" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sub área" max_length="40" name="u_slx_sub_area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aplicaciones de Información" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Aplicaciones de Información" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Aplicaciones de Simulación" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Aplicaciones de Simulación" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Capacitación" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Capacitación" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="ControlApps" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="ControlApps" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Infraestructura" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Infraestructura" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Ingeniería y Proyectos Infraestructura" language="es" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Ingeniería y Proyectos Infraestructura" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Instrumentación en Terreno" language="es" sequence="700" value="7"/>
+                <element inactive_on_update="false" label="Instrumentación en Terreno" sequence="700" value="7"/>
+                <element inactive_on_update="false" label="Proyectos especiales" language="es" sequence="800" value="8"/>
+                <element inactive_on_update="false" label="Proyectos especiales" sequence="800" value="8"/>
+                <element inactive_on_update="false" label="Servicios" language="es" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="Servicios" sequence="900" value="9"/>
+                <element inactive_on_update="false" label="Todas (GDS)" language="es" sequence="1000" value="10"/>
+                <element inactive_on_update="false" label="Todas (GDS)" sequence="1000" value="10"/>
+            </choice>
+        </element>
+        <element label="Suma monto HCO" max_length="40" name="u_slx_suma_hco" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="u_slx_nombre_ficha"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_cartera"/>
+        </index>
+    </element>
+</database>

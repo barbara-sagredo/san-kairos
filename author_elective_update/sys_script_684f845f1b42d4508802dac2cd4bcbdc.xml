@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_de_proyecto</collection>
+        <condition/>
+        <description>Se ingresa automaticamente el estado sc desde el modulo de proyectos</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_de_proyecto">u_slx_estado_scVALCHANGES^ORu_slx_estado_sc=1^ORu_slx_estado_sc=2^ORu_slx_estado_sc=3^ORu_slx_estado_sc=4^ORu_slx_estado_sc=5^ORu_slx_estado_sc=6^ORu_slx_estado_sc=7^ORu_slx_estado_sc=8^EQ<item display_value="-- None --" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="En preparación" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="1"/>
+            <item display_value="En revisión interna" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item display_value="Emitida Oficialmente" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="3"/>
+            <item display_value="Preparando nueva Revisión" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="4"/>
+            <item display_value="Aprobada por planta" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="5"/>
+            <item display_value="Aprobada por Codelco" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="6"/>
+            <item display_value="Bookeada" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="7"/>
+            <item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX estado SC entregable</name>
+        <order>4000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//apunto a la tabla de entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('sys_id', current.u_slx_numero_entregable);
+	gr.query();
+	if (gr.next()) {
+		//Se llena la variable estado SC por la misma que esta en ficha de proyecto
+		
+		gr.u_slx_estado_sc =current.getDisplayValue('u_slx_estado_sc') ;
+		gr.update(); 
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 20:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>684f845f1b42d4508802dac2cd4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX estado SC entregable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_684f845f1b42d4508802dac2cd4bcbdc</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-22 15:22:04</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=684f845f1b42d4508802dac2cd4bcbdc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_684f845f1b42d4508802dac2cd4bcbdc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Se ingresa automaticamente el estado sc desde el modulo de proyectos&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_de_proyecto"&gt;u_slx_estado_scVALCHANGES^ORu_slx_estado_sc=1^ORu_slx_estado_sc=2^ORu_slx_estado_sc=3^ORu_slx_estado_sc=4^ORu_slx_estado_sc=5^ORu_slx_estado_sc=6^ORu_slx_estado_sc=7^ORu_slx_estado_sc=8^EQ&lt;item display_value="-- None --" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item display_value="En preparación" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="1"/&gt;&lt;item display_value="En revisión interna" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="2"/&gt;&lt;item display_value="Emitida Oficialmente" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="3"/&gt;&lt;item display_value="Preparando nueva Revisión" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="4"/&gt;&lt;item display_value="Aprobada por planta" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="5"/&gt;&lt;item display_value="Aprobada por Codelco" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="6"/&gt;&lt;item display_value="Bookeada" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="7"/&gt;&lt;item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado_sc" goto="false" newquery="false" operator="=" or="true" value="8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX estado SC entregable&lt;/name&gt;&lt;order&gt;4000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//apunto a la tabla de entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('sys_id', current.u_slx_numero_entregable);
+	gr.query();
+	if (gr.next()) {
+		//Se llena la variable estado SC por la misma que esta en ficha de proyecto
+		
+		gr.u_slx_estado_sc =current.getDisplayValue('u_slx_estado_sc') ;
+		gr.update(); 
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-21 20:47:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;684f845f1b42d4508802dac2cd4bcbdc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX estado SC entregable&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_684f845f1b42d4508802dac2cd4bcbdc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 15:22:04&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=684f845f1b42d4508802dac2cd4bcbdc"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1973559130</payload_hash>
+        <record_name>SLX estado SC entregable</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-22 15:22:04</sys_created_on>
+        <sys_id>9e9fc8ab1b4a9c508802dac2cd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173771e0c850000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-22 15:22:04</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d29fc8ab5d4a9c506606ad51130b09d5</update_guid>
+        <update_guid_history>d29fc8ab5d4a9c506606ad51130b09d5:-1973559130,401794df5a06d4509ccf278929bb781a:693218924,4a80dc533682d4502cec0397291f0ff4:1641932342,6560509f3842d450e97bd6d6c0796530:915828942</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 20:38:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>026f87fa6b4d48909437960ffba70eb1</sys_id>
+        <sys_metadata>684f845f1b42d4508802dac2cd4bcbdc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX estado SC entregable</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_684f845f1b42d4508802dac2cd4bcbdc</sys_update_name>
+        <sys_update_version display_value="sys_script_684f845f1b42d4508802dac2cd4bcbdc">9e9fc8ab1b4a9c508802dac2cd4bcbd5</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 20:38:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

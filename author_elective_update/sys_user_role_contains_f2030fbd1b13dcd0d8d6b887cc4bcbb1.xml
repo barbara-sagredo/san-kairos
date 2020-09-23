@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="survey_creator" name="survey_creator">ec1816c3871323004caf66d107cb0b1e</contains>
+        <role display_value="x_hocsa_san.gestor_encuestas" name="x_hocsa_san.gestor_encuestas">44726c85dbcb101063a95275ca961922</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 21:15:12</sys_created_on>
+        <sys_id>f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>survey_creator.x_hocsa_san.gestor_encuestas</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_user_role_contains_f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 21:15:12</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_user_role_contains_f2030fbd1b13dcd0d8d6b887cc4bcbb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="survey_creator" name="survey_creator">ec1816c3871323004caf66d107cb0b1e</contains><role display_value="x_hocsa_san.gestor_encuestas" name="x_hocsa_san.gestor_encuestas">44726c85dbcb101063a95275ca961922</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-17 21:15:12</sys_created_on><sys_id>f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>survey_creator.x_hocsa_san.gestor_encuestas</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_user_role_contains_f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-17 21:15:12</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>16322426</payload_hash>
+        <record_name>survey_creator.x_hocsa_san.gestor_encuestas</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 21:15:12</sys_created_on>
+        <sys_id>b60383f11b53dcd0d8d6b887cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749debd54c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 21:15:12</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>be0383f13c53dcd0c9da83549a4fbfa2</update_guid>
+        <update_guid_history>be0383f13c53dcd0c9da83549a4fbfa2:16322426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 21:16:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>93e33e21e4bc4866a243482a7cce3964</sys_id>
+        <sys_metadata>f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>survey_creator.x_hocsa_san.gestor_encuestas</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_f2030fbd1b13dcd0d8d6b887cc4bcbb1</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_f2030fbd1b13dcd0d8d6b887cc4bcbb1">b60383f11b53dcd0d8d6b887cc4bcba3</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 21:16:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

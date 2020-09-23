@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description>Se ingresará automaticamente el estado de la nen según la fecha actual // puede que esta ya no se ocupe, el estado nen tiene otras choices</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX_estado_nen_automatico</name>
+        <order>1501</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+   
+ //apunto a la tabla de entregable
+    var gr = new GlideRecord('x_hocsa_san_entregable');
+ 
+    //Se crean las vraiables que almacenen las fechas 
+    var fechaSistema = new GlideDateTime();
+    var fechaPorVencer = new GlideDateTime(gr.u_slx_fecha_termino);
+    var fechaVencimiento = new GlideDateTime(gr.u_slx_fecha_termino);
+    var fechaInicio = new GlideDateTime(gr.u_slx_fecha_inicio);
+    //a la fecha por vencer se le restan 15 dias
+	fechaPorVencer.addDaysUTC(-15);
+
+ 
+    gr.query();
+    while (gr.next()) {
+ 
+        
+        
+        //Según la fecha actual se seteará el estado
+ 
+        if (fechaSistema < fechaPorVencer && fechaSistema >= fechaInicio) {
+           
+ 
+            current.setValue('u_slx_estado_nen', 'En plazo');
+            
+        } else if (fechaSistema > fechaPorVencer && fechaSistema < fechaVencimiento) {
+            
+ 
+            current.setValue('u_slx_estado_nen', 2);
+            
+        } else if (fechaSistema > fechaVencimiento) {
+           
+            
+            current.setValue('u_slx_estado_nen', 3);
+        }
+      
+        gr.u_slx_estado_nen= current.getValue('u_slx_estado_nen');
+        gr.update();
+        
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 21:09:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e91901f1b82d4508802dac2cd4bcb4a</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>SLX_estado_nen_automatico</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_9e91901f1b82d4508802dac2cd4bcb4a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 20:36:42</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=9e91901f1b82d4508802dac2cd4bcb4a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_9e91901f1b82d4508802dac2cd4bcb4a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection/&gt;&lt;condition/&gt;&lt;description&gt;Se ingresará automaticamente el estado de la nen según la fecha actual // puede que esta ya no se ocupe, el estado nen tiene otras choices&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX_estado_nen_automatico&lt;/name&gt;&lt;order&gt;1501&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+   
+ //apunto a la tabla de entregable
+    var gr = new GlideRecord('x_hocsa_san_entregable');
+ 
+    //Se crean las vraiables que almacenen las fechas 
+    var fechaSistema = new GlideDateTime();
+    var fechaPorVencer = new GlideDateTime(gr.u_slx_fecha_termino);
+    var fechaVencimiento = new GlideDateTime(gr.u_slx_fecha_termino);
+    var fechaInicio = new GlideDateTime(gr.u_slx_fecha_inicio);
+    //a la fecha por vencer se le restan 15 dias
+	fechaPorVencer.addDaysUTC(-15);
+
+ 
+    gr.query();
+    while (gr.next()) {
+ 
+        
+        
+        //Según la fecha actual se seteará el estado
+ 
+        if (fechaSistema &lt; fechaPorVencer &amp;&amp; fechaSistema &gt;= fechaInicio) {
+           
+ 
+            current.setValue('u_slx_estado_nen', 'En plazo');
+            
+        } else if (fechaSistema &gt; fechaPorVencer &amp;&amp; fechaSistema &lt; fechaVencimiento) {
+            
+ 
+            current.setValue('u_slx_estado_nen', 2);
+            
+        } else if (fechaSistema &gt; fechaVencimiento) {
+           
+            
+            current.setValue('u_slx_estado_nen', 3);
+        }
+      
+        gr.u_slx_estado_nen= current.getValue('u_slx_estado_nen');
+        gr.update();
+        
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-21 21:09:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9e91901f1b82d4508802dac2cd4bcb4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;85&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX_estado_nen_automatico&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9e91901f1b82d4508802dac2cd4bcb4a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-14 20:36:42&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9e91901f1b82d4508802dac2cd4bcb4a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>184150741</payload_hash>
+        <record_name>SLX_estado_nen_automatico</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 20:36:42</sys_created_on>
+        <sys_id>db2473361b62dc588802dac2cd4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173eeb05cf30000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 20:36:42</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>13247336d962dc58c0039529282577c5</update_guid>
+        <update_guid_history>13247336d962dc58c0039529282577c5:184150741,9d704acab7169418c88773fa95e32eb6:-735850159,3ed835c22ed29418e59f2fa6d260f252:1642972812,30b4190224925418f16365cdf1a59b8d:1629058585,10763df9c35254940691e4ab9ecbfca2:829095174,eb36b5fd34125494e5368d25ce1bb43e:-710572585,29e6adbdf61a14947f3a4a7539d04156:-359296000,5583e97173d6149420803d442b2653df:-240489252,b722e5f941561494e8538527400aa1ec:1103664425,9931ad719c5614944ce7cbd6e653e812:-1720833077,2fb0613952561494ec3bd4b8d1f59cf9:1188396171,d60061718b5614945465ef3707db1ab1:-757632076,74bf953984d21494ec58661149c2c5a4:1224488052,c9fe1df5dd16149497c7287c298b03d4:2041152025,79fc15bd95521494f0e178592471ba3d:-1727983701,914a1d3d9152149444a4dc3b1da0d4c0:-1126585767,2dd9d971db121494d3773e504af0d3d5:-2052145967,7dc915fd6a121494de09f4b2a4676c0a:744244325,7969d1759c521494c07fbedab4e9693d:1072321713,d8b811b9aaded094c9e053060a33e43f:1737538424,8d471d79c3ded094e8270b164f585f65:-1789740752,75149171fe9ed094cde7aa1a4ce776ac:-899150343,9c64c9392696d094acca67389995b43c:-1492989529,97340dbdb556d09409df0fb71ed13756:-468982457,06d3cd35c396d09473d12aad040c48e8:-29593032,eaa349f1f896d0941c991426dfe10534:1120402660,92d245f56b56d0945e4477febb7dfd3e:1977581446,3112c9b56856d094a07aedc2658ca909:6056329,4d024571ce56d094a3e44202919e8534:-1571987280,c9e14df53916d0943eb4bebfcfaf8746:1729549522,726145714b56d094d48c5fb7dfe3352d:-1074771383,efe0853dfbd2d094999af1947f6f16bf:473180456,fd1fb4f59dd2d094fc2dcd095da0eda1:831151899,3d9e383143d2d094800749266560adc6:-1714826206,574e347519d2d094f67c4888a2c77e8e:-96347201,2bfdb4b16dd2d0946bb54bd470cba9ba:1078343910,17cdf879bc92d094d810e8f6b6d83f08:1082270761,a4ac38755892d0945d6706fa32e149f2:-1741145009,3db419730c865c50cfde93598e007c2e:178432040,f79e89bb72065c5078f91b84948d1329:-1430386660,f86be127af465090fb5fec8509fd7cc9:51149177,74d228a32a82dc502ae32d2bc5747b06:100367057,50b2a4a3d182dc501f81799fd4f182e5:-1706726553,42a310eb63ca9c50565305ced6be682a:1878803317,b740d023ac8a9c507b03a6e0bec78d62:1231593571,5f1018af3f4a9c508ab592a456614da7:1861993515,817e08e3cf4a9c50e7c9e0febf5d5c1a:1694549093,dd5ecc2ffb0a9c50f3fda38374987921:-581883758,10dd4ce3970a9c50e9b13c003548cad3:1694100562,c29d4ce3c90a9c500acdead35449b292:-1544243541,ba0aac9fdccad450bc86a12a74b1dd40:-2129276607,8618a097dc8ad4506ff055dd32f80c02:751871775,1db7a09b85cad4505879b8eb7cb3d69b:882934206,7e87685bb4cad45051625132c4927140:1815249856,bea42013a68ad450b4650fb1417fe5c5:-2104977076,5cb3a0dbfd4ad450b63cd6e839f4499a:739083565,79412c1f5e0ad450f79f98750a2b7a90:-1653200845,9811a81fee0ad450b614bdc1aa89afad:-405464341,5e90a01fba0ad4503987348ebf685469:-378413086,6050e45b880ad450de3a092b29793369:-1461474816,70cfd01bce0ad450ff1d63907a56ce3b:-1359301741,b59fd457450ad4503fea2e229d2704d0:1215933838,006f94572a0ad450c117ae7b2e1f64b1:-1359301741,c45f1c174e0ad450969799b2a993a789:-1621108597,492f1417ac0ad450571909af998509c2:-1834629505,a1be58df1cc6d4505c4c7ca54551773a:-732808085,0d9edc9739c6d45081a113d0c0f19eb0:-655128096,deec14136ec6d4501bf98ee96c56829c:825809412,1abc10573ec6d450ff67d80443eb5483:1007318099,9facd817d0c6d450bef9ad35ca423650:633114098,3d7c54d3efc6d450186f1b48c13f7e1c:-543447120,980cd013eec6d4508bd4d94ab784fdc3:-619276145,c66bdc173d86d450a49376842d40dd3d:652231904,3c4b149b3586d450769fcaa8a7b78f4d:-2101842614,c0da18972586d450d7cf0e44e768f9b3:1329671931,ba6ad0d34586d450b612300728b8901f:314748594,04f990d3d886d4501dbae16af9157dcd:-876577002,dfa8501b2546d450ecb0d9b4272a58bb:397984503,0e489893e246d45078bd38919be9889e:557186296,d8b790938c46d4506a336e372df5e42a:237789572,a5a7189fec06d450af5beb919bdec202:-270584745,10571c137c46d450db890e67a406342d:1160786571,c1969c1f3406d4501fdb204492f498ac:-955323362,d9761c9bf506d450c2e62ad6b3cd7a8d:-1485350223,09561097e106d4507a9945d7c60f1153:719170784,db95981bbac2d450b59fec78eab784ca:1478704664</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-21 12:47:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>68296ab00a524c0cab7d911e37359c84</sys_id>
+        <sys_metadata>9e91901f1b82d4508802dac2cd4bcb4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_estado_nen_automatico</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_9e91901f1b82d4508802dac2cd4bcb4a</sys_update_name>
+        <sys_update_version display_value="sys_script_9e91901f1b82d4508802dac2cd4bcb4a">db2473361b62dc588802dac2cd4bcbc5</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-21 12:47:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

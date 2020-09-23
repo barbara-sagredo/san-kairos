@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>10</display>
+        <metric display_value="Q9: Satisfacción general">4ab47ef51bdb9cd0d8d6b887cc4bcb96</metric>
+        <order>10</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 20:12:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>10</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_definition_02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 20:12:37</sys_updated_on>
+        <unselected_image/>
+        <value>10</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=02b47ef51bdb9cd0d8d6b887cc4bcbe0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_metric_definition_02b47ef51bdb9cd0d8d6b887cc4bcbe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>10</display><metric display_value="Q9: Satisfacción general">4ab47ef51bdb9cd0d8d6b887cc4bcb96</metric><order>10</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-17 20:12:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>10</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>asmt_metric_definition_02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-17 20:12:37</sys_updated_on><unselected_image/><value>10</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=02b47ef51bdb9cd0d8d6b887cc4bcbe0"/></record_update>]]></payload>
+        <payload_hash>-1128067706</payload_hash>
+        <record_name>10</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 20:12:37</sys_created_on>
+        <sys_id>8ab47ef51bdb9cd0d8d6b887cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749db289890000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 20:12:37</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>82b47ef5c5db9cd01a3fc98c228270e1</update_guid>
+        <update_guid_history>82b47ef5c5db9cd01a3fc98c228270e1:-1128067706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="10">0f3497751b1bdcd0d8d6b887cc4bcb75</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:30:18</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>4140ba419b2b4fc0a7f02cf2139b2ed1</sys_id>
+        <sys_metadata>02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>10</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_02b47ef51bdb9cd0d8d6b887cc4bcbe0</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_02b47ef51bdb9cd0d8d6b887cc4bcbe0">8ab47ef51bdb9cd0d8d6b887cc4bcbe1</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

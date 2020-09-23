@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1e11fa951b75d4108802dac2cd4bcb7f" sys_domain="global" table="x_hocsa_san_solicitud_de_cambio" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a11fa951b75d4108802dac2cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_solicitud_de_cambio" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">1e11fa951b75d4108802dac2cd4bcb7f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">8f98a43cdbb514103f3bbe4f2996199d</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:05:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 22:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffdcb59e1baed8588802dac2cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_solicitud_de_cambio" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">1e11fa951b75d4108802dac2cd4bcb7f</sys_ui_form>
+            <sys_ui_section caption="Fechas Estado SC" display_value="Fechas Estado SC" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">f7dcb59e1baed8588802dac2cd4bcb42</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 22:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 22:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fdcb59e1baed8588802dac2cd4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_solicitud_de_cambio" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">1e11fa951b75d4108802dac2cd4bcb7f</sys_ui_form>
+            <sys_ui_section caption="Equipo Trabajo" display_value="Equipo Trabajo" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">77dcb59e1baed8588802dac2cd4bcb43</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 22:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 22:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfdcb59e1baed8588802dac2cd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hocsa_san_solicitud_de_cambio" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">1e11fa951b75d4108802dac2cd4bcb7f</sys_ui_form>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_solicitud_de_cambio" sys_domain="global" view="Default view">f3dcb59e1baed8588802dac2cd4bcb44</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 22:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e11fa951b75d4108802dac2cd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_san_solicitud_de_cambio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1e11fa951b75d4108802dac2cd4bcb7f</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:05:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

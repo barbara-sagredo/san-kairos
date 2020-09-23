@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="NEN" max_length="40" name="x_hocsa_san_nen" type="collection">
+        <element label="Anulación" max_length="40" name="u_slx_anulacion" type="glide_date"/>
+        <element label="Devolución Jefe de Proyecto" max_length="40" name="u_slx_devolucion_jefe_proyecto" type="glide_date"/>
+        <element choice="1" default="0" label="Estado NEN " max_length="40" name="u_slx_estado_nen" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Creada" language="es" sequence="50" value="0"/>
+                <element inactive_on_update="false" label="Creada" sequence="50" value="0"/>
+                <element inactive_on_update="false" label="En proceso por CD" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="En proceso por CD" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Emitida" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Emitida" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Enviada a Cliente" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Enviada a Cliente" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Firmada por Cliente" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Firmada por Cliente" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Publicada" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Publicada" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Anulada" language="es" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Anulada" sequence="600" value="6"/>
+            </choice>
+        </element>
+        <element label="Fecha de entrega de CD a JP" max_length="40" name="u_slx_fecha_entrega_cd_jp" type="glide_date"/>
+        <element label="Fecha de entrega por mano a cliente" max_length="40" name="u_slx_fecha_entrega_cliente" type="glide_date"/>
+        <element label="Fecha envío a Cliente" max_length="40" name="u_slx_fecha_envio_cliente" type="glide_date"/>
+        <element label="Fecha envío a Kairos" max_length="40" name="u_slx_fecha_envio_kairos" type="glide_date"/>
+        <element label="Fecha entrega a expeditor" max_length="40" name="u_slx_fecha_expeditor" type="glide_date"/>
+        <element label="Fecha Firma Cliente" max_length="40" name="u_slx_fecha_firma_cliente" type="glide_date"/>
+        <element label="Fecha Publicación NEN" max_length="40" name="u_slx_fecha_publicacion" type="glide_date"/>
+        <element label="HCO" max_length="32" name="u_slx_hco" read_only="true" reference="x_hocsa_san_ficha_de_proyecto" type="reference"/>
+        <element label="Campo invisible para formato" max_length="32" name="u_slx_jefe_proyecto" reference="sys_user" type="reference"/>
+        <element label="Master publicación" max_length="40" name="u_slx_master_publicacion" type="string"/>
+        <element label="N° NEN/NCC" mandatory="true" max_length="40" name="u_slx_nen_ncc" type="string"/>
+        <element label="Nombre destinatario NEN" mandatory="true" max_length="4000" name="u_slx_nombre_destinatario_nen" reference="sys_user" type="glide_list"/>
+        <element label="Nombre Solicitante emisión" mandatory="true" max_length="40" name="u_slx_nombre_solicitante_emision" reference="sys_user" type="glide_list"/>
+        <element label="Notas" max_length="4000" name="u_slx_notas" type="journal_input"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Número NEN" max_length="40" name="u_slx_numero_nen" read_only="true" type="string"/>
+        <element choice="1" label="Revisión de la NEN" mandatory="true" max_length="40" name="u_slx_revision_nen" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rev. 0" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev. 0" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Rev. 1" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev. 1" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rev. B" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev. B" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Rev. C" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Rev. C" language="es" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element label="Solicitud de Emisión" max_length="40" name="u_slx_solicitud_emision" type="glide_date"/>
+        <index name="index">
+            <element name="u_slx_jefe_proyecto"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_hco"/>
+        </index>
+    </element>
+</database>

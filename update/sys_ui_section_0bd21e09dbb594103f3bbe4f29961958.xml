@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0bd21e09dbb594103f3bbe4f29961958" sys_domain="global" table="x_hocsa_san_encuesta" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>176a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>976a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_cliente</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1b6a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_rol_cargo_cliente</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9b6a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_correo_cliente</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1f6a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_cliente_firma_encuesta</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9f6a8a9edbb15c103f3bbe4f299619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_entregable</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>136a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_entregable.u_slx_nro_acta_recepcion_servicios</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>936a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>176a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_hco</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>976a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_hco.u_slx_nombre_proyecto</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1b6a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_os.u_slx_area</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9b6a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_sub_area</element>
+            <position>12</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1f6a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_division_sitio</element>
+            <position>13</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9f6a8a9edbb15c103f3bbe4f299619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_requiere_ac</element>
+            <position>14</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>136a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>936a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>16</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>176a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_encuesta_respondida</element>
+            <position>17</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>976a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>18</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1b6a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_encuesta_firmada</element>
+            <position>19</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9b6a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>1f6a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_comentarios_cliente</element>
+            <position>21</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-06 16:50:37</sys_created_on>
+            <sys_id>9f6a8a9edbb15c103f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-06 16:50:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_compromiso</element>
+            <position>22</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 13:40:10</sys_created_on>
+            <sys_id>3a9b305fdbf190503f3bbe4f29961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 13:40:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_entregable</element>
+            <position>23</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 17:01:53</sys_created_on>
+            <sys_id>fdc92993db3990503f3bbe4f299619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 17:01:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_encuesta</element>
+            <position>24</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 22:35:52</sys_created_on>
+            <sys_id>123676931b7950508802dac2cd4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 22:35:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_anual</element>
+            <position>25</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-28 17:20:47</sys_created_on>
+            <sys_id>73446b5d1b5a1c948802dac2cd4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-28 17:20:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_promedio_obtenido</element>
+            <position>26</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-01 16:53:02</sys_created_on>
+            <sys_id>2a9d632c1b031050d8d6b887cc4bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-01 16:53:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_escala</element>
+            <position>27</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-08 20:18:58</sys_created_on>
+            <sys_id>a3df5083dbcb94d063a95275ca961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-08 20:18:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_responsable_gestion</element>
+            <position>28</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-15 21:31:50</sys_created_on>
+            <sys_id>0ba370dddb9b949063a95275ca9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 21:31:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_encuesta</element>
+            <position>29</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-15 22:23:06</sys_created_on>
+            <sys_id>ca6f7855db93d49063a95275ca961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 22:23:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_suma</element>
+            <position>30</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 14:08:26</sys_created_on>
+            <sys_id>e351edf5db97d8d063a95275ca9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 14:08:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_cont</element>
+            <position>31</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-17 14:08:26</sys_created_on>
+            <sys_id>27512139db97d8d063a95275ca96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_san_encuesta" sys_domain="global" view="Default view">0bd21e09dbb594103f3bbe4f29961958</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-17 14:08:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hocsa_san_encuesta</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-02 20:15:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bd21e09dbb594103f3bbe4f29961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_san_encuesta</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_0bd21e09dbb594103f3bbe4f29961958</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-02 20:15:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_nen</collection>
+        <condition/>
+        <description>Se alertará cuando una fecha sea mayor a la fecha actual</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Fechas NEN</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var fechaSolicitudEmision= current.u_slx_solicitud_emision;
+	var fechaPublicacion=current.u_slx_fecha_publicacion;
+	var fechaDevolucion= current.u_slx_devolucion_jefe_proyecto;
+	var fechaAnulacion= current.u_slx_anulacion;
+	var fechaEnvioKairos= current.u_slx_fecha_envio_kairos;
+	var fechaEnvioCliente= current.u_slx_fecha_envio_cliente;
+	var fechaFirmaCliente= current.u_slx_fecha_firma_cliente;
+	var fechaExpeditor=current.u_slx_fecha_expeditor;
+	var fechaEntregaCDJP=current.u_slx_fecha_entrega_cd_jp;
+	var fechaEntregaCliente=current.u_slx_fecha_entrega_cliente;
+	var fechaHoy= new GlideDate();
+	
+	//Fecha Solicitud de emisión
+	if(current.u_slx_solicitud_emision.changes() ){
+	if(fechaSolicitudEmision>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de Solicitud de Emisión no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	
+	//fecha Publicación NEN
+	if(current.u_slx_fecha_publicacion.changes() ){
+	if(fechaPublicacion>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de Publicación no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//fecha Devolución a Jefe de Proyecto
+	if(current.u_slx_devolucion_jefe_proyecto.changes() ){
+	if(fechaDevolucion>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de Devolución Jefe de Proyecto no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//fecha Anulación
+	if(current.u_slx_anulacion.changes() ){
+	if(fechaAnulacion>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de Anulación no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//Fecha envío a Cliente
+	if(current.u_slx_fecha_envio_cliente.changes() ){
+	if(fechaEnvioCliente>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de envío a Cliente no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//Fecha envío a Kairos
+	if(current.u_slx_fecha_envio_kairos.changes() ){
+	if(fechaEnvioKairos>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha de envío a Kairos no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//Fecha Firma Cliente
+	if(current.u_slx_fecha_firma_cliente.changes() ){
+	if(fechaFirmaCliente>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha Firma Cliente no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	
+	//Fecha entrega a expeditor
+	if(current.u_slx_fecha_expeditor.changes() ){
+	if(fechaExpeditor>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha entrega a expeditor no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//Fecha entrega CD a JP
+	if(current.u_slx_fecha_entrega_cd_jp.changes() ){
+	if(fechaEntregaCDJP>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha entrega CD a JP no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	//Fecha de entrega por mano a cliente
+	if(current.u_slx_fecha_entrega_cliente.changes() ){
+	if(fechaEntregaCliente>fechaHoy)
+		{
+			gs.addErrorMessage('La fecha entrega por mano a cliente no puede ser mayor a la fecha actual');
+			current.setAbortAction(true);
+			
+			
+		}
+	}
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-10 14:08:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>422e152bdb8fd81463a95275ca9619d8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX Fechas NEN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_422e152bdb8fd81463a95275ca9619d8</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 15:00:34</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=422e152bdb8fd81463a95275ca9619d8"/>
+</record_update>

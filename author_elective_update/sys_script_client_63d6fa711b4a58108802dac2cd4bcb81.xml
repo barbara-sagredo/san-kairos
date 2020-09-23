@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Column label mas length soporte</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+ g_form.setLabelOf('u_slx_q1_soporte', 'Q1: ¿Qué tan satisfecho está usted con el VALOR que aportan a su negocio las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q2_soporte', 'Q2: ¿Qué tan satisfecho está usted con la CALIDAD de las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q3_soporte', 'Q3: ¿Qué tan satisfecho está usted con el TIEMPO DE RESPUESTA de las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q4_soporte', 'Q4: ¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal de Servicio de Soporte en terreno de Kairos Mining?');
+	g_form.setLabelOf('u_slx_q5_soporte', 'Q5: ¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal de Servicio de Soporte remoto de Kairos Mining?');
+	g_form.setLabelOf('u_slx_q6_soporte', 'Q6: ¿Qué tan satisfecho está usted con la FACILIDAD DE HACER NEGOCIO con Kairos Mining en relación al Servicio de Soporte contratado, en cuando a estar disponible cuando es necesario, responder adecuadamente a sus necesidades, entender las necesidades de su negocio, etc.?');
+	g_form.setLabelOf('u_slx_q7_soporte', 'Q7: ¿Qué tan satisfecho está usted con la capacidad de Kairos Mining de mantenerlo INFORMADO acerca de las actividades del Servicio de Soporte contratado, como, por ejemplo: actividades pendientes, casos destacados, indicadores del servicio, entrega de reportes periódicos, cumplimiento de las actividades de mantenimiento, etc.?');
+	g_form.setLabelOf('u_slx_q8_soporte', 'Q8: ¿Qué tan satisfecho está usted con las prácticas laborales de Kairos Mining en relación a sus requerimientos de SALUD SEGURIDAD Y MEDIO AMBIENTE?');
+	g_form.setLabelOf('u_slx_q9_soporte', 'Q9: ¿Qué tan probable es que usted RECOMIENDE el Servicio de Soporte de Kairos Mining a otras Divisiones u organizaciones afines?');
+	g_form.setLabelOf('u_slx_q10_soporte', 'Q10: Por favor indíquenos qué debemos mejorar y/o corregir para que su experiencia con nosotros sea satisfactoria. Sus comentarios y sugerencias también son bienvenidos.');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-17 17:20:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63d6fa711b4a58108802dac2cd4bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX Column label mas length soporte</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_63d6fa711b4a58108802dac2cd4bcb81</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 20:53:30</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_soporte</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_63d6fa711b4a58108802dac2cd4bcb81</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Column label mas length soporte&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+ g_form.setLabelOf('u_slx_q1_soporte', 'Q1: ¿Qué tan satisfecho está usted con el VALOR que aportan a su negocio las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q2_soporte', 'Q2: ¿Qué tan satisfecho está usted con la CALIDAD de las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q3_soporte', 'Q3: ¿Qué tan satisfecho está usted con el TIEMPO DE RESPUESTA de las recomendaciones y/o respuestas a incidentes o requerimientos, provistos por Kairos a su División, durante el último período?');
+	g_form.setLabelOf('u_slx_q4_soporte', 'Q4: ¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal de Servicio de Soporte en terreno de Kairos Mining?');
+	g_form.setLabelOf('u_slx_q5_soporte', 'Q5: ¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal de Servicio de Soporte remoto de Kairos Mining?');
+	g_form.setLabelOf('u_slx_q6_soporte', 'Q6: ¿Qué tan satisfecho está usted con la FACILIDAD DE HACER NEGOCIO con Kairos Mining en relación al Servicio de Soporte contratado, en cuando a estar disponible cuando es necesario, responder adecuadamente a sus necesidades, entender las necesidades de su negocio, etc.?');
+	g_form.setLabelOf('u_slx_q7_soporte', 'Q7: ¿Qué tan satisfecho está usted con la capacidad de Kairos Mining de mantenerlo INFORMADO acerca de las actividades del Servicio de Soporte contratado, como, por ejemplo: actividades pendientes, casos destacados, indicadores del servicio, entrega de reportes periódicos, cumplimiento de las actividades de mantenimiento, etc.?');
+	g_form.setLabelOf('u_slx_q8_soporte', 'Q8: ¿Qué tan satisfecho está usted con las prácticas laborales de Kairos Mining en relación a sus requerimientos de SALUD SEGURIDAD Y MEDIO AMBIENTE?');
+	g_form.setLabelOf('u_slx_q9_soporte', 'Q9: ¿Qué tan probable es que usted RECOMIENDE el Servicio de Soporte de Kairos Mining a otras Divisiones u organizaciones afines?');
+	g_form.setLabelOf('u_slx_q10_soporte', 'Q10: Por favor indíquenos qué debemos mejorar y/o corregir para que su experiencia con nosotros sea satisfactoria. Sus comentarios y sugerencias también son bienvenidos.');
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-17 17:20:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;63d6fa711b4a58108802dac2cd4bcb81&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Column label mas length soporte&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_63d6fa711b4a58108802dac2cd4bcb81&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-28 20:53:30&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_soporte&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>897720416</payload_hash>
+        <record_name>SLX Column label mas length soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 20:53:30</sys_created_on>
+        <sys_id>bbf450651b969c948802dac2cd4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739733a3d70000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 20:53:30</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>73f45065b3969c94d0d31a4fcfd6c211</update_guid>
+        <update_guid_history>73f45065b3969c94d0d31a4fcfd6c211:897720416,b3ca7675664a5810021f37a0964e9598:1476532548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-04 21:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>338e68e045bc4cf2b0d3ecc7cd9e42a9</sys_id>
+        <sys_metadata>63d6fa711b4a58108802dac2cd4bcb81</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Column label mas length soporte</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Servicio de Soporte">dfeb4957db7590503f3bbe4f299619b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_63d6fa711b4a58108802dac2cd4bcb81</sys_update_name>
+        <sys_update_version display_value="sys_script_client_63d6fa711b4a58108802dac2cd4bcb81">bbf450651b969c948802dac2cd4bcb11</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>u_slx_presupuestado</element>
+        <name>x_hocsa_san_iniciativa</name>
+        <style>background-color:tomato;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 21:18:57</sys_created_on>
+        <sys_id>7dd9f3281bead0588802dac2cd4bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_hocsa_san_iniciativa</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_style_7dd9f3281bead0588802dac2cd4bcb41</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 21:20:08</sys_updated_on>
+        <value>javascript: current.u_slx_cartera.u_slx_suma_iniciativas&gt; current.u_slx_cartera.u_slx_monto_presupuestado;</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=7dd9f3281bead0588802dac2cd4bcb41"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_style_7dd9f3281bead0588802dac2cd4bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_slx_presupuestado</element><name>x_hocsa_san_iniciativa</name><style>background-color:tomato;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-07 21:18:57</sys_created_on><sys_id>7dd9f3281bead0588802dac2cd4bcb41</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_hocsa_san_iniciativa</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_style_7dd9f3281bead0588802dac2cd4bcb41</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-07 21:20:08</sys_updated_on><value>javascript: current.u_slx_cartera.u_slx_suma_iniciativas&gt; current.u_slx_cartera.u_slx_monto_presupuestado;</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=7dd9f3281bead0588802dac2cd4bcb41"/></record_update>]]></payload>
+        <payload_hash>-2137020689</payload_hash>
+        <record_name>x_hocsa_san_iniciativa</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-07 21:20:08</sys_created_on>
+        <sys_id>e7faf3281bead0588802dac2cd4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173cacb9f180000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-07 21:20:08</sys_updated_on>
+        <type>Style</type>
+        <update_guid>affaf32893ead0583f428dcb54c88a0b</update_guid>
+        <update_guid_history>affaf32893ead0583f428dcb54c88a0b:-2137020689,f5ba3768ccead058a0da6c29b972d75d:-436367583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-13 14:11:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>38690b8ac0404a4c95ee1d86ff88db84</sys_id>
+        <sys_metadata>7dd9f3281bead0588802dac2cd4bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san_iniciativa</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Iniciativa">aa65c6b11ba598108802dac2cd4bcb0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_style_7dd9f3281bead0588802dac2cd4bcb41</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_7dd9f3281bead0588802dac2cd4bcb41">e7faf3281bead0588802dac2cd4bcb0c</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-13 14:11:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

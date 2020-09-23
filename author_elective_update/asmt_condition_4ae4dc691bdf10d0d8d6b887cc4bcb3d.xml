@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_condition">
+    <asmt_condition action="DELETE">
+        <active>true</active>
+        <assessment display_value="Encuesta Anual">ea021ca51b5f10d0d8d6b887cc4bcb1c</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">af55d4a91bdf10d0d8d6b887cc4bcbe3</business_rule>
+        <condition table="x_hocsa_san_encuesta_anual">u_slx_estado_encuesta_anual=4^EQ<item display_value="Recepcionada" endquery="false" field="u_slx_estado_encuesta_anual" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration/>
+        <percent_random>100</percent_random>
+        <related_field_1>u_slx_cliente</related_field_1>
+        <related_field_2>u_slx_division_sitio</related_field_2>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 13:57:55</sys_created_on>
+        <sys_id>4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_condition_4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 15:07:39</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <trigger_random>false</trigger_random>
+        <user_field>u_slx_responsable_gestion</user_field>
+    </asmt_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_condition_4ae4dc691bdf10d0d8d6b887cc4bcb3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_condition"><asmt_condition action="INSERT_OR_UPDATE"><active>true</active><assessment display_value="Encuesta Anual">ea021ca51b5f10d0d8d6b887cc4bcb1c</assessment><assessment_record/><assessment_record_field/><business_rule display_value="Auto assessment business rule">af55d4a91bdf10d0d8d6b887cc4bcbe3</business_rule><condition table="x_hocsa_san_encuesta_anual">u_slx_estado_encuesta_anual=4^EQ<item display_value="Recepcionada" endquery="false" field="u_slx_estado_encuesta_anual" goto="false" newquery="false" operator="=" or="false" value="4"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><duration/><percent_random>100</percent_random><related_field_1>u_slx_cliente</related_field_1><related_field_2>u_slx_division_sitio</related_field_2><related_field_3/><related_field_4/><sys_class_name>asmt_condition</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-16 13:57:55</sys_created_on><sys_id>4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>asmt_condition_4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-16 15:07:39</sys_updated_on><table>x_hocsa_san_encuesta_anual</table><trigger_random>false</trigger_random><user_field>u_slx_responsable_gestion</user_field></asmt_condition></record_update>]]></payload>
+        <payload_hash>1778661156</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-16 15:07:39</sys_created_on>
+        <sys_id>815568691bd750d0d8d6b887cc4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749774f9290000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-16 15:07:39</sys_updated_on>
+        <type>Trigger Condition</type>
+        <update_guid>09556869cfd750d01b2e587f4d0f7376</update_guid>
+        <update_guid_history>09556869cfd750d01b2e587f4d0f7376:1778661156,927514ad1fdf10d096ce6145a4d8734f:-799365691,e7551c6df1df10d0611f63f218a7f97a:-1631781731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d1c9fef51b5f9cd0d8d6b887cc4bcb4c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 20:34:41</sys_created_on>
+        <sys_db_object display_value="" name="asmt_condition">asmt_condition</sys_db_object>
+        <sys_id>07e714b788d24e39ba37d3b6a4874821</sys_id>
+        <sys_metadata>4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta anual">5e6cf01fdbf190503f3bbe4f29961948</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_condition_4ae4dc691bdf10d0d8d6b887cc4bcb3d</sys_update_name>
+        <sys_update_version display_value="asmt_condition_4ae4dc691bdf10d0d8d6b887cc4bcb3d">815568691bd750d0d8d6b887cc4bcb77</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 20:34:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

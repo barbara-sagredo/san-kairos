@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_hocsa_san.fecha.estado.os</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>fecha.estado.os</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-26 15:34:27</sys_created_on>
+        <sys_id>6cf1a43a1b769c108802dac2cd4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.fecha.estado.os</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_register_6cf1a43a1b769c108802dac2cd4bcba7</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-26 15:34:27</sys_updated_on>
+        <table/>
+    </sysevent_register>
+</record_update>

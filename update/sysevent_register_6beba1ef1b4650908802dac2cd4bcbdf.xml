@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_hocsa_san.venc.termino.hco</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>venc.termino.hco</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-22 22:05:57</sys_created_on>
+        <sys_id>6beba1ef1b4650908802dac2cd4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.venc.termino.hco</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_register_6beba1ef1b4650908802dac2cd4bcbdf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-22 22:05:57</sys_updated_on>
+        <table>x_hocsa_san_ficha_de_proyecto</table>
+    </sysevent_register>
+</record_update>

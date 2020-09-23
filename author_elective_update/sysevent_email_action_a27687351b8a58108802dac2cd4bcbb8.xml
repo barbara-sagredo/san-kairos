@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition table="x_hocsa_san_entregable">u_slx_estado_envio_entregableCHANGESTO1^EQ<item display_value="En plazo" endquery="false" field="u_slx_estado_envio_entregable" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Estimado <strong><span style="text-decoration: underline;">Juan Luis Neveu:</span></strong></p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">&nbsp;</p>
+<p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">El entregable N&deg; ${u_slx_numero} cambio de estado de env&iacute;o del entregable a <strong><span style="text-decoration: underline;">${u_slx_estado_envio_entregable}</span></strong> :</p>
+<ul style="list-style-position: inside;">
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">N&deg; Entregable: ${u_slx_numero}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Nombre Entregable: ${u_slx_nombre}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">N&deg; HCO:&nbsp; ${u_slx_hco}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">N&deg; OS: ${u_slx_hco.u_slx_os}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">N&deg; NEN: ${u_slx_numero_nen}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Jefe de Proyecto: ${u_slx_jefe_proyecto}</li>
+<li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;">Cliente Destinatario: ${u_slx_nombre_destinatario}</li>
+</ul>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX Cambio estado envio</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>76620afd1b6598108802dac2cd4bcb36</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>El entregable N° ${u_slx_numero} cambio de estado de envío a En proceso por control documental</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-17 18:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a27687351b8a58108802dac2cd4bcbb8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SLX Cambio estado envio</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_email_action_a27687351b8a58108802dac2cd4bcbb8</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 16:44:17</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sysevent_email_action_a27687351b8a58108802dac2cd4bcbb8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_hocsa_san_entregable&lt;/collection&gt;&lt;condition table="x_hocsa_san_entregable"&gt;u_slx_estado_envio_entregableCHANGESTO1^EQ&lt;item display_value="En plazo" endquery="false" field="u_slx_estado_envio_entregable" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;antivirus.infected&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Estimado &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Juan Luis Neveu:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px; color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;El entregable N&amp;deg; ${u_slx_numero} cambio de estado de env&amp;iacute;o del entregable a &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;${u_slx_estado_envio_entregable}&lt;/span&gt;&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;N&amp;deg; Entregable: ${u_slx_numero}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Nombre Entregable: ${u_slx_nombre}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;N&amp;deg; HCO:&amp;nbsp; ${u_slx_hco}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;N&amp;deg; OS: ${u_slx_hco.u_slx_os}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;N&amp;deg; NEN: ${u_slx_numero_nen}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Jefe de Proyecto: ${u_slx_jefe_proyecto}&lt;/li&gt;
+&lt;li style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small;"&gt;Cliente Destinatario: ${u_slx_nombre_destinatario}&lt;/li&gt;
+&lt;/ul&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;SLX Cambio estado envio&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;76620afd1b6598108802dac2cd4bcb36&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;El entregable N° ${u_slx_numero} cambio de estado de envío a En proceso por control documental&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-17 18:31:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a27687351b8a58108802dac2cd4bcbb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Cambio estado envio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_a27687351b8a58108802dac2cd4bcbb8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-14 16:44:17&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1727609897</payload_hash>
+        <record_name>SLX Cambio estado envio</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 16:44:17</sys_created_on>
+        <sys_id>32fe3e3e1b2e9c588802dac2cd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173eddb951a0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 16:44:17</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>f6fe3e3ed42e9c58141097180ea9f01a</update_guid>
+        <update_guid_history>f6fe3e3ed42e9c58141097180ea9f01a:-1727609897,321a48eb10869c50b0472d1282044f47:1562305699,5449002f35869c50f0f01fc8789ebfe2:2072905893,f81904ab31869c507f86d94c65855ac5:1562305699,dc09486bea869c50b2223fcf8db93c37:2072905893,43d8882b21869c5027f9149379b4a67e:1627494352,63bb77db84029c501fea58e4e52dfc1d:224170002,48abfbd364029c50b00a19c13b475dac:-1085732306,b27bbf5b38029c507a0df9b32e9f2a83:1646413171,251b3b9f7cce5c50f0abfbe5cf755528:-2074446477,500b3f9f6fce5c50c2f8d9e57149eea0:1664040786,1cca771790ce5c50795a265d187dace1:-204863890,f19a3b9f64ce5c50076540ddeed7dc21:-562054184,5562a7b91c0e581010d0eb30bbee27ea:327809105,94ab4f7d458a5810a8be3f379ba7035e:1827214990,4f7bcb7de78a5810f2b1c592a5f88d75:305731930,abeac379c98a5810143302f94518cd28:568913830</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-07 14:49:04</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>73ac098736b749ca9d528f1792d7d6a9</sys_id>
+        <sys_metadata>a27687351b8a58108802dac2cd4bcbb8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Cambio estado envio</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_a27687351b8a58108802dac2cd4bcbb8</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_a27687351b8a58108802dac2cd4bcbb8">32fe3e3e1b2e9c588802dac2cd4bcb1b</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-07 14:49:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

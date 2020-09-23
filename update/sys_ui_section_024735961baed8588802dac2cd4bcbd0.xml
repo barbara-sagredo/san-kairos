@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fechas Estado OS" section_id="024735961baed8588802dac2cd4bcbd0" sys_domain="global" table="x_hocsa_san_ficha_os" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_estado</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>89928ea2db83d49063a95275ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_recibida_preparacion</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>0d928ea2db83d49063a95275ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_alcance_revision_codelco</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>8d928ea2db83d49063a95275ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_recibidos_comentarios_alcance</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>01928ea2db83d49063a95275ca9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_alcance_aprobado</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>81928ea2db83d49063a95275ca9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_revision_interna</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>c592cea2db83d49063a95275ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_emitida_oficialmente</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>4992cea2db83d49063a95275ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>c992cea2db83d49063a95275ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_estado</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>4d92cea2db83d49063a95275ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_preparando_nueva_revision</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>cd92cea2db83d49063a95275ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_aprobado_planta</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>4192cea2db83d49063a95275ca96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_aprobada_admin_codelco</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>c192cea2db83d49063a95275ca96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_bookeada</element>
+            <position>12</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>4592cea2db83d49063a95275ca96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_cancelada_codelco</element>
+            <position>13</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-07 14:13:17</sys_created_on>
+            <sys_id>c592cea2db83d49063a95275ca96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas Estado OS" display_value="Fechas Estado OS" name="x_hocsa_san_ficha_os" sys_domain="global" view="Default view">024735961baed8588802dac2cd4bcbd0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-07 14:13:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fechas Estado OS</caption>
+            <header>false</header>
+            <name>x_hocsa_san_ficha_os</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 22:14:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>024735961baed8588802dac2cd4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fechas Estado OS</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_024735961baed8588802dac2cd4bcbd0</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 22:14:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

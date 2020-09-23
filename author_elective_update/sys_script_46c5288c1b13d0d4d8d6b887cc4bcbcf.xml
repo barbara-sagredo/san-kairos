@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_os</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_os">u_slx_estadoCHANGESTO11^EQ<item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="11"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX OS Cancel</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr= new GlideRecord('x_hocsa_san_cartera');
+ 	gr.addQuery("sys_id", current.u_slx_cartera);
+	gr.query();
+	
+ 	if(gr.next())
+ 		{
+ 			gr.u_slx_suma_hco_os=gr.u_slx_suma_hco_os-current.u_slx_suma_hco;
+ 			gr.update();
+			
+ 		}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 23:19:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46c5288c1b13d0d4d8d6b887cc4bcbcf</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SLX OS Cancel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_46c5288c1b13d0d4d8d6b887cc4bcbcf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 23:49:23</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=46c5288c1b13d0d4d8d6b887cc4bcbcf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_46c5288c1b13d0d4d8d6b887cc4bcbcf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_os&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_os"&gt;u_slx_estadoCHANGESTO11^EQ&lt;item display_value="Cancelada por Codelco" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="11"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX OS Cancel&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr= new GlideRecord('x_hocsa_san_cartera');
+ 	gr.addQuery("sys_id", current.u_slx_cartera);
+	gr.query();
+	
+ 	if(gr.next())
+ 		{
+ 			gr.u_slx_suma_hco_os=gr.u_slx_suma_hco_os-current.u_slx_suma_hco;
+ 			gr.update();
+			
+ 		}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-11 23:19:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;46c5288c1b13d0d4d8d6b887cc4bcbcf&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX OS Cancel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_46c5288c1b13d0d4d8d6b887cc4bcbcf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-11 23:49:23&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=46c5288c1b13d0d4d8d6b887cc4bcbcf"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>563641797</payload_hash>
+        <record_name>SLX OS Cancel</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-11 23:49:23</sys_created_on>
+        <sys_id>36cca40c1b57d0d4d8d6b887cc4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747f92d4620000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-11 23:49:23</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>7acca40c8d57d0d40873309283289954</update_guid>
+        <update_guid_history>7acca40c8d57d0d40873309283289954:563641797,8f1ce0886757d0d4ee36bb14854b1ee0:1106225519,c35a208c6c93d0d43149cce8f58ef686:-531378940,8418ec80e2d3d0d42298cf10a93ce10c:-692845981,ac97a804fb93d0d4bfd2785a43a08693:-1138239458,4577e4c8d193d0d4447cffaa1e375db6:-1498484929,3f47e0844093d0d4b9698f746a6311b3:-894822620,4527e8483393d0d478b155f9216a08e3:-1969434085,2ef5ac0c3353d0d430ed1731df00fc98:1329948840,b8e5ac889453d0d490f05108e67410e9:807712692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-12 00:29:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2b890f270fa24fb487414074f6609104</sys_id>
+        <sys_metadata>46c5288c1b13d0d4d8d6b887cc4bcbcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX OS Cancel</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha OS">cb2a6679db2dd8103f3bbe4f299619c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_46c5288c1b13d0d4d8d6b887cc4bcbcf</sys_update_name>
+        <sys_update_version display_value="sys_script_46c5288c1b13d0d4d8d6b887cc4bcbcf">36cca40c1b57d0d4d8d6b887cc4bcb55</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-12 00:29:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

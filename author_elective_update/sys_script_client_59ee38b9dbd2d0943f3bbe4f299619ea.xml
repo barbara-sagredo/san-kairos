@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_ano_ars</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX estado nen automatico</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  
+	
+	//Se crean las vraiables que almacenen las fechas 
+		var fechaSistema = g_form;
+		var fechaTermino= g_form.getValue('u_slx_hco.u_slx_fecha_termino');
+		var fechaInicio= g_form.getValue('u_slx_hco.u_slx_fecha_inicio');
+		//a la fecha de termino se le restan 15 dias
+		fechaTermino.addDaysUTC(-15);
+		
+	
+		//Según la fecha actual se seteará el estado
+		if(fechaSistema<fechaTermino && fechaSistema>=fechaInicio){
+			
+			gr.u_slx_estado_nen="En plazo";
+			gr.update();
+		}else if(fechaSistema>fechaTermino && fechaSistema <fechaTermino){
+			
+			gr.u_slx_estado_nen=2;
+			gr.update(); 
+		} else if(fechaSistema>fechaTermino){
+			
+			gr.u_slx_estado_nen=3;
+			gr.update(); 
+		}
+	
+		
+		
+		}
+	
+	
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 18:40:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59ee38b9dbd2d0943f3bbe4f299619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX estado nen automatico</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_59ee38b9dbd2d0943f3bbe4f299619ea</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-29 18:40:27</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_59ee38b9dbd2d0943f3bbe4f299619ea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_ano_ars&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX estado nen automatico&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+  
+	
+	//Se crean las vraiables que almacenen las fechas 
+		var fechaSistema = g_form;
+		var fechaTermino= g_form.getValue('u_slx_hco.u_slx_fecha_termino');
+		var fechaInicio= g_form.getValue('u_slx_hco.u_slx_fecha_inicio');
+		//a la fecha de termino se le restan 15 dias
+		fechaTermino.addDaysUTC(-15);
+		
+	
+		//Según la fecha actual se seteará el estado
+		if(fechaSistema&lt;fechaTermino &amp;&amp; fechaSistema&gt;=fechaInicio){
+			
+			gr.u_slx_estado_nen="En plazo";
+			gr.update();
+		}else if(fechaSistema&gt;fechaTermino &amp;&amp; fechaSistema &lt;fechaTermino){
+			
+			gr.u_slx_estado_nen=2;
+			gr.update(); 
+		} else if(fechaSistema&gt;fechaTermino){
+			
+			gr.u_slx_estado_nen=3;
+			gr.update(); 
+		}
+	
+		
+		
+		}
+	
+	
+   
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-29 18:40:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;59ee38b9dbd2d0943f3bbe4f299619ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX estado nen automatico&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_59ee38b9dbd2d0943f3bbe4f299619ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-29 18:40:27&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_entregable&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>294710734</payload_hash>
+        <record_name>SLX estado nen automatico</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 18:40:27</sys_created_on>
+        <sys_id>3020c579dbd2d0943f3bbe4f2996190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739be030ab0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-29 18:40:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3820c579d9d2d09401689a0f0cee3809</update_guid>
+        <update_guid_history>3820c579d9d2d09401689a0f0cee3809:294710734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-14 20:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3183aef3ecea4cbab28417c3d2db8e04</sys_id>
+        <sys_metadata>59ee38b9dbd2d0943f3bbe4f299619ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX estado nen automatico</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_59ee38b9dbd2d0943f3bbe4f299619ea</sys_update_name>
+        <sys_update_version display_value="sys_script_client_59ee38b9dbd2d0943f3bbe4f299619ea">3020c579dbd2d0943f3bbe4f2996190a</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-14 20:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Dependiendo del estado de la encuesta, se cambiara la etiqueta de fecha estado encuesta por el  de los estados</description>
+        <field>u_slx_estado_encuesta_proyecto</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX  etiqueta fecha encuesta entregable</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+  
+	var estado = g_form.getValue('u_slx_estado_encuesta_proyecto');
+
+	if (estado == 1) {
+		g_form.setLabelOf('u_slx_fecha_estado_encuesta', 'Fecha Creada');
+	} else if (estado == 2) {
+		g_form.setLabelOf('u_slx_fecha_estado_encuesta', 'Fecha Recibida, completada y firmada');
+
+	}else if (estado == 3) {
+		g_form.setLabelOf('u_slx_fecha_estado_encuesta', 'Fecha Recibida y no completada');
+
+	}else if (estado == 4) {
+		g_form.setLabelOf('u_slx_fecha_estado_encuesta', 'Fecha Recibida, completada sin firma');
+
+	}else
+	{
+		g_form.setLabelOf('u_slx_fecha_estado_encuesta', 'Fecha cambio de estado encuesta');
+	}
+		
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 14:20:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35b2cc31dbd250943f3bbe4f299619b0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLX  etiqueta fecha encuesta entregable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_35b2cc31dbd250943f3bbe4f299619b0</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 14:12:18</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

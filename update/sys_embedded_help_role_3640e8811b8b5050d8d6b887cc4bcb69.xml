@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_hocsa_san.gestor_os" name="x_hocsa_san.gestor_os">3240e8811b8b5050d8d6b887cc4bcb67</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-02 15:12:59</sys_created_on>
+        <sys_id>3640e8811b8b5050d8d6b887cc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3240e8811b8b5050d8d6b887cc4bcb67</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3640e8811b8b5050d8d6b887cc4bcb69</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-02 15:12:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

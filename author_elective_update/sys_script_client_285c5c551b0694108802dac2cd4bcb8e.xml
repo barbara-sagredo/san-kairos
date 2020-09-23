@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Según la calificación de las preguntas se pintaran el cuadro</description>
+        <field>u_slx_q1_anual</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Cambiar color anual</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //definir las variables de las preguntas
+
+var q1 = g_form.getValue('u_slx_q1');
+var q2 = g_form.getValue('u_slx_q2');
+var q3 = g_form.getValue('u_slx_q3');
+var q4 = g_form.getValue('u_slx_q4');
+var q5 = g_form.getValue('u_slx_q5');
+var q6 = g_form.getValue('u_slx_q6');
+var q7 = g_form.getValue('u_slx_q7');
+var q8 = g_form.getValue('u_slx_q8');
+var q9 = g_form.getValue('u_slx_q9');
+	
+var q1a = g_form.getElement('u_slx_q1');
+var q2a = g_form.getElement('u_slx_q2');
+var q3a = g_form.getElement('u_slx_q3');
+var q4a = g_form.getElement('u_slx_q4');
+var q5a = g_form.getElement('u_slx_q5');
+var q6a = g_form.getElement('u_slx_q6');
+var q7a = g_form.getElement('u_slx_q7');
+var q8a = g_form.getElement('u_slx_q8');
+var q9a = g_form.getElement('u_slx_q9');	
+
+
+
+
+
+//cambia los colores según el valor de la pregunta 1
+	if(q1){
+	if(q1>=0 && q1<=4){
+		q1a.style.backgroundColor = "OrangeRed";
+	}else if(q1==5 || q1==6){
+		q1a.style.backgroundColor = "yellow";
+	}else if(q1>=7 && q1<=10){
+		q1a.style.backgroundColor = "GreenYellow";
+	}else  {
+		q1a.style.backgroundColor = "white";
+	}}else {
+		q1a.style.backgroundColor = "white";
+	}
+	
+//cambia los colores según el valor de la pregunta 2
+	if(q2){
+	if(q2>=0 && q2<=4){
+		q2a.style.backgroundColor = "OrangeRed";
+	}else if(q2==5 || q2==6){
+		q2a.style.backgroundColor = "yellow";
+	}else if(q2>=7 && q2<=10){
+		q2a.style.backgroundColor = "GreenYellow";
+	}else {
+		q2a.style.backgroundColor = "white";
+	}}else {
+		q2a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 3
+	if(q3){
+	if(q3>=0 && q3<=4){
+		q3a.style.backgroundColor = "OrangeRed";
+	}else if(q3==5 || q3==6){
+		q3a.style.backgroundColor = "yellow";
+	}else if(q3>=7 && q3<=10){
+		q3a.style.backgroundColor = "GreenYellow";
+	}else {
+		q3a.style.backgroundColor = "white";
+	}
+	}else {
+		q3a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 4
+	if(q4){
+	if(q4>=0 && q4<=4){
+		q4a.style.backgroundColor = "OrangeRed";
+	}else if(q4==5 || q4==6){
+		q4a.style.backgroundColor = "yellow";
+	}else if(q4>=7 && q4<=10){
+		q4a.style.backgroundColor = "GreenYellow";
+	}else {
+		q4a.style.backgroundColor = "white";
+	}
+	}else {
+		q4a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 5
+	if(q5){
+	if(q5>=0 && q5<=4){
+		q5a.style.backgroundColor = "OrangeRed";
+	}else if(q5==5 || q5==6){
+		q5a.style.backgroundColor = "yellow";
+	}else if(q5>=7 && q5<=10){
+		q5a.style.backgroundColor = "GreenYellow";
+	}else {
+		q5a.style.backgroundColor = "white";
+	}
+	}else {
+		q5a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 6
+	if(q6){
+	if(q6>=0 && q6<=4){
+		q6a.style.backgroundColor = "OrangeRed";
+	}else if(q6==5 || q6==6){
+		q6a.style.backgroundColor = "yellow";
+	}else if(q6>=7 && q6<=10){
+		q6a.style.backgroundColor = "GreenYellow";
+	}else {
+		q6a.style.backgroundColor = "white";
+	}
+	}else {
+		q6a.style.backgroundColor = "white";
+	}
+	
+	
+	//cambia los colores según el valor de la pregunta 7
+	if(q7){
+	if(q7>=0 && q7<=4){
+		q7a.style.backgroundColor = "OrangeRed";
+	}else if(q7==5 || q7==6){
+		q7a.style.backgroundColor = "yellow";
+	}else if(q7>=7 && q7<=10){
+		q7a.style.backgroundColor = "GreenYellow";
+	}else {
+		q7a.style.backgroundColor = "white";
+	}
+	}else {
+		q7a.style.backgroundColor = "white";
+	}
+	//cambia los colores según el valor de la pregunta 8
+	if(q8){
+	if(q8>=0 && q8<=4){
+		q8a.style.backgroundColor = "OrangeRed";
+	}else if(q8==5 || q8==6){
+		q8a.style.backgroundColor = "yellow";
+	}else if(q8>=7 && q8<=10){
+		q8a.style.backgroundColor = "GreenYellow";
+	}else {
+		q8a.style.backgroundColor = "white";
+	}
+	}else {
+		q8a.style.backgroundColor = "white";
+	}
+		
+	
+	//cambia los colores según el valor de la pregunta 9
+	if(q9){
+	if(q9>=0 && q9<=4){
+		q9a.style.backgroundColor = "OrangeRed";
+	}else if(q9==5 || q9==6){
+		q9a.style.backgroundColor = "yellow";
+	}else if(q9>=7 && q9<=10){
+		q9a.style.backgroundColor = "GreenYellow";
+	}else {
+		q9a.style.backgroundColor = "white";
+	}
+	}else {
+		q9a.style.backgroundColor = "white";
+	}
+      
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-15 16:37:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>285c5c551b0694108802dac2cd4bcb8e</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>SLX Cambiar color anual</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_285c5c551b0694108802dac2cd4bcb8e</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:09:42</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_285c5c551b0694108802dac2cd4bcb8e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Según la calificación de las preguntas se pintaran el cuadro&lt;/description&gt;&lt;field&gt;u_slx_q1_anual&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Cambiar color anual&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //definir las variables de las preguntas
+
+var q1 = g_form.getValue('u_slx_q1');
+var q2 = g_form.getValue('u_slx_q2');
+var q3 = g_form.getValue('u_slx_q3');
+var q4 = g_form.getValue('u_slx_q4');
+var q5 = g_form.getValue('u_slx_q5');
+var q6 = g_form.getValue('u_slx_q6');
+var q7 = g_form.getValue('u_slx_q7');
+var q8 = g_form.getValue('u_slx_q8');
+var q9 = g_form.getValue('u_slx_q9');
+	
+var q1a = g_form.getElement('u_slx_q1');
+var q2a = g_form.getElement('u_slx_q2');
+var q3a = g_form.getElement('u_slx_q3');
+var q4a = g_form.getElement('u_slx_q4');
+var q5a = g_form.getElement('u_slx_q5');
+var q6a = g_form.getElement('u_slx_q6');
+var q7a = g_form.getElement('u_slx_q7');
+var q8a = g_form.getElement('u_slx_q8');
+var q9a = g_form.getElement('u_slx_q9');	
+
+
+
+
+
+//cambia los colores según el valor de la pregunta 1
+	if(q1){
+	if(q1&gt;=0 &amp;&amp; q1&lt;=4){
+		q1a.style.backgroundColor = "OrangeRed";
+	}else if(q1==5 || q1==6){
+		q1a.style.backgroundColor = "yellow";
+	}else if(q1&gt;=7 &amp;&amp; q1&lt;=10){
+		q1a.style.backgroundColor = "GreenYellow";
+	}else  {
+		q1a.style.backgroundColor = "white";
+	}}else {
+		q1a.style.backgroundColor = "white";
+	}
+	
+//cambia los colores según el valor de la pregunta 2
+	if(q2){
+	if(q2&gt;=0 &amp;&amp; q2&lt;=4){
+		q2a.style.backgroundColor = "OrangeRed";
+	}else if(q2==5 || q2==6){
+		q2a.style.backgroundColor = "yellow";
+	}else if(q2&gt;=7 &amp;&amp; q2&lt;=10){
+		q2a.style.backgroundColor = "GreenYellow";
+	}else {
+		q2a.style.backgroundColor = "white";
+	}}else {
+		q2a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 3
+	if(q3){
+	if(q3&gt;=0 &amp;&amp; q3&lt;=4){
+		q3a.style.backgroundColor = "OrangeRed";
+	}else if(q3==5 || q3==6){
+		q3a.style.backgroundColor = "yellow";
+	}else if(q3&gt;=7 &amp;&amp; q3&lt;=10){
+		q3a.style.backgroundColor = "GreenYellow";
+	}else {
+		q3a.style.backgroundColor = "white";
+	}
+	}else {
+		q3a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 4
+	if(q4){
+	if(q4&gt;=0 &amp;&amp; q4&lt;=4){
+		q4a.style.backgroundColor = "OrangeRed";
+	}else if(q4==5 || q4==6){
+		q4a.style.backgroundColor = "yellow";
+	}else if(q4&gt;=7 &amp;&amp; q4&lt;=10){
+		q4a.style.backgroundColor = "GreenYellow";
+	}else {
+		q4a.style.backgroundColor = "white";
+	}
+	}else {
+		q4a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 5
+	if(q5){
+	if(q5&gt;=0 &amp;&amp; q5&lt;=4){
+		q5a.style.backgroundColor = "OrangeRed";
+	}else if(q5==5 || q5==6){
+		q5a.style.backgroundColor = "yellow";
+	}else if(q5&gt;=7 &amp;&amp; q5&lt;=10){
+		q5a.style.backgroundColor = "GreenYellow";
+	}else {
+		q5a.style.backgroundColor = "white";
+	}
+	}else {
+		q5a.style.backgroundColor = "white";
+	}
+	
+	//cambia los colores según el valor de la pregunta 6
+	if(q6){
+	if(q6&gt;=0 &amp;&amp; q6&lt;=4){
+		q6a.style.backgroundColor = "OrangeRed";
+	}else if(q6==5 || q6==6){
+		q6a.style.backgroundColor = "yellow";
+	}else if(q6&gt;=7 &amp;&amp; q6&lt;=10){
+		q6a.style.backgroundColor = "GreenYellow";
+	}else {
+		q6a.style.backgroundColor = "white";
+	}
+	}else {
+		q6a.style.backgroundColor = "white";
+	}
+	
+	
+	//cambia los colores según el valor de la pregunta 7
+	if(q7){
+	if(q7&gt;=0 &amp;&amp; q7&lt;=4){
+		q7a.style.backgroundColor = "OrangeRed";
+	}else if(q7==5 || q7==6){
+		q7a.style.backgroundColor = "yellow";
+	}else if(q7&gt;=7 &amp;&amp; q7&lt;=10){
+		q7a.style.backgroundColor = "GreenYellow";
+	}else {
+		q7a.style.backgroundColor = "white";
+	}
+	}else {
+		q7a.style.backgroundColor = "white";
+	}
+	//cambia los colores según el valor de la pregunta 8
+	if(q8){
+	if(q8&gt;=0 &amp;&amp; q8&lt;=4){
+		q8a.style.backgroundColor = "OrangeRed";
+	}else if(q8==5 || q8==6){
+		q8a.style.backgroundColor = "yellow";
+	}else if(q8&gt;=7 &amp;&amp; q8&lt;=10){
+		q8a.style.backgroundColor = "GreenYellow";
+	}else {
+		q8a.style.backgroundColor = "white";
+	}
+	}else {
+		q8a.style.backgroundColor = "white";
+	}
+		
+	
+	//cambia los colores según el valor de la pregunta 9
+	if(q9){
+	if(q9&gt;=0 &amp;&amp; q9&lt;=4){
+		q9a.style.backgroundColor = "OrangeRed";
+	}else if(q9==5 || q9==6){
+		q9a.style.backgroundColor = "yellow";
+	}else if(q9&gt;=7 &amp;&amp; q9&lt;=10){
+		q9a.style.backgroundColor = "GreenYellow";
+	}else {
+		q9a.style.backgroundColor = "white";
+	}
+	}else {
+		q9a.style.backgroundColor = "white";
+	}
+      
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-15 16:37:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;285c5c551b0694108802dac2cd4bcb8e&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Cambiar color anual&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_285c5c551b0694108802dac2cd4bcb8e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-21 22:09:42&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_anual&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1507247860</payload_hash>
+        <record_name>SLX Cambiar color anual</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-21 22:09:42</sys_created_on>
+        <sys_id>4e9c88d9db3298503f3bbe4f29961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174131206500000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:09:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>069c88d9a7329850d4896d3ea0fa7f79</update_guid>
+        <update_guid_history>069c88d9a7329850d4896d3ea0fa7f79:-1507247860,fa537bc581be5850b20890be4a716713:-1894866439,d048fb3a7062dc58de09427e7d5c77d3:1959957040,d744ee811f52109412dc29b2aee59abc:640366832,70c23a40b51e58908525726fd7acaf1a:1451160724,f342f644f9da589074ac0d395a95c898:-413854216,d9efea84739a5890ad66bd4990a4781c:-1628463834,a91f2ac43d5a5890f053433741b60389:976751179,674e6ebbbf42109055161474b84c589e:1741831948,5404b4d1fc869410e495959d1e974f30:313927239,5b40b45d444694104e967f4d6b454928:821380443,3a30741111869410c02c5574982acec9:1333364381,a9aea45d87469410ecff4dec4a51e822:-626310640,70dd2c1d7f469410d60a6ad9991dc709:-1593317785,5afaa059da469410a91f894bf30860b4:-1480637547,987a6c19cd469410c6c871501a14ce97:-680207375,9758e0957046941023e16911d5af4712:-2140214057,2fc7289de1069410ced2f6492f35e525:-790975621,8c72641ddc0694106deffcbe17e6b4cb:-1254703249,e9f1641dce0694109f29828ef16880d5:-492724627,d411601d9f0694103a72cab06d475826:223027555,d97e54190106941064fc1f3a4ab02a90:-560543878,783e541971069410e4b9f17b0d3e7b31:-1893288699,e50e10d5660694108287eb77a29980a7:954509878,7fbdd415b8069410c33eb556439443c1:-1925090689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-01 18:29:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>336b61335c3d4be49228d628accde764</sys_id>
+        <sys_metadata>285c5c551b0694108802dac2cd4bcb8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Cambiar color anual</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta anual">5e6cf01fdbf190503f3bbe4f29961948</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_285c5c551b0694108802dac2cd4bcb8e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_285c5c551b0694108802dac2cd4bcb8e">4e9c88d9db3298503f3bbe4f29961979</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-01 18:29:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

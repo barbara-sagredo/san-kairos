@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>true</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="Encuesta Anual.">afa557f51b1bdcd0d8d6b887cc4bcb87</category>
+        <cond_question>always</cond_question>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <datatype>string</datatype>
+        <default_value_field/>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox/>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <mandatory>false</mandatory>
+        <max>10</max>
+        <max_weight/>
+        <method>assessment</method>
+        <metric_type display_value="Encuesta Anual.">734493b51b1bdcd0d8d6b887cc4bcb40</metric_type>
+        <min>1</min>
+        <name>Q10: Otros comentarios</name>
+        <order>1100</order>
+        <plugin/>
+        <question>Q10: ¿Existen otros comentarios que desee agregar sobre otros aspectos del Programa o del servicio de Kairos, tales como, hechos positivos o algún incidente específico al que quiera referirse o que se requiera implementar mejoras?</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table/>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>multiline</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:36:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6cb5d3bd1b1bdcd0d8d6b887cc4bcb01</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Q10: Otros comentarios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_6cb5d3bd1b1bdcd0d8d6b887cc4bcb01</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:38:11</sys_updated_on>
+        <template/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="delete_multiple" query="documentkey=6cb5d3bd1b1bdcd0d8d6b887cc4bcb01"/>
+</record_update>

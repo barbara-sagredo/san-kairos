@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_estado_nen" table="x_hocsa_san_ficha_de_proyecto" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado_nen</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Devuelto por CD</label>
+            <language>es</language>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sequence>2</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-07 16:10:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecea8366dbbd9c103f3bbe4f2996198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 16:10:42</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_nen</element>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-07 16:10:16</sys_created_on>
+            <sys_id>4eca036adbbd9c103f3bbe4f299619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado_nen</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_nen</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-07 16:10:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_nen</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado_nen" table="x_hocsa_san_ficha_de_proyecto" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_estado_nen</element><hint/><inactive>false</inactive><label>Devuelto por CD</label><language>es</language><name>x_hocsa_san_ficha_de_proyecto</name><sequence>2</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-07 16:10:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ecea8366dbbd9c103f3bbe4f2996198b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-07 16:10:42</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_estado_nen</element><name>x_hocsa_san_ficha_de_proyecto</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-07 16:10:16</sys_created_on><sys_id>4eca036adbbd9c103f3bbe4f299619ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_estado_nen</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_nen</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-07 16:10:16</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>2035740478</payload_hash>
+        <record_name>Ficha de Proyecto.Estado de la NEN</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-07 17:13:43</sys_created_on>
+        <sys_id>6349976edbfd9c103f3bbe4f29961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732a44dee40000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-07 17:13:43</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>2b49976edffd9c10308df737e3959006</update_guid>
+        <update_guid_history>2b49976edffd9c10308df737e3959006:2035740478,ab49976e27fd9c101ee02c8d774a3803:-1894645849,2f49976ecffd9c101110e18c2ea72a00:-687413095,af49576e2cfd9c1020caa1a8cbd4edfd:35153085,2349576e97fd9c10463cd77ac3ad3ffb:-1094812647,a349576e9ffd9c10421ad49529b1fdf8:-1836170253,ab49572e37fd9c1037532d8ffbb87d57:-1772639310,649c07eadabd9c1049f1cf872e7724a1:-776641111,f76cc7ea09bd9c109a3de48e113aed15:-1772639310,d65c07ea60bd9c109b7b334f95f5289b:723328900,dc5cc36a66bd9c1099a10e2ba8a54609:-291271138,f7ea0b2a04bd9c1068f968d196f4935c:35153085,64eac36a1cbd9c10361f3330d9d74e06:-687413095,18da0fa69dbd9c10babb109333ec5a30:-1955703112,46ca036a52bd9c104d1e6b96823e03cc:-1411051675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-07 17:13:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>4eca036adbbd9c103f3bbe4f299619ca</sys_id>
+        <sys_metadata>4eca036adbbd9c103f3bbe4f299619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_estado_nen</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_nen</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_ficha_de_proyecto_u_slx_estado_nen">6349976edbfd9c103f3bbe4f29961907</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-07 17:13:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_slx_ano</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Column label mas length proyecto</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //se setea el label para que se muestre la pregunta completa
+	g_form.setLabelOf('u_slx_q1_proyecto', 'Q1: ¿Qué tan satisfecho está usted con el VALOR que aportan a su negocio los diseños, soluciones y/o servicios provistos por Kairos/Honeywell durante este proyecto?');
+	g_form.setLabelOf('u_slx_q2_proyecto', 'Q2: ¿Qué tan satisfecho está usted con la CALIDAD de los diseños, soluciones y/o servicios provistos por Kairos/Honeywell durante este proyecto?');
+	g_form.setLabelOf('u_slx_q3_proyecto', '¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal Kairos/Honeywell en este proyecto?');
+	g_form.setLabelOf('u_slx_q4_proyecto', 'Q4: ¿Qué tan satisfecho está usted con el PLAN DE EJECUCIÓN de Honeywell incluyendo la obtención de insumos así como la planeación del uso de personal en este proyecto?');
+	g_form.setLabelOf('u_slx_q5_proyecto', 'Q5: ¿Qué tan satisfecho está usted con la FACILIDAD DE HACER NEGOCIO con Kairos/Honeywell en este proyecto, incluyendo estar disponible cuando es necesario, responder adecuadamente a sus necesidades, entender impulsores de su negocio, etc.?');
+	g_form.setLabelOf('u_slx_q6_proyecto', 'Q6: ¿Qué tan satisfecho está usted con la capacidad de Kairos/Honeywell de mantenerlo INFORMADO acerca de este proyecto, por ejemplo, reportes de progreso, actualizaciones técnicas, aviso de entradas y salidas del sitio, notificación de cambios, etc.?');
+	g_form.setLabelOf('u_slx_q7_proyecto', 'Q7: ¿Qué tan satisfecho está usted con el manejo del CALENDARIO de este proyecto por parte de Kairos/Honeywell?');
+	g_form.setLabelOf('u_slx_q8_proyecto', 'Q8: ¿Qué tan satisfecho está usted con las prácticas laborales de Kairos/Honeywell en relación a sus requerimientos de SALUD, SEGURIDAD Y MEDIO AMBIENTE??');
+	g_form.setLabelOf('u_slx_q9_proyecto', 'Q9: ¿Qué tan probable es que usted RECOMIENDE a Kairos/Honeywell para otros proyectos afines?');
+	g_form.setLabelOf('u_slx_q10_proyecto', 'Q10: Por favor indíquenos qué debemos mejorar y/o corregir para que su experiencia con nosotros sea satisfactoria. Sus comentarios y sugerencias también son bienvenidos.');
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-17 15:50:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6f46af51bc658108802dac2cd4bcbd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLX Column label mas length proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_a6f46af51bc658108802dac2cd4bcbd1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 21:13:32</sys_updated_on>
+        <table>x_hocsa_san_encuesta_de_proyecto</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_a6f46af51bc658108802dac2cd4bcbd1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_slx_ano&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX Column label mas length proyecto&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //se setea el label para que se muestre la pregunta completa
+	g_form.setLabelOf('u_slx_q1_proyecto', 'Q1: ¿Qué tan satisfecho está usted con el VALOR que aportan a su negocio los diseños, soluciones y/o servicios provistos por Kairos/Honeywell durante este proyecto?');
+	g_form.setLabelOf('u_slx_q2_proyecto', 'Q2: ¿Qué tan satisfecho está usted con la CALIDAD de los diseños, soluciones y/o servicios provistos por Kairos/Honeywell durante este proyecto?');
+	g_form.setLabelOf('u_slx_q3_proyecto', '¿Qué tan satisfecho está usted con la CAPACIDAD TÉCNICA del personal Kairos/Honeywell en este proyecto?');
+	g_form.setLabelOf('u_slx_q4_proyecto', 'Q4: ¿Qué tan satisfecho está usted con el PLAN DE EJECUCIÓN de Honeywell incluyendo la obtención de insumos así como la planeación del uso de personal en este proyecto?');
+	g_form.setLabelOf('u_slx_q5_proyecto', 'Q5: ¿Qué tan satisfecho está usted con la FACILIDAD DE HACER NEGOCIO con Kairos/Honeywell en este proyecto, incluyendo estar disponible cuando es necesario, responder adecuadamente a sus necesidades, entender impulsores de su negocio, etc.?');
+	g_form.setLabelOf('u_slx_q6_proyecto', 'Q6: ¿Qué tan satisfecho está usted con la capacidad de Kairos/Honeywell de mantenerlo INFORMADO acerca de este proyecto, por ejemplo, reportes de progreso, actualizaciones técnicas, aviso de entradas y salidas del sitio, notificación de cambios, etc.?');
+	g_form.setLabelOf('u_slx_q7_proyecto', 'Q7: ¿Qué tan satisfecho está usted con el manejo del CALENDARIO de este proyecto por parte de Kairos/Honeywell?');
+	g_form.setLabelOf('u_slx_q8_proyecto', 'Q8: ¿Qué tan satisfecho está usted con las prácticas laborales de Kairos/Honeywell en relación a sus requerimientos de SALUD, SEGURIDAD Y MEDIO AMBIENTE??');
+	g_form.setLabelOf('u_slx_q9_proyecto', 'Q9: ¿Qué tan probable es que usted RECOMIENDE a Kairos/Honeywell para otros proyectos afines?');
+	g_form.setLabelOf('u_slx_q10_proyecto', 'Q10: Por favor indíquenos qué debemos mejorar y/o corregir para que su experiencia con nosotros sea satisfactoria. Sus comentarios y sugerencias también son bienvenidos.');
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-17 15:50:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a6f46af51bc658108802dac2cd4bcbd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Column label mas length proyecto&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a6f46af51bc658108802dac2cd4bcbd1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-28 21:13:32&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_encuesta_de_proyecto&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2068855154</payload_hash>
+        <record_name>SLX Column label mas length proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 21:13:32</sys_created_on>
+        <sys_id>8199d82d1b5a9c948802dac2cd4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739745f9d80000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 21:13:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4999d82da55a9c94b34f1b630129030a</update_guid>
+        <update_guid_history>4999d82da55a9c94b34f1b630129030a:2068855154,6a26aef5adc658104affb9847456b8ed:-530883419</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-04 21:50:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>614bb1c379cb4546b5d152d97694a784</sys_id>
+        <sys_metadata>a6f46af51bc658108802dac2cd4bcbd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Column label mas length proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Término de Proyecto">2ce3cd1bdb3590503f3bbe4f29961946</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_a6f46af51bc658108802dac2cd4bcbd1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a6f46af51bc658108802dac2cd4bcbd1">8199d82d1b5a9c948802dac2cd4bcb0b</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:50:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

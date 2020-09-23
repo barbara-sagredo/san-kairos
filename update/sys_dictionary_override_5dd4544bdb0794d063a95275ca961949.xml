@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>x_hocsa_san_encuesta</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>u_slx_meta</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>x_hocsa_san_encuesta_de_proyecto</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-08 19:30:45</sys_created_on>
+        <sys_id>5dd4544bdb0794d063a95275ca961949</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_slx_meta</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_dictionary_override_5dd4544bdb0794d063a95275ca961949</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:49:08</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

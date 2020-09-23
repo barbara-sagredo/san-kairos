@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>9</display>
+        <metric display_value="Q2: Cumplimiento de compromisos">3ba553bd1b1bdcd0d8d6b887cc4bcb07</metric>
+        <order>9</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:38:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e06d7311b5bdcd0d8d6b887cc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_definition_1e06d7311b5bdcd0d8d6b887cc4bcbf5</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:38:11</sys_updated_on>
+        <unselected_image/>
+        <value>9</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1e06d7311b5bdcd0d8d6b887cc4bcbf5"/>
+</record_update>

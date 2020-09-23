@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_q9_s_9" table="x_hocsa_san_encuesta_de_soporte" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_q9_s_9</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>0</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_de_soporte</name>
+            <sequence>0</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 19:20:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99b526e3db4f9c1463a95275ca961976</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 19:21:11</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_q9_s_9</element>
+            <name>x_hocsa_san_encuesta_de_soporte</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 19:20:54</sys_created_on>
+            <sys_id>e4c526e3db4f9c1463a95275ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_q9_s_9</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_soporte_u_slx_q9_s_9</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 19:20:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_encuesta_de_soporte_u_slx_q9_s_9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_q9_s_9" table="x_hocsa_san_encuesta_de_soporte" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_q9_s_9</element><hint/><inactive>false</inactive><label>0</label><language>en</language><name>x_hocsa_san_encuesta_de_soporte</name><sequence>0</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-10 19:20:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>99b526e3db4f9c1463a95275ca961976</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-10 19:21:11</sys_updated_on><value>0</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_q9_s_9</element><name>x_hocsa_san_encuesta_de_soporte</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-10 19:20:54</sys_created_on><sys_id>e4c526e3db4f9c1463a95275ca961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_q9_s_9</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_encuesta_de_soporte_u_slx_q9_s_9</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-10 19:20:54</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1892983089</payload_hash>
+        <record_name>Encuesta Servicio de Soporte.Q9: Recomendaría a Kairos/Hwll</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-10 19:21:52</sys_created_on>
+        <sys_id>26f5ee67db4f9c1463a95275ca961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17479778cd60000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 19:21:52</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>eaf5ee67df4f9c14d10836d3fd144b8f</update_guid>
+        <update_guid_history>eaf5ee67df4f9c14d10836d3fd144b8f:-1892983089,e1d5ea6b6b0f9c141d4e860c1308c920:347992882,28d56663e10f9c147fca0b139c31bb09:172077190,23c5e227184f9c14f902f567c6e4e1d1:-150361759,5ac5e2e3c44f9c14181207bca3b4254b:1711538301,11c5aaa36b4f9c148641ea49ac501924:-1656899912,20c526e3d14f9c1439045b2fd952b97a:1398216661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-10 19:22:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>e4c526e3db4f9c1463a95275ca961978</sys_id>
+        <sys_metadata>e4c526e3db4f9c1463a95275ca961978</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_q9_s_9</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_soporte_u_slx_q9_s_9</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_encuesta_de_soporte_u_slx_q9_s_9">26f5ee67db4f9c1463a95275ca961990</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-10 19:22:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

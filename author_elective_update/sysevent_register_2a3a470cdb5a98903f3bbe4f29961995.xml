@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description/>
+        <event_name>x_hocsa_san.estado.asignado.en</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>estado.asignado.en</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 18:15:08</sys_created_on>
+        <sys_id>2a3a470cdb5a98903f3bbe4f29961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.estado.asignado.en</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sysevent_register_2a3a470cdb5a98903f3bbe4f29961995</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-24 18:15:08</sys_updated_on>
+        <table>x_hocsa_san_encuesta_anual</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sysevent_register_2a3a470cdb5a98903f3bbe4f29961995</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>x_hocsa_san.estado.asignado.en</event_name><fired_by/><queue/><suffix>estado.asignado.en</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-24 18:15:08</sys_created_on><sys_id>2a3a470cdb5a98903f3bbe4f29961995</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_hocsa_san.estado.asignado.en</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sysevent_register_2a3a470cdb5a98903f3bbe4f29961995</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-24 18:15:08</sys_updated_on><table>x_hocsa_san_encuesta_anual</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>1159621269</payload_hash>
+        <record_name>x_hocsa_san.estado.asignado.en</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 18:15:08</sys_created_on>
+        <sys_id>c16a874cdb5a98903f3bbe4f299619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1738209344f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-24 18:15:08</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>c96a874cc15a9890839c9c60497fbec2</update_guid>
+        <update_guid_history>c96a874cc15a9890839c9c60497fbec2:1159621269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-28 22:20:53</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>116519391c1a43a69fe20bfc5a9aba64</sys_id>
+        <sys_metadata>2a3a470cdb5a98903f3bbe4f29961995</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_san.estado.asignado.en</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta anual">5e6cf01fdbf190503f3bbe4f29961948</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sysevent_register_2a3a470cdb5a98903f3bbe4f29961995</sys_update_name>
+        <sys_update_version display_value="sysevent_register_2a3a470cdb5a98903f3bbe4f29961995">c16a874cdb5a98903f3bbe4f299619c3</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-28 22:20:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

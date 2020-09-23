@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Datos de Proyecto" section_id="dfc35993dbb590503f3bbe4f299619e0" sys_domain="global" table="x_hocsa_san_encuesta_de_soporte" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_hco</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>4459d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_nombre_hco</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>c459d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_area</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>4859d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>c859d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_os</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>4c59d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_sub_area</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+            <sys_id>cc59d19bdbb590503f3bbe4f29961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Datos de Proyecto</caption>
+            <header>false</header>
+            <name>x_hocsa_san_encuesta_de_soporte</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-09 15:25:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfc35993dbb590503f3bbe4f299619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Datos de Proyecto</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_dfc35993dbb590503f3bbe4f299619e0</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-09 15:25:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_section_dfc35993dbb590503f3bbe4f299619e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Datos de Proyecto" section_id="dfc35993dbb590503f3bbe4f299619e0" sys_domain="global" table="x_hocsa_san_encuesta_de_soporte" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_hco</element><position>0</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>4459d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_nombre_hco</element><position>1</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>c459d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_area</element><position>2</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>4859d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>c859d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_os</element><position>4</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>4c59d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_sub_area</element><position>5</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:49:58</sys_created_on><sys_id>cc59d19bdbb590503f3bbe4f29961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Datos de Proyecto" display_value="Datos de Proyecto" name="x_hocsa_san_encuesta_de_soporte" sys_domain="global" view="Default view">dfc35993dbb590503f3bbe4f299619e0</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Datos de Proyecto</caption><header>false</header><name>x_hocsa_san_encuesta_de_soporte</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-09 15:25:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dfc35993dbb590503f3bbe4f299619e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Datos de Proyecto</sys_name><sys_overrides/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_section_dfc35993dbb590503f3bbe4f299619e0</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-09 15:25:53</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1504250008</payload_hash>
+        <record_name>Encuesta de soporte</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 15:49:58</sys_created_on>
+        <sys_id>0c59d19bdbb590503f3bbe4f2996199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1733444e8a80000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 15:49:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c059d19b9bb590501318bb6d0278029a</update_guid>
+        <update_guid_history>c059d19b9bb590501318bb6d0278029a:-1504250008,f3c39993b1b5905081eb04c8cbd5b3f1:1195941585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 18:39:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>23793fcb61bb42f78f849078edb7c501</sys_id>
+        <sys_metadata>dfc35993dbb590503f3bbe4f299619e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Datos de Proyecto</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Encuesta Servicio de Soporte">dfeb4957db7590503f3bbe4f299619b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_section_dfc35993dbb590503f3bbe4f299619e0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_dfc35993dbb590503f3bbe4f299619e0">0c59d19bdbb590503f3bbe4f2996199a</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 18:39:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

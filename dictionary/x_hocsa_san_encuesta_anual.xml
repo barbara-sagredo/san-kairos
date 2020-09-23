@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_hocsa_san_encuesta" label="Encuesta anual" max_length="40" name="x_hocsa_san_encuesta_anual" type="collection">
+        <element label="Cliente" mandatory="true" max_length="100" name="u_slx_cliente" reference="sys_user" reference_qual="nameSTARTSWITHCliente^EQ" reference_qual_condition="nameSTARTSWITHCliente^EQ" type="reference"/>
+        <element choice="1" label="Empresa que envía" mandatory="true" max_length="40" name="u_slx_empresa_envia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Honeywell" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Honeywell" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Kairos" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Kairos" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Honeywell y Kairos" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Honeywell y Kairos" language="es" sequence="300" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Estado encuesta" max_length="40" name="u_slx_estado_encuesta_anual" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Planificada" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Planificada" language="es" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Asignada" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Asignada" language="es" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="En Proceso" language="es" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="En Proceso" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Recepcionada" language="es" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Recepcionada" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Analizada" language="es" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Analizada" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Cerrada" sequence="600" value="6"/>
+                <element inactive_on_update="false" label="Cerrada" language="es" sequence="600" value="6"/>
+            </choice>
+        </element>
+        <element label="Fecha de asignación" max_length="40" name="u_slx_fecha_asignacion" type="glide_date"/>
+        <element label="Fecha de Cierre AC" max_length="40" name="u_slx_fecha_cierre_ac" type="glide_date"/>
+        <element label="Fecha compromiso AC" max_length="40" name="u_slx_fecha_compromiso_ac" type="glide_date"/>
+        <element label="Fecha inicio proceso" max_length="40" name="u_slx_fecha_inicio_proceso" type="glide_date"/>
+        <element label="Fecha límite recepción" max_length="40" name="u_slx_fecha_limite" type="glide_date"/>
+        <element label="Fecha notificacion(IGNORAR CAMPO)" max_length="40" name="u_slx_fecha_notif" type="glide_date_time"/>
+        <element label="Fecha término proceso" max_length="40" name="u_slx_fecha_termino_proceso" type="glide_date"/>
+        <element label="Notas" max_length="600" name="u_slx_notas" type="journal_input"/>
+        <element label="Notificacion (Ignorar campo)" max_length="40" name="u_slx_notif" type="boolean"/>
+        <element label="Notif 2 (ignorar campo)" max_length="40" name="u_slx_notif_2" type="boolean"/>
+        <element label="N° Planes de Acción" max_length="400" name="u_slx_numero_planes_accion" type="string"/>
+        <element label="Persona responsable de la encuesta" mandatory="true" max_length="100" name="u_slx_persona_realizara_encuesta" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Responsable de la AC" max_length="100" name="u_slx_responsable_ac" reference="sys_user" reference_qual="javascript:new SLX_Obtener_usuarios().obtenerDataUser(current)" type="reference" use_reference_qualifier="advanced"/>
+    </element>
+</database>

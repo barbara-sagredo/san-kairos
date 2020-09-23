@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_encuesta_firmada" table="x_hocsa_san_acta_recepcion_servicios" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_encuesta_firmada</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>es</language>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:11:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98a6dc521ba6d8588802dac2cd4bcbcb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:12:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_encuesta_firmada</element>
+            <name>x_hocsa_san_acta_recepcion_servicios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 15:11:26</sys_created_on>
+            <sys_id>178658921ba6d8588802dac2cd4bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_encuesta_firmada</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_firmada</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 15:11:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_firmada</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_encuesta_firmada" table="x_hocsa_san_acta_recepcion_servicios" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_encuesta_firmada</element><hint/><inactive>false</inactive><label>No</label><language>es</language><name>x_hocsa_san_acta_recepcion_servicios</name><sequence>200</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:11:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98a6dc521ba6d8588802dac2cd4bcbcb</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:12:03</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_encuesta_firmada</element><name>x_hocsa_san_acta_recepcion_servicios</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-08-12 15:11:26</sys_created_on><sys_id>178658921ba6d8588802dac2cd4bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_encuesta_firmada</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_firmada</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-08-12 15:11:26</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-446403054</payload_hash>
+        <record_name>x_hocsa_san_acta_recepcion_servicios.u_slx_encuesta_firmada</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:14</sys_created_on>
+        <sys_id>1fb130da1b2ad8588802dac2cd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173e3a69e490000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:14</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>d3b130daa82ad8582f9212176b2dc50f</update_guid>
+        <update_guid_history>d3b130daa82ad8582f9212176b2dc50f:-446403054,9bb130da1e2ad858810d0b7862a5350c:-1537668075,53b130dad12ad858d38f1fae1c43a50a:583793609,18b6dc9212a6d8588e16ade8e255da11:-44912080,50b6dc92eaa6d8589574f538b449750e:-1786888273,1ba690d2c0a6d85897de1f06cad7d324:1225032566,9ea690d23da6d858a028d5fc7f7eb465:203322587,d6a690d2cda6d858df284edb231b4162:164920736,85a6d89240a6d8589791ae5a9ddf4d7d:911360805,58a610d268a6d85864634143984f3d7f:2021700664,ae9650d2a2a6d858384f922897801f2d:-311188341,e69650d235a6d8582bf1bae3488abe2a:-1354064235,31969492e8a6d858187ca41a01e3b378:1538259827,899610d201a6d8582db63a6663ed727b:1951729880,41961c92f7a6d85869998d085a251fae:-740344772,08965c9296a6d85831be0aba363e2c17:909976224,57865892dca6d858927d57e31a864d8d:1157362536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-12 17:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>178658921ba6d8588802dac2cd4bcb8c</sys_id>
+        <sys_metadata>178658921ba6d8588802dac2cd4bcb8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_encuesta_firmada</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_firmada</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_acta_recepcion_servicios_u_slx_encuesta_firmada">1fb130da1b2ad8588802dac2cd4bcb0f</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-12 17:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

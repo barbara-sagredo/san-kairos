@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_fecha_alcance_aprobado" label="Fecha Alcance aprobado / Valorizando OS" language="en" table="x_hocsa_san_ficha_os">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_alcance_aprobado</element>
+            <help/>
+            <hint/>
+            <label>Fecha Alcance aprobado / Valorizando OS</label>
+            <language>en</language>
+            <name>x_hocsa_san_ficha_os</name>
+            <plural>Fecha Alcance aprobado / Valorizando OSs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-08-12 22:09:55</sys_created_on>
+            <sys_id>d956fd161baed8588802dac2cd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fecha Alcance aprobado / Valorizando OS</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_ficha_os_u_slx_fecha_alcance_aprobado_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-08-12 22:09:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

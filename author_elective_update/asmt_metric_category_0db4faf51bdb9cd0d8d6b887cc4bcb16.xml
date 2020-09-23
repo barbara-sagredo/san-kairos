@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=ea021ca51b5f10d0d8d6b887cc4bcb1c^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="ea021ca51b5f10d0d8d6b887cc4bcb1c"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="">ea021ca51b5f10d0d8d6b887cc4bcb1c</metric_type>
+        <name>Encuesta Anual</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 20:12:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Encuesta Anual</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>asmt_metric_category_0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:30:25</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=0db4faf51bdb9cd0d8d6b887cc4bcb16"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>asmt_metric_category_0db4faf51bdb9cd0d8d6b887cc4bcb16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=ea021ca51b5f10d0d8d6b887cc4bcb1c^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="ea021ca51b5f10d0d8d6b887cc4bcb1c"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="">ea021ca51b5f10d0d8d6b887cc4bcb1c</metric_type><name>Encuesta Anual</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-09-17 20:12:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_id><sys_mod_count>22</sys_mod_count><sys_name>Encuesta Anual</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>asmt_metric_category_0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-09-17 22:30:25</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=0db4faf51bdb9cd0d8d6b887cc4bcb16"/></record_update>]]></payload>
+        <payload_hash>-690183300</payload_hash>
+        <record_name>Encuesta Anual</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:30:25</sys_created_on>
+        <sys_id>2844db751b1bdcd0d8d6b887cc4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749e30b1140000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:30:25</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>ec44db75201bdcd0336eff0d5edc1035</update_guid>
+        <update_guid_history>ec44db75201bdcd0336eff0d5edc1035:-690183300,94449b75201bdcd08c1271319614927d:176868925,dc449b75fc1bdcd0ca7a31295a2da566:1043921150,cc445b75991bdcd014c00de4e2813ca1:1910973375,33345b75b51bdcd05fc8ed54caa6a134:-1516941696,eb341b750e1bdcd00149139ed072df49:-649889471,1f34d775531bdcd006fffa1ce7aedbdb:217162754,d334d7755e1bdcd084e3c2388c8a0f23:1084214979,c3349775951bdcd0822f3a06631ff95e:1951267204,b6345775131bdcd0e08899a0475accd7:-1476647867,e6345775361bdcd0e589d680b9e08e2a:823399597,02b47ef553db9cd068dbc243d71c2beb:1534586021,4ab47ef5eddb9cd0ac7fa534703945e6:667533796,8ab47ef5cddb9cd0767a00802c7e7798:735081518,cab47ef569db9cd0159874e68585924a:-131970707,bdb43ef537db9cd0fee47d944fe91fe3:-999022932,35b43ef58edb9cd0aadd952cedd7a5bb:-1866075157,21b43ef5d4db9cd03191e91230342c48:1561839914,a5b43ef5a3db9cd055f52e95e17ae31f:694787689,d1b43ef566db9cd043554e4043bf9903:-172264536,ddb4faf5e4db9cd0780ea748b1f39f8f:-1039316761,99b4faf568db9cd0cff69f26ed52e41c:-1906368986,59b4faf5a7db9cd0c4a10239eb992619:-899251207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Encuesta Anual">6444db751b1bdcd0d8d6b887cc4bcb61</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-17 22:30:25</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>0c75bdcf49ae455d88c0c36f50ae7959</sys_id>
+        <sys_metadata>0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encuesta Anual</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_0db4faf51bdb9cd0d8d6b887cc4bcb16</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_0db4faf51bdb9cd0d8d6b887cc4bcb16">2844db751b1bdcd0d8d6b887cc4bcb36</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-17 22:30:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

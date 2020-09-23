@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_hocsa_san_iniciativa">x_hocsa_san_iniciativa</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>INI</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 16:16:07</sys_created_on>
+        <sys_id>7ab5ee951b35d4108802dac2cd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INI</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_number_7ab5ee951b35d4108802dac2cd4bcbfb</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 16:16:07</sys_updated_on>
+    </sys_number>
+</record_update>

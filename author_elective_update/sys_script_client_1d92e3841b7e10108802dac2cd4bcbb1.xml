@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Según el estado seleccionado, se mostrará un mensaje  y  el campo de fecha asociado será obligatorio.</description>
+        <field>u_slx_estado</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX fechas segun estado SC</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+	var estado= g_form.getValue('u_slx_estado');
+	//aqui se borrar todos los mensajes
+	g_form.hideAllFieldMsgs('info');
+	switch (estado)
+	{
+		case '1':
+			if(!g_form.getValue('u_slx_fecha_preparacion')){
+			g_form.showFieldMsg('u_slx_fecha_preparacion','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_preparacion', 'true');
+			}
+			break;
+		case '2':
+			if(!g_form.getValue('u_slx_fecha_revision_interna')){
+			g_form.showFieldMsg('u_slx_fecha_revision_interna','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_revision_interna', 'true');
+			}
+			break;
+		case '3':
+			if(!g_form.getValue('u_slx_fecha_emitida_oficialmente')){
+			g_form.showFieldMsg('u_slx_fecha_emitida_oficialmente','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_emitida_oficialmente', 'true');
+			}
+			break;
+			
+		case '4':
+			if(!g_form.getValue('u_slx_fecha_preparando_nueva_rev')){
+			g_form.showFieldMsg('u_slx_fecha_preparando_nueva_rev','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_preparando_nueva_rev', 'true');
+			}
+			break;
+		case '5':
+			if(!g_form.getValue('u_slx_fecha_aprobado_planta')){
+			g_form.showFieldMsg('u_slx_fecha_aprobado_planta','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_aprobado_planta', 'true');
+			}
+			break;
+		case '6':
+			if(!g_form.getValue('u_slx_fecha_aprobado_codelco')){
+			g_form.showFieldMsg('u_slx_fecha_aprobado_codelco','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_aprobado_codelco', 'true');
+			}
+			break;
+		case '7':
+			if(!g_form.getValue('u_slx_fecha_bookeada')){
+			g_form.showFieldMsg('u_slx_fecha_bookeada','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_bookeada', 'true');
+			}
+			break;
+		case '8':
+			if(!g_form.getValue('u_slx_fecha_cancelada_codelco')){
+		g_form.showFieldMsg('u_slx_fecha_cancelada_codelco','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_cancelada_codelco', 'true');
+			}
+			break;
+		
+			
+	}
+	
+	
+	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-18 16:43:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d92e3841b7e10108802dac2cd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX fechas segun estado SC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_1d92e3841b7e10108802dac2cd4bcbb1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-18 16:43:23</sys_updated_on>
+        <table>x_hocsa_san_solicitud_de_cambio</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_client_1d92e3841b7e10108802dac2cd4bcbb1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Según el estado seleccionado, se mostrará un mensaje  y  el campo de fecha asociado será obligatorio.&lt;/description&gt;&lt;field&gt;u_slx_estado&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SLX fechas segun estado SC&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+	var estado= g_form.getValue('u_slx_estado');
+	//aqui se borrar todos los mensajes
+	g_form.hideAllFieldMsgs('info');
+	switch (estado)
+	{
+		case '1':
+			if(!g_form.getValue('u_slx_fecha_preparacion')){
+			g_form.showFieldMsg('u_slx_fecha_preparacion','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_preparacion', 'true');
+			}
+			break;
+		case '2':
+			if(!g_form.getValue('u_slx_fecha_revision_interna')){
+			g_form.showFieldMsg('u_slx_fecha_revision_interna','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_revision_interna', 'true');
+			}
+			break;
+		case '3':
+			if(!g_form.getValue('u_slx_fecha_emitida_oficialmente')){
+			g_form.showFieldMsg('u_slx_fecha_emitida_oficialmente','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_emitida_oficialmente', 'true');
+			}
+			break;
+			
+		case '4':
+			if(!g_form.getValue('u_slx_fecha_preparando_nueva_rev')){
+			g_form.showFieldMsg('u_slx_fecha_preparando_nueva_rev','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_preparando_nueva_rev', 'true');
+			}
+			break;
+		case '5':
+			if(!g_form.getValue('u_slx_fecha_aprobado_planta')){
+			g_form.showFieldMsg('u_slx_fecha_aprobado_planta','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_aprobado_planta', 'true');
+			}
+			break;
+		case '6':
+			if(!g_form.getValue('u_slx_fecha_aprobado_codelco')){
+			g_form.showFieldMsg('u_slx_fecha_aprobado_codelco','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_aprobado_codelco', 'true');
+			}
+			break;
+		case '7':
+			if(!g_form.getValue('u_slx_fecha_bookeada')){
+			g_form.showFieldMsg('u_slx_fecha_bookeada','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_bookeada', 'true');
+			}
+			break;
+		case '8':
+			if(!g_form.getValue('u_slx_fecha_cancelada_codelco')){
+		g_form.showFieldMsg('u_slx_fecha_cancelada_codelco','Según el estado escogido, llenar este campo', 'info');
+			g_form.setMandatory('u_slx_fecha_cancelada_codelco', 'true');
+			}
+			break;
+		
+			
+	}
+	
+	
+	
+	
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-18 16:43:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1d92e3841b7e10108802dac2cd4bcbb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX fechas segun estado SC&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1d92e3841b7e10108802dac2cd4bcbb1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-18 16:43:23&lt;/sys_updated_on&gt;&lt;table&gt;x_hocsa_san_solicitud_de_cambio&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1728785473</payload_hash>
+        <record_name>SLX fechas segun estado SC</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-18 16:43:23</sys_created_on>
+        <sys_id>7c252b841b7e10108802dac2cd4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174027430ec0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-18 16:43:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>74252b84b87e10107ff010cb25875930</update_guid>
+        <update_guid_history>74252b84b87e10107ff010cb25875930:1728785473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-20 22:00:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>12e79acd08574ef4b2d0edab24b435c4</sys_id>
+        <sys_metadata>1d92e3841b7e10108802dac2cd4bcbb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX fechas segun estado SC</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha SC">ebf872f9db6dd8103f3bbe4f29961968</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_client_1d92e3841b7e10108802dac2cd4bcbb1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1d92e3841b7e10108802dac2cd4bcbb1">7c252b841b7e10108802dac2cd4bcb30</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-20 22:00:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

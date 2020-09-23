@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_de_proyecto</collection>
+        <condition/>
+        <description>El peso porcentual del entregable se debe autocompletar con la división entre monto entregable y monto total del proyecto</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_ficha_de_proyecto">u_slx_monto_entregableISNOTEMPTY^u_slx_monto_total_ventaISNOTEMPTY^EQ<item endquery="false" field="u_slx_monto_entregable" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_slx_monto_total_venta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Peso porcentual del entregable autom</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+		//se realiza el seteo de la division
+	current.u_slx_peso_porcentual_entregable = (current.u_slx_monto_entregable/current.u_slx_monto_total_venta);
+	
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-02 14:38:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c744109dbfd54103f3bbe4f299619a7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SLX Peso porcentual del entregable autom</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_5c744109dbfd54103f3bbe4f299619a7</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-29 17:56:15</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=5c744109dbfd54103f3bbe4f299619a7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_5c744109dbfd54103f3bbe4f299619a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_ficha_de_proyecto&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;El peso porcentual del entregable se debe autocompletar con la división entre monto entregable y monto total del proyecto&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_ficha_de_proyecto"&gt;u_slx_monto_entregableISNOTEMPTY^u_slx_monto_total_ventaISNOTEMPTY^EQ&lt;item endquery="false" field="u_slx_monto_entregable" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="u_slx_monto_total_venta" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX Peso porcentual del entregable autom&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+		//se realiza el seteo de la division
+	current.u_slx_peso_porcentual_entregable = (current.u_slx_monto_entregable/current.u_slx_monto_total_venta);
+	
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-02 14:38:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5c744109dbfd54103f3bbe4f299619a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Peso porcentual del entregable autom&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5c744109dbfd54103f3bbe4f299619a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-29 17:56:15&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5c744109dbfd54103f3bbe4f299619a7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2138197989</payload_hash>
+        <record_name>SLX Peso porcentual del entregable autom</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 17:56:15</sys_created_on>
+        <sys_id>55063471dbde90943f3bbe4f2996199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739bb7b9410000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-29 17:56:15</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>990634714dde909484b6bd3a53c5009c</update_guid>
+        <update_guid_history>990634714dde909484b6bd3a53c5009c:2138197989,cbc5a5676e825090a0e0f3e83e842068:2145419762,421941417f319410243e31d79a30b6f1:-1620978470,35874d8dadfd54106670f04afb63719c:-867289391,4357498d6efd54107efd4a43121b97af:-2093181053,78d6090dd3fd541097c7d0ef0d088df6:129086486,0486854d2cfd5410e846360156c8ba6f:-722540761,7566c14df5fd54101c62484cd743146b:445486571,efe5050d3cfd54100fe5fe598b5c9ae8:-1795281036,ccc5c10dfbfd54103846c1752e5942ae:1075103672</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-29 18:01:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>16de3e7936fc4e60802abcae135a1ac4</sys_id>
+        <sys_metadata>5c744109dbfd54103f3bbe4f299619a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Peso porcentual del entregable autom</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_5c744109dbfd54103f3bbe4f299619a7</sys_update_name>
+        <sys_update_version display_value="sys_script_5c744109dbfd54103f3bbe4f299619a7">55063471dbde90943f3bbe4f2996199d</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-29 18:01:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

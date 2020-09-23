@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_solicitud_de_cambio</collection>
+        <condition/>
+        <description>Al crearse una solicitud de cambio y que se asocie a una ficha de proyecto, se autocompletara el campo de estado sc correspondiente</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_solicitud_de_cambio">u_slx_estadoVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Estado SC automatico </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	//apunto a la tabla de ficha de proyecto
+	var gr = new GlideRecord('x_hocsa_san_ficha_de_proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	if (gr.next()) {
+		//Se llena la variable de estado de ficha de proyecto por la misma de SC
+		
+		gr.u_slx_estado_sc = current.getDisplayValue('u_slx_estado');
+		gr.update(); 
+		}
+		
+			
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-01 20:00:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e350574db7914103f3bbe4f29961982</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>SLX Estado SC automatico </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_4e350574db7914103f3bbe4f29961982</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:51:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=4e350574db7914103f3bbe4f29961982"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_4e350574db7914103f3bbe4f29961982</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_solicitud_de_cambio&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Al crearse una solicitud de cambio y que se asocie a una ficha de proyecto, se autocompletara el campo de estado sc correspondiente&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_solicitud_de_cambio"&gt;u_slx_estadoVALCHANGES^EQ&lt;item display_value="-- None --" endquery="false" field="u_slx_estado" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX Estado SC automatico &lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	//apunto a la tabla de ficha de proyecto
+	var gr = new GlideRecord('x_hocsa_san_ficha_de_proyecto');
+	gr.addQuery('sys_id', current.u_slx_hco);
+	gr.query();
+	if (gr.next()) {
+		//Se llena la variable de estado de ficha de proyecto por la misma de SC
+		
+		gr.u_slx_estado_sc = current.getDisplayValue('u_slx_estado');
+		gr.update(); 
+		}
+		
+			
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-01 20:00:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4e350574db7914103f3bbe4f29961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX Estado SC automatico &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_4e350574db7914103f3bbe4f29961982&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-04 21:51:18&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4e350574db7914103f3bbe4f29961982"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-393398383</payload_hash>
+        <record_name>SLX Estado SC automatico </record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-04 21:51:18</sys_created_on>
+        <sys_id>f25568b7db9ad4d43f3bbe4f299619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173bb7512970000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-04 21:51:18</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ba5568b7df9ad4d443a2495c002f7db5</update_guid>
+        <update_guid_history>ba5568b7df9ad4d443a2495c002f7db5:-393398383,7b75d17ce2b91410cf6bd0566b08ec23:921612766,3905193c9ab914105a037c6934792db8:-228513525,d3b4513ce2b91410f844a61a02618926:921612766,a874d9b46eb914106bcb747d1e1f8a0a:595372354,5902ddb43bb9141070260b43f937ab7d:-1182672934,5951d5f461b914108ef74e808aaf5c31:-842150971,0d01d5b4c7b914105194f3dc13726526:-102012138,34c0d5b48ab91410dd71283ff0725d92:-1157793924,ccb0d5b484b9141098b608677739431e:374223754,691fc9b088b9141080468e8a6f81bc58:689231460,c2aec9b0c5b91410b8b6351a58a69f24:-2091882750,b2ddc170e4b91410eb4bfccf38507c57:1919576163,1b0d0570c0b91410a57b47b0db0c3689:-20580033,3cdc81705ab91410c561c5adf30003c6:-1550957801,d69ccd3087b9141080685f73208f3c07:-1238259245,984c8530bab914104b8d543fcfd49489:147645349,3ffbcdfc067914102788b9f6dc00d4ee:918391651,1ccb05fc33791410fc530f00616c486c:977176379,0a4b45bcfb791410b8ec82528e8dfd1e:1923725459,367a817c81791410ceed6a8c00acc376:-895304608,0a490df8737914100b67c9aab3a67e03:1713872845,6fe6c1b43a7914107b03747dae8e959b:-1767889208,10e549b40a7914109bd0671321a0aa9c:2112627920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-08-13 21:12:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>8d1e6b10ed2b46389a8533f04c330010</sys_id>
+        <sys_metadata>4e350574db7914103f3bbe4f29961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Estado SC automatico </sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha SC">ebf872f9db6dd8103f3bbe4f29961968</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_4e350574db7914103f3bbe4f29961982</sys_update_name>
+        <sys_update_version display_value="sys_script_4e350574db7914103f3bbe4f29961982">f25568b7db9ad4d43f3bbe4f299619b6</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-08-13 21:12:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition/>
+        <description>Se ingresara automaticamente las fechas de los cambios de estado, estas se iran concatenando</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_entregable">u_slx_estado_encuesta_proyectoVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="u_slx_estado_encuesta_proyecto" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX fecha estado encuesta automatica</name>
+        <order>150</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+		//apunto a la tabla de entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('u_slx_numero', current.u_slx_numero);
+	gr.query();
+	if (gr.next()) {
+	
+		//condición para saber si no esta vacio, si es así se concatenaran los datos
+		if(gr.u_slx_fecha_estado_encuesta){
+			
+			
+			gr.u_slx_fecha_estado_encuesta= current.u_slx_fecha_estado_encuesta + "," + new GlideDate().getByFormat('dd-MM-yyyy');
+			gr.update();
+		}else{
+		//Sino se llenara con el dato nuevo
+			gr.u_slx_fecha_estado_encuesta= new GlideDate().getByFormat('dd-MM-yyyy');
+			gr.update();
+		}
+			
+    
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 18:27:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0ce2f4f1b0694508802dac2cd4bcb10</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SLX fecha estado encuesta automatica</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_e0ce2f4f1b0694508802dac2cd4bcb10</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:42:50</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e0ce2f4f1b0694508802dac2cd4bcb10"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_script_e0ce2f4f1b0694508802dac2cd4bcb10</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_hocsa_san_entregable&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Se ingresara automaticamente las fechas de los cambios de estado, estas se iran concatenando&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_hocsa_san_entregable"&gt;u_slx_estado_encuesta_proyectoVALCHANGES^EQ&lt;item display_value="-- None --" endquery="false" field="u_slx_estado_encuesta_proyecto" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;SLX fecha estado encuesta automatica&lt;/name&gt;&lt;order&gt;150&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+		//apunto a la tabla de entregable
+	var gr = new GlideRecord('x_hocsa_san_entregable');
+	gr.addQuery('u_slx_numero', current.u_slx_numero);
+	gr.query();
+	if (gr.next()) {
+	
+		//condición para saber si no esta vacio, si es así se concatenaran los datos
+		if(gr.u_slx_fecha_estado_encuesta){
+			
+			
+			gr.u_slx_fecha_estado_encuesta= current.u_slx_fecha_estado_encuesta + "," + new GlideDate().getByFormat('dd-MM-yyyy');
+			gr.update();
+		}else{
+		//Sino se llenara con el dato nuevo
+			gr.u_slx_fecha_estado_encuesta= new GlideDate().getByFormat('dd-MM-yyyy');
+			gr.update();
+		}
+			
+    
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.bs&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-21 18:27:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0ce2f4f1b0694508802dac2cd4bcb10&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLX fecha estado encuesta automatica&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="san" source="x_hocsa_san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="san"&gt;b3538a711ba598108802dac2cd4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e0ce2f4f1b0694508802dac2cd4bcb10&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.bs&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-21 18:42:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e0ce2f4f1b0694508802dac2cd4bcb10"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>181156469</payload_hash>
+        <record_name>SLX fecha estado encuesta automatica</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-21 18:42:50</sys_created_on>
+        <sys_id>95f37f8f1b8694508802dac2cd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17372af7d100000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:42:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d9f37f8f8586945052e21d02c330aae2</update_guid>
+        <update_guid_history>d9f37f8f8586945052e21d02c330aae2:181156469,97a3b7cbf08694501e743c0add07956a:-2108507531,61633f0bb586945030736146a349da70:-506020331,1ba2ff073886945076d4632391884ac0:456908261,b962b38398869450101bdeacd0fdf889:1747417100,7f02f3cf8e46945047d747a7f059d927:830735153,c2f177cfe0469450e912dc5ec1ffa940:640134508,9b01bf0b6a469450352c7fa6736de8ba:-1473976026,11803b476d4694509f2c188ccab719cd:-756563759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 21:35:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>67eb7e85df0a4a68b5ba12a081fc6949</sys_id>
+        <sys_metadata>e0ce2f4f1b0694508802dac2cd4bcb10</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX fecha estado encuesta automatica</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Entregable">ecf38b02db655c103f3bbe4f299619f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_script_e0ce2f4f1b0694508802dac2cd4bcb10</sys_update_name>
+        <sys_update_version display_value="sys_script_e0ce2f4f1b0694508802dac2cd4bcb10">95f37f8f1b8694508802dac2cd4bcbe3</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-24 21:35:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

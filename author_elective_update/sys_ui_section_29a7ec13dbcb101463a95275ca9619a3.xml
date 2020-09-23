@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notas" section_id="29a7ec13dbcb101463a95275ca9619a3" sys_domain="global" table="x_hocsa_san_ficha_de_proyecto" version="3" view="prueba">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_notas</element>
+            <position>0</position>
+            <sys_created_by>slx.fm</sys_created_by>
+            <sys_created_on>2020-09-09 15:31:28</sys_created_on>
+            <sys_id>35a72053dbcb101463a95275ca961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="e1a7ec13dbcb101463a95275ca96199c">29a7ec13dbcb101463a95275ca9619a3</sys_ui_section>
+            <sys_updated_by>slx.fm</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>slx.fm</sys_created_by>
+            <sys_created_on>2020-09-09 15:31:28</sys_created_on>
+            <sys_id>b5a72053dbcb101463a95275ca961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="e1a7ec13dbcb101463a95275ca96199c">29a7ec13dbcb101463a95275ca9619a3</sys_ui_section>
+            <sys_updated_by>slx.fm</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:31:28</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notas</caption>
+            <header>false</header>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.fm</sys_created_by>
+            <sys_created_on>2020-09-09 15:31:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29a7ec13dbcb101463a95275ca9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notas</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_29a7ec13dbcb101463a95275ca9619a3</sys_update_name>
+            <sys_updated_by>slx.fm</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:31:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="prueba" name="prueba">e1a7ec13dbcb101463a95275ca96199c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_section_29a7ec13dbcb101463a95275ca9619a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notas" section_id="29a7ec13dbcb101463a95275ca9619a3" sys_domain="global" table="x_hocsa_san_ficha_de_proyecto" version="3" view="prueba"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_notas</element><position>0</position><sys_created_by>slx.fm</sys_created_by><sys_created_on>2020-09-09 15:31:28</sys_created_on><sys_id>35a72053dbcb101463a95275ca961966</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="e1a7ec13dbcb101463a95275ca96199c">29a7ec13dbcb101463a95275ca9619a3</sys_ui_section><sys_updated_by>slx.fm</sys_updated_by><sys_updated_on>2020-09-09 15:31:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>1</position><sys_created_by>slx.fm</sys_created_by><sys_created_on>2020-09-09 15:31:28</sys_created_on><sys_id>b5a72053dbcb101463a95275ca961966</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="e1a7ec13dbcb101463a95275ca96199c">29a7ec13dbcb101463a95275ca9619a3</sys_ui_section><sys_updated_by>slx.fm</sys_updated_by><sys_updated_on>2020-09-09 15:31:28</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notas</caption><header>false</header><name>x_hocsa_san_ficha_de_proyecto</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>slx.fm</sys_created_by><sys_created_on>2020-09-09 15:31:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>29a7ec13dbcb101463a95275ca9619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notas</sys_name><sys_overrides/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_section_29a7ec13dbcb101463a95275ca9619a3</sys_update_name><sys_updated_by>slx.fm</sys_updated_by><sys_updated_on>2020-09-09 15:31:27</sys_updated_on><sys_user/><title>false</title><view display_value="prueba" name="prueba">e1a7ec13dbcb101463a95275ca96199c</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>386778002</payload_hash>
+        <record_name>Ficha de Proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.fm</sys_created_by>
+        <sys_created_on>2020-09-09 15:31:28</sys_created_on>
+        <sys_id>fda72053dbcb101463a95275ca961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174737e42940000001</sys_recorded_at>
+        <sys_updated_by>slx.fm</sys_updated_by>
+        <sys_updated_on>2020-09-09 15:31:28</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>79a720538fcb10144fc9fb4363d1ef67</update_guid>
+        <update_guid_history>79a720538fcb10144fc9fb4363d1ef67:386778002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.cj</sys_created_by>
+        <sys_created_on>2020-09-09 16:15:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>531c01866ad748daa12818d341176049</sys_id>
+        <sys_metadata>29a7ec13dbcb101463a95275ca9619a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notas</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_section_29a7ec13dbcb101463a95275ca9619a3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_29a7ec13dbcb101463a95275ca9619a3">fda72053dbcb101463a95275ca961967</sys_update_version>
+        <sys_updated_by>slx.cj</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:15:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

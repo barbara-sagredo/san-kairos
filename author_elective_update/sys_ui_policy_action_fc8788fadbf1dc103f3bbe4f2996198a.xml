@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_slx_numero_sc</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-07 20:35:36</sys_created_on>
+        <sys_id>fc8788fadbf1dc103f3bbe4f2996198a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_slx_numero_sc</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fc8788fadbf1dc103f3bbe4f2996198a</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-07 20:40:29</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <ui_policy display_value="SLX Bloquear en estado enviado a cliente">3969d36edbfd9c103f3bbe4f29961993</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_policy_action_fc8788fadbf1dc103f3bbe4f2996198a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_slx_numero_sc</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-07 20:35:36</sys_created_on><sys_id>fc8788fadbf1dc103f3bbe4f2996198a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_slx_numero_sc</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_policy_action_fc8788fadbf1dc103f3bbe4f2996198a</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-07 20:40:29</sys_updated_on><table>x_hocsa_san_entregable</table><ui_policy display_value="SLX Bloquear en estado enviado a cliente">3969d36edbfd9c103f3bbe4f29961993</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1660376055</payload_hash>
+        <record_name>u_slx_numero_sc</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-07 20:40:29</sys_created_on>
+        <sys_id>d8a840bedbf1dc103f3bbe4f29961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732b022abe0000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-07 20:40:29</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>90a840beb3f1dc10f81bd3810cb25a34</update_guid>
+        <update_guid_history>90a840beb3f1dc10f81bd3810cb25a34:-1660376055,b48788fa74f1dc1055210b8a48cf198c:-436125811</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-07 22:49:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>c7ea9d1ea91d487cb70a1da0cd5183c4</sys_id>
+        <sys_metadata>fc8788fadbf1dc103f3bbe4f2996198a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_numero_sc</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="">3969d36edbfd9c103f3bbe4f29961993</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_fc8788fadbf1dc103f3bbe4f2996198a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_fc8788fadbf1dc103f3bbe4f2996198a">d8a840bedbf1dc103f3bbe4f29961934</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-07 22:49:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

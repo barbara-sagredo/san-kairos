@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_entregable</collection>
+        <condition/>
+        <description>BR para crear una encuesta de proyecto, cuando el tipo de entregable sea  'Acta de Recepción de Servicios'</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_san_entregable">u_slx_tipoCHANGESTO3^EQ<item display_value="Actas de Recepción de Servicios" endquery="false" field="u_slx_tipo" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Crea encuesta de proyecto</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+   
+	
+	var gr = new GlideRecord('x_hocsa_san_encuesta_de_proyecto');
+
+
+    gr.initialize();
+	//N°Entregable
+	gr.u_slx_entregable=current.sys_id;
+	//N° HCO
+    gr.u_slx_hco = current.u_slx_hco;
+	gr.u_slx_division_sitio=current.u_slx_hco.u_slx_division;
+	gr.u_slx_acta_recepcion_servicios=current.u_slx_nro_acta_recepcion_servicios;
+	
+	//se crea la encuesta
+    gr.insert();
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-24 20:02:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4682a74cdbd6d8903f3bbe4f29961927</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>SLX Crea encuesta de proyecto</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_4682a74cdbd6d8903f3bbe4f29961927</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-22 16:53:47</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4682a74cdbd6d8903f3bbe4f29961927"/>
+</record_update>

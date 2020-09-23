@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_san_ficha_de_proyecto</collection>
+        <condition/>
+        <description>Al eliminar una ficha de proyectos, se descontaran los montos asociados en Ficha OS&#13;
+También se eliminaran los registros asociados a la ficha de proyecto</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Eliminar HCO</name>
+        <order>160</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//glide record a ficha OS
+	var gr = new GlideRecord('x_hocsa_san_ficha_os');
+	gr.addQuery('sys_id', current.u_slx_os);
+	gr.query();
+	//se descontaran los montos asociados a la ficha OS
+	if(gr.next())
+		{
+			
+			gr.u_slx_suma_hco=gr.u_slx_suma_hco-current.u_slx_monto_total_venta;
+			gr.update();
+				
+		}
+	
+	//GlideREcord a ficha SC
+	var sc= new GlideRecord('x_hocsa_san_solicitud_de_cambio');
+	sc.addQuery('u_slx_hco',current.sys_id);
+	sc.query();
+	//se eliminaran los registros asociados a la ficha de proyecto
+	if(sc.next())
+		{
+			sc.deleteMultiple();
+		}
+	//GlideREcord a ficha EP
+	var ep= new GlideRecord('x_hocsa_san_ficha_ep');
+	ep.addQuery('u_slx_hco',current.sys_id);
+	ep.query();
+	//se eliminaran los registros asociados a la ficha de proyecto
+	if(ep.next())
+		{
+			ep.deleteMultiple();
+		}
+	
+	//GlideREcord a Entregable
+	var ent= new GlideRecord('x_hocsa_san_entregable');
+	ent.addQuery('u_slx_hco',current.sys_id);
+	ent.query();
+	//se eliminaran los registros asociados a la ficha de proyecto
+	if(ent.next())
+		{
+			ent.deleteMultiple();
+		}
+	
+	//GlideREcord a NEN
+	var nen= new GlideRecord('x_hocsa_san_nen');
+	nen.addQuery('u_slx_hco',current.sys_id);
+	nen.query();
+	//se eliminaran los registros asociados a la ficha de proyecto
+	if(nen.next())
+		{
+			nen.deleteMultiple();
+		}
+	
+	//GlideREcord a Encuesta Soporte
+	var enc= new GlideRecord('x_hocsa_san_encuesta_de_soporte');
+	enc.addQuery('u_slx_hco',current.sys_id);
+	enc.query();
+	//se eliminaran los registros asociados a la ficha de proyecto
+	if(enc.next())
+		{
+			enc.deleteMultiple();
+		}
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-14 13:08:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3906f9301b1bd450d8d6b887cc4bcb51</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SLX Eliminar HCO</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_3906f9301b1bd450d8d6b887cc4bcb51</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-15 17:00:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3906f9301b1bd450d8d6b887cc4bcb51"/>
+</record_update>

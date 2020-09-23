@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_responsable_ac" label="Responsable de la AC" language="en" table="x_hocsa_san_encuesta_de_proyecto">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_responsable_ac</element>
+            <help/>
+            <hint/>
+            <label>Responsable de la AC</label>
+            <language>en</language>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <plural>Responsable de la ACs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-17 16:12:24</sys_created_on>
+            <sys_id>f62ba2711b0a58108802dac2cd4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Responsable de la AC</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_san_encuesta_de_proyecto_u_slx_responsable_ac_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-17 16:12:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

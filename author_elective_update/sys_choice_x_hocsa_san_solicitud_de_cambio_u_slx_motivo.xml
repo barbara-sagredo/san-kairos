@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_motivo" table="x_hocsa_san_solicitud_de_cambio" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:12:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4120cf39dbadd8103f3bbe4f29961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:12:38</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:10:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e88f3279dbadd8103f3bbe4f2996194d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:24:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Costos</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>100</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e4087f5dbadd8103f3bbe4f299619ec</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:24:14</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Costos</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:13:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>414003f5dbadd8103f3bbe4f29961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:13:10</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>200</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:13:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c55007b9dbadd8103f3bbe4f29961950</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:24:10</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>300</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:13:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee500379dbadd8103f3bbe4f29961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:13:34</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance y Costos</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-21 16:00:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13be474b1b0a54508802dac2cd4bcb42</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:22:21</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance y Costos</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>400</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>168db5abdb075c1463a95275ca961986</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:25:26</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance y Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81ecfde3db075c1463a95275ca961914</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:26:24</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance y Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>500</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:25:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>889db1abdb075c1463a95275ca9619d2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:25:44</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Costo y Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81ecfde3db075c1463a95275ca961915</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:26:28</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Costo y Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>600</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:25:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94adfdafdbc35c1463a95275ca961972</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-10 16:26:08</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance, Costo y Plazo</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>650</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-15 16:06:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47096f05db5fd09063a95275ca9619ec</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 20:28:17</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alcance, Costo y Plazo</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>650</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-15 16:06:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55392b09db5fd09063a95275ca961909</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 20:28:17</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cierre OS</label>
+            <language>es</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>700</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-21 16:00:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98ce4f8b1bc654508802dac2cd4bcb9b</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 16:06:00</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cierre OS</label>
+            <language>en</language>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sequence>700</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-09-10 16:22:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5ecfde3db075c1463a95275ca96193b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-09-15 16:06:00</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_motivo</element>
+            <name>x_hocsa_san_solicitud_de_cambio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-06-22 21:10:20</sys_created_on>
+            <sys_id>579f3279dbadd8103f3bbe4f29961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_motivo</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_solicitud_de_cambio_u_slx_motivo</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-06-22 21:10:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

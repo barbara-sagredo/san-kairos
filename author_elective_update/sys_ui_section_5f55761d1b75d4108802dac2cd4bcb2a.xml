@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="5f55761d1b75d4108802dac2cd4bcb2a" sys_domain="global" table="x_hocsa_san_ficha_de_proyecto" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_nombre_entregable</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1355761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_version_entregable</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9355761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1755761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_entregable</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9755761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_peso_porcentual_entregable</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1b55761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9b55761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1f55761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_costo_acumulado</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9f55761d1b75d4108802dac2cd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_costo_incurrido_mensual</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1355761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_costo_incurrido_acumulado</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9355761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_total_planificado</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1755761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9755761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_total_venta</element>
+            <position>12</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1b55761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_facturado_acumulado</element>
+            <position>13</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9b55761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_facturado_semanal</element>
+            <position>14</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1f55761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_monto_devengado</element>
+            <position>15</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9f55761d1b75d4108802dac2cd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1355761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9355761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_desviacion_avance_real</element>
+            <position>18</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1755761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>19</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9755761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1b55761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_pm</element>
+            <position>21</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9b55761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_pco</element>
+            <position>22</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1f55761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_jefe_proyecto</element>
+            <position>23</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9f55761d1b75d4108802dac2cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_preparada_por</element>
+            <position>24</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1355761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_requisitor</element>
+            <position>25</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9355761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_url_carta_gantt</element>
+            <position>26</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1755761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>27</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9755761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_avance_financiero_semanal</element>
+            <position>28</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1b55761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_avance_real</element>
+            <position>29</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9b55761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_avance_planificado</element>
+            <position>30</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1f55761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_comentario_avance_semanal</element>
+            <position>31</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9f55761d1b75d4108802dac2cd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_avance_financiero_acumulado</element>
+            <position>32</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1355761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_estado_encuesta</element>
+            <position>33</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9355761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>34</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1755761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_numero_acta_cierre</element>
+            <position>35</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9755761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_cambio_estado</element>
+            <position>36</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1b55761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_planificada</element>
+            <position>37</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>9b55761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_nro_registro_sap</element>
+            <position>38</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+            <sys_id>1f55761d1b75d4108802dac2cd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_hocsa_san_ficha_de_proyecto</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-03 17:24:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f55761d1b75d4108802dac2cd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_section_5f55761d1b75d4108802dac2cd4bcb2a</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-03 17:24:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_ui_section_5f55761d1b75d4108802dac2cd4bcb2a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="5f55761d1b75d4108802dac2cd4bcb2a" sys_domain="global" table="x_hocsa_san_ficha_de_proyecto" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_nombre_entregable</element><position>0</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1355761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_version_entregable</element><position>1</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9355761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1755761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_entregable</element><position>3</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9755761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_peso_porcentual_entregable</element><position>4</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1b55761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9b55761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>6</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1f55761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_costo_acumulado</element><position>7</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9f55761d1b75d4108802dac2cd4bcbc2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_costo_incurrido_mensual</element><position>8</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1355761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_costo_incurrido_acumulado</element><position>9</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9355761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_total_planificado</element><position>10</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1755761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>11</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9755761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_total_venta</element><position>12</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1b55761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_facturado_acumulado</element><position>13</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9b55761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_facturado_semanal</element><position>14</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1f55761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_monto_devengado</element><position>15</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9f55761d1b75d4108802dac2cd4bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>16</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1355761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>17</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9355761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_desviacion_avance_real</element><position>18</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1755761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>19</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9755761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>20</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1b55761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_pm</element><position>21</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9b55761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_pco</element><position>22</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1f55761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_jefe_proyecto</element><position>23</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9f55761d1b75d4108802dac2cd4bcbc4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_preparada_por</element><position>24</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1355761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_requisitor</element><position>25</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9355761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_url_carta_gantt</element><position>26</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1755761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>27</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9755761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_avance_financiero_semanal</element><position>28</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1b55761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_avance_real</element><position>29</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9b55761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_avance_planificado</element><position>30</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1f55761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_comentario_avance_semanal</element><position>31</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9f55761d1b75d4108802dac2cd4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_avance_financiero_acumulado</element><position>32</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1355761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_estado_encuesta</element><position>33</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9355761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>34</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1755761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_numero_acta_cierre</element><position>35</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9755761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_cambio_estado</element><position>36</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1b55761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_fecha_planificada</element><position>37</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>9b55761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_slx_nro_registro_sap</element><position>38</position><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:17</sys_created_on><sys_id>1f55761d1b75d4108802dac2cd4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_hocsa_san_ficha_de_proyecto" sys_domain="global" view="Default view">5f55761d1b75d4108802dac2cd4bcb2a</sys_ui_section><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_hocsa_san_ficha_de_proyecto</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-03 17:24:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5f55761d1b75d4108802dac2cd4bcb2a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_ui_section_5f55761d1b75d4108802dac2cd4bcb2a</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-03 17:24:16</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-823893499</payload_hash>
+        <record_name>Ficha de Proyecto</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 17:24:17</sys_created_on>
+        <sys_id>d755761d1b75d4108802dac2cd4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17315b51bd00000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 17:24:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5355761dee75d410e84297356edd55ca</update_guid>
+        <update_guid_history>5355761dee75d410e84297356edd55ca:-823893499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-03 17:24:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2953009c4a1d4b0eb40659b4aadb64c4</sys_id>
+        <sys_metadata>5f55761d1b75d4108802dac2cd4bcb2a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent display_value="Ficha de Proyecto">f7668731dbedd8103f3bbe4f299619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5f55761d1b75d4108802dac2cd4bcb2a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5f55761d1b75d4108802dac2cd4bcb2a">d755761d1b75d4108802dac2cd4bcbca</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-03 17:24:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

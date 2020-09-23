@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hocsa_san.SLX_Obtener_usuarios</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLX_Obtener_usuarios</name>
+        <script><![CDATA[var SLX_Obtener_usuarios = Class.create();
+SLX_Obtener_usuarios.prototype = {
+    initialize: function() {},
+    //funcion para obtener los datos
+    obtenerDataUser: function() {
+        var id = '';
+
+       
+        var gr = new GlideRecord('sys_user_grmember');
+        gr.addQuery("group.typeLIKE5cf9a49ddb17949063a95275ca9619c0");
+        gr.query();
+
+
+
+        while (gr.next()) {
+
+            if (id.length > 0) {
+                id += ',' + gr.user.sys_id.toString();
+            } else {
+                id = gr.user.sys_id.toString() + '';
+            }
+			
+        }
+		
+        return 'sys_idIN' + id;
+
+
+    },
+
+    type: 'SLX_Obtener_usuarios'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-21 19:46:27</sys_created_on>
+        <sys_id>bbd21b031b9b1094d8d6b887cc4bcb50</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SLX_Obtener_usuarios</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_bbd21b031b9b1094d8d6b887cc4bcb50</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-21 20:25:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

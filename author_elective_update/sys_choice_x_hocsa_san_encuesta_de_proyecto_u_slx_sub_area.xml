@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slx_sub_area" table="x_hocsa_san_encuesta_de_proyecto" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_sub_area</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Todas (GDS)</label>
+            <language>es</language>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <sequence>1000</sequence>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-08 22:40:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8ad25cf1bbddc108802dac2cd4bcb20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-08 22:40:12</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_sub_area</element>
+            <name>x_hocsa_san_encuesta_de_proyecto</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2020-07-08 22:36:50</sys_created_on>
+            <sys_id>6adc210f1bbddc108802dac2cd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_sub_area</sys_name>
+            <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_sub_area</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2020-07-08 22:36:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="san">b3538a711ba598108802dac2cd4bcb8e</application>
+        <file_path/>
+        <instance_id>b4276e2fdbe6278049eac59705961979</instance_id>
+        <instance_name>honeywellchiledev</instance_name>
+        <name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_sub_area</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slx_sub_area" table="x_hocsa_san_encuesta_de_proyecto" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slx_sub_area</element><hint/><inactive>false</inactive><label>Todas (GDS)</label><language>es</language><name>x_hocsa_san_encuesta_de_proyecto</name><sequence>1000</sequence><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-08 22:40:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8ad25cf1bbddc108802dac2cd4bcb20</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-08 22:40:12</sys_updated_on><value>10</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slx_sub_area</element><name>x_hocsa_san_encuesta_de_proyecto</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>slx.bs</sys_created_by><sys_created_on>2020-07-08 22:36:50</sys_created_on><sys_id>6adc210f1bbddc108802dac2cd4bcba2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slx_sub_area</sys_name><sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package><sys_policy/><sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope><sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_sub_area</sys_update_name><sys_updated_by>slx.bs</sys_updated_by><sys_updated_on>2020-07-08 22:36:50</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1531712527</payload_hash>
+        <record_name>x_hocsa_san_encuesta_de_proyecto.u_slx_sub_area</record_name>
+        <reverted_from/>
+        <source>f7538a711ba598108802dac2cd4bcb90</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 14:15:39</sys_created_on>
+        <sys_id>aeb3c95bdb3590503f3bbe4f299619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17333ee90560000001</sys_recorded_at>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 14:15:39</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>66b3c95bb635905011884b649553c6cb</update_guid>
+        <update_guid_history>66b3c95bb635905011884b649553c6cb:-1531712527,aab3c95b6a35905082ea14551e9a7fc8:1951643340,eeb3c95b133590508e3a61d8e4b581c5:-611719921,26b3c95b6435905053e3b662329a96c3:-2046562995,6ab3c95b593590507d4dbf0f9105fbc0:1932789196,aeb3c95ba3359050af9d58777a68c9bd:886862280,e2b3c95b5e359050da10b4334340dbbb:555619384,2ab3c95b1c359050669f49fc4511d8b8:-1946315165,6eb3c95b41359050b7fac2d79a98cab5:-1101279337,a2b3c95ba83590508aa20e55c4a747b3:18716936,e6b3c95ba1359050e81f500dad1c96b0:136638064,2eb3c95b3735905003200f14589cdcad:-366091245,62b3c95bcb3590506795d757ab81f0ab:1976836141,a6b3c95bfd359050caa0a8b4557255a8:1723655564,eab3c95be7359050107eb7f606c67fa5:-1585418935,22b3c95ba4359050a05b7ba17d9340a3:1887027153,66b3c95b2c359050f38f728e2008cba0:686689309,9ab3c95b7a359050b784cb7ba351719d:-1686517514,deb3c95b0c359050f7937e1a5599b39a:-1591586556,e1cdad8f45bddc102eb9f7b799d2f783:-993340329,81ade1cf20bddc108c67072d01f6e180:-1697245086,0cad25cf19bddc1051ff53060b593b22:362616583,1c9d61cfcabddc10afa1a91f5ec08c9d:-1931388377,178de1cf92bddc104a42154e0259477c:-1561728092,617d61cf33bddc10e4d1b6fb40fe9e8c:1428322470,656d21cfdfbddc10b4a4d63e93304ec4:664289760,006d298fd0bddc109a517e1c36df05f6:-2126753907,ac4da98fafbddc106ea86ccc1f6f3148:767998853,e33da54fa5bddc10883894e1e3ea8cdb:453753046,722d2d8f97bddc108e7e6de4cd1fee19:422049824,782de58f51bddc10ea2f98e856e0fc8c:-1058380232,1e1da98fdebddc104411e3d7c6d92520:-1626010411,0d1de14f8fbddc106c42c8034ab280c9:-953534661,2d0d658f75bddc100ba6fcbb595dfa91:468790172,ec0d214fdebddc109a8c60ed240e4fb9:-960182205,a4fcad0be2bddc1000744d44e50deedc:19623447,dfec658fffbddc10bd00174b933d718c:1631183004,f3dce14f9dbddc10daa15b8db1589bd5:47047346,a2dc210f85bddc10f03c638f98707fa4:-1070901729</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-07-09 14:15:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>6adc210f1bbddc108802dac2cd4bcba2</sys_id>
+        <sys_metadata>6adc210f1bbddc108802dac2cd4bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_sub_area</sys_name>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">0009110227e24aea800001a63160d384</sys_scope_delete>
+        <sys_update_name>sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_sub_area</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_hocsa_san_encuesta_de_proyecto_u_slx_sub_area">aeb3c95bdb3590503f3bbe4f299619cb</sys_update_version>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-07-09 14:15:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

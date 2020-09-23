@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>No se podrá editar el nombre del entregable ni el tipo luego de haber creado un entregable</description>
+        <field>u_slx_ano_aceptacion</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Nombre y Tipo solo lectura</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	if(!g_form.isNewRecord()){
+	g_form.setReadOnly('u_slx_nombre','true');
+	g_form.setReadOnly('u_slx_tipo','true');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2020-09-09 16:26:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10f3b4db1b4f9454d8d6b887cc4bcbdf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Nombre y Tipo solo lectura</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="san" source="x_hocsa_san">b3538a711ba598108802dac2cd4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="san">b3538a711ba598108802dac2cd4bcb8e</sys_scope>
+        <sys_update_name>sys_script_client_10f3b4db1b4f9454d8d6b887cc4bcbdf</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:34:42</sys_updated_on>
+        <table>x_hocsa_san_entregable</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
